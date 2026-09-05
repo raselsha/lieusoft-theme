@@ -20,7 +20,7 @@
 				<?php the_custom_logo(); ?>
 			<?php else : ?>
 				<a class="site-branding__logo" href="<?php echo esc_url( home_url( '/' ) ); ?>">
-					<img src="<?php echo esc_url( get_theme_file_uri( '/assets/images/logo.png' ) ); ?>" alt="<?php bloginfo( 'name' ); ?>" width="160" height="32">
+					<?php echo lieusoft_logo(); ?>
 				</a>
 			<?php endif; ?>
 		</div>

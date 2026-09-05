@@ -6,7 +6,7 @@
 	<footer class="site-footer">
 		<div class="container site-footer__grid">
 			<div class="site-footer__brand">
-				<img src="<?php echo esc_url( get_theme_file_uri( '/assets/images/logo.png' ) ); ?>" alt="<?php bloginfo( 'name' ); ?>" class="site-footer__logo" width="140" height="28">
+				<?php echo lieusoft_logo( 'site-footer__logo' ); ?>
 				<p class="site-footer__tagline">
 					<?php esc_html_e( 'We build the digital backbone of your business — from custom websites and WordPress plugins to email infrastructure and IT strategy. Trusted by businesses worldwide.', 'lieusoft' ); ?>
 				</p>

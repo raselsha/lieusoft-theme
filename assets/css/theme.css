@@ -295,8 +295,27 @@ p { margin: 0 0 var(--space-2); }
 	padding-bottom: var(--space-2);
 }
 
-.site-branding__logo img,
 .custom-logo { height: 32px; width: auto; }
+
+.brand-mark {
+	display: inline-flex;
+	align-items: center;
+	gap: 9px;
+}
+
+.brand-mark__icon { flex-shrink: 0; display: block; }
+
+.brand-mark__word {
+	font-family: var(--font-heading);
+	font-weight: 700;
+	font-size: 20px;
+	color: var(--color-ink);
+}
+
+.brand-mark__accent { color: var(--color-primary); }
+
+.site-footer__logo .brand-mark__icon { width: 26px; height: 26px; }
+.site-footer__logo .brand-mark__word { font-size: 18px; }
 
 .site-nav { margin-left: auto; }
 

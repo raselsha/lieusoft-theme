@@ -271,3 +271,13 @@ function lieusoft_icon( $name, $class = '' ) {
 		$icons[ $name ]
 	);
 }
+
+/**
+ * Renders the Lieusoft wordmark: a rounded "L" glyph mark plus "Lieu"+"soft" text.
+ */
+function lieusoft_logo( $class = '' ) {
+	return sprintf(
+		'<span class="brand-mark %s"><svg class="brand-mark__icon" width="30" height="30" viewBox="0 0 30 30" fill="none" aria-hidden="true"><rect width="30" height="30" rx="6" style="fill:var(--color-primary)"/><path d="M9 8v14h5v-9h7v9h0" stroke="#fff" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="brand-mark__word">Lieu<span class="brand-mark__accent">soft</span></span></span>',
+		esc_attr( $class )
+	);
+}

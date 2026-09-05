@@ -258,6 +258,7 @@ function lieusoft_icon( $name, $class = '' ) {
 		'smile'         => '<circle cx="12" cy="12" r="9"/><path d="M8 13.5s1.5 2 4 2 4-2 4-2M9 9.5h.01M15 9.5h.01"/>',
 		'building'      => '<rect x="5" y="3" width="14" height="18" rx="1"/><path d="M9 7h.01M12 7h.01M15 7h.01M9 11h.01M12 11h.01M15 11h.01M9 15h.01M15 15h.01"/><path d="M10 21v-4h4v4"/>',
 		'shirt'         => '<path d="M8 4 4 7l2 3 2-1v11h8V9l2 1 2-3-4-3-2 2-2-2Z"/>',
+		'x-circle'      => '<circle cx="12" cy="12" r="9"/><path d="m9 9 6 6M15 9l-6 6"/>',
 	);
 
 	if ( ! isset( $icons[ $name ] ) ) {

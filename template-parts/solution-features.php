@@ -20,7 +20,7 @@ $a = wp_parse_args( $args ?? array(), array(
 			<p><?php echo esc_html( $a['desc'] ); ?></p>
 		</div>
 
-		<div class="card-grid card-grid--6">
+		<div class="card-grid card-grid--4">
 			<?php foreach ( $a['items'] as $feature ) : ?>
 				<div class="feature feature--compact">
 					<span class="icon-circle"><?php echo lieusoft_icon( $feature['icon'] ); ?></span>

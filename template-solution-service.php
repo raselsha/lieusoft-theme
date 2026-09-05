@@ -19,65 +19,84 @@ get_header();
 <?php
 get_template_part( 'template-parts/solution', 'hero-service' );
 
+get_template_part( 'template-parts/solution', 'problems', array(
+	'title'     => __( 'Still Booking by Phone & WhatsApp?', 'lieusoft' ),
+	'problems'  => array( __( 'Missed Messages', 'lieusoft' ), __( 'Double Bookings', 'lieusoft' ), __( 'No Reminders', 'lieusoft' ), __( 'Manual Payment Collection', 'lieusoft' ) ),
+	'solutions' => array( __( 'Online Booking', 'lieusoft' ), __( 'Auto Confirmations', 'lieusoft' ), __( 'SMS Reminders', 'lieusoft' ), __( 'Online Payments', 'lieusoft' ) ),
+) );
+
 get_template_part( 'template-parts/solution', 'features', array(
-	'title' => __( 'Powerful Features to Simplify Your Business', 'lieusoft' ),
-	'desc'  => __( 'Everything you need to manage your services and appointments in one place.', 'lieusoft' ),
-	'items' => array(
-		array( 'title' => __( 'Online Booking', 'lieusoft' ), 'desc' => __( 'Allow your customers to book appointments online 24/7 from any device.', 'lieusoft' ), 'icon' => 'calendar' ),
-		array( 'title' => __( 'Staff & Schedule', 'lieusoft' ), 'desc' => __( 'Manage staff, working hours and appointments schedules easily.', 'lieusoft' ), 'icon' => 'users' ),
-		array( 'title' => __( 'Services Management', 'lieusoft' ), 'desc' => __( 'Create unlimited services with price, duration and extra options.', 'lieusoft' ), 'icon' => 'scissors' ),
-		array( 'title' => __( 'Secure Payments', 'lieusoft' ), 'desc' => __( 'Accept online payments and manage transactions securely.', 'lieusoft' ), 'icon' => 'credit-card' ),
-		array( 'title' => __( 'Notifications', 'lieusoft' ), 'desc' => __( 'SMS and email notifications for appointments and reminders.', 'lieusoft' ), 'icon' => 'bell' ),
-		array( 'title' => __( 'Reports & Analytics', 'lieusoft' ), 'desc' => __( 'Get detailed reports and insights to grow your business.', 'lieusoft' ), 'icon' => 'bar-chart' ),
+	'eyebrow' => __( 'Key Features', 'lieusoft' ),
+	'title'   => __( 'Everything Your Business Needs', 'lieusoft' ),
+	'desc'    => __( 'Everything you need to manage your services and appointments in one place.', 'lieusoft' ),
+	'items'   => array(
+		array( 'title' => __( 'Online Booking', 'lieusoft' ), 'desc' => __( 'Customers book online 24/7 from any device.', 'lieusoft' ), 'icon' => 'calendar' ),
+		array( 'title' => __( 'Staff & Schedule', 'lieusoft' ), 'desc' => __( 'Manage staff, shifts and availability.', 'lieusoft' ), 'icon' => 'users' ),
+		array( 'title' => __( 'Service Management', 'lieusoft' ), 'desc' => __( 'Create services with price and duration.', 'lieusoft' ), 'icon' => 'scissors' ),
+		array( 'title' => __( 'SMS Notifications', 'lieusoft' ), 'desc' => __( 'Automatic reminders for every booking.', 'lieusoft' ), 'icon' => 'chat' ),
+		array( 'title' => __( 'Secure Payments', 'lieusoft' ), 'desc' => __( 'Accept payments securely online.', 'lieusoft' ), 'icon' => 'credit-card' ),
+		array( 'title' => __( 'Customer Reviews', 'lieusoft' ), 'desc' => __( 'Collect ratings after every booking.', 'lieusoft' ), 'icon' => 'star' ),
+		array( 'title' => __( 'Reports & Analytics', 'lieusoft' ), 'desc' => __( 'Track bookings, revenue and growth.', 'lieusoft' ), 'icon' => 'bar-chart' ),
+		array( 'title' => __( 'Dashboard', 'lieusoft' ), 'desc' => __( 'One clean screen for your whole business.', 'lieusoft' ), 'icon' => 'monitor' ),
 	),
 ) );
 
-get_template_part( 'template-parts/solution', 'experience-service' );
-
 get_template_part( 'template-parts/solution', 'how-it-works', array(
-	'eyebrow' => __( 'Easy Steps', 'lieusoft' ),
-	'title'   => __( 'How It Works', 'lieusoft' ),
-	'desc'    => __( 'Get started in simple steps and take your service business online.', 'lieusoft' ),
-	'steps'   => array(
-		array( 'title' => __( 'Setup Your Business', 'lieusoft' ), 'desc' => __( 'Add your services, staff, working hours and settings.', 'lieusoft' ), 'icon' => 'briefcase' ),
-		array( 'title' => __( 'Customers Book Online', 'lieusoft' ), 'desc' => __( 'Customers choose service, date, time and book instantly.', 'lieusoft' ), 'icon' => 'monitor' ),
-		array( 'title' => __( 'Manage Bookings', 'lieusoft' ), 'desc' => __( 'Get notified and manage all appointments from dashboard.', 'lieusoft' ), 'icon' => 'bell' ),
-		array( 'title' => __( 'Get Paid & Grow', 'lieusoft' ), 'desc' => __( 'Accept payments, provide great service and grow your business.', 'lieusoft' ), 'icon' => 'credit-card' ),
+	'title' => __( 'How It Works', 'lieusoft' ),
+	'steps' => array(
+		array( 'title' => __( 'Customer Books', 'lieusoft' ), 'desc' => __( 'Chooses a service and time online.', 'lieusoft' ), 'icon' => 'calendar' ),
+		array( 'title' => __( 'Confirmation Sent', 'lieusoft' ), 'desc' => __( 'Automatic SMS & email confirmation.', 'lieusoft' ), 'icon' => 'chat' ),
+		array( 'title' => __( 'Service Delivered', 'lieusoft' ), 'desc' => __( 'Staff completes the booking.', 'lieusoft' ), 'icon' => 'scissors' ),
+		array( 'title' => __( 'Payment Collected', 'lieusoft' ), 'desc' => __( 'Paid online or on the spot.', 'lieusoft' ), 'icon' => 'credit-card' ),
+		array( 'title' => __( 'Review Requested', 'lieusoft' ), 'desc' => __( 'Customer asked to rate the visit.', 'lieusoft' ), 'icon' => 'star' ),
 	),
 ) );
 
 get_template_part( 'template-parts/solution', 'included', array(
-	'desc' => __( 'Everything you need to run your service business successfully.', 'lieusoft' ),
+	'desc' => __( 'No hidden add-ons — every plan ships complete, ready to launch.', 'lieusoft' ),
 ) );
 
-get_template_part( 'template-parts/solution', 'pricing', array(
-	'price'    => '49,999',
-	'features' => array(
-		__( 'Complete Service Booking Website', 'lieusoft' ),
-		__( 'Unlimited Services', 'lieusoft' ),
-		__( 'Staff & Schedule Management', 'lieusoft' ),
-		__( 'Online Payments', 'lieusoft' ),
-		__( 'SMS & Email Notifications', 'lieusoft' ),
-		__( 'Reports & Analytics', 'lieusoft' ),
+get_template_part( 'template-parts/solution', 'dashboard-preview', array(
+	'desc'   => __( 'Everything you need to run your business, in one clean screen.', 'lieusoft' ),
+	'stats'  => array(
+		array( 'value' => '1,250', 'label' => __( 'Total Bookings', 'lieusoft' ) ),
+		array( 'value' => '850', 'label' => __( 'Total Customers', 'lieusoft' ) ),
+		array( 'value' => '$24,500', 'label' => __( 'Total Revenue', 'lieusoft' ) ),
+		array( 'value' => '48', 'label' => __( "Today's Bookings", 'lieusoft' ) ),
 	),
-	'custom_desc' => __( 'We can build a custom solution with extra features that perfectly fit your business needs.', 'lieusoft' ),
-	'photo'       => 'pricing-photo-service.jpg',
-	'photo_alt'   => __( 'Cleaning service professional', 'lieusoft' ),
-	'photo_icon'  => 'scissors',
+	'thumbs' => array(
+		array( 'label' => __( 'Bookings', 'lieusoft' ), 'icon' => 'calendar' ),
+		array( 'label' => __( 'Staff', 'lieusoft' ), 'icon' => 'users' ),
+		array( 'label' => __( 'Customers', 'lieusoft' ), 'icon' => 'user' ),
+		array( 'label' => __( 'Reports', 'lieusoft' ), 'icon' => 'bar-chart' ),
+	),
+) );
+
+get_template_part( 'template-parts/solution', 'why-choose' );
+
+get_template_part( 'template-parts/solution', 'pricing', array(
+	'price'    => '35,000',
+	'includes' => array(
+		__( 'Complete booking website', 'lieusoft' ),
+		__( 'Online booking & payments', 'lieusoft' ),
+		__( 'Staff & service management', 'lieusoft' ),
+		__( '1 year support & updates', 'lieusoft' ),
+	),
 ) );
 
 get_template_part( 'template-parts/solution', 'faq', array(
 	'faqs' => array(
-		array( 'q' => __( 'Can customers book appointments online?', 'lieusoft' ), 'a' => __( 'Yes, customers can choose a service, pick a date and time, and confirm their booking instantly from your website.', 'lieusoft' ) ),
-		array( 'q' => __( 'Can I manage multiple staff and services?', 'lieusoft' ), 'a' => __( 'Yes, you can add unlimited staff members and services, each with their own schedule and pricing.', 'lieusoft' ) ),
-		array( 'q' => __( 'Do you support online payments?', 'lieusoft' ), 'a' => __( 'Yes, customers can pay securely online at the time of booking.', 'lieusoft' ) ),
-		array( 'q' => __( 'Will I get SMS/email notifications?', 'lieusoft' ), 'a' => __( 'Yes, both you and your customers get automatic SMS and email notifications and reminders.', 'lieusoft' ) ),
+		array( 'q' => __( 'Can I use my own domain?', 'lieusoft' ), 'a' => __( 'Yes, you can use a domain you already own or we can register one for you.', 'lieusoft' ) ),
+		array( 'q' => __( 'Can I take online payment?', 'lieusoft' ), 'a' => __( 'Yes, customers can pay securely online at the time of booking.', 'lieusoft' ) ),
+		array( 'q' => __( 'Can I manage multiple staff?', 'lieusoft' ), 'a' => __( 'Yes, you can add unlimited staff members, each with their own schedule.', 'lieusoft' ) ),
+		array( 'q' => __( 'Do you provide hosting?', 'lieusoft' ), 'a' => __( 'Yes, managed hosting is included in every plan.', 'lieusoft' ) ),
+		array( 'q' => __( 'Do you provide training?', 'lieusoft' ), 'a' => __( 'Yes, every plan includes onboarding training for your staff.', 'lieusoft' ) ),
 	),
 ) );
 
 get_template_part( 'template-parts/solution', 'cta', array(
-	'title' => __( 'Ready to Take Your Service Business Online?', 'lieusoft' ),
-	'desc'  => __( 'Let us build a professional website that helps you get more bookings and grow your business.', 'lieusoft' ),
+	'title' => __( 'Ready to Launch Your Booking Website?', 'lieusoft' ),
+	'desc'  => __( "Let's discuss your business requirements.", 'lieusoft' ),
 ) );
 
 get_footer();

@@ -167,7 +167,9 @@ p { margin: 0 0 var(--space-2); }
 }
 
 .eyebrow {
-	display: inline-block;
+	display: inline-flex;
+	align-items: center;
+	gap: 8px;
 	font-size: 0.8rem;
 	font-weight: 600;
 	letter-spacing: 0.04em;
@@ -1169,7 +1171,7 @@ p { margin: 0 0 var(--space-2); }
 /* How it works */
 .steps {
 	display: grid;
-	grid-template-columns: repeat(4, 1fr);
+	grid-template-columns: repeat(5, 1fr);
 	gap: var(--space-3);
 	position: relative;
 }
@@ -1178,8 +1180,8 @@ p { margin: 0 0 var(--space-2); }
 	content: "";
 	position: absolute;
 	top: 24px;
-	left: 12.5%;
-	right: 12.5%;
+	left: 10%;
+	right: 10%;
 	height: 2px;
 	background: var(--color-border);
 	z-index: 0;
@@ -1295,6 +1297,38 @@ p { margin: 0 0 var(--space-2); }
 
 .price-card__features li { display: flex; align-items: center; gap: 6px; }
 .price-card__features .icon { color: var(--color-primary); width: 16px; height: 16px; }
+
+.price-card--simple { text-align: center; }
+
+.price-card__eyebrow {
+	display: block;
+	color: var(--color-primary);
+	font-weight: 700;
+	font-size: 0.8rem;
+	letter-spacing: 0.03em;
+	margin-bottom: var(--space-1);
+}
+
+.price-card__price--lg {
+	font-size: 3rem;
+	margin: 0 0 6px;
+}
+
+.price-card__price--lg span { font-size: 1.6rem; }
+
+.price-card__note {
+	font-size: 0.85rem;
+	color: var(--color-text);
+	margin-bottom: var(--space-3);
+}
+
+.price-card__features--single {
+	grid-template-columns: 1fr;
+	max-width: 320px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+}
 
 .btn--block { display: flex; width: 100%; }
 
@@ -2213,3 +2247,160 @@ p { margin: 0 0 var(--space-2); }
 
 .index-hero .container { max-width: 640px; }
 .index-hero p { margin-bottom: 0; }
+
+/* ==========================================================================
+   Solution page v2 sections: Problems We Solve, Dashboard Preview,
+   Why Choose Lieusoft, Everything Included band.
+   ========================================================================== */
+
+.problems-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: var(--space-3);
+}
+
+.problems-col {
+	border-radius: var(--radius-lg);
+	padding: var(--space-4);
+}
+
+.problems-col--old { background: #FDEBEA; }
+.problems-col--new { background: var(--color-green-light); }
+
+.problems-col__label {
+	display: block;
+	font-weight: 700;
+	color: var(--color-ink);
+	font-size: 0.95rem;
+	margin-bottom: var(--space-3);
+}
+
+.problems-row {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	padding: 12px 0;
+	border-bottom: 1px solid rgba(14, 12, 26, 0.08);
+	font-weight: 500;
+	color: var(--color-ink);
+}
+
+.problems-row:last-child { border-bottom: 0; }
+.problems-col--old .problems-row .icon { color: #E4483C; width: 20px; height: 20px; flex-shrink: 0; }
+.problems-col--new .problems-row .icon { color: var(--color-green); width: 20px; height: 20px; flex-shrink: 0; }
+
+/* Dashboard preview */
+.dash-preview {
+	background: var(--color-white);
+	border: 1px solid var(--color-border);
+	border-radius: var(--radius-lg);
+	box-shadow: 0 30px 60px rgba(14, 12, 26, 0.1);
+	overflow: hidden;
+}
+
+.dash-preview__bar {
+	display: flex;
+	gap: 8px;
+	padding: 14px 20px;
+	border-bottom: 1px solid var(--color-border);
+}
+
+.dash-preview__bar span {
+	width: 9px;
+	height: 9px;
+	border-radius: 50%;
+	background: var(--color-border);
+}
+
+.dash-preview__body {
+	padding: 36px 40px;
+	background: var(--color-body-bg);
+}
+
+.dash-preview__chart {
+	background: var(--color-white);
+	border-radius: 10px;
+	padding: 20px;
+	margin-top: var(--space-3);
+}
+
+.dash-preview__chart svg { width: 100%; height: 120px; display: block; }
+
+.dash-thumb {
+	border: 1px solid var(--color-border);
+	border-radius: var(--radius-md);
+	padding: var(--space-2);
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 8px;
+}
+
+.dash-thumb .icon-circle { width: 44px; height: 44px; }
+.dash-thumb span:last-child { font-size: 0.85rem; font-weight: 600; color: var(--color-ink); }
+
+/* Why choose */
+.why-item { text-align: center; }
+.why-item .icon-circle { margin: 0 auto var(--space-2); }
+
+/* Everything Included band */
+.included-band { background: var(--color-primary); }
+
+.included-band__grid {
+	display: grid;
+	grid-template-columns: 0.8fr 1.2fr;
+	gap: var(--space-5);
+	align-items: center;
+}
+
+.included-band__eyebrow {
+	display: block;
+	color: rgba(255, 255, 255, 0.85);
+	font-weight: 700;
+	font-size: 0.8rem;
+	letter-spacing: 0.03em;
+	margin-bottom: 10px;
+}
+
+.included-band__title { color: #fff; font-size: 2rem; margin-bottom: var(--space-2); }
+.included-band__desc { color: rgba(255, 255, 255, 0.82); font-size: 1rem; margin: 0; }
+
+.included-band__list {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 14px;
+}
+
+.included-band__item {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	background: rgba(255, 255, 255, 0.1);
+	border-radius: var(--radius-md);
+	padding: 14px 16px;
+	color: #fff;
+	font-weight: 600;
+	font-size: 0.9rem;
+}
+
+.included-band__icon {
+	width: 34px;
+	height: 34px;
+	border-radius: 8px;
+	background: rgba(255, 255, 255, 0.18);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-shrink: 0;
+}
+
+@media (max-width: 960px) {
+	.problems-grid { grid-template-columns: 1fr; }
+	.included-band__grid { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 720px) {
+	.included-band__list { grid-template-columns: 1fr; }
+	.dash-preview__body { padding: 24px 20px; }
+}

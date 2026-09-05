@@ -48,10 +48,6 @@ function lieusoft_solution_accent_body_class( $classes ) {
 	$template_classes = array(
 		'template-solution-tailor.php'   => array( 'accent-orange' ),
 		'template-solution-service.php'  => array( 'accent-green' ),
-		'template-product-pdf.php'       => array( 'footer-dark' ),
-		'template-product-booking.php'   => array( 'accent-purple', 'footer-dark' ),
-		'template-product-doctor.php'    => array( 'accent-purple', 'footer-dark' ),
-		'template-product-tailor.php'    => array( 'accent-purple', 'footer-dark' ),
 	);
 
 	foreach ( $template_classes as $template => $extra ) {

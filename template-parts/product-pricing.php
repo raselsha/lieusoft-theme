@@ -18,9 +18,9 @@ $a = wp_parse_args( $args ?? array(), array(
 			<p><?php echo esc_html( $a['desc'] ); ?></p>
 		</div>
 
-		<div class="product-pricing__grid">
+		<div class="product-pricing__grid<?php echo empty( $a['trust_items'] ) ? ' product-pricing__grid--plain' : ''; ?>">
 			<?php foreach ( $a['licenses'] as $license ) : ?>
-				<div class="license-card">
+				<div class="license-card<?php echo ! empty( $license['featured'] ) ? ' license-card--featured' : ''; ?>">
 					<span class="license-card__name"><?php echo esc_html( $license['name'] ); ?></span>
 					<ul class="license-card__features">
 						<?php foreach ( $license['features'] as $feature ) : ?>
@@ -34,22 +34,24 @@ $a = wp_parse_args( $args ?? array(), array(
 				</div>
 			<?php endforeach; ?>
 
-			<div class="trust-col">
-				<?php foreach ( $a['trust_items'] as $item ) : ?>
-					<div class="trust-box">
-						<span class="icon-circle"><?php echo lieusoft_icon( $item['icon'] ); ?></span>
-						<div>
-							<h3><?php echo esc_html( $item['title'] ); ?></h3>
-							<p><?php echo esc_html( $item['desc'] ); ?></p>
-							<?php if ( ! empty( $item['avatars'] ) ) : ?>
-								<div class="avatar-stack avatar-stack--trust">
-									<span></span><span></span><span></span><span></span><span class="avatar-stack__more">+1K</span>
-								</div>
-							<?php endif; ?>
+			<?php if ( ! empty( $a['trust_items'] ) ) : ?>
+				<div class="trust-col">
+					<?php foreach ( $a['trust_items'] as $item ) : ?>
+						<div class="trust-box">
+							<span class="icon-circle"><?php echo lieusoft_icon( $item['icon'] ); ?></span>
+							<div>
+								<h3><?php echo esc_html( $item['title'] ); ?></h3>
+								<p><?php echo esc_html( $item['desc'] ); ?></p>
+								<?php if ( ! empty( $item['avatars'] ) ) : ?>
+									<div class="avatar-stack avatar-stack--trust">
+										<span></span><span></span><span></span><span></span><span class="avatar-stack__more">+1K</span>
+									</div>
+								<?php endif; ?>
+							</div>
 						</div>
-					</div>
-				<?php endforeach; ?>
-			</div>
+					<?php endforeach; ?>
+				</div>
+			<?php endif; ?>
 		</div>
 	</div>
 </section>

@@ -10,75 +10,64 @@ get_header();
 	<div class="container breadcrumb__inner">
 		<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php echo lieusoft_icon( 'home' ); ?><?php esc_html_e( 'Home', 'lieusoft' ); ?></a>
 		<span aria-hidden="true">/</span>
-		<a href="#"><?php esc_html_e( 'Products', 'lieusoft' ); ?></a>
+		<a href="<?php echo esc_url( home_url( '/products/' ) ); ?>"><?php esc_html_e( 'Products', 'lieusoft' ); ?></a>
 		<span aria-hidden="true">/</span>
 		<span aria-current="page"><?php esc_html_e( 'Doctor Appointment Plugin', 'lieusoft' ); ?></span>
 	</div>
 </nav>
 
 <?php
-get_template_part( 'template-parts/product', 'hero-doctor' );
+get_template_part( 'template-parts/product', 'hero', array(
+	'title'            => __( 'Doctor Appointment', 'lieusoft' ),
+	'desc'             => __( 'A complete appointment booking solution for doctors, clinics and hospitals.', 'lieusoft' ),
+	'checklist'        => array( __( 'Online Appointment Booking', 'lieusoft' ), __( 'Secure Payments', 'lieusoft' ), __( 'Doctor & Schedule Management', 'lieusoft' ), __( 'Email & SMS Notification', 'lieusoft' ), __( 'Patient Management', 'lieusoft' ), __( 'Reports & Analytics', 'lieusoft' ) ),
+	'screenshot_icon'  => 'stethoscope',
+	'screenshot_label' => __( 'Clinic Dashboard Screenshot', 'lieusoft' ),
+) );
 
 get_template_part( 'template-parts/solution', 'features', array(
-	'title' => __( 'Powerful Features', 'lieusoft' ),
-	'desc'  => __( 'Everything you need to run your medical practice smoothly.', 'lieusoft' ),
-	'items' => array(
-		array( 'title' => __( 'Online Booking', 'lieusoft' ), 'desc' => __( 'Allow patients to book appointments 24/7 from any device.', 'lieusoft' ), 'icon' => 'calendar' ),
-		array( 'title' => __( 'Doctors & Schedule', 'lieusoft' ), 'desc' => __( 'Manage doctors, working hours and availability schedules.', 'lieusoft' ), 'icon' => 'users' ),
-		array( 'title' => __( 'Secure Payments', 'lieusoft' ), 'desc' => __( 'Accept online payments with multiple gateways securely.', 'lieusoft' ), 'icon' => 'credit-card' ),
-		array( 'title' => __( 'Notifications', 'lieusoft' ), 'desc' => __( 'Send email & SMS reminders for appointments and follow-ups.', 'lieusoft' ), 'icon' => 'bell' ),
-		array( 'title' => __( 'Patient Management', 'lieusoft' ), 'desc' => __( 'Manage patient profiles, history and documents in one place.', 'lieusoft' ), 'icon' => 'user' ),
-		array( 'title' => __( 'Reports & Analytics', 'lieusoft' ), 'desc' => __( 'Get detailed reports and insights to grow your practice.', 'lieusoft' ), 'icon' => 'bar-chart' ),
+	'eyebrow' => __( 'Features', 'lieusoft' ),
+	'title'   => __( 'Everything You Need', 'lieusoft' ),
+	'columns' => 3,
+	'items'   => array(
+		array( 'title' => __( 'Online Booking', 'lieusoft' ), 'icon' => 'calendar' ),
+		array( 'title' => __( 'Doctors & Schedule', 'lieusoft' ), 'icon' => 'users' ),
+		array( 'title' => __( 'Secure Payments', 'lieusoft' ), 'icon' => 'credit-card' ),
+		array( 'title' => __( 'Notifications', 'lieusoft' ), 'icon' => 'bell' ),
+		array( 'title' => __( 'Patient Management', 'lieusoft' ), 'icon' => 'user' ),
+		array( 'title' => __( 'Reports & Analytics', 'lieusoft' ), 'icon' => 'bar-chart' ),
 	),
 ) );
 
-get_template_part( 'template-parts/product', 'gallery-doctor' );
+get_template_part( 'template-parts/product', 'gallery', array(
+	'title' => __( 'See It In Action', 'lieusoft' ),
+	'items' => array(
+		array( 'label' => __( 'Booking Form', 'lieusoft' ), 'icon' => 'calendar' ),
+		array( 'label' => __( 'Doctor List', 'lieusoft' ), 'icon' => 'stethoscope' ),
+		array( 'label' => __( 'Time Slot', 'lieusoft' ), 'icon' => 'clock' ),
+		array( 'label' => __( 'Appointment Calendar', 'lieusoft' ), 'icon' => 'calendar' ),
+	),
+) );
 
 get_template_part( 'template-parts/product', 'pricing', array(
+	'title' => __( 'Simple Pricing', 'lieusoft' ),
+	'desc'  => __( 'One time payment, lifetime updates and support.', 'lieusoft' ),
 	'licenses' => array(
 		array(
 			'name'     => __( 'Regular License', 'lieusoft' ),
 			'price'    => '4,999',
-			'features' => array(
-				__( 'Use on 1 Website', 'lieusoft' ),
-				__( 'Lifetime Updates', 'lieusoft' ),
-				__( '6 Months Support', 'lieusoft' ),
-				__( 'All Features Included', 'lieusoft' ),
-			),
-			'style' => 'primary',
+			'features' => array( __( 'Use on 1 Website', 'lieusoft' ), __( 'Lifetime Updates', 'lieusoft' ), __( '6 Months Support', 'lieusoft' ) ),
+			'style'    => 'primary',
 		),
 		array(
 			'name'     => __( 'Extended License', 'lieusoft' ),
 			'price'    => '8,999',
-			'features' => array(
-				__( 'Use on Unlimited Websites', 'lieusoft' ),
-				__( 'Lifetime Updates', 'lieusoft' ),
-				__( '12 Months Support', 'lieusoft' ),
-				__( 'All Features Included', 'lieusoft' ),
-			),
-			'style' => 'outline',
-		),
-	),
-	'trust_items' => array(
-		array(
-			'icon'  => 'shield-check',
-			'title' => __( '14-Day Money Back Guarantee', 'lieusoft' ),
-			'desc'  => __( 'Not satisfied? Get a full refund within 14 days of purchase.', 'lieusoft' ),
-		),
-		array(
-			'icon'  => 'lock',
-			'title' => __( 'Secure & Trusted', 'lieusoft' ),
-			'desc'  => __( 'Trusted by 1,000+ medical professionals.', 'lieusoft' ),
-		),
-		array(
-			'icon'  => 'headset',
-			'title' => __( 'Regular Updates', 'lieusoft' ),
-			'desc'  => __( 'We add new features and improvements regularly.', 'lieusoft' ),
+			'features' => array( __( 'Use on Unlimited Websites', 'lieusoft' ), __( 'Lifetime Updates', 'lieusoft' ), __( '12 Months Support', 'lieusoft' ) ),
+			'style'    => 'primary',
+			'featured' => true,
 		),
 	),
 ) );
-
-get_template_part( 'template-parts/product', 'trust-bar' );
 
 get_template_part( 'template-parts/solution', 'faq', array(
 	'faqs' => array(
@@ -95,10 +84,9 @@ get_template_part( 'template-parts/solution', 'faq', array(
 ) );
 
 get_template_part( 'template-parts/solution', 'cta', array(
-	'title'    => __( 'Ready to Digitize Your Clinic?', 'lieusoft' ),
-	'desc'     => __( 'Get started with Doctor Appointment and manage your clinic effortlessly.', 'lieusoft' ),
-	'icon'     => 'stethoscope',
-	'btn_text' => __( 'Get Doctor Appointment Now', 'lieusoft' ),
+	'title'    => __( 'Need a Complete Website?', 'lieusoft' ),
+	'desc'     => __( 'We also build complete business solutions.', 'lieusoft' ),
+	'btn_text' => __( 'Book Consultation', 'lieusoft' ),
 	'btn_href' => '#',
 	'anchor'   => 'get-started',
 ) );

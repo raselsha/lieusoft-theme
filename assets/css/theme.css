@@ -434,7 +434,6 @@ p { margin: 0 0 var(--space-2); }
 .solution-card__media {
 	position: relative;
 	aspect-ratio: 4 / 3;
-	overflow: hidden;
 }
 
 .solution-card__media img {

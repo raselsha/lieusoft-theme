@@ -255,6 +255,8 @@ function lieusoft_icon( $name, $class = '' ) {
 		'building'      => '<rect x="5" y="3" width="14" height="18" rx="1"/><path d="M9 7h.01M12 7h.01M15 7h.01M9 11h.01M12 11h.01M15 11h.01M9 15h.01M15 15h.01"/><path d="M10 21v-4h4v4"/>',
 		'shirt'         => '<path d="M8 4 4 7l2 3 2-1v11h8V9l2 1 2-3-4-3-2 2-2-2Z"/>',
 		'x-circle'      => '<circle cx="12" cy="12" r="9"/><path d="m9 9 6 6M15 9l-6 6"/>',
+		'cloud'         => '<path d="M7 18a4.5 4.5 0 0 1-1-8.9 5.5 5.5 0 0 1 10.7-2A4 4 0 0 1 18 18H7Z"/>',
+		'refresh'       => '<path d="M21 12a9 9 0 1 1-3-6.7"/><path d="M21 4v5h-5"/>',
 	);
 
 	if ( ! isset( $icons[ $name ] ) ) {

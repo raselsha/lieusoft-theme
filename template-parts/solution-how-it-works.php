@@ -20,7 +20,7 @@ $a = wp_parse_args( $args ?? array(), array(
 			<p><?php echo esc_html( $a['desc'] ); ?></p>
 		</div>
 
-		<div class="steps">
+		<div class="steps steps--<?php echo esc_attr( count( $a['steps'] ) ); ?>">
 			<?php foreach ( $a['steps'] as $i => $step ) : ?>
 				<div class="step">
 					<span class="step__icon">

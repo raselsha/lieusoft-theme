@@ -23,6 +23,7 @@ get_template_part( 'template-parts/product', 'hero', array(
 	'checklist'        => array( __( 'Online Appointment Booking', 'lieusoft' ), __( 'Secure Payments', 'lieusoft' ), __( 'Doctor & Schedule Management', 'lieusoft' ), __( 'Email & SMS Notification', 'lieusoft' ), __( 'Patient Management', 'lieusoft' ), __( 'Reports & Analytics', 'lieusoft' ) ),
 	'screenshot_icon'  => 'stethoscope',
 	'screenshot_label' => __( 'Clinic Dashboard Screenshot', 'lieusoft' ),
+	'demo_url'         => 'https://shafiulamraz.lieusoft.com/',
 ) );
 
 get_template_part( 'template-parts/solution', 'features', array(
@@ -87,7 +88,6 @@ get_template_part( 'template-parts/solution', 'cta', array(
 	'title'    => __( 'Need a Complete Website?', 'lieusoft' ),
 	'desc'     => __( 'We also build complete business solutions.', 'lieusoft' ),
 	'btn_text' => __( 'Book Consultation', 'lieusoft' ),
-	'btn_href' => '#',
 	'anchor'   => 'get-started',
 ) );
 

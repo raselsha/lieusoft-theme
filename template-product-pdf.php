@@ -23,6 +23,7 @@ get_template_part( 'template-parts/product', 'hero', array(
 	'checklist'        => array( __( 'Flipbook', 'lieusoft' ), __( 'Grid View', 'lieusoft' ), __( 'List View', 'lieusoft' ), __( 'Shortcode Generator', 'lieusoft' ), __( 'Elementor Support', 'lieusoft' ), __( 'Remote PDF', 'lieusoft' ) ),
 	'screenshot_icon'  => 'book-open',
 	'screenshot_label' => __( 'Viewer Screenshot', 'lieusoft' ),
+	'demo_url'         => 'https://flipbook.lieusoft.com/demo/',
 ) );
 
 get_template_part( 'template-parts/solution', 'features', array(
@@ -58,6 +59,7 @@ get_template_part( 'template-parts/product', 'pricing', array(
 			'price'    => '2,999',
 			'features' => array( __( 'Use on 1 Website', 'lieusoft' ), __( 'Lifetime Updates', 'lieusoft' ), __( 'Lifetime Support', 'lieusoft' ) ),
 			'style'    => 'primary',
+			'url'      => 'https://lieusoft.com/downloads/pdf-flipbook-pro/',
 		),
 		array(
 			'name'     => __( 'Developer License', 'lieusoft' ),
@@ -65,6 +67,7 @@ get_template_part( 'template-parts/product', 'pricing', array(
 			'features' => array( __( 'Use on Unlimited Websites', 'lieusoft' ), __( 'Lifetime Updates', 'lieusoft' ), __( 'Lifetime Support', 'lieusoft' ) ),
 			'style'    => 'primary',
 			'featured' => true,
+			'url'      => 'https://lieusoft.com/downloads/pdf-flipbook-pro/',
 		),
 	),
 ) );
@@ -87,7 +90,6 @@ get_template_part( 'template-parts/solution', 'cta', array(
 	'title'    => __( 'Need a Complete Website?', 'lieusoft' ),
 	'desc'     => __( 'We also build complete business solutions.', 'lieusoft' ),
 	'btn_text' => __( 'Book Consultation', 'lieusoft' ),
-	'btn_href' => '#',
 	'anchor'   => 'get-started',
 ) );
 

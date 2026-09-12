@@ -23,6 +23,7 @@ get_template_part( 'template-parts/product', 'hero', array(
 	'checklist'        => array( __( 'Online Booking', 'lieusoft' ), __( 'Secure Payments', 'lieusoft' ), __( 'Staff & Schedule', 'lieusoft' ), __( 'Custom Fields', 'lieusoft' ), __( 'Email & SMS Notification', 'lieusoft' ), __( 'Reports & Analytics', 'lieusoft' ) ),
 	'screenshot_icon'  => 'calendar',
 	'screenshot_label' => __( 'Booking Dashboard Screenshot', 'lieusoft' ),
+	'demo_url'         => 'https://servicebooking.lieusoft.com/',
 ) );
 
 get_template_part( 'template-parts/solution', 'features', array(
@@ -87,7 +88,6 @@ get_template_part( 'template-parts/solution', 'cta', array(
 	'title'    => __( 'Need a Complete Website?', 'lieusoft' ),
 	'desc'     => __( 'We also build complete business solutions.', 'lieusoft' ),
 	'btn_text' => __( 'Book Consultation', 'lieusoft' ),
-	'btn_href' => '#',
 	'anchor'   => 'get-started',
 ) );
 

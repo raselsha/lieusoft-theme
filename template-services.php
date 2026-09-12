@@ -78,7 +78,6 @@ get_template_part( 'template-parts/solution', 'cta', array(
 	'title'    => __( 'Need a Complete Business Website?', 'lieusoft' ),
 	'desc'     => __( "Tell us about your business and we'll build everything for you.", 'lieusoft' ),
 	'btn_text' => __( 'Book Consultation', 'lieusoft' ),
-	'btn_href' => '#',
 ) );
 
 get_footer();

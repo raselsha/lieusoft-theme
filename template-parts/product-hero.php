@@ -10,6 +10,7 @@ $a = wp_parse_args( $args ?? array(), array(
 	'checklist'        => array(),
 	'screenshot_icon'  => 'monitor',
 	'screenshot_label' => __( 'Product Screenshot', 'lieusoft' ),
+	'demo_url'         => '#',
 ) );
 ?>
 <section class="section product-hero">
@@ -25,7 +26,7 @@ $a = wp_parse_args( $args ?? array(), array(
 			</ul>
 
 			<div class="hero__actions">
-				<a class="btn btn--outline btn--lg" href="#"><?php esc_html_e( 'Live Demo', 'lieusoft' ); ?></a>
+				<a class="btn btn--outline btn--lg" href="<?php echo esc_url( $a['demo_url'] ); ?>" target="_blank" rel="noopener"><?php esc_html_e( 'Live Demo', 'lieusoft' ); ?></a>
 				<a class="btn btn--primary btn--lg" href="#pricing"><?php esc_html_e( 'Buy Now', 'lieusoft' ); ?></a>
 			</div>
 		</div>

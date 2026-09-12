@@ -37,7 +37,7 @@
 		</nav>
 
 		<div class="site-header__cta">
-			<a class="btn btn--primary" href="#book-consultation"><?php esc_html_e( 'Book Consultation', 'lieusoft' ); ?></a>
+			<a class="btn btn--primary" href="mailto:hello@lieusoft.com"><?php esc_html_e( 'Book Consultation', 'lieusoft' ); ?></a>
 		</div>
 
 		<button class="site-nav__toggle" type="button" aria-expanded="false" aria-controls="site-nav-mobile">

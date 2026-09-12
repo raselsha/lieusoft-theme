@@ -22,7 +22,7 @@ $a = wp_parse_args( $args ?? array(), array(
 				<span>5.0 (6)</span>
 			</div>
 			<div class="card__actions">
-				<a class="btn btn--sm btn--primary" href="#"><?php esc_html_e( 'Live Demo', 'lieusoft' ); ?></a>
+				<a class="btn btn--sm btn--primary" href="<?php echo esc_url( $plugin['demo_url'] ?? '#' ); ?>" target="_blank" rel="noopener"><?php esc_html_e( 'Live Demo', 'lieusoft' ); ?></a>
 				<a class="btn btn--sm btn--ghost" href="<?php echo esc_url( $plugin['url'] ?? '#' ); ?>"><?php esc_html_e( 'Details', 'lieusoft' ); ?></a>
 			</div>
 		</article>

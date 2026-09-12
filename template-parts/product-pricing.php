@@ -11,7 +11,7 @@ $a = wp_parse_args( $args ?? array(), array(
 	'trust_items' => array(),
 ) );
 ?>
-<section class="pricing">
+<section class="pricing" id="pricing">
 	<div class="container">
 		<div class="section-head">
 			<h2><?php echo esc_html( $a['title'] ); ?></h2>
@@ -29,7 +29,7 @@ $a = wp_parse_args( $args ?? array(), array(
 					</ul>
 					<div class="license-card__footer">
 						<p class="license-card__price"><span>৳</span><?php echo esc_html( $license['price'] ); ?><small><?php echo esc_html( $license['period'] ?? __( 'One Time Payment', 'lieusoft' ) ); ?></small></p>
-						<a class="btn btn--<?php echo esc_attr( $license['style'] ?? 'primary' ); ?>" href="#"><?php esc_html_e( 'Buy Now', 'lieusoft' ); ?></a>
+						<a class="btn btn--<?php echo esc_attr( $license['style'] ?? 'primary' ); ?>" href="<?php echo esc_url( $license['url'] ?? 'mailto:hello@lieusoft.com' ); ?>"><?php esc_html_e( 'Buy Now', 'lieusoft' ); ?></a>
 					</div>
 				</div>
 			<?php endforeach; ?>

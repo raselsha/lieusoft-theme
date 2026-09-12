@@ -409,6 +409,7 @@ p { margin: 0 0 var(--space-2); }
 	gap: var(--space-3);
 }
 
+.card-grid--2 { grid-template-columns: repeat(2, 1fr); }
 .card-grid--3 { grid-template-columns: repeat(3, 1fr); }
 .card-grid--4 { grid-template-columns: repeat(4, 1fr); }
 
@@ -2553,4 +2554,90 @@ p { margin: 0 0 var(--space-2); }
 
 @media (max-width: 720px) {
 	.services-hero-art { margin-top: var(--space-4); }
+}
+
+/* ==========================================================================
+   Pricing page — solutions table, quote-based service cards, fixed-price
+   plugin cards, business-vs-plugin comparison.
+   ========================================================================== */
+
+.pricing-table {
+	border: 1px solid var(--color-border);
+	border-radius: var(--radius-lg);
+	overflow: hidden;
+	margin-bottom: var(--space-2);
+}
+
+.pricing-table__row {
+	display: grid;
+	grid-template-columns: 1fr auto;
+	gap: var(--space-2);
+	padding: 16px 24px;
+	border-bottom: 1px solid var(--color-border);
+	align-items: center;
+}
+
+.pricing-table__row:last-child { border-bottom: 0; }
+
+.pricing-table__row--head {
+	background: var(--color-body-bg);
+	font-size: 0.78rem;
+	font-weight: 700;
+	color: var(--color-text);
+	text-transform: uppercase;
+	letter-spacing: 0.03em;
+}
+
+.pricing-table__row:not(.pricing-table__row--head) {
+	background: var(--color-white);
+	font-weight: 600;
+	color: var(--color-ink);
+}
+
+.pricing-table__quote {
+	color: var(--color-primary);
+	font-weight: 700;
+}
+
+.pricing-table__note {
+	font-size: 0.85rem;
+	color: var(--color-text);
+	text-align: center;
+	max-width: 560px;
+	margin: 0 auto var(--space-4);
+}
+
+.pricing-service-card {
+	text-align: center;
+	padding: var(--space-4) var(--space-3);
+}
+
+.pricing-service-card .icon-circle { margin: 0 auto var(--space-2); }
+
+.pricing-service-card__label {
+	display: block;
+	font-size: 0.75rem;
+	color: var(--color-text);
+	text-transform: uppercase;
+	letter-spacing: 0.03em;
+	margin: var(--space-2) 0 8px;
+}
+
+.pricing-plugin-card__price {
+	font-family: var(--font-heading);
+	font-weight: 700;
+	font-size: 1.4rem;
+	color: var(--color-ink);
+	margin: var(--space-2) 0;
+}
+
+.pricing-plugin-card__price span { font-size: 1rem; color: var(--color-text); }
+
+.pricing-compare-card { padding: var(--space-4); }
+.pricing-compare-card .card__title { margin-bottom: var(--space-3); }
+.pricing-compare-card .check-list--stacked { margin-bottom: var(--space-4); }
+
+@media (max-width: 720px) {
+	.pricing-table__row { padding: 14px 16px; font-size: 0.9rem; }
+	.card-grid--2 { grid-template-columns: 1fr; }
 }

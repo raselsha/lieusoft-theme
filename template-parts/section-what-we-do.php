@@ -22,7 +22,7 @@ $lieusoft_what_we_do = array(
 	),
 );
 ?>
-<section class="what-we-do">
+<section class="what-we-do" id="what-we-do">
 	<div class="container">
 		<div class="section-head">
 			<h2><?php esc_html_e( 'What We Do', 'lieusoft' ); ?></h2>

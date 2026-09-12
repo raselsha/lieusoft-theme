@@ -23,6 +23,7 @@ get_template_part( 'template-parts/product', 'hero', array(
 	'checklist'        => array( __( 'Order Management', 'lieusoft' ), __( 'Customer Management', 'lieusoft' ), __( 'Measurement & Fitting', 'lieusoft' ), __( 'Fabric & Item Management', 'lieusoft' ), __( 'Payment Management', 'lieusoft' ), __( 'Reports & Analytics', 'lieusoft' ) ),
 	'screenshot_icon'  => 'shirt',
 	'screenshot_label' => __( 'Order Dashboard Screenshot', 'lieusoft' ),
+	'demo_url'         => 'https://tailor.lieusoft.com/',
 ) );
 
 get_template_part( 'template-parts/solution', 'features', array(
@@ -87,7 +88,6 @@ get_template_part( 'template-parts/solution', 'cta', array(
 	'title'    => __( 'Need a Complete Website?', 'lieusoft' ),
 	'desc'     => __( 'We also build complete business solutions.', 'lieusoft' ),
 	'btn_text' => __( 'Book Consultation', 'lieusoft' ),
-	'btn_href' => '#',
 	'anchor'   => 'get-started',
 ) );
 

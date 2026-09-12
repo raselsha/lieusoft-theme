@@ -21,7 +21,7 @@
 				<a class="btn btn--primary btn--lg" href="#book-consultation">
 					<?php esc_html_e( 'Book Consultation', 'lieusoft' ); ?>
 				</a>
-				<a class="btn btn--outline btn--lg" href="#">
+				<a class="btn btn--outline btn--lg" href="https://servicebooking.lieusoft.com/" target="_blank" rel="noopener">
 					<?php esc_html_e( 'Live Demo', 'lieusoft' ); ?>
 				</a>
 			</div>

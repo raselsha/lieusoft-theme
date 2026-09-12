@@ -7,7 +7,7 @@ $a = wp_parse_args( $args ?? array(), array(
 	'items' => array(),
 ) );
 ?>
-<section class="section">
+<section class="section" id="case-study">
 	<div class="container">
 		<div class="section-head">
 			<span class="eyebrow"><?php esc_html_e( 'Portfolio', 'lieusoft' ); ?></span>

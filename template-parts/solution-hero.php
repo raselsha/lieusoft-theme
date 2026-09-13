@@ -28,52 +28,11 @@
 		</div>
 
 		<div class="hero__media">
-			<!-- CSS-built placeholder device mockup — see note in template-parts/product-hero.php. -->
-			<div class="device-mock">
-				<div class="device-mock__screen">
-					<div class="device-mock__topbar">
-						<span class="device-mock__logo"><?php echo lieusoft_icon( 'home' ); ?> Lieusoft</span>
-						<span class="device-mock__dot"></span>
-						<span class="device-mock__dot"></span>
-						<span class="device-mock__dot"></span>
-					</div>
-					<div class="device-mock__body">
-						<aside class="device-mock__nav">
-							<span class="is-active"><?php echo lieusoft_icon( 'bar-chart' ); ?></span>
-							<span><?php echo lieusoft_icon( 'calendar' ); ?></span>
-							<span><?php echo lieusoft_icon( 'user' ); ?></span>
-							<span><?php echo lieusoft_icon( 'credit-card' ); ?></span>
-						</aside>
-						<div class="device-mock__main">
-							<p class="device-mock__title"><?php esc_html_e( 'Dashboard', 'lieusoft' ); ?></p>
-							<div class="device-mock__stats">
-								<div><strong>1,248</strong><span><?php esc_html_e( 'Total Appointments', 'lieusoft' ); ?></span></div>
-								<div><strong>956</strong><span><?php esc_html_e( 'Total Patients', 'lieusoft' ); ?></span></div>
-								<div><strong>$24,560</strong><span><?php esc_html_e( 'Total Revenue', 'lieusoft' ); ?></span></div>
-								<div><strong>32</strong><span><?php esc_html_e( "Today's Appointments", 'lieusoft' ); ?></span></div>
-							</div>
-							<p class="device-mock__chart-title"><?php esc_html_e( 'Appointments Overview', 'lieusoft' ); ?></p>
-							<svg class="device-mock__chart" viewBox="0 0 280 70" preserveAspectRatio="none" aria-hidden="true">
-								<polyline points="0,55 35,40 70,48 105,25 140,35 175,15 210,28 245,10 280,20" fill="none" stroke="#2454F5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-							</svg>
-						</div>
-					</div>
-				</div>
-				<div class="device-mock__phone">
-					<div class="device-mock__phone-bar"></div>
-					<span class="device-mock__phone-label"><?php esc_html_e( 'Book Appointment', 'lieusoft' ); ?></span>
-				</div>
-
-				<div class="doctor-card">
-					<div class="doctor-card__avatar"><?php echo lieusoft_icon( 'user' ); ?></div>
-					<div>
-						<p class="doctor-card__name"><?php esc_html_e( 'Dr. Sarah Johnson', 'lieusoft' ); ?></p>
-						<p class="doctor-card__role"><?php esc_html_e( 'Cardiologist', 'lieusoft' ); ?></p>
-						<div class="doctor-card__rating"><?php echo str_repeat( lieusoft_icon( 'star', 'icon--star' ), 5 ); ?></div>
-						<span class="doctor-card__badge"><?php esc_html_e( 'Available Today', 'lieusoft' ); ?></span>
-					</div>
-				</div>
+			<div class="dash-preview">
+				<img class="dash-preview__screenshot" src="<?php echo esc_url( get_theme_file_uri( '/assets/images/doctor-dashboard-screenshot.png' ) ); ?>" alt="<?php esc_attr_e( 'Doctor Appointment plugin booking dashboard', 'lieusoft' ); ?>">
 			</div>
+			<img class="dash-preview__floating dash-preview__floating--right" src="<?php echo esc_url( get_theme_file_uri( '/assets/images/doctor-booking-screenshot.png' ) ); ?>" alt="<?php esc_attr_e( 'Patient booking an appointment', 'lieusoft' ); ?>">
+			<img class="dash-preview__floating dash-preview__floating--left" src="<?php echo esc_url( get_theme_file_uri( '/assets/images/doctor-availability-screenshot.png' ) ); ?>" alt="<?php esc_attr_e( 'Doctor availability schedule', 'lieusoft' ); ?>">
 		</div>
 	</div>
 </section>

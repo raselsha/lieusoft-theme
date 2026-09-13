@@ -313,7 +313,7 @@ p { margin: 0 0 var(--space-2); }
 .brand-mark__word {
 	font-family: var(--font-heading);
 	font-weight: 700;
-	font-size: 20px;
+	font-size: 30px;
 	color: var(--color-ink);
 }
 
@@ -341,6 +341,7 @@ p { margin: 0 0 var(--space-2); }
 .site-nav__list a {
 	font-weight: 500;
 	color: var(--color-ink);
+	padding: 10px;
 }
 
 .site-nav__list a:hover,

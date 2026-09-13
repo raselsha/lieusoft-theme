@@ -96,6 +96,9 @@ function lieusoft_scripts() {
 	wp_enqueue_style( 'lieusoft-theme', get_theme_file_uri( '/assets/css/theme.css' ), array( 'lieusoft-fonts' ), filemtime( get_theme_file_path( '/assets/css/theme.css' ) ) );
 
 	wp_enqueue_script( 'lieusoft-theme', get_theme_file_uri( '/assets/js/theme.js' ), array(), filemtime( get_theme_file_path( '/assets/js/theme.js' ) ), true );
+
+	$container_width = absint( get_theme_mod( 'lieusoft_container_width', 1180 ) );
+	wp_add_inline_style( 'lieusoft-theme', ":root{--container-width:{$container_width}px;}" );
 }
 add_action( 'wp_enqueue_scripts', 'lieusoft_scripts' );
 
@@ -348,6 +351,29 @@ function lieusoft_customize_register( $wp_customize ) {
 			'both'  => __( 'Both', 'lieusoft' ),
 		),
 		'priority' => 9,
+	) );
+
+	$wp_customize->add_section( 'lieusoft_layout', array(
+		'title'    => __( 'Layout', 'lieusoft' ),
+		'priority' => 160,
+	) );
+
+	$wp_customize->add_setting( 'lieusoft_container_width', array(
+		'default'           => 1180,
+		'sanitize_callback' => 'absint',
+		'transport'         => 'refresh',
+	) );
+
+	$wp_customize->add_control( 'lieusoft_container_width', array(
+		'label'       => __( 'Container Width (px)', 'lieusoft' ),
+		'description' => __( "Controls the max width of the site's content container.", 'lieusoft' ),
+		'section'     => 'lieusoft_layout',
+		'type'        => 'range',
+		'input_attrs' => array(
+			'min'  => 960,
+			'max'  => 1600,
+			'step' => 10,
+		),
 	) );
 }
 add_action( 'customize_register', 'lieusoft_customize_register' );

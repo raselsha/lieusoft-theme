@@ -7,7 +7,7 @@ $a = wp_parse_args( $args ?? array(), array(
 	'desc'     => '',
 	'icon'     => 'calendar',
 	'btn_text' => __( 'Book Free Consultation', 'lieusoft' ),
-	'btn_href' => 'mailto:hello@lieusoft.com',
+	'btn_href' => 'https://wa.me/8801737266685',
 	'anchor'   => 'book-consultation',
 ) );
 ?>
@@ -19,7 +19,7 @@ $a = wp_parse_args( $args ?? array(), array(
 				<h2><?php echo esc_html( $a['title'] ); ?></h2>
 				<p><?php echo esc_html( $a['desc'] ); ?></p>
 			</div>
-			<a class="btn btn--light btn--lg" href="<?php echo esc_url( $a['btn_href'] ); ?>">
+			<a class="btn btn--light btn--lg" href="<?php echo esc_url( $a['btn_href'] ); ?>"<?php echo ( 0 !== strpos( $a['btn_href'], 'mailto:' ) ) ? ' target="_blank" rel="noopener"' : ''; ?>>
 				<?php echo esc_html( $a['btn_text'] ); ?>
 				<?php echo lieusoft_icon( 'arrow-right' ); ?>
 			</a>

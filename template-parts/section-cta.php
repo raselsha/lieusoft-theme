@@ -5,7 +5,7 @@
 				<h2><?php esc_html_e( 'Ready to Build Your Business Website?', 'lieusoft' ); ?></h2>
 				<p><?php esc_html_e( "Let's discuss how we can help you grow your business online.", 'lieusoft' ); ?></p>
 			</div>
-			<a class="btn btn--light btn--lg" href="mailto:hello@lieusoft.com">
+			<a class="btn btn--light btn--lg" href="https://wa.me/8801737266685" target="_blank" rel="noopener">
 				<?php esc_html_e( 'Book Consultant', 'lieusoft' ); ?>
 				<?php echo lieusoft_icon( 'arrow-right' ); ?>
 			</a>

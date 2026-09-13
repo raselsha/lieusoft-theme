@@ -68,8 +68,8 @@
 			<div class="site-footer__col">
 				<h3 class="footer-widget__title"><?php esc_html_e( 'Get in Touch', 'lieusoft' ); ?></h3>
 				<ul class="footer-contact">
-					<li><?php echo lieusoft_icon( 'envelope' ); ?><a href="mailto:hello@lieusof.com">hello@lieusof.com</a></li>
-					<li><?php echo lieusoft_icon( 'whatsapp' ); ?><span><?php esc_html_e( '+8801737266685 — available on WhatsApp', 'lieusoft' ); ?></span></li>
+					<li><?php echo lieusoft_icon( 'envelope' ); ?><a href="mailto:hello@lieusoft.com">hello@lieusoft.com</a></li>
+					<li><?php echo lieusoft_icon( 'whatsapp' ); ?><a href="https://wa.me/8801737266685" target="_blank" rel="noopener"><?php esc_html_e( '+8801737266685 — available on WhatsApp', 'lieusoft' ); ?></a></li>
 					<li><?php echo lieusoft_icon( 'pin' ); ?><span><?php esc_html_e( 'Remote-first · Serving clients worldwide', 'lieusoft' ); ?></span></li>
 				</ul>
 			</div>

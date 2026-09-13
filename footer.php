@@ -6,7 +6,7 @@
 	<footer class="site-footer">
 		<div class="container site-footer__grid">
 			<div class="site-footer__brand">
-				<?php echo lieusoft_logo( 'site-footer__logo' ); ?>
+				<?php echo lieusoft_render_logo( 'site-footer__logo', false ); ?>
 				<p class="site-footer__tagline">
 					<?php esc_html_e( 'We build the digital backbone of your business — from custom websites and WordPress plugins to email infrastructure and IT strategy. Trusted by businesses worldwide.', 'lieusoft' ); ?>
 				</p>
@@ -79,6 +79,10 @@
 			<p>&copy; <?php echo esc_html( date_i18n( 'Y' ) ); ?> <?php bloginfo( 'name' ); ?>. <?php esc_html_e( 'All rights reserved.', 'lieusoft' ); ?></p>
 		</div>
 	</footer>
+
+	<a class="whatsapp-float" href="https://wa.me/8801737266685" target="_blank" rel="noopener" aria-label="<?php esc_attr_e( 'Chat on WhatsApp', 'lieusoft' ); ?>">
+		<?php echo lieusoft_icon( 'whatsapp' ); ?>
+	</a>
 
 <?php wp_footer(); ?>
 </body>

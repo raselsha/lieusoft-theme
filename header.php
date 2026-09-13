@@ -16,13 +16,7 @@
 <header class="site-header">
 	<div class="container site-header__inner">
 		<div class="site-branding">
-			<?php if ( has_custom_logo() ) : ?>
-				<?php the_custom_logo(); ?>
-			<?php else : ?>
-				<a class="site-branding__logo" href="<?php echo esc_url( home_url( '/' ) ); ?>">
-					<?php echo lieusoft_logo(); ?>
-				</a>
-			<?php endif; ?>
+			<?php echo lieusoft_render_logo(); ?>
 		</div>
 
 		<nav class="site-nav" aria-label="<?php esc_attr_e( 'Primary', 'lieusoft' ); ?>">

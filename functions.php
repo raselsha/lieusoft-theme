@@ -283,3 +283,71 @@ function lieusoft_logo( $class = '' ) {
 		esc_attr( $class )
 	);
 }
+
+/**
+ * Logo display mode, set from Customizer > Site Identity: 'image', 'text'
+ * or 'both'. Falls back to text automatically if no custom logo is set.
+ */
+function lieusoft_get_logo_display_mode() {
+	$allowed = array( 'image', 'text', 'both' );
+	$mode    = get_theme_mod( 'lieusoft_logo_display', 'both' );
+	return in_array( $mode, $allowed, true ) ? $mode : 'both';
+}
+
+/**
+ * Renders the site logo according to the chosen display mode. $wrap_link
+ * wraps the whole thing in a single anchor to the homepage (used in the
+ * header); pass false to render bare (used in the footer).
+ */
+function lieusoft_render_logo( $class = '', $wrap_link = true ) {
+	$mode       = lieusoft_get_logo_display_mode();
+	$logo_id    = get_theme_mod( 'custom_logo' );
+	$show_image = ( 'text' !== $mode ) && $logo_id;
+	$show_text  = ( 'image' !== $mode ) || ! $logo_id;
+
+	$html = '';
+	if ( $show_image ) {
+		$html .= wp_get_attachment_image( $logo_id, 'full', false, array( 'class' => 'site-logo-img' ) );
+	}
+	if ( $show_text ) {
+		$html .= lieusoft_logo();
+	}
+
+	if ( $wrap_link ) {
+		return sprintf(
+			'<a class="site-branding__logo %s" href="%s">%s</a>',
+			esc_attr( $class ),
+			esc_url( home_url( '/' ) ),
+			$html
+		);
+	}
+
+	return sprintf( '<span class="%s">%s</span>', esc_attr( $class ), $html );
+}
+
+/**
+ * Customizer: add a "Logo Display" radio control to Site Identity, right
+ * under the native logo uploader.
+ */
+function lieusoft_customize_register( $wp_customize ) {
+	$wp_customize->add_setting( 'lieusoft_logo_display', array(
+		'default'           => 'both',
+		'sanitize_callback' => function ( $value ) {
+			return in_array( $value, array( 'image', 'text', 'both' ), true ) ? $value : 'both';
+		},
+	) );
+
+	$wp_customize->add_control( 'lieusoft_logo_display', array(
+		'label'    => __( 'Logo Display', 'lieusoft' ),
+		'description' => __( 'Choose whether the header/footer logo shows the uploaded image, the "Lieusoft" text mark, or both together.', 'lieusoft' ),
+		'section'  => 'title_tagline',
+		'type'     => 'radio',
+		'choices'  => array(
+			'image' => __( 'Image Only', 'lieusoft' ),
+			'text'  => __( 'Text Only', 'lieusoft' ),
+			'both'  => __( 'Both', 'lieusoft' ),
+		),
+		'priority' => 9,
+	) );
+}
+add_action( 'customize_register', 'lieusoft_customize_register' );

@@ -31,7 +31,8 @@
 		</div>
 
 		<div class="hero__media">
-			<img src="<?php echo esc_url( get_theme_file_uri( '/assets/images/hero-mockup.png' ) ); ?>" alt="<?php esc_attr_e( 'Lieusoft business solutions: Doctor Appointment, Tailor Order Management, Service Booking and Digital Flipbook & PDF Viewer', 'lieusoft' ); ?>">
+			<?php $hero_image_path = '/assets/images/hero-mockup.png'; ?>
+			<img src="<?php echo esc_url( get_theme_file_uri( $hero_image_path ) . '?v=' . filemtime( get_theme_file_path( $hero_image_path ) ) ); ?>" alt="<?php esc_attr_e( 'Lieusoft business solutions: Doctor Appointment, Tailor Order Management, Service Booking and Digital Flipbook & PDF Viewer', 'lieusoft' ); ?>">
 		</div>
 	</div>
 </section>

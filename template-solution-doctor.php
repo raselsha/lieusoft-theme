@@ -24,6 +24,32 @@ get_header();
 <?php
 get_template_part( 'template-parts/solution', 'hero' );
 
+get_template_part( 'template-parts/solution', 'feature-steps', array(
+	'eyebrow' => __( 'Key Features', 'lieusoft' ),
+	'title'   => __( 'See How It Works', 'lieusoft' ),
+	'desc'    => __( 'From booking to running your clinic day-to-day — everything happens in one connected system.', 'lieusoft' ),
+	'steps'   => array(
+		array(
+			'num'   => '01',
+			'title' => __( 'Manage Everything from One Dashboard', 'lieusoft' ),
+			'desc'  => __( "Track total patients, today's bookings, upcoming appointments and revenue — all from a single clean dashboard built for your clinic.", 'lieusoft' ),
+			'image' => 'doctor-dashboard-screenshot.png',
+		),
+		array(
+			'num'   => '02',
+			'title' => __( 'Patients Book in Just a Few Clicks', 'lieusoft' ),
+			'desc'  => __( 'Patients choose a specialty and doctor, then pick an available date and time slot — no phone calls needed.', 'lieusoft' ),
+			'image' => 'doctor-booking-screenshot.png',
+		),
+		array(
+			'num'   => '03',
+			'title' => __( 'Set Doctor Availability', 'lieusoft' ),
+			'desc'  => __( "Define each doctor's weekly schedule so patients only ever see real, bookable time slots.", 'lieusoft' ),
+			'image' => 'doctor-availability-screenshot.png',
+		),
+	),
+) );
+
 get_template_part( 'template-parts/solution', 'problems', array(
 	'title'     => __( 'Your Clinic Still Uses Phone Calls?', 'lieusoft' ),
 	'problems'  => array( __( 'Missed Appointments', 'lieusoft' ), __( 'Paper Register', 'lieusoft' ), __( 'Manual Schedule', 'lieusoft' ), __( 'No Online Booking', 'lieusoft' ) ),

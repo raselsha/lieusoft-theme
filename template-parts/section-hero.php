@@ -1,5 +1,5 @@
 <section class="hero">
-	<div class="container hero__grid">
+	<div class="container hero__grid hero__grid--home">
 		<div class="hero__content">
 			<span class="eyebrow eyebrow--plain"><?php esc_html_e( 'WordPress Business Solutions', 'lieusoft' ); ?></span>
 			<h1 class="hero__title">
@@ -31,7 +31,7 @@
 		</div>
 
 		<div class="hero__media">
-			<img src="<?php echo esc_url( get_theme_file_uri( '/assets/images/hero-mockup.png' ) ); ?>" alt="<?php esc_attr_e( 'Lieusoft dashboard shown across laptop, tablet and phone', 'lieusoft' ); ?>">
+			<img src="<?php echo esc_url( get_theme_file_uri( '/assets/images/hero-mockup.png' ) ); ?>" alt="<?php esc_attr_e( 'Lieusoft business solutions: Doctor Appointment, Tailor Order Management, Service Booking and Digital Flipbook & PDF Viewer', 'lieusoft' ); ?>">
 		</div>
 	</div>
 </section>

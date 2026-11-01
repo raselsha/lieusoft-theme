@@ -1,0 +1,2932 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Lieusoft\n"
+"Language: bn_BD\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Category"
+msgstr "ক্যাটাগরি"
+
+msgid "Tag"
+msgstr "ট্যাগ"
+
+msgid "Archive"
+msgstr "আর্কাইভ"
+
+msgid "We build the digital backbone of your business — from custom websites and WordPress plugins to email infrastructure and IT strategy. Trusted by businesses worldwide."
+msgstr "আপনার ব্যবসার ডিজিটাল ভিত্তি আমরা তৈরি করি — কাস্টম ওয়েবসাইট আর WordPress প্লাগইন থেকে শুরু করে ইমেইল ব্যবস্থা আর আইটি পরিকল্পনা পর্যন্ত। বিশ্বজুড়ে ব্যবসাগুলো আমাদের ওপর ভরসা করে।"
+
+msgid "Product"
+msgstr "প্রোডাক্ট"
+
+msgid "Solutions"
+msgstr "সলিউশন"
+
+msgid "Services"
+msgstr "সার্ভিস"
+
+msgid "Company"
+msgstr "কোম্পানি"
+
+msgid "Get in Touch"
+msgstr "যোগাযোগ"
+
+msgid "+8801521255463 — available on WhatsApp"
+msgstr "+8801521255463 — WhatsApp-এ পাওয়া যায়"
+
+msgid "Remote-first · Serving clients worldwide"
+msgstr "রিমোট-ফার্স্ট · বিশ্বজুড়ে ক্লায়েন্টদের সেবা দিই"
+
+msgid "All rights reserved."
+msgstr "সর্বস্বত্ব সংরক্ষিত।"
+
+msgid "Privacy Policy"
+msgstr "প্রাইভেসি পলিসি"
+
+msgid "Chat on WhatsApp"
+msgstr "WhatsApp-এ চ্যাট করুন"
+
+msgid "Do I need my own hosting?"
+msgstr "আমার কি নিজের হোস্টিং লাগবে?"
+
+msgid "No, managed hosting is included with every business solution. You can also bring your own if you prefer."
+msgstr "না, প্রতিটি বিজনেস সলিউশনে ম্যানেজড হোস্টিং দেওয়া থাকে। চাইলে নিজের হোস্টিংও ব্যবহার করতে পারেন।"
+
+msgid "Can I use my own domain?"
+msgstr "আমি কি নিজের ডোমেইন ব্যবহার করতে পারব?"
+
+msgid "Yes, you can use a domain you already own or we can register one for you."
+msgstr "হ্যাঁ, আপনার আগে থেকে থাকা ডোমেইন ব্যবহার করতে পারেন, অথবা আমরা নতুন ডোমেইন রেজিস্টার করে দিতে পারি।"
+
+msgid "Can you migrate my website?"
+msgstr "আপনারা কি আমার ওয়েবসাইট মাইগ্রেট করতে পারবেন?"
+
+msgid "Yes, we can migrate an existing website to a new solution or hosting with no downtime."
+msgstr "হ্যাঁ, আপনার বর্তমান ওয়েবসাইট নতুন সলিউশন বা হোস্টিংয়ে কোনো ডাউনটাইম ছাড়াই সরিয়ে নিতে পারি।"
+
+msgid "Do you provide support?"
+msgstr "আপনারা কি সাপোর্ট দেন?"
+
+msgid "Yes, every business solution includes ongoing support, and every plugin includes updates."
+msgstr "হ্যাঁ, প্রতিটি বিজনেস সলিউশনে চলমান সাপোর্ট আর প্রতিটি প্লাগইনে আপডেট দেওয়া থাকে।"
+
+msgid "Can I request custom features?"
+msgstr "আমি কি কাস্টম ফিচার চাইতে পারি?"
+
+msgid "Yes, tell us what you need during your consultation and we will scope it for you."
+msgstr "হ্যাঁ, কনসালটেশনের সময় আপনার প্রয়োজন জানান, আমরা কাজের পরিধি ঠিক করে দেব।"
+
+msgid "Doctor Appointment Solution"
+msgstr "ডাক্তার অ্যাপয়েন্টমেন্ট সলিউশন"
+
+msgid "Modern website with online appointment booking, doctor profiles, patient management, Live Queue and an easy-to-use admin dashboard."
+msgstr "অনলাইন অ্যাপয়েন্টমেন্ট বুকিং, ডাক্তার প্রোফাইল, রোগী ব্যবস্থাপনা, লাইভ কিউ আর সহজ অ্যাডমিন ড্যাশবোর্ডসহ আধুনিক ওয়েবসাইট।"
+
+msgid "Tailor Management Solution"
+msgstr "টেইলর ম্যানেজমেন্ট সলিউশন"
+
+msgid "Manage customer orders, body measurements, delivery schedules, invoices, and shop operations from one simple dashboard."
+msgstr "কাস্টমার অর্ডার, শরীরের মাপ, ডেলিভারির সময়সূচি, ইনভয়েস আর দোকানের সব কাজ এক সহজ ড্যাশবোর্ড থেকে সামলান।"
+
+msgid "Service Booking Solution"
+msgstr "সার্ভিস বুকিং সলিউশন"
+
+msgid "Perfect for thai massage, salons, spas, beauty centers, repair services, consultants, and other appointment-based businesses."
+msgstr "থাই ম্যাসাজ, সেলুন, স্পা, বিউটি সেন্টার, রিপেয়ার সার্ভিস, কনসালট্যান্টসহ অ্যাপয়েন্টমেন্ট-নির্ভর যেকোনো ব্যবসার জন্য উপযুক্ত।"
+
+msgid "Service Booking"
+msgstr "সার্ভিস বুকিং"
+
+msgid "Complete booking & appointment solution for any service."
+msgstr "যেকোনো সার্ভিসের জন্য পূর্ণাঙ্গ বুকিং ও অ্যাপয়েন্টমেন্ট সলিউশন।"
+
+msgid "Doctor Appointment"
+msgstr "ডাক্তার অ্যাপয়েন্টমেন্ট"
+
+msgid "Appointment booking system for clinics and hospitals."
+msgstr "ক্লিনিক ও হাসপাতালের জন্য অ্যাপয়েন্টমেন্ট বুকিং সিস্টেম।"
+
+msgid "Tailor Order Management"
+msgstr "টেইলর অর্ডার ম্যানেজমেন্ট"
+
+msgid "Manage tailor orders, customers, measurements and deliveries."
+msgstr "টেইলরিং অর্ডার, কাস্টমার, মাপ আর ডেলিভারি সামলান।"
+
+msgid "PDF Embed Viewer"
+msgstr "PDF Embed Viewer"
+
+msgid "3D flipbook PDF viewer & embedder for WordPress."
+msgstr "WordPress-এর জন্য 3D ফ্লিপবুক PDF ভিউয়ার ও এমবেডার।"
+
+msgid "Massage & Wellness · Portugal"
+msgstr "ম্যাসাজ ও ওয়েলনেস · পর্তুগাল"
+
+msgid "Booking website for a Thai massage studio in Lisbon, with online appointments and a full treatment menu."
+msgstr "লিসবনের একটি থাই ম্যাসাজ স্টুডিওর বুকিং ওয়েবসাইট, অনলাইন অ্যাপয়েন্টমেন্ট আর পূর্ণ ট্রিটমেন্ট মেনুসহ।"
+
+msgid "Booking System"
+msgstr "বুকিং সিস্টেম"
+
+msgid "Bilingual"
+msgstr "দ্বিভাষিক"
+
+msgid "Healthcare · Bangladesh"
+msgstr "স্বাস্থ্যসেবা · বাংলাদেশ"
+
+msgid "Doctor appointment system with doctor profiles, weekly availability, online booking and a live patient queue."
+msgstr "ডাক্তার প্রোফাইল, সাপ্তাহিক সময়সূচি, অনলাইন বুকিং আর লাইভ রোগী কিউসহ ডাক্তার অ্যাপয়েন্টমেন্ট সিস্টেম।"
+
+msgid "Appointment System"
+msgstr "অ্যাপয়েন্টমেন্ট সিস্টেম"
+
+msgid "Live Queue"
+msgstr "লাইভ কিউ"
+
+msgid "SMS"
+msgstr "SMS"
+
+msgid "Education & Care · UK"
+msgstr "শিক্ষা ও পরিচর্যা · যুক্তরাজ্য"
+
+msgid "Website redesign for a teaching and research organisation serving families across East London."
+msgstr "পূর্ব লন্ডনের পরিবারগুলোকে সেবা দেওয়া একটি শিক্ষা ও গবেষণা প্রতিষ্ঠানের ওয়েবসাইট রিডিজাইন।"
+
+msgid "Redesign"
+msgstr "রিডিজাইন"
+
+msgid "Courses"
+msgstr "কোর্স"
+
+msgid "Government Contracting · USA"
+msgstr "সরকারি কন্ট্রাক্টিং · যুক্তরাষ্ট্র"
+
+msgid "Corporate website for a veteran-owned contractor delivering construction, IT, healthcare and facility services to government agencies."
+msgstr "সরকারি সংস্থাগুলোকে নির্মাণ, আইটি, স্বাস্থ্যসেবা ও ফ্যাসিলিটি সার্ভিস দেওয়া একটি ভেটেরান-মালিকানাধীন কন্ট্রাক্টরের কর্পোরেট ওয়েবসাইট।"
+
+msgid "Corporate Website"
+msgstr "কর্পোরেট ওয়েবসাইট"
+
+msgid "Government"
+msgstr "সরকারি"
+
+msgid "Managed IT · Hong Kong"
+msgstr "ম্যানেজড আইটি · হংকং"
+
+msgid "Website for a managed IT and cybersecurity provider serving firms in Hong Kong, Singapore, Shanghai, London and the UAE."
+msgstr "হংকং, সিঙ্গাপুর, সাংহাই, লন্ডন ও সংযুক্ত আরব আমিরাতের প্রতিষ্ঠানগুলোকে সেবা দেওয়া একটি ম্যানেজড আইটি ও সাইবার সিকিউরিটি প্রতিষ্ঠানের ওয়েবসাইট।"
+
+msgid "Brand Website"
+msgstr "ব্র্যান্ড ওয়েবসাইট"
+
+msgid "IT Services"
+msgstr "আইটি সার্ভিস"
+
+msgid "Compliance"
+msgstr "কমপ্লায়েন্স"
+
+msgid "Cybersecurity · Hong Kong"
+msgstr "সাইবার সিকিউরিটি · হংকং"
+
+msgid "Website for a cybersecurity firm offering penetration testing, vulnerability assessments and security awareness training."
+msgstr "পেনিট্রেশন টেস্টিং, ভালনারেবিলিটি অ্যাসেসমেন্ট আর সিকিউরিটি অ্যাওয়ারনেস ট্রেনিং দেওয়া একটি সাইবার সিকিউরিটি প্রতিষ্ঠানের ওয়েবসাইট।"
+
+msgid "Cybersecurity"
+msgstr "সাইবার সিকিউরিটি"
+
+msgid "Import & Distribution · USA"
+msgstr "আমদানি ও পরিবেশন · যুক্তরাষ্ট্র"
+
+msgid "Product catalogue website for an importer and distributor of small arms ammunition and components."
+msgstr "ছোট অস্ত্রের গোলাবারুদ ও উপকরণের আমদানিকারক ও পরিবেশকের প্রোডাক্ট ক্যাটালগ ওয়েবসাইট।"
+
+msgid "Product Catalogue"
+msgstr "প্রোডাক্ট ক্যাটালগ"
+
+msgid "Digital Agency"
+msgstr "ডিজিটাল এজেন্সি"
+
+msgid "Website for a full-service digital agency covering web development, SEO and AI automation."
+msgstr "ওয়েব ডেভেলপমেন্ট, SEO আর AI অটোমেশন নিয়ে কাজ করা একটি পূর্ণাঙ্গ ডিজিটাল এজেন্সির ওয়েবসাইট।"
+
+msgid "Custom Theme"
+msgstr "কাস্টম থিম"
+
+msgid "Dark Mode"
+msgstr "ডার্ক মোড"
+
+msgid "Accounting · Australia"
+msgstr "অ্যাকাউন্টিং · অস্ট্রেলিয়া"
+
+msgid "Website for a Melbourne accounting firm offering tax returns, bookkeeping and virtual CFO services Australia-wide."
+msgstr "সারা অস্ট্রেলিয়ায় ট্যাক্স রিটার্ন, বুককিপিং ও ভার্চুয়াল CFO সার্ভিস দেওয়া মেলবোর্নের একটি অ্যাকাউন্টিং ফার্মের ওয়েবসাইট।"
+
+msgid "Service Website"
+msgstr "সার্ভিস ওয়েবসাইট"
+
+msgid "Pricing Pages"
+msgstr "প্রাইসিং পেজ"
+
+msgid "Investment Management · Hong Kong"
+msgstr "ইনভেস্টমেন্ট ম্যানেজমেন্ট · হংকং"
+
+msgid "Website for an SFC-licensed fund manager investing in Chinese equities, with an investor login and regulatory disclaimer."
+msgstr "চীনা শেয়ারে বিনিয়োগকারী একটি SFC-লাইসেন্সপ্রাপ্ত ফান্ড ম্যানেজারের ওয়েবসাইট, ইনভেস্টর লগইন ও নিয়ন্ত্রক সতর্কবার্তাসহ।"
+
+msgid "Investor Portal"
+msgstr "ইনভেস্টর পোর্টাল"
+
+msgid "Fashion Design"
+msgstr "ফ্যাশন ডিজাইন"
+
+msgid "Portfolio website for a fashion designer, showing collections, the creative process and commission enquiries, with a custom studio panel for editing."
+msgstr "একজন ফ্যাশন ডিজাইনারের পোর্টফোলিও ওয়েবসাইট — কালেকশন, সৃজনশীল প্রক্রিয়া আর কমিশনের অনুরোধ দেখায়, এডিটের জন্য নিজস্ব স্টুডিও প্যানেলসহ।"
+
+msgid "Headless WordPress"
+msgstr "হেডলেস WordPress"
+
+msgid "Portfolio"
+msgstr "পোর্টফোলিও"
+
+msgid "Food Brand · USA"
+msgstr "খাদ্য ব্র্যান্ড · যুক্তরাষ্ট্র"
+
+msgid "Brand website for a premium dates company, with its product range and wholesale enquiries."
+msgstr "একটি প্রিমিয়াম খেজুর কোম্পানির ব্র্যান্ড ওয়েবসাইট, পণ্যের তালিকা আর পাইকারি অনুসন্ধানসহ।"
+
+msgid "Wholesale"
+msgstr "পাইকারি"
+
+msgid "Student Recruitment · UK"
+msgstr "স্টুডেন্ট রিক্রুটমেন্ট · যুক্তরাজ্য"
+
+msgid "Website for a UK university admissions consultancy, built around courses, intakes and applications."
+msgstr "যুক্তরাজ্যের একটি বিশ্ববিদ্যালয় ভর্তি কনসালটেন্সির ওয়েবসাইট — কোর্স, ভর্তির সময় আর আবেদন ঘিরে তৈরি।"
+
+msgid "Lead Generation"
+msgstr "লিড জেনারেশন"
+
+msgid "Primary"
+msgstr "প্রধান"
+
+msgid "Close menu"
+msgstr "মেনু বন্ধ করুন"
+
+msgid "Book Consultation"
+msgstr "কনসালটেশন বুক করুন"
+
+msgid "Menu"
+msgstr "মেনু"
+
+msgid "Insights & Guides"
+msgstr "ইনসাইট ও গাইড"
+
+msgid "Practical articles on websites, online booking, WordPress and running your business online."
+msgstr "ওয়েবসাইট, অনলাইন বুকিং, WordPress আর অনলাইনে ব্যবসা চালানো নিয়ে কাজের লেখা।"
+
+msgid "Home"
+msgstr "হোম"
+
+msgid "Products"
+msgstr "প্রোডাক্ট"
+
+msgid "Pricing"
+msgstr "প্রাইসিং"
+
+msgid "Blog"
+msgstr "ব্লগ"
+
+msgid "Contact Us"
+msgstr "যোগাযোগ"
+
+msgid "Case Studies"
+msgstr "কেস স্টাডি"
+
+msgid "Tailor Management"
+msgstr "টেইলর ম্যানেজমেন্ট"
+
+msgid "Website Development"
+msgstr "ওয়েবসাইট ডেভেলপমেন্ট"
+
+msgid "Plugin Customization"
+msgstr "প্লাগইন কাস্টমাইজেশন"
+
+msgid "Website Maintenance"
+msgstr "ওয়েবসাইট মেইনটেন্যান্স"
+
+msgid "Migration Services"
+msgstr "মাইগ্রেশন সার্ভিস"
+
+msgid "Custom Email Service"
+msgstr "কাস্টম ইমেইল সার্ভিস"
+
+msgid "Technical Support"
+msgstr "টেকনিক্যাল সাপোর্ট"
+
+msgid "Business Automation"
+msgstr "বিজনেস অটোমেশন"
+
+msgid "Doctor Solution"
+msgstr "ডাক্তার সলিউশন"
+
+msgid "Tailor Solution"
+msgstr "টেইলর সলিউশন"
+
+msgid "All Solutions"
+msgstr "সব সলিউশন"
+
+msgid "Language"
+msgstr "ভাষা"
+
+msgid "Change language"
+msgstr "ভাষা বদলান"
+
+msgid "Nothing found."
+msgstr "কিছু পাওয়া যায়নি।"
+
+msgid "Search"
+msgstr "সার্চ"
+
+msgid "Results for “%s”"
+msgstr "“%s”-এর ফলাফল"
+
+msgid "Breadcrumb"
+msgstr "ব্রেডক্রাম্ব"
+
+msgid "%d min read"
+msgid_plural "%d min read"
+msgstr[0] "%d মিনিটে পড়া"
+msgstr[1] "%d মিনিটে পড়া"
+
+msgid "Share"
+msgstr "শেয়ার"
+
+msgid "Share on Facebook"
+msgstr "Facebook-এ শেয়ার করুন"
+
+msgid "Share on LinkedIn"
+msgstr "LinkedIn-এ শেয়ার করুন"
+
+msgid "Share on WhatsApp"
+msgstr "WhatsApp-এ শেয়ার করুন"
+
+msgid "Keep Reading"
+msgstr "আরও পড়ুন"
+
+msgid "Related Articles"
+msgstr "সম্পর্কিত লেখা"
+
+msgid "All articles"
+msgstr "সব লেখা"
+
+msgid "Need a Website or System for Your Business?"
+msgstr "আপনার ব্যবসার জন্য ওয়েবসাইট বা সিস্টেম দরকার?"
+
+msgid "Tell us what you need — we'll build, host and support it for you."
+msgstr "কী দরকার জানান — আমরা তৈরি করব, হোস্ট করব আর সাপোর্ট দেব।"
+
+msgid "Search articles"
+msgstr "লেখা খুঁজুন"
+
+msgid "Search articles…"
+msgstr "লেখা খুঁজুন…"
+
+msgid "Categories"
+msgstr "ক্যাটাগরি"
+
+msgid "All"
+msgstr "সব"
+
+msgid "Previous"
+msgstr "আগের"
+
+msgid "Next"
+msgstr "পরের"
+
+msgid "Pages"
+msgstr "পাতা"
+
+msgid "No articles found"
+msgstr "কোনো লেখা পাওয়া যায়নি"
+
+msgid "Try a different word, or browse all articles."
+msgstr "অন্য কোনো শব্দ দিয়ে খুঁজুন, অথবা সব লেখা দেখুন।"
+
+msgid "Articles are on the way"
+msgstr "লেখা আসছে শিগগিরই"
+
+msgid "We are writing practical guides on websites, bookings and running your business online. Check back soon."
+msgstr "ওয়েবসাইট, বুকিং আর অনলাইনে ব্যবসা চালানো নিয়ে কাজের গাইড লিখছি। কিছুদিন পর আবার দেখুন।"
+
+msgid "All Articles"
+msgstr "সব লেখা"
+
+msgid "Explore Our Solutions"
+msgstr "আমাদের সলিউশন দেখুন"
+
+msgid "Our Services"
+msgstr "আমাদের সার্ভিস"
+
+msgid "Massage"
+msgstr "ম্যাসাজ"
+
+msgid "Hair"
+msgstr "চুল"
+
+msgid "Skin Care"
+msgstr "স্কিন কেয়ার"
+
+msgid "Traditional Thai Massage"
+msgstr "ট্র্যাডিশনাল থাই ম্যাসাজ"
+
+msgid "60 min · 3 staff available"
+msgstr "60 মিনিট · 3 জন স্টাফ ফ্রি"
+
+msgid "Haircut & Styling"
+msgstr "হেয়ারকাট ও স্টাইলিং"
+
+msgid "45 min · 2 staff available"
+msgstr "45 মিনিট · 2 জন স্টাফ ফ্রি"
+
+msgid "Deep Cleansing Facial"
+msgstr "ডিপ ক্লেনজিং ফেসিয়াল"
+
+msgid "50 min · 2 staff available"
+msgstr "50 মিনিট · 2 জন স্টাফ ফ্রি"
+
+msgid "Hot Stone Massage"
+msgstr "হট স্টোন ম্যাসাজ"
+
+msgid "90 min · 1 staff available"
+msgstr "90 মিনিট · 1 জন স্টাফ ফ্রি"
+
+msgid "Book a Service"
+msgstr "সার্ভিস বুক করুন"
+
+msgid "Choose Staff"
+msgstr "স্টাফ বেছে নিন"
+
+msgid "Any"
+msgstr "যেকেউ"
+
+msgid "Pick Date & Time"
+msgstr "তারিখ ও সময় বেছে নিন"
+
+msgid "October 2026"
+msgstr "অক্টোবর 2026"
+
+msgid "Selected"
+msgstr "বাছাই করা"
+
+msgid "Thai Massage · Oct 28 · 11:00 AM"
+msgstr "থাই ম্যাসাজ · 28 অক্টো · সকাল 11:00"
+
+msgid "Change"
+msgstr "বদলান"
+
+msgid "Full Name"
+msgstr "পুরো নাম"
+
+msgid "e.g. Tasnim Akter"
+msgstr "যেমন: তাসনিম আক্তার"
+
+msgid "Mobile Number"
+msgstr "মোবাইল নম্বর"
+
+msgid "Email"
+msgstr "ইমেইল"
+
+msgid "Note for Staff"
+msgstr "স্টাফের জন্য নোট"
+
+msgid "Anything we should know?"
+msgstr "আমাদের কিছু জানানোর আছে?"
+
+msgid "Total · 60 min"
+msgstr "মোট · 60 মিনিট"
+
+msgid "Confirm Booking"
+msgstr "বুকিং নিশ্চিত করুন"
+
+msgid "Booking Confirmed"
+msgstr "বুকিং নিশ্চিত হয়েছে"
+
+msgid "Booking ID"
+msgstr "বুকিং আইডি"
+
+msgid "Service"
+msgstr "সার্ভিস"
+
+msgid "Staff"
+msgstr "স্টাফ"
+
+msgid "Date"
+msgstr "তারিখ"
+
+msgid "Time"
+msgstr "সময়"
+
+msgid "11:00 AM · 60 min"
+msgstr "সকাল 11:00 · 60 মিনিট"
+
+msgid "Total"
+msgstr "মোট"
+
+msgid "Need to change it? Use the link in your SMS."
+msgstr "বদলাতে চান? SMS-এ থাকা লিংক ব্যবহার করুন।"
+
+msgid "Just now"
+msgstr "এইমাত্র"
+
+msgid "Serenity Spa: Your Thai Massage with Nadia is confirmed for Oct 28 at 11:00 AM. Booking ID: SB-4127. We will remind you 2 hours before."
+msgstr "Serenity Spa: নাদিয়ার সাথে আপনার থাই ম্যাসাজ 28 অক্টোবর সকাল 11:00-এ নিশ্চিত হয়েছে। বুকিং আইডি: SB-4127। 2 ঘণ্টা আগে মনে করিয়ে দেব।"
+
+msgid "Your booking is confirmed — Traditional Thai Massage"
+msgstr "আপনার বুকিং নিশ্চিত হয়েছে — ট্র্যাডিশনাল থাই ম্যাসাজ"
+
+msgid "Hi Tasnim, thanks for booking with us. Please arrive 10 minutes early so you can relax before your session."
+msgstr "হাই তাসনিম, বুকিং করার জন্য ধন্যবাদ। সেশনের আগে একটু বিশ্রাম নিতে 10 মিনিট আগে চলে আসুন।"
+
+msgid "Serenity Spa"
+msgstr "Serenity Spa"
+
+msgid "Admin Panel · Bookings"
+msgstr "অ্যাডমিন প্যানেল · বুকিং"
+
+msgid "Today's Bookings"
+msgstr "আজকের বুকিং"
+
+msgid "Total Customers"
+msgstr "মোট কাস্টমার"
+
+msgid "Today's Revenue"
+msgstr "আজকের আয়"
+
+msgid "Done"
+msgstr "সম্পন্ন"
+
+msgid "In Service"
+msgstr "সার্ভিস চলছে"
+
+msgid "New"
+msgstr "নতুন"
+
+msgid "Upcoming"
+msgstr "আসন্ন"
+
+msgid "Staff Schedule · Today"
+msgstr "স্টাফ শিডিউল · আজ"
+
+msgid "Facial"
+msgstr "ফেসিয়াল"
+
+msgid "Thai"
+msgstr "থাই"
+
+msgid "Break"
+msgstr "বিরতি"
+
+msgid "Hot Stone"
+msgstr "হট স্টোন"
+
+msgid "Nails"
+msgstr "নেইল"
+
+msgid "Open slots update automatically — no double bookings."
+msgstr "ফাঁকা স্লট নিজে থেকেই আপডেট হয় — একই সময়ে ডাবল বুকিং হয় না।"
+
+msgid "Customer Profile"
+msgstr "কাস্টমার প্রোফাইল"
+
+msgid "01XXXXXXXXX · Mirpur, Dhaka"
+msgstr "01XXXXXXXXX · মিরপুর, ঢাকা"
+
+msgid "Regular"
+msgstr "নিয়মিত"
+
+msgid "Total Orders"
+msgstr "মোট অর্ডার"
+
+msgid "Total Spent"
+msgstr "মোট খরচ"
+
+msgid "Due"
+msgstr "বাকি"
+
+msgid "Order History"
+msgstr "অর্ডারের ইতিহাস"
+
+msgid "Suit"
+msgstr "স্যুট"
+
+msgid "Delivered"
+msgstr "ডেলিভারি হয়েছে"
+
+msgid "Shirt × 3"
+msgstr "শার্ট × 3"
+
+msgid "Panjabi"
+msgstr "পাঞ্জাবি"
+
+msgid "Measurements · Panjabi"
+msgstr "মাপ · পাঞ্জাবি"
+
+msgid "Length"
+msgstr "লম্বা"
+
+msgid "Chest"
+msgstr "বুক"
+
+msgid "Waist"
+msgstr "কোমর"
+
+msgid "Hip"
+msgstr "হিপ"
+
+msgid "Shoulder"
+msgstr "কাঁধ"
+
+msgid "Sleeve"
+msgstr "হাতা"
+
+msgid "Collar"
+msgstr "কলার"
+
+msgid "Cuff"
+msgstr "কাফ"
+
+msgid "Saved to Rahim Uddin — ready for his next order."
+msgstr "রহিম উদ্দিনের প্রোফাইলে সেভ হয়েছে — পরের অর্ডারের জন্য তৈরি।"
+
+msgid "New Order"
+msgstr "নতুন অর্ডার"
+
+msgid "Item"
+msgstr "আইটেম"
+
+msgid "Shirt"
+msgstr "শার্ট"
+
+msgid "Pant"
+msgstr "প্যান্ট"
+
+msgid "Sherwani"
+msgstr "শেরওয়ানি"
+
+msgid "Quantity"
+msgstr "পরিমাণ"
+
+msgid "Fabric"
+msgstr "কাপড়"
+
+msgid "Cotton · 5 m"
+msgstr "সুতি · 5 মিটার"
+
+msgid "Trial Date"
+msgstr "ট্রায়ালের তারিখ"
+
+msgid "Delivery Date"
+msgstr "ডেলিভারির তারিখ"
+
+msgid "Design Note"
+msgstr "ডিজাইন নোট"
+
+msgid "Chinese collar, 2 side pockets"
+msgstr "চাইনিজ কলার, 2টি সাইড পকেট"
+
+msgid "Create Order"
+msgstr "অর্ডার তৈরি করুন"
+
+msgid "Invoice"
+msgstr "ইনভয়েস"
+
+msgid "Partly Paid"
+msgstr "আংশিক পরিশোধিত"
+
+msgid "Panjabi stitching"
+msgstr "পাঞ্জাবি সেলাই"
+
+msgid "Cotton fabric"
+msgstr "সুতি কাপড়"
+
+msgid "Collar embroidery"
+msgstr "কলারে এমব্রয়ডারি"
+
+msgid "Discount"
+msgstr "ছাড়"
+
+msgid "Advance paid"
+msgstr "অগ্রিম পরিশোধ"
+
+msgid "Due on delivery"
+msgstr "ডেলিভারিতে বাকি"
+
+msgid "Print Receipt"
+msgstr "রসিদ প্রিন্ট করুন"
+
+msgid "Panjabi × 2"
+msgstr "পাঞ্জাবি × 2"
+
+msgid "Order Received"
+msgstr "অর্ডার গ্রহণ"
+
+msgid "Oct 28 · advance ৳2,000 paid"
+msgstr "28 অক্টো · অগ্রিম ৳2,000 পরিশোধিত"
+
+msgid "Fabric Cutting"
+msgstr "কাপড় কাটা"
+
+msgid "Oct 29 · Karim (cutter)"
+msgstr "29 অক্টো · করিম (কাটার)"
+
+msgid "Stitching"
+msgstr "সেলাই"
+
+msgid "In progress · Jamal (tailor)"
+msgstr "চলছে · জামাল (দর্জি)"
+
+msgid "Trial"
+msgstr "ট্রায়াল"
+
+msgid "Nov 2"
+msgstr "2 নভে"
+
+msgid "Ready for Delivery"
+msgstr "ডেলিভারির জন্য প্রস্তুত"
+
+msgid "Customer gets an SMS"
+msgstr "কাস্টমার SMS পান"
+
+msgid "Delivered & Paid"
+msgstr "ডেলিভারি ও পরিশোধ সম্পন্ন"
+
+msgid "Nov 5 · due ৳2,300"
+msgstr "5 নভে · বাকি ৳2,300"
+
+msgid "Oct 28"
+msgstr "28 অক্টো"
+
+msgid "Al-Modina Tailors: Order #ORD-1026 received. Panjabi × 2, total ৳4,300, advance ৳2,000. Trial Nov 2, delivery Nov 5."
+msgstr "আল-মদিনা টেইলার্স: অর্ডার #ORD-1026 গ্রহণ করা হয়েছে। পাঞ্জাবি × 2, মোট ৳4,300, অগ্রিম ৳2,000। ট্রায়াল 2 নভেম্বর, ডেলিভারি 5 নভেম্বর।"
+
+msgid "Al-Modina Tailors: Your order #ORD-1026 is ready for pickup. Due amount: ৳2,300. Thank you!"
+msgstr "আল-মদিনা টেইলার্স: আপনার অর্ডার #ORD-1026 নেওয়ার জন্য প্রস্তুত। বাকি টাকা: ৳2,300। ধন্যবাদ!"
+
+msgid "Shop Reminder"
+msgstr "দোকানের রিমাইন্ডার"
+
+msgid "Today"
+msgstr "আজ"
+
+msgid "6 orders due for delivery today"
+msgstr "আজ 6টি অর্ডার ডেলিভারির কথা"
+
+msgid "2 are still in stitching — check with the workshop so nothing is late."
+msgstr "2টি এখনো সেলাইয়ে আছে — দেরি না হয় সেজন্য ওয়ার্কশপে খোঁজ নিন।"
+
+msgid "Reports · This Month"
+msgstr "রিপোর্ট · এই মাস"
+
+msgid "Orders"
+msgstr "অর্ডার"
+
+msgid "Sales"
+msgstr "বিক্রি"
+
+msgid "Orders per Week"
+msgstr "সপ্তাহে অর্ডার"
+
+msgid "Top Items"
+msgstr "সেরা আইটেম"
+
+msgid "Rated 5.0 out of 5 from 6 reviews"
+msgstr "6টি রিভিউ থেকে 5-এর মধ্যে 5.0 রেটিং"
+
+msgid "Live Demo"
+msgstr "লাইভ ডেমো"
+
+msgid "Details"
+msgstr "বিস্তারিত"
+
+msgid "WordPress Plugins"
+msgstr "WordPress প্লাগইন"
+
+msgid "Plugin Licenses"
+msgstr "প্লাগইন লাইসেন্স"
+
+msgid "Install on your own WordPress site. Pay once — updates are included for life."
+msgstr "আপনার নিজের WordPress সাইটে ইনস্টল করুন। একবার পেমেন্ট — আপডেট আজীবন।"
+
+msgid "one time"
+msgstr "এককালীন"
+
+msgid "Buy Now"
+msgstr "এখনই কিনুন"
+
+msgid "Custom Work, Quoted for You"
+msgstr "কাস্টম কাজ, আপনার জন্য কোটেশন"
+
+msgid "Every project is different, so we scope it with you first and send a fixed quote — no surprises later."
+msgstr "প্রতিটি প্রজেক্ট আলাদা, তাই আগে আপনার সাথে কাজের পরিধি ঠিক করি, তারপর নির্দিষ্ট কোটেশন পাঠাই — পরে কোনো চমক নেই।"
+
+msgid "Get a Quote"
+msgstr "কোটেশন নিন"
+
+msgid "Free consultation"
+msgstr "ফ্রি কনসালটেশন"
+
+msgid "Written scope & fixed quote"
+msgstr "লিখিত কাজের পরিধি ও নির্দিষ্ট কোটেশন"
+
+msgid "Work starts after you approve"
+msgstr "আপনি অনুমোদন দিলে কাজ শুরু"
+
+msgid "See It In Action"
+msgstr "কাজ করতে দেখুন"
+
+msgid "Product Screenshot"
+msgstr "প্রোডাক্টের স্ক্রিনশট"
+
+msgid "Simple Pricing"
+msgstr "সহজ প্রাইসিং"
+
+msgid "One time payment, lifetime updates and support."
+msgstr "এককালীন পেমেন্ট, আজীবন আপডেট ও সাপোর্ট।"
+
+msgid "One Time Payment"
+msgstr "এককালীন পেমেন্ট"
+
+msgid "Ready to Build Your Business Website?"
+msgstr "আপনার ব্যবসার ওয়েবসাইট বানাতে প্রস্তুত?"
+
+msgid "Let's discuss how we can help you grow your business online."
+msgstr "অনলাইনে আপনার ব্যবসা বাড়াতে আমরা কীভাবে সাহায্য করতে পারি, চলুন কথা বলি।"
+
+msgid "Book Consultant"
+msgstr "কনসালটেশন বুক করুন"
+
+msgid "WordPress Business Solutions"
+msgstr "WordPress বিজনেস সলিউশন"
+
+msgid "Complete"
+msgstr "পূর্ণাঙ্গ"
+
+msgid "Business Solutions"
+msgstr "বিজনেস সলিউশন"
+
+msgid "for Growing Businesses"
+msgstr "বেড়ে ওঠা ব্যবসার জন্য"
+
+msgid "We build complete business websites with custom software, managed hosting, domain setup, training, and ongoing support. Everything you need to launch and grow your business in one place."
+msgstr "কাস্টম সফটওয়্যার, ম্যানেজড হোস্টিং, ডোমেইন সেটআপ, ট্রেনিং আর চলমান সাপোর্টসহ পূর্ণাঙ্গ বিজনেস ওয়েবসাইট আমরা তৈরি করি। ব্যবসা শুরু আর বড় করতে যা লাগে, সব এক জায়গায়।"
+
+msgid "Ready Solutions"
+msgstr "রেডি সলিউশন"
+
+msgid "Premium Plugins"
+msgstr "প্রিমিয়াম প্লাগইন"
+
+msgid "Expert Services"
+msgstr "দক্ষ সার্ভিস"
+
+msgid "Reliable Support"
+msgstr "নির্ভরযোগ্য সাপোর্ট"
+
+msgid "View Solutions"
+msgstr "সলিউশন দেখুন"
+
+msgid "Doctor Appointment & Queue Management"
+msgstr "ডাক্তার অ্যাপয়েন্টমেন্ট ও কিউ ম্যানেজমেন্ট"
+
+msgid "Online Booking"
+msgstr "অনলাইন বুকিং"
+
+msgid "Patient Queue"
+msgstr "রোগীর কিউ"
+
+msgid "Doctor Panel"
+msgstr "ডাক্তার প্যানেল"
+
+msgid "Measurements"
+msgstr "মাপ"
+
+msgid "Order Tracking"
+msgstr "অর্ডার ট্র্যাকিং"
+
+msgid "Customer Management"
+msgstr "কাস্টমার ম্যানেজমেন্ট"
+
+msgid "Book Services"
+msgstr "সার্ভিস বুক করুন"
+
+msgid "Manage Schedule"
+msgstr "শিডিউল সামলান"
+
+msgid "Deliver Your Commitments"
+msgstr "প্রতিশ্রুতি রাখুন সময়মতো"
+
+msgid "Digital Flipbook & PDF Viewer"
+msgstr "ডিজিটাল ফ্লিপবুক ও PDF ভিউয়ার"
+
+msgid "Interactive Books"
+msgstr "ইন্টারঅ্যাকটিভ বই"
+
+msgid "PDF Viewer"
+msgstr "PDF ভিউয়ার"
+
+msgid "Modern Reading Experience"
+msgstr "আধুনিক পড়ার অভিজ্ঞতা"
+
+msgid "Featured WordPress Plugins"
+msgstr "বাছাই করা WordPress প্লাগইন"
+
+msgid "Powerful plugins built to extend WordPress and simplify your business workflow."
+msgstr "WordPress-কে আরও শক্তিশালী আর আপনার ব্যবসার কাজ সহজ করতে তৈরি প্লাগইন।"
+
+msgid "View All Plugins"
+msgstr "সব প্লাগইন দেখুন"
+
+msgid "We Only Build What Fits Your Business"
+msgstr "শুধু সেটাই বানাই যা আপনার ব্যবসার সাথে মানায়"
+
+msgid "Every project is scoped around how your business actually runs, not squeezed into a generic template."
+msgstr "প্রতিটি প্রজেক্ট আপনার ব্যবসা আসলে কীভাবে চলে তা ধরে তৈরি — কোনো সাধারণ টেমপ্লেটে চাপিয়ে নয়।"
+
+msgid "No one-size-fits-all packages"
+msgstr "সবার জন্য এক প্যাকেজ নয়"
+
+msgid "Every solution starts with understanding your workflow"
+msgstr "প্রতিটি সলিউশন শুরু হয় আপনার কাজের ধরন বোঝা দিয়ে"
+
+msgid "Custom WordPress builds, not reused themes"
+msgstr "কাস্টম WordPress বিল্ড, পুরোনো থিম নয়"
+
+msgid "Transparent, All-Inclusive Pricing"
+msgstr "স্বচ্ছ, সব-সহ প্রাইসিং"
+
+msgid "No hidden add-ons — every plan ships complete and ready to launch."
+msgstr "কোনো লুকানো অ্যাড-অন নেই — প্রতিটি প্ল্যান সম্পূর্ণ, চালুর জন্য প্রস্তুত।"
+
+msgid "Website, hosting, domain, SSL and email included"
+msgstr "ওয়েবসাইট, হোস্টিং, ডোমেইন, SSL আর ইমেইল অন্তর্ভুক্ত"
+
+msgid "Clear pricing agreed before we start"
+msgstr "কাজ শুরুর আগেই পরিষ্কার দাম ঠিক"
+
+msgid "What you are quoted is what you pay"
+msgstr "যা কোটেশন, তাই পেমেন্ট"
+
+msgid "Security & Reliability By Default"
+msgstr "শুরু থেকেই নিরাপত্তা ও নির্ভরযোগ্যতা"
+
+msgid "SSL, backups and monitoring are built into every plan, not sold as extras."
+msgstr "SSL, ব্যাকআপ আর মনিটরিং প্রতিটি প্ল্যানে অন্তর্ভুক্ত, আলাদা করে বিক্রি নয়।"
+
+msgid "Regular automatic backups"
+msgstr "নিয়মিত অটোমেটিক ব্যাকআপ"
+
+msgid "Monitored, managed hosting"
+msgstr "মনিটর করা, ম্যানেজড হোস্টিং"
+
+msgid "SSL included from day one"
+msgstr "প্রথম দিন থেকেই SSL"
+
+msgid "One Team, Start to Finish"
+msgstr "শুরু থেকে শেষ, একটি টিম"
+
+msgid "Development, hosting, email, maintenance and support — handled by one accountable team."
+msgstr "ডেভেলপমেন্ট, হোস্টিং, ইমেইল, মেইনটেন্যান্স আর সাপোর্ট — একটি দায়িত্বশীল টিমই সব সামলায়।"
+
+msgid "No juggling multiple vendors"
+msgstr "একাধিক ভেন্ডর সামলানোর ঝামেলা নেই"
+
+msgid "One point of contact for your whole project"
+msgstr "পুরো প্রজেক্টের জন্য একজন যোগাযোগের মানুষ"
+
+msgid "Consistent support after launch"
+msgstr "চালুর পরেও নিয়মিত সাপোর্ট"
+
+msgid "We Stay Reachable After Launch"
+msgstr "চালুর পরেও আমরা পাশে থাকি"
+
+msgid "Our relationship doesn't end at launch — we stay on for ongoing support."
+msgstr "চালু হলেই সম্পর্ক শেষ নয় — চলমান সাপোর্টের জন্য আমরা পাশে থাকি।"
+
+msgid "Direct WhatsApp and email support"
+msgstr "সরাসরি WhatsApp ও ইমেইল সাপোর্ট"
+
+msgid "Regular maintenance and updates"
+msgstr "নিয়মিত মেইনটেন্যান্স ও আপডেট"
+
+msgid "Help whenever something needs fixing"
+msgstr "কিছু ঠিক করার দরকার হলেই সাহায্য"
+
+msgid "Our Principles"
+msgstr "আমাদের নীতি"
+
+msgid "How We Work"
+msgstr "আমরা যেভাবে কাজ করি"
+
+msgid "The principles we follow to deliver reliable, transparent business websites."
+msgstr "নির্ভরযোগ্য ও স্বচ্ছ বিজনেস ওয়েবসাইট দিতে যে নীতি আমরা মেনে চলি।"
+
+msgid "Principle %s"
+msgstr "নীতি %s"
+
+msgid "Expert Services To Support your Business"
+msgstr "আপনার ব্যবসার পাশে দক্ষ সার্ভিস"
+
+msgid "We help you in every step of your journey."
+msgstr "আপনার পথের প্রতিটি ধাপে আমরা সাহায্য করি।"
+
+msgid "Our Business Solutions"
+msgstr "আমাদের বিজনেস সলিউশন"
+
+msgid "Ready-made website solutions designed for your business. We handle everything from setup to support, so you can focus on running your business."
+msgstr "আপনার ব্যবসার জন্য তৈরি রেডিমেড ওয়েবসাইট সলিউশন। সেটআপ থেকে সাপোর্ট — সব আমরা সামলাই, আপনি ব্যবসায় মন দিন।"
+
+msgid "CozyThai – Thai Massage Booking Website"
+msgstr "CozyThai – থাই ম্যাসাজ বুকিং ওয়েবসাইট"
+
+msgid "Massage & Wellness"
+msgstr "ম্যাসাজ ও ওয়েলনেস"
+
+msgid "Website"
+msgstr "ওয়েবসাইট"
+
+msgid "Hosting"
+msgstr "হোস্টিং"
+
+msgid "Support"
+msgstr "সাপোর্ট"
+
+msgid "Doctor Appointment Website"
+msgstr "ডাক্তার অ্যাপয়েন্টমেন্ট ওয়েবসাইট"
+
+msgid "Healthcare"
+msgstr "স্বাস্থ্যসেবা"
+
+msgid "Clinic Website"
+msgstr "ক্লিনিক ওয়েবসাইট"
+
+msgid "Appointment Booking"
+msgstr "অ্যাপয়েন্টমেন্ট বুকিং"
+
+msgid "Patient Management"
+msgstr "রোগী ব্যবস্থাপনা"
+
+msgid "Tailor Management Website"
+msgstr "টেইলর ম্যানেজমেন্ট ওয়েবসাইট"
+
+msgid "Tailoring & Fashion"
+msgstr "টেইলরিং ও ফ্যাশন"
+
+msgid "Order Management"
+msgstr "অর্ডার ম্যানেজমেন্ট"
+
+msgid "Invoices"
+msgstr "ইনভয়েস"
+
+msgid "Completed"
+msgstr "সম্পন্ন"
+
+msgid "View Case Study"
+msgstr "কেস স্টাডি দেখুন"
+
+msgid "Real Client Work"
+msgstr "বাস্তব ক্লায়েন্টের কাজ"
+
+msgid "Successfully Delivered"
+msgstr "সফলভাবে ডেলিভারি করা"
+
+msgid "Business Websites"
+msgstr "বিজনেস ওয়েবসাইট"
+
+msgid "Every project we take on is scoped carefully, built to the agreed plan, and handed over complete — hosting, domain, SSL and support included from day one."
+msgstr "প্রতিটি প্রজেক্ট যত্ন করে পরিকল্পনা, ঠিক করা প্ল্যান অনুযায়ী তৈরি আর সম্পূর্ণ অবস্থায় হস্তান্তর করা হয় — হোস্টিং, ডোমেইন, SSL আর সাপোর্ট প্রথম দিন থেকেই।"
+
+msgid "View All Case Studies"
+msgstr "সব কেস স্টাডি দেখুন"
+
+msgid "Our Track Record"
+msgstr "আমাদের কাজের রেকর্ড"
+
+msgid "100% Delivered, Fully Supported"
+msgstr "শতভাগ ডেলিভারি, পূর্ণ সাপোর্ট"
+
+msgid "Every project we've completed ships with hosting, SSL and ongoing support already in place."
+msgstr "আমাদের শেষ করা প্রতিটি প্রজেক্টে হোস্টিং, SSL আর চলমান সাপোর্ট আগে থেকেই থাকে।"
+
+msgid "Browse All Case Studies"
+msgstr "সব কেস স্টাডি দেখুন"
+
+msgid "Delivered to the agreed scope"
+msgstr "ঠিক করা পরিধি অনুযায়ী ডেলিভারি"
+
+msgid "Transparent process, real support"
+msgstr "স্বচ্ছ প্রক্রিয়া, সত্যিকারের সাপোর্ট"
+
+msgid "Ready-made websites built specifically for your business industry."
+msgstr "আপনার ব্যবসার ধরন অনুযায়ী তৈরি রেডিমেড ওয়েবসাইট।"
+
+msgid "Professional WordPress plugins for developers and growing businesses."
+msgstr "ডেভেলপার আর বেড়ে ওঠা ব্যবসার জন্য প্রফেশনাল WordPress প্লাগইন।"
+
+msgid "Tailor Order"
+msgstr "টেইলর অর্ডার"
+
+msgid "View Products"
+msgstr "প্রোডাক্ট দেখুন"
+
+msgid "Custom Development"
+msgstr "কাস্টম ডেভেলপমেন্ট"
+
+msgid "Need something unique? We build custom WordPress solutions tailored to your workflow."
+msgstr "আলাদা কিছু দরকার? আপনার কাজের ধরন অনুযায়ী কাস্টম WordPress সলিউশন আমরা বানাই।"
+
+msgid "Plugin Development"
+msgstr "প্লাগইন ডেভেলপমেন্ট"
+
+msgid "View Services"
+msgstr "সার্ভিস দেখুন"
+
+msgid "Fast, friendly, and ongoing technical support whenever you need it."
+msgstr "দরকার হলেই দ্রুত, আন্তরিক আর চলমান টেকনিক্যাল সাপোর্ট।"
+
+msgid "What We Do"
+msgstr "আমরা যা করি"
+
+msgid "Everything you need to build, launch, and grow your business online."
+msgstr "অনলাইনে ব্যবসা তৈরি, চালু আর বড় করতে যা লাগে সব।"
+
+msgid "Website & Hosting"
+msgstr "ওয়েবসাইট ও হোস্টিং"
+
+msgid "Built, hosted and monitored"
+msgstr "তৈরি, হোস্ট আর মনিটর করা"
+
+msgid "Security & Backups"
+msgstr "নিরাপত্তা ও ব্যাকআপ"
+
+msgid "SSL, backups, monitoring"
+msgstr "SSL, ব্যাকআপ, মনিটরিং"
+
+msgid "Automation"
+msgstr "অটোমেশন"
+
+msgid "Custom n8n workflows"
+msgstr "কাস্টম n8n ওয়ার্কফ্লো"
+
+msgid "Ongoing Support"
+msgstr "চলমান সাপোর্ট"
+
+msgid "Reachable after you launch"
+msgstr "চালুর পরেও পাশে আছি"
+
+msgid "Complete Business Support"
+msgstr "পূর্ণাঙ্গ বিজনেস সাপোর্ট"
+
+msgid "We handle your business, so you don't have to"
+msgstr "আপনার ব্যবসার কাজ আমরা সামলাই, আপনাকে চিন্তা করতে হবে না"
+
+msgid "From your first website to everyday support — development, hosting, email, maintenance and automation, built on WordPress and backed by a team that stays with you."
+msgstr "প্রথম ওয়েবসাইট থেকে প্রতিদিনের সাপোর্ট — ডেভেলপমেন্ট, হোস্টিং, ইমেইল, মেইনটেন্যান্স আর অটোমেশন, WordPress-এ তৈরি আর পাশে থাকা একটি টিমের সহায়তায়।"
+
+msgid "One team, start to finish"
+msgstr "শুরু থেকে শেষ, একটি টিম"
+
+msgid "Support after launch"
+msgstr "চালুর পরেও সাপোর্ট"
+
+msgid "No add-on surprises"
+msgstr "অ্যাড-অনের চমক নেই"
+
+msgid "See Our Services"
+msgstr "আমাদের সার্ভিস দেখুন"
+
+msgid "Your business, fully supported"
+msgstr "আপনার ব্যবসা, পূর্ণ সহায়তায়"
+
+msgid "Book Free Consultation"
+msgstr "ফ্রি কনসালটেশন বুক করুন"
+
+msgid "Still Have Questions?"
+msgstr "আরও প্রশ্ন আছে?"
+
+msgid "We are here to help you. Feel free to contact us anytime."
+msgstr "আমরা সাহায্য করতে প্রস্তুত। যেকোনো সময় যোগাযোগ করুন।"
+
+msgid "FAQ"
+msgstr "প্রশ্নোত্তর"
+
+msgid "Frequently Asked Questions"
+msgstr "সাধারণ জিজ্ঞাসা"
+
+msgid "Medicine"
+msgstr "মেডিসিন"
+
+msgid "Phone"
+msgstr "ফোন"
+
+msgid "Availability"
+msgstr "সময়সূচি"
+
+msgid "Monday"
+msgstr "সোমবার"
+
+msgid "Tuesday"
+msgstr "মঙ্গলবার"
+
+msgid "Wednesday"
+msgstr "বুধবার"
+
+msgid "Friday"
+msgstr "শুক্রবার"
+
+msgid "Book Appointment"
+msgstr "অ্যাপয়েন্টমেন্ট বুক করুন"
+
+msgid "Choose Specialty & Doctor"
+msgstr "বিভাগ ও ডাক্তার বেছে নিন"
+
+msgid "e.g. Shafiul Islam"
+msgstr "যেমন: শফিউল ইসলাম"
+
+msgid "Age"
+msgstr "বয়স"
+
+msgid "Gender"
+msgstr "লিঙ্গ"
+
+msgid "Male"
+msgstr "পুরুষ"
+
+msgid "Patient"
+msgstr "রোগী"
+
+msgid "Doctor"
+msgstr "ডাক্তার"
+
+msgid "Show this QR code at check-in."
+msgstr "চেক-ইনের সময় এই QR কোড দেখান।"
+
+msgid "National Institute of Neuroscience & Hospital: Appointment confirmed with Dr. Dewan Md. Kudrat-A-Elahi on Oct 28, 2026 at 3:20 PM. Booking ID: B002854. Helpline: 01707574598."
+msgstr "ন্যাশনাল ইনস্টিটিউট অব নিউরোসায়েন্সেস অ্যান্ড হাসপাতাল: ডা. দেওয়ান মো. কুদরত-এ-ইলাহীর সাথে 28 অক্টোবর 2026, বিকেল 3:20-এ অ্যাপয়েন্টমেন্ট নিশ্চিত হয়েছে। বুকিং আইডি: B002854। হেল্পলাইন: 01707574598।"
+
+msgid "Appointment Confirmed — Dr. Dewan Md. Kudrat-A-Elahi"
+msgstr "অ্যাপয়েন্টমেন্ট নিশ্চিত — ডা. দেওয়ান মো. কুদরত-এ-ইলাহী"
+
+msgid "Hi Abdur Rahman, your appointment is confirmed. Please arrive 10 minutes early and bring your QR code for check-in."
+msgstr "হাই আব্দুর রহমান, আপনার অ্যাপয়েন্টমেন্ট নিশ্চিত হয়েছে। দয়া করে 10 মিনিট আগে আসুন আর চেক-ইনের জন্য QR কোড সাথে রাখুন।"
+
+msgid "National Institute of Neuroscience & Hospital"
+msgstr "ন্যাশনাল ইনস্টিটিউট অব নিউরোসায়েন্সেস অ্যান্ড হাসপাতাল"
+
+msgid "Admin Panel · Appointments"
+msgstr "অ্যাডমিন প্যানেল · অ্যাপয়েন্টমেন্ট"
+
+msgid "Today's Appointments"
+msgstr "আজকের অ্যাপয়েন্টমেন্ট"
+
+msgid "Total Patients"
+msgstr "মোট রোগী"
+
+msgid "Total Revenue"
+msgstr "মোট আয়"
+
+msgid "Dr. Dewan Md. Kudrat-A-Elahi"
+msgstr "ডা. দেওয়ান মো. কুদরত-এ-ইলাহী"
+
+msgid "Medicine · Today"
+msgstr "মেডিসিন · আজ"
+
+msgid "Print"
+msgstr "প্রিন্ট"
+
+msgid "Export CSV"
+msgstr "CSV এক্সপোর্ট"
+
+msgid "Today's Queue"
+msgstr "আজকের কিউ"
+
+msgid "Ayesha Rahman"
+msgstr "আয়েশা রহমান"
+
+msgid "Female"
+msgstr "মহিলা"
+
+msgid "Waiting"
+msgstr "অপেক্ষায়"
+
+msgid "Mehedi Hasan"
+msgstr "মেহেদী হাসান"
+
+msgid "Rafiqul Islam"
+msgstr "রফিকুল ইসলাম"
+
+msgid "Booked"
+msgstr "বুকড"
+
+msgid "Check In"
+msgstr "চেক ইন"
+
+msgid "Nusrat Jahan"
+msgstr "নুসরাত জাহান"
+
+msgid "Abdur Rahman"
+msgstr "আব্দুর রহমান"
+
+msgid "Live Queue · Dr. Dewan Md. Kudrat-A-Elahi"
+msgstr "লাইভ কিউ · ডা. দেওয়ান মো. কুদরত-এ-ইলাহী"
+
+msgid "Now Serving"
+msgstr "এখন দেখছেন"
+
+msgid "In Room"
+msgstr "চেম্বারে"
+
+msgid "Kamal Hossain"
+msgstr "কামাল হোসেন"
+
+msgid "Checked In"
+msgstr "চেক ইন হয়েছে"
+
+msgid "Sultana Begum"
+msgstr "সুলতানা বেগম"
+
+msgid "Away"
+msgstr "বাইরে"
+
+msgid "Tanvir Ahmed"
+msgstr "তানভীর আহমেদ"
+
+msgid "Complete Booking Website &"
+msgstr "পূর্ণাঙ্গ বুকিং ওয়েবসাইট ও"
+
+msgid "Appointment Management System"
+msgstr "অ্যাপয়েন্টমেন্ট ম্যানেজমেন্ট সিস্টেম"
+
+msgid "We build a complete booking website for salons, spas, cleaning, repair and beauty businesses — online booking, staff management, hosting and support."
+msgstr "সেলুন, স্পা, ক্লিনিং, রিপেয়ার আর বিউটি ব্যবসার জন্য পূর্ণাঙ্গ বুকিং ওয়েবসাইট আমরা তৈরি করি — অনলাইন বুকিং, স্টাফ ম্যানেজমেন্ট, হোস্টিং আর সাপোর্টসহ।"
+
+msgid "Domain"
+msgstr "ডোমেইন"
+
+msgid "Choose a Service"
+msgstr "সার্ভিস বেছে নিন"
+
+msgid "60 min · Massage"
+msgstr "60 মিনিট · ম্যাসাজ"
+
+msgid "45 min · Hair"
+msgstr "45 মিনিট · চুল"
+
+msgid "50 min · Skin Care"
+msgstr "50 মিনিট · স্কিন কেয়ার"
+
+msgid "90 min · Massage"
+msgstr "90 মিনিট · ম্যাসাজ"
+
+msgid "Manicure & Pedicure"
+msgstr "ম্যানিকিওর ও পেডিকিওর"
+
+msgid "60 min · Nails"
+msgstr "60 মিনিট · নেইল"
+
+msgid "Pick Staff & Time"
+msgstr "স্টাফ ও সময় বেছে নিন"
+
+msgid "Your Details"
+msgstr "আপনার তথ্য"
+
+msgid "Medium pressure, please"
+msgstr "মাঝারি চাপ দিয়ে, প্লিজ"
+
+msgid "Total · 60 min with Nadia"
+msgstr "মোট · নাদিয়ার সাথে 60 মিনিট"
+
+msgid "Customer"
+msgstr "কাস্টমার"
+
+msgid "Pay at venue"
+msgstr "সেখানে গিয়ে পেমেন্ট"
+
+msgid "A reminder SMS will arrive 2 hours before."
+msgstr "2 ঘণ্টা আগে রিমাইন্ডার SMS আসবে।"
+
+msgid "Add to calendar"
+msgstr "ক্যালেন্ডারে যোগ করুন"
+
+msgid "Download"
+msgstr "ডাউনলোড"
+
+msgid "Admin Dashboard"
+msgstr "অ্যাডমিন ড্যাশবোর্ড"
+
+msgid "Bookings"
+msgstr "বুকিং"
+
+msgid "Wed, Oct 28, 2026"
+msgstr "বুধ, 28 অক্টোবর 2026"
+
+msgid "Facial · 10:00"
+msgstr "ফেসিয়াল · 10:00"
+
+msgid "Haircut · 10:30"
+msgstr "হেয়ারকাট · 10:30"
+
+msgid "Nails · 12:00"
+msgstr "নেইল · 12:00"
+
+msgid "Hot Stone · 2:00"
+msgstr "হট স্টোন · 2:00"
+
+msgid "Thai Massage · 11:00"
+msgstr "থাই ম্যাসাজ · 11:00"
+
+msgid "Confirmed"
+msgstr "নিশ্চিত"
+
+msgid "Complete Tailor Shop Website &"
+msgstr "পূর্ণাঙ্গ টেইলর শপ ওয়েবসাইট ও"
+
+msgid "Order Management System"
+msgstr "অর্ডার ম্যানেজমেন্ট সিস্টেম"
+
+msgid "We build a complete tailor shop website with online order tracking, measurement records, delivery management, hosting and support."
+msgstr "অনলাইন অর্ডার ট্র্যাকিং, মাপের রেকর্ড, ডেলিভারি ম্যানেজমেন্ট, হোস্টিং আর সাপোর্টসহ পূর্ণাঙ্গ টেইলর শপ ওয়েবসাইট আমরা তৈরি করি।"
+
+msgid "Order System"
+msgstr "অর্ডার সিস্টেম"
+
+msgid "01XXXXXXXXX · Customer since 2023"
+msgstr "01XXXXXXXXX · 2023 থেকে কাস্টমার"
+
+msgid "12 orders"
+msgstr "12টি অর্ডার"
+
+msgid "Blazer"
+msgstr "ব্লেজার"
+
+msgid "Next: Measurements"
+msgstr "পরের ধাপ: মাপ"
+
+msgid "Panjabi · Rahim Uddin"
+msgstr "পাঞ্জাবি · রহিম উদ্দিন"
+
+msgid "Measurements in inches"
+msgstr "মাপ ইঞ্চিতে"
+
+msgid "Edit"
+msgstr "এডিট"
+
+msgid "Armhole"
+msgstr "আর্মহোল"
+
+msgid "Neck Depth"
+msgstr "গলার গভীরতা"
+
+msgid "Loaded from his last order — just update what changed."
+msgstr "আগের অর্ডার থেকে নেওয়া — শুধু যা বদলেছে তা আপডেট করুন।"
+
+msgid "Rahim Uddin · Delivery Nov 5"
+msgstr "রহিম উদ্দিন · ডেলিভারি 5 নভে"
+
+msgid "Save & Print Receipt"
+msgstr "সেভ ও রসিদ প্রিন্ট"
+
+msgid "Order Status"
+msgstr "অর্ডারের অবস্থা"
+
+msgid "Rahim Uddin · Delivery Nov 5, 2026"
+msgstr "রহিম উদ্দিন · ডেলিভারি 5 নভেম্বর 2026"
+
+msgid "Shop Dashboard"
+msgstr "দোকানের ড্যাশবোর্ড"
+
+msgid "Orders in Progress"
+msgstr "চলমান অর্ডার"
+
+msgid "Today's Deliveries"
+msgstr "আজকের ডেলিভারি"
+
+msgid "Total Due"
+msgstr "মোট বাকি"
+
+msgid "Recent Orders"
+msgstr "সাম্প্রতিক অর্ডার"
+
+msgid "Ready"
+msgstr "প্রস্তুত"
+
+msgid "Pant × 2"
+msgstr "প্যান্ট × 2"
+
+msgid "Cutting"
+msgstr "কাটা চলছে"
+
+msgid "Complete Clinic Website &"
+msgstr "পূর্ণাঙ্গ ক্লিনিক ওয়েবসাইট ও"
+
+msgid "We build a complete clinic website with online appointment booking, doctor management, patient records, hosting and support."
+msgstr "অনলাইন অ্যাপয়েন্টমেন্ট বুকিং, ডাক্তার ম্যানেজমেন্ট, রোগীর রেকর্ড, হোস্টিং আর সাপোর্টসহ পূর্ণাঙ্গ ক্লিনিক ওয়েবসাইট আমরা তৈরি করি।"
+
+msgid "Find a Doctor"
+msgstr "ডাক্তার খুঁজুন"
+
+msgid "Today's Patients"
+msgstr "আজকের রোগী"
+
+msgid "September 2026"
+msgstr "সেপ্টেম্বর 2026"
+
+msgid "Patient Details"
+msgstr "রোগীর তথ্য"
+
+msgid "Consultation Fee"
+msgstr "কনসালটেশন ফি"
+
+msgid "Serial No."
+msgstr "সিরিয়াল নং"
+
+msgid "Fee"
+msgstr "ফি"
+
+msgid "Pay at clinic"
+msgstr "ক্লিনিকে পেমেন্ট"
+
+msgid "Booking"
+msgstr "বুকিং"
+
+msgid "Sun, Sep 13, 2026"
+msgstr "রবি, 13 সেপ্টেম্বর 2026"
+
+msgid "Cardiology"
+msgstr "কার্ডিওলজি"
+
+msgid "Dermatology"
+msgstr "ডার্মাটোলজি"
+
+msgid "Pediatrics"
+msgstr "পেডিয়াট্রিক্স"
+
+msgid "Orthopedics"
+msgstr "অর্থোপেডিক্স"
+
+msgid "Everything Included. One Simple Package."
+msgstr "সবকিছু অন্তর্ভুক্ত। এক সহজ প্যাকেজ।"
+
+msgid "No hidden add-ons — every plan ships complete, ready to launch."
+msgstr "কোনো লুকানো অ্যাড-অন নেই — প্রতিটি প্ল্যান সম্পূর্ণ, চালুর জন্য প্রস্তুত।"
+
+msgid "SSL"
+msgstr "SSL"
+
+msgid "Business Email"
+msgstr "বিজনেস ইমেইল"
+
+msgid "Training"
+msgstr "ট্রেনিং"
+
+msgid "1 Year Support"
+msgstr "1 বছরের সাপোর্ট"
+
+msgid "Our Promise"
+msgstr "আমাদের প্রতিশ্রুতি"
+
+msgid "Simple, Honest Pricing"
+msgstr "সহজ, সৎ প্রাইসিং"
+
+msgid "Choose Plan"
+msgstr "প্ল্যান বেছে নিন"
+
+msgid "Every plan includes"
+msgstr "প্রতিটি প্ল্যানে যা থাকছে"
+
+msgid "Our Work"
+msgstr "আমাদের কাজ"
+
+msgid "Projects We've Delivered"
+msgstr "আমাদের ডেলিভারি করা প্রজেক্ট"
+
+msgid "Real websites and systems we have built and launched for our clients."
+msgstr "ক্লায়েন্টদের জন্য আমাদের তৈরি আর চালু করা বাস্তব ওয়েবসাইট ও সিস্টেম।"
+
+msgid "%s website"
+msgstr "%s ওয়েবসাইট"
+
+msgid "Visit website"
+msgstr "ওয়েবসাইট দেখুন"
+
+msgid "Why Choose Lieusoft"
+msgstr "কেন Lieusoft বেছে নেবেন"
+
+msgid "Ready in 7 Days"
+msgstr "7 দিনে প্রস্তুত"
+
+msgid "From kickoff to a live website."
+msgstr "কাজ শুরু থেকে লাইভ ওয়েবসাইট পর্যন্ত।"
+
+msgid "Business Focused"
+msgstr "ব্যবসা-কেন্দ্রিক"
+
+msgid "Built around how your business actually runs."
+msgstr "আপনার ব্যবসা আসলে কীভাবে চলে, তা ধরে তৈরি।"
+
+msgid "Training Included"
+msgstr "ট্রেনিং অন্তর্ভুক্ত"
+
+msgid "Your team gets hands-on onboarding."
+msgstr "আপনার টিম হাতে-কলমে শিখে নেবে।"
+
+msgid "We stay reachable after launch."
+msgstr "চালুর পরেও আমরা পাশে থাকি।"
+
+msgid "Book a free consultation"
+msgstr "ফ্রি কনসালটেশন বুক করুন"
+
+msgid "Starting from"
+msgstr "শুরু"
+
+msgid "Domain + hosting + ready solution"
+msgstr "ডোমেইন + হোস্টিং + রেডি সলিউশন"
+
+msgid "Regular License"
+msgstr "রেগুলার লাইসেন্স"
+
+msgid "Use on 1 website"
+msgstr "1টি ওয়েবসাইটে ব্যবহার"
+
+msgid "Lifetime updates"
+msgstr "আজীবন আপডেট"
+
+msgid "Lifetime support"
+msgstr "আজীবন সাপোর্ট"
+
+msgid "Developer License"
+msgstr "ডেভেলপার লাইসেন্স"
+
+msgid "Use on unlimited websites"
+msgstr "সীমাহীন ওয়েবসাইটে ব্যবহার"
+
+msgid "6 months support"
+msgstr "6 মাসের সাপোর্ট"
+
+msgid "Extended License"
+msgstr "এক্সটেন্ডেড লাইসেন্স"
+
+msgid "12 months support"
+msgstr "12 মাসের সাপোর্ট"
+
+msgid "Clear prices for our ready-made business solutions and WordPress plugins, and a fixed quote for any custom work."
+msgstr "আমাদের রেডিমেড বিজনেস সলিউশন আর WordPress প্লাগইনের পরিষ্কার দাম, আর যেকোনো কাস্টম কাজের জন্য নির্দিষ্ট কোটেশন।"
+
+msgid "Pricing sections"
+msgstr "প্রাইসিং বিভাগ"
+
+msgid "From ৳9,000 / year"
+msgstr "বছরে ৳9,000 থেকে"
+
+msgid "From ৳2,999 one time"
+msgstr "এককালীন ৳2,999 থেকে"
+
+msgid "Fixed quote per project"
+msgstr "প্রতি প্রজেক্টে নির্দিষ্ট কোটেশন"
+
+msgid "Business Solution Plans"
+msgstr "বিজনেস সলিউশন প্ল্যান"
+
+msgid "A complete website and management system for your business, with hosting, domain and support. One price for every solution — the longer the plan, the less you pay per year."
+msgstr "হোস্টিং, ডোমেইন আর সাপোর্টসহ আপনার ব্যবসার জন্য পূর্ণাঙ্গ ওয়েবসাইট ও ম্যানেজমেন্ট সিস্টেম। সব সলিউশনের একই দাম — প্ল্যান যত লম্বা, বছরে খরচ তত কম।"
+
+msgid "Tailor Shop Management"
+msgstr "টেইলর শপ ম্যানেজমেন্ট"
+
+msgid "1 Year"
+msgstr "1 বছর"
+
+msgid "Get started"
+msgstr "শুরু করুন"
+
+msgid "৳12,000 per year"
+msgstr "বছরে ৳12,000"
+
+msgid "2 Years"
+msgstr "2 বছর"
+
+msgid "Save ৳2,000"
+msgstr "৳2,000 সাশ্রয়"
+
+msgid "৳11,000 per year"
+msgstr "বছরে ৳11,000"
+
+msgid "3 Years"
+msgstr "3 বছর"
+
+msgid "Save ৳6,000"
+msgstr "৳6,000 সাশ্রয়"
+
+msgid "৳10,000 per year"
+msgstr "বছরে ৳10,000"
+
+msgid "5 Years"
+msgstr "5 বছর"
+
+msgid "Save ৳15,000"
+msgstr "৳15,000 সাশ্রয়"
+
+msgid "৳9,000 per year"
+msgstr "বছরে ৳9,000"
+
+msgid "Best Value"
+msgstr "সবচেয়ে সাশ্রয়ী"
+
+msgid "Business website"
+msgstr "বিজনেস ওয়েবসাইট"
+
+msgid "Management system (appointments, orders or bookings)"
+msgstr "ম্যানেজমেন্ট সিস্টেম (অ্যাপয়েন্টমেন্ট, অর্ডার বা বুকিং)"
+
+msgid "Hosting & domain for the full plan"
+msgstr "পুরো প্ল্যান জুড়ে হোস্টিং ও ডোমেইন"
+
+msgid "SSL certificate"
+msgstr "SSL সার্টিফিকেট"
+
+msgid "Business email"
+msgstr "বিজনেস ইমেইল"
+
+msgid "Staff training"
+msgstr "স্টাফ ট্রেনিং"
+
+msgid "Support & updates for the full plan"
+msgstr "পুরো প্ল্যান জুড়ে সাপোর্ট ও আপডেট"
+
+msgid "Pay once the system is live"
+msgstr "সিস্টেম চালু হলে তবেই পেমেন্ট"
+
+msgid "Savings are compared with paying ৳12,000 every year. Renewal after your plan ends is priced separately — ask us for the current rate."
+msgstr "প্রতি বছর ৳12,000 দেওয়ার তুলনায় সাশ্রয় হিসাব করা। প্ল্যান শেষে রিনিউয়ের দাম আলাদা — বর্তমান রেট আমাদের কাছে জেনে নিন।"
+
+msgid "A custom WordPress website designed and built for your business."
+msgstr "আপনার ব্যবসার জন্য ডিজাইন ও তৈরি করা কাস্টম WordPress ওয়েবসাইট।"
+
+msgid "Custom Plugin Development"
+msgstr "কাস্টম প্লাগইন ডেভেলপমেন্ট"
+
+msgid "A WordPress plugin built around your exact workflow."
+msgstr "আপনার কাজের ধরন অনুযায়ী তৈরি WordPress প্লাগইন।"
+
+msgid "Updates, backups, security checks and small fixes, every month."
+msgstr "প্রতি মাসে আপডেট, ব্যাকআপ, নিরাপত্তা যাচাই আর ছোটখাটো সমাধান।"
+
+msgid "Managed Hosting & Domain"
+msgstr "ম্যানেজড হোস্টিং ও ডোমেইন"
+
+msgid "Fast, secure hosting and domain registration, managed for you."
+msgstr "দ্রুত, নিরাপদ হোস্টিং আর ডোমেইন রেজিস্ট্রেশন, আমরাই সামলাই।"
+
+msgid "Professional email addresses on your own domain, set up for your team."
+msgstr "আপনার নিজের ডোমেইনে প্রফেশনাল ইমেইল ঠিকানা, আপনার টিমের জন্য সেটআপ করা।"
+
+msgid "n8n workflows that connect your tools and remove repetitive work."
+msgstr "n8n ওয়ার্কফ্লো যা আপনার টুলগুলো জুড়ে দেয় আর একঘেয়ে কাজ কমায়।"
+
+msgid "What does a business solution plan include?"
+msgstr "বিজনেস সলিউশন প্ল্যানে কী কী থাকে?"
+
+msgid "The website, the management system for your business, hosting, domain, SSL, business email, staff training, and support and updates — all for the length of the plan you choose."
+msgstr "ওয়েবসাইট, আপনার ব্যবসার ম্যানেজমেন্ট সিস্টেম, হোস্টিং, ডোমেইন, SSL, বিজনেস ইমেইল, স্টাফ ট্রেনিং আর সাপোর্ট ও আপডেট — আপনার বেছে নেওয়া প্ল্যানের পুরো মেয়াদ জুড়ে।"
+
+msgid "Is the price the same for every solution?"
+msgstr "সব সলিউশনের দাম কি একই?"
+
+msgid "Yes. Doctor Appointment, Tailor Shop Management and Service Booking all use the same 1, 2, 3 and 5 year plans."
+msgstr "হ্যাঁ। ডাক্তার অ্যাপয়েন্টমেন্ট, টেইলর শপ ম্যানেজমেন্ট আর সার্ভিস বুকিং — সবগুলোতে একই 1, 2, 3 ও 5 বছরের প্ল্যান।"
+
+msgid "When do I pay for a solution?"
+msgstr "সলিউশনের পেমেন্ট কখন করব?"
+
+msgid "After your system is set up and live. You choose the plan during the consultation."
+msgstr "আপনার সিস্টেম সেটআপ হয়ে চালু হওয়ার পর। প্ল্যান বেছে নেবেন কনসালটেশনের সময়।"
+
+msgid "What happens when my plan ends?"
+msgstr "প্ল্যান শেষ হলে কী হবে?"
+
+msgid "You can renew to keep your website, system, hosting and domain running. Renewal is priced separately — we will share the rate before your plan ends."
+msgstr "ওয়েবসাইট, সিস্টেম, হোস্টিং আর ডোমেইন চালু রাখতে রিনিউ করতে পারবেন। রিনিউয়ের দাম আলাদা — প্ল্যান শেষ হওয়ার আগেই রেট জানিয়ে দেব।"
+
+msgid "Are plugin licenses a one-time payment?"
+msgstr "প্লাগইন লাইসেন্স কি এককালীন পেমেন্ট?"
+
+msgid "Yes. You pay once and get updates for life. Support length depends on the license — see each plugin above."
+msgstr "হ্যাঁ। একবার পেমেন্ট করলে আজীবন আপডেট পাবেন। সাপোর্টের মেয়াদ লাইসেন্স অনুযায়ী — ওপরে প্রতিটি প্লাগইনে দেখুন।"
+
+msgid "How are services priced?"
+msgstr "সার্ভিসের দাম কীভাবে ঠিক হয়?"
+
+msgid "After a free consultation we send a written scope and a fixed quote. Work only starts once you approve it."
+msgstr "ফ্রি কনসালটেশনের পর লিখিত কাজের পরিধি আর নির্দিষ্ট কোটেশন পাঠাই। আপনি অনুমোদন দিলে তবেই কাজ শুরু।"
+
+msgid "Not Sure Which Option is Right?"
+msgstr "কোনটা আপনার জন্য ঠিক, বুঝতে পারছেন না?"
+
+msgid "Tell us about your business and we'll recommend the best fit — free."
+msgstr "আপনার ব্যবসার কথা জানান, আমরা ফ্রিতে সবচেয়ে উপযুক্তটা সাজেস্ট করব।"
+
+msgid "Service Booking Plugin"
+msgstr "সার্ভিস বুকিং প্লাগইন"
+
+msgid "A simple and powerful booking & appointment plugin for service-based businesses."
+msgstr "সার্ভিস-ভিত্তিক ব্যবসার জন্য সহজ আর শক্তিশালী বুকিং ও অ্যাপয়েন্টমেন্ট প্লাগইন।"
+
+msgid "Secure Payments"
+msgstr "নিরাপদ পেমেন্ট"
+
+msgid "Staff & Schedule"
+msgstr "স্টাফ ও শিডিউল"
+
+msgid "Custom Fields"
+msgstr "কাস্টম ফিল্ড"
+
+msgid "Email & SMS Notification"
+msgstr "ইমেইল ও SMS নোটিফিকেশন"
+
+msgid "Reports & Analytics"
+msgstr "রিপোর্ট ও অ্যানালিটিক্স"
+
+msgid "Booking Dashboard Screenshot"
+msgstr "বুকিং ড্যাশবোর্ডের স্ক্রিনশট"
+
+msgid "Features"
+msgstr "ফিচার"
+
+msgid "Everything You Need"
+msgstr "যা যা দরকার, সব আছে"
+
+msgid "Notifications"
+msgstr "নোটিফিকেশন"
+
+msgid "Booking Form"
+msgstr "বুকিং ফর্ম"
+
+msgid "Service List"
+msgstr "সার্ভিসের তালিকা"
+
+msgid "Staff Grid"
+msgstr "স্টাফ গ্রিড"
+
+msgid "Calendar View"
+msgstr "ক্যালেন্ডার ভিউ"
+
+msgid "Use on 1 Website"
+msgstr "1টি ওয়েবসাইটে ব্যবহার"
+
+msgid "Lifetime Updates"
+msgstr "আজীবন আপডেট"
+
+msgid "6 Months Support"
+msgstr "6 মাসের সাপোর্ট"
+
+msgid "Use on Unlimited Websites"
+msgstr "সীমাহীন ওয়েবসাইটে ব্যবহার"
+
+msgid "12 Months Support"
+msgstr "12 মাসের সাপোর্ট"
+
+msgid "Can I try before buying?"
+msgstr "কেনার আগে কি চেষ্টা করে দেখা যায়?"
+
+msgid "Yes, you can test the live demo before purchasing a license."
+msgstr "হ্যাঁ, লাইসেন্স কেনার আগে লাইভ ডেমো ব্যবহার করে দেখতে পারেন।"
+
+msgid "Will it work with my theme?"
+msgstr "এটা কি আমার থিমের সাথে কাজ করবে?"
+
+msgid "Yes, it is built to work with any properly coded WordPress theme."
+msgstr "হ্যাঁ, যেকোনো সঠিকভাবে কোড করা WordPress থিমের সাথে কাজ করার জন্য তৈরি।"
+
+msgid "Can I collect payments using this plugin?"
+msgstr "এই প্লাগইন দিয়ে কি পেমেন্ট নেওয়া যায়?"
+
+msgid "Yes, secure online payments are supported through multiple gateways."
+msgstr "হ্যাঁ, একাধিক গেটওয়ের মাধ্যমে নিরাপদ অনলাইন পেমেন্ট সাপোর্ট করে।"
+
+msgid "Yes, every license includes dedicated support for the covered period."
+msgstr "হ্যাঁ, প্রতিটি লাইসেন্সে নির্দিষ্ট মেয়াদের জন্য সাপোর্ট থাকে।"
+
+msgid "Need Help?"
+msgstr "সাহায্য দরকার?"
+
+msgid "Our support team is always ready to help you with any questions."
+msgstr "যেকোনো প্রশ্নে আমাদের সাপোর্ট টিম সবসময় সাহায্য করতে প্রস্তুত।"
+
+msgid "Contact Support"
+msgstr "সাপোর্টে যোগাযোগ"
+
+msgid "Need a Complete Website?"
+msgstr "পূর্ণাঙ্গ ওয়েবসাইট দরকার?"
+
+msgid "We also build complete business solutions."
+msgstr "আমরা পূর্ণাঙ্গ বিজনেস সলিউশনও তৈরি করি।"
+
+msgid "Doctor Appointment Plugin"
+msgstr "ডাক্তার অ্যাপয়েন্টমেন্ট প্লাগইন"
+
+msgid "A complete appointment booking solution for doctors, clinics and hospitals."
+msgstr "ডাক্তার, ক্লিনিক ও হাসপাতালের জন্য পূর্ণাঙ্গ অ্যাপয়েন্টমেন্ট বুকিং সলিউশন।"
+
+msgid "Online Appointment Booking"
+msgstr "অনলাইন অ্যাপয়েন্টমেন্ট বুকিং"
+
+msgid "Doctor & Schedule Management"
+msgstr "ডাক্তার ও শিডিউল ম্যানেজমেন্ট"
+
+msgid "Clinic Dashboard Screenshot"
+msgstr "ক্লিনিক ড্যাশবোর্ডের স্ক্রিনশট"
+
+msgid "Doctors & Schedule"
+msgstr "ডাক্তার ও শিডিউল"
+
+msgid "Doctor List"
+msgstr "ডাক্তারের তালিকা"
+
+msgid "Time Slot"
+msgstr "টাইম স্লট"
+
+msgid "Appointment Calendar"
+msgstr "অ্যাপয়েন্টমেন্ট ক্যালেন্ডার"
+
+msgid "Can I manage multiple doctors and departments?"
+msgstr "একাধিক ডাক্তার আর বিভাগ কি সামলানো যাবে?"
+
+msgid "Yes, you can add multiple doctors, assign them to departments, and manage each one's own schedule."
+msgstr "হ্যাঁ, একাধিক ডাক্তার যোগ করে বিভাগে ভাগ করতে আর প্রত্যেকের আলাদা শিডিউল সামলাতে পারবেন।"
+
+msgid "Embed and display PDFs on your WordPress site in both traditional and interactive 3D flipbook modes."
+msgstr "আপনার WordPress সাইটে PDF সাধারণভাবে আর ইন্টারঅ্যাকটিভ 3D ফ্লিপবুক — দুইভাবেই এমবেড ও দেখান।"
+
+msgid "Flipbook"
+msgstr "ফ্লিপবুক"
+
+msgid "Grid View"
+msgstr "গ্রিড ভিউ"
+
+msgid "List View"
+msgstr "লিস্ট ভিউ"
+
+msgid "Shortcode Generator"
+msgstr "শর্টকোড জেনারেটর"
+
+msgid "Elementor Support"
+msgstr "Elementor সাপোর্ট"
+
+msgid "Remote PDF"
+msgstr "রিমোট PDF"
+
+msgid "Viewer Screenshot"
+msgstr "ভিউয়ারের স্ক্রিনশট"
+
+msgid "Online Viewer"
+msgstr "অনলাইন ভিউয়ার"
+
+msgid "Grid Layout"
+msgstr "গ্রিড লেআউট"
+
+msgid "List Layout"
+msgstr "লিস্ট লেআউট"
+
+msgid "Elementor"
+msgstr "Elementor"
+
+msgid "Shortcode"
+msgstr "শর্টকোড"
+
+msgid "Grid"
+msgstr "গ্রিড"
+
+msgid "List"
+msgstr "লিস্ট"
+
+msgid "E-book"
+msgstr "ই-বুক"
+
+msgid "Lifetime Support"
+msgstr "আজীবন সাপোর্ট"
+
+msgid "Yes, you can test every view mode on the live demo before purchasing a license."
+msgstr "হ্যাঁ, লাইসেন্স কেনার আগে লাইভ ডেমোতে প্রতিটি ভিউ মোড দেখে নিতে পারেন।"
+
+msgid "Will this plugin work with my theme?"
+msgstr "এই প্লাগইন কি আমার থিমের সাথে কাজ করবে?"
+
+msgid "Yes, it is built to work with any properly coded WordPress theme, including page builders like Elementor."
+msgstr "হ্যাঁ, Elementor-এর মতো পেজ বিল্ডারসহ যেকোনো সঠিকভাবে কোড করা WordPress থিমের সাথে কাজ করে।"
+
+msgid "Can I embed a PDF from another website?"
+msgstr "অন্য ওয়েবসাইটের PDF কি এমবেড করা যাবে?"
+
+msgid "Yes, you can embed a PDF hosted on your own server or from any external URL."
+msgstr "হ্যাঁ, আপনার নিজের সার্ভারের বা যেকোনো বাইরের URL-এর PDF এমবেড করতে পারবেন।"
+
+msgid "Is it compatible with Elementor?"
+msgstr "এটা কি Elementor-এর সাথে কাজ করে?"
+
+msgid "Yes, a dedicated Elementor widget is included so you can add and style the viewer visually."
+msgstr "হ্যাঁ, আলাদা একটি Elementor উইজেট দেওয়া আছে, যাতে চোখে দেখে ভিউয়ার যোগ ও সাজাতে পারেন।"
+
+msgid "If you have any questions, our support team is always here to help you."
+msgstr "কোনো প্রশ্ন থাকলে আমাদের সাপোর্ট টিম সবসময় সাহায্য করতে আছে।"
+
+msgid "Tailor Management Plugin"
+msgstr "টেইলর ম্যানেজমেন্ট প্লাগইন"
+
+msgid "Manage customer orders, measurements, fabrics and deliveries easily."
+msgstr "কাস্টমার অর্ডার, মাপ, কাপড় আর ডেলিভারি সহজে সামলান।"
+
+msgid "Measurement & Fitting"
+msgstr "মাপ ও ফিটিং"
+
+msgid "Fabric & Item Management"
+msgstr "কাপড় ও আইটেম ম্যানেজমেন্ট"
+
+msgid "Payment Management"
+msgstr "পেমেন্ট ম্যানেজমেন্ট"
+
+msgid "Order Dashboard Screenshot"
+msgstr "অর্ডার ড্যাশবোর্ডের স্ক্রিনশট"
+
+msgid "Items & Fabrics"
+msgstr "আইটেম ও কাপড়"
+
+msgid "Payments"
+msgstr "পেমেন্ট"
+
+msgid "Order Form"
+msgstr "অর্ডার ফর্ম"
+
+msgid "Customer List"
+msgstr "কাস্টমারের তালিকা"
+
+msgid "Measurement Sheet"
+msgstr "মাপের শিট"
+
+msgid "Order Status Board"
+msgstr "অর্ডার স্ট্যাটাস বোর্ড"
+
+msgid "Can I track deliveries and payments?"
+msgstr "ডেলিভারি আর পেমেন্ট কি ট্র্যাক করা যাবে?"
+
+msgid "Yes, every order tracks its delivery status and payment/due amount in one place."
+msgstr "হ্যাঁ, প্রতিটি অর্ডারের ডেলিভারির অবস্থা আর পেমেন্ট/বাকি এক জায়গায় দেখা যায়।"
+
+msgid "Premium Plugins for Your WordPress Site"
+msgstr "আপনার WordPress সাইটের জন্য প্রিমিয়াম প্লাগইন"
+
+msgid "Professional, actively supported plugins built by the Lieusoft team — install on your own site or ask us to set it up for you."
+msgstr "Lieusoft টিমের তৈরি, নিয়মিত সাপোর্ট পাওয়া প্রফেশনাল প্লাগইন — নিজের সাইটে ইনস্টল করুন অথবা আমাদের দিয়ে সেটআপ করিয়ে নিন।"
+
+msgid "Can I try a plugin before buying?"
+msgstr "কেনার আগে কি প্লাগইন চেষ্টা করে দেখা যায়?"
+
+msgid "Yes, each plugin has a live demo you can test before you purchase a license."
+msgstr "হ্যাঁ, প্রতিটি প্লাগইনের লাইভ ডেমো আছে, লাইসেন্স কেনার আগে দেখে নিতে পারেন।"
+
+msgid "Will the plugins work with my theme?"
+msgstr "প্লাগইনগুলো কি আমার থিমের সাথে কাজ করবে?"
+
+msgid "Yes, they are built to work with any properly coded WordPress theme."
+msgstr "হ্যাঁ, যেকোনো সঠিকভাবে কোড করা WordPress থিমের সাথে কাজ করার জন্য তৈরি।"
+
+msgid "Do licenses include updates and support?"
+msgstr "লাইসেন্সে কি আপডেট আর সাপোর্ট থাকে?"
+
+msgid "Yes, every license includes updates and support for the covered period."
+msgstr "হ্যাঁ, প্রতিটি লাইসেন্সে নির্দিষ্ট মেয়াদের জন্য আপডেট ও সাপোর্ট থাকে।"
+
+msgid "Can you install and set it up for me?"
+msgstr "আপনারা কি ইনস্টল করে সেটআপ করে দিতে পারবেন?"
+
+msgid "Yes, we can install, configure and style the plugin on your site for you."
+msgstr "হ্যাঁ, আপনার সাইটে প্লাগইন ইনস্টল, কনফিগার আর সাজিয়ে দিতে পারি।"
+
+msgid "Can you customize a plugin for my business?"
+msgstr "আমার ব্যবসার জন্য প্লাগইন কাস্টমাইজ করে দিতে পারবেন?"
+
+msgid "Yes, tell us what you need and we will build it on top of the plugin or create a custom one."
+msgstr "হ্যাঁ, কী দরকার জানান — প্লাগইনের ওপর ভিত্তি করে বানিয়ে দেব অথবা নতুন কাস্টম প্লাগইন তৈরি করব।"
+
+msgid "Need a Custom Plugin?"
+msgstr "কাস্টম প্লাগইন দরকার?"
+
+msgid "If none of these fit your workflow, we'll build one that does."
+msgstr "এগুলোর কোনোটা আপনার কাজের সাথে না মিললে, মেলে এমন একটা আমরা বানিয়ে দেব।"
+
+msgid "Talk to Us"
+msgstr "কথা বলুন"
+
+msgid "Everything Your Business Needs"
+msgstr "আপনার ব্যবসার যা যা দরকার"
+
+msgid "Custom WordPress websites built for your business, from scratch or on a page builder."
+msgstr "আপনার ব্যবসার জন্য কাস্টম WordPress ওয়েবসাইট, শুরু থেকে বা পেজ বিল্ডারে তৈরি।"
+
+msgid "Bespoke WordPress plugins built around your exact workflow and requirements."
+msgstr "আপনার কাজের ধরন আর প্রয়োজন অনুযায়ী তৈরি বিশেষ WordPress প্লাগইন।"
+
+msgid "Managed Hosting"
+msgstr "ম্যানেজড হোস্টিং"
+
+msgid "Fast, secure hosting with monitoring and updates handled for you."
+msgstr "মনিটরিং আর আপডেটসহ দ্রুত, নিরাপদ হোস্টিং — সব আমরা সামলাই।"
+
+msgid "Domain Registration"
+msgstr "ডোমেইন রেজিস্ট্রেশন"
+
+msgid "We register and manage your domain so it's always renewed and pointed correctly."
+msgstr "আপনার ডোমেইন রেজিস্টার করে আমরাই সামলাই, যাতে সবসময় রিনিউ আর সঠিকভাবে সংযুক্ত থাকে।"
+
+msgid "Regular updates, backups and health checks so your site keeps running smoothly."
+msgstr "নিয়মিত আপডেট, ব্যাকআপ আর স্বাস্থ্য পরীক্ষা, যাতে আপনার সাইট মসৃণভাবে চলে।"
+
+msgid "Business Email Setup"
+msgstr "বিজনেস ইমেইল সেটআপ"
+
+msgid "Professional @yourdomain email addresses set up and configured for your team."
+msgstr "আপনার টিমের জন্য @আপনারডোমেইন দিয়ে প্রফেশনাল ইমেইল সেটআপ ও কনফিগার করা।"
+
+msgid "Custom n8n workflows that automate repetitive tasks and connect your tools together."
+msgstr "কাস্টম n8n ওয়ার্কফ্লো, যা একঘেয়ে কাজ অটোমেট করে আর আপনার টুলগুলো জুড়ে দেয়।"
+
+msgid "Moving from another host or builder? We migrate your site with no downtime."
+msgstr "অন্য হোস্ট বা বিল্ডার থেকে সরতে চান? কোনো ডাউনটাইম ছাড়াই আপনার সাইট মাইগ্রেট করে দেব।"
+
+msgid "A real team on the other end whenever something needs fixing or explaining."
+msgstr "কিছু ঠিক করা বা বুঝিয়ে দেওয়ার দরকার হলেই ওপাশে সত্যিকারের একটি টিম।"
+
+msgid "One-Stop Solution"
+msgstr "এক জায়গায় সব সমাধান"
+
+msgid "Website, hosting, email and support — all from one team."
+msgstr "ওয়েবসাইট, হোস্টিং, ইমেইল আর সাপোর্ট — সব একটি টিমের কাছ থেকে।"
+
+msgid "Built around how your business actually operates."
+msgstr "আপনার ব্যবসা আসলে কীভাবে চলে, তা ধরে তৈরি।"
+
+msgid "We stay reachable long after your site goes live."
+msgstr "সাইট চালু হওয়ার অনেক পরেও আমরা পাশে থাকি।"
+
+msgid "Secure Infrastructure"
+msgstr "নিরাপদ অবকাঠামো"
+
+msgid "SSL, backups and monitoring built into every plan."
+msgstr "প্রতিটি প্ল্যানে SSL, ব্যাকআপ আর মনিটরিং অন্তর্ভুক্ত।"
+
+msgid "A Complete Business Setup"
+msgstr "পূর্ণাঙ্গ বিজনেস সেটআপ"
+
+msgid "Everything included, so nothing is left for you to chase down separately."
+msgstr "সব অন্তর্ভুক্ত, তাই আলাদা করে কিছু খুঁজতে হবে না।"
+
+msgid "Backups"
+msgstr "ব্যাকআপ"
+
+msgid "Security"
+msgstr "নিরাপত্তা"
+
+msgid "Work Process"
+msgstr "কাজের প্রক্রিয়া"
+
+msgid "Consultation"
+msgstr "কনসালটেশন"
+
+msgid "We learn about your business and goals."
+msgstr "আপনার ব্যবসা আর লক্ষ্য সম্পর্কে জানি।"
+
+msgid "Planning"
+msgstr "পরিকল্পনা"
+
+msgid "We map out the scope, timeline and tech."
+msgstr "কাজের পরিধি, সময়সীমা আর প্রযুক্তি ঠিক করি।"
+
+msgid "Development"
+msgstr "ডেভেলপমেন্ট"
+
+msgid "We build your website and set up everything."
+msgstr "আপনার ওয়েবসাইট তৈরি করে সবকিছু সেটআপ করি।"
+
+msgid "Launch & Support"
+msgstr "চালু ও সাপোর্ট"
+
+msgid "We launch and stay on for ongoing support."
+msgstr "চালু করি আর চলমান সাপোর্টের জন্য পাশে থাকি।"
+
+msgid "How long does a website take?"
+msgstr "একটা ওয়েবসাইট বানাতে কত সময় লাগে?"
+
+msgid "Most business websites are ready in 1–3 weeks, depending on the number of pages and features. We give you a clear timeline after the consultation."
+msgstr "পেজ আর ফিচারের সংখ্যার ওপর নির্ভর করে বেশিরভাগ বিজনেস ওয়েবসাইট 1–3 সপ্তাহে তৈরি হয়। কনসালটেশনের পর পরিষ্কার সময়সূচি জানিয়ে দিই।"
+
+msgid "Do I own my website?"
+msgstr "ওয়েবসাইটের মালিক কি আমি?"
+
+msgid "Yes. The website, its content and your domain belong to you. We just build, host and look after it."
+msgstr "হ্যাঁ। ওয়েবসাইট, এর কনটেন্ট আর আপনার ডোমেইন — সব আপনার। আমরা শুধু তৈরি, হোস্ট আর দেখাশোনা করি।"
+
+msgid "Can you build a custom plugin for my workflow?"
+msgstr "আমার কাজের ধরন অনুযায়ী কাস্টম প্লাগইন বানিয়ে দিতে পারবেন?"
+
+msgid "Yes, we build WordPress plugins around your exact process — tell us what you need and we will scope it with you."
+msgstr "হ্যাঁ, আপনার কাজের প্রক্রিয়া ধরে WordPress প্লাগইন বানাই — কী দরকার জানান, একসাথে কাজের পরিধি ঠিক করব।"
+
+msgid "Can you migrate my existing website?"
+msgstr "আমার বর্তমান ওয়েবসাইট কি মাইগ্রেট করতে পারবেন?"
+
+msgid "Yes, we can move your site from another host or builder with no downtime."
+msgstr "হ্যাঁ, অন্য হোস্ট বা বিল্ডার থেকে কোনো ডাউনটাইম ছাড়াই আপনার সাইট সরিয়ে আনতে পারি।"
+
+msgid "Do you offer maintenance after launch?"
+msgstr "চালুর পর কি মেইনটেন্যান্স দেন?"
+
+msgid "Yes, we handle updates, backups and fixes so your site keeps running smoothly."
+msgstr "হ্যাঁ, আপডেট, ব্যাকআপ আর সমস্যা সমাধান আমরা সামলাই, যাতে সাইট মসৃণভাবে চলে।"
+
+msgid "Do you work with clients outside Bangladesh?"
+msgstr "বাংলাদেশের বাইরের ক্লায়েন্টদের সাথে কি কাজ করেন?"
+
+msgid "Yes, we have built and launched sites for clients in Bangladesh, the UK, Portugal and the U.S."
+msgstr "হ্যাঁ, বাংলাদেশ, যুক্তরাজ্য, পর্তুগাল আর যুক্তরাষ্ট্রের ক্লায়েন্টদের জন্য সাইট তৈরি ও চালু করেছি।"
+
+msgid "Need a Complete Business Website?"
+msgstr "পূর্ণাঙ্গ বিজনেস ওয়েবসাইট দরকার?"
+
+msgid "Tell us about your business and we'll build everything for you."
+msgstr "আপনার ব্যবসার কথা জানান, বাকি সব আমরা তৈরি করে দেব।"
+
+msgid "Key Features"
+msgstr "মূল ফিচার"
+
+msgid "See How It Works"
+msgstr "দেখুন কীভাবে কাজ করে"
+
+msgid "From booking to running your clinic day-to-day — everything happens in one connected system."
+msgstr "বুকিং থেকে ক্লিনিকের প্রতিদিনের কাজ — সবকিছু এক সংযুক্ত সিস্টেমে।"
+
+msgid "Browse Doctor Profiles"
+msgstr "ডাক্তারের প্রোফাইল দেখুন"
+
+msgid "Patients see each doctor's specialty, credentials and weekly availability before they ever book."
+msgstr "বুক করার আগেই রোগীরা প্রতিটি ডাক্তারের বিভাগ, ডিগ্রি আর সাপ্তাহিক সময়সূচি দেখতে পান।"
+
+msgid "Pick a Date & Time"
+msgstr "তারিখ ও সময় বেছে নিন"
+
+msgid "An interactive calendar shows real open slots, so patients only ever pick a time that actually works."
+msgstr "ইন্টারঅ্যাকটিভ ক্যালেন্ডারে সত্যিকারের ফাঁকা স্লট দেখায়, তাই রোগীরা শুধু সম্ভব সময়টাই বেছে নেন।"
+
+msgid "Patients Fill in Their Details"
+msgstr "রোগীরা তাদের তথ্য দেন"
+
+msgid "A short form collects name, contact and basic details — no account or app download needed."
+msgstr "ছোট একটি ফর্মে নাম, যোগাযোগ আর প্রাথমিক তথ্য — কোনো অ্যাকাউন্ট বা অ্যাপ লাগে না।"
+
+msgid "Instant Booking Confirmation"
+msgstr "সাথে সাথে বুকিং নিশ্চিত"
+
+msgid "Patients get an instant confirmation with a QR code they can show at check-in."
+msgstr "রোগীরা সাথে সাথে QR কোডসহ নিশ্চিতকরণ পান, যা চেক-ইনের সময় দেখাতে পারেন।"
+
+msgid "Instant SMS & Email Confirmation"
+msgstr "সাথে সাথে SMS ও ইমেইল নিশ্চিতকরণ"
+
+msgid "The moment a booking is confirmed, patients get it in writing too — straight to their phone and inbox."
+msgstr "বুকিং নিশ্চিত হওয়ার সাথে সাথে রোগীরা লিখিতভাবেও পান — সরাসরি ফোনে আর ইনবক্সে।"
+
+msgid "Booking Appears in the Admin Panel"
+msgstr "বুকিং চলে আসে অ্যাডমিন প্যানেলে"
+
+msgid "The new booking shows up instantly in the clinic's admin panel — no manual entry, no phone calls."
+msgstr "নতুন বুকিং সাথে সাথে ক্লিনিকের অ্যাডমিন প্যানেলে দেখা যায় — হাতে লিখতে হয় না, ফোন করতে হয় না।"
+
+msgid "Live Queue Management"
+msgstr "লাইভ কিউ ম্যানেজমেন্ট"
+
+msgid "Staff manage the queue in real time, and patients always know exactly where they stand."
+msgstr "স্টাফরা রিয়েল টাইমে কিউ সামলান, আর রোগীরা সবসময় জানেন তিনি কত নম্বরে আছেন।"
+
+msgid "Who Can Use This"
+msgstr "কারা ব্যবহার করতে পারবেন"
+
+msgid "Perfect for Every Kind of Clinic"
+msgstr "সব ধরনের ক্লিনিকের জন্য উপযুক্ত"
+
+msgid "Whether you run a solo practice or a multi-doctor clinic, the system adapts to how you actually work."
+msgstr "একক চেম্বার হোক বা একাধিক ডাক্তারের ক্লিনিক — আপনার কাজের ধরন অনুযায়ী সিস্টেম মানিয়ে নেয়।"
+
+msgid "Private Chamber"
+msgstr "প্রাইভেট চেম্বার"
+
+msgid "Built for solo doctors managing their own patients and schedule."
+msgstr "নিজের রোগী আর সময়সূচি নিজে সামলানো একক ডাক্তারদের জন্য তৈরি।"
+
+msgid "Dental Clinic"
+msgstr "ডেন্টাল ক্লিনিক"
+
+msgid "Organize patient visits, follow-ups and treatment appointments."
+msgstr "রোগীর ভিজিট, ফলো-আপ আর চিকিৎসার অ্যাপয়েন্টমেন্ট গুছিয়ে রাখুন।"
+
+msgid "Gynecology & Obstetrics"
+msgstr "গাইনি ও প্রসূতি"
+
+msgid "Private, organized scheduling for sensitive patient care."
+msgstr "সংবেদনশীল চিকিৎসার জন্য গোপনীয় ও গোছানো সময়সূচি।"
+
+msgid "Diagnostic Center"
+msgstr "ডায়াগনস্টিক সেন্টার"
+
+msgid "Coordinate test bookings and keep patient records in one place."
+msgstr "টেস্টের বুকিং সমন্বয় করুন আর রোগীর রেকর্ড এক জায়গায় রাখুন।"
+
+msgid "Multi-Specialty Clinic"
+msgstr "মাল্টি-স্পেশালিটি ক্লিনিক"
+
+msgid "Add multiple doctors, each with their own schedule and patients."
+msgstr "একাধিক ডাক্তার যোগ করুন, প্রত্যেকের নিজস্ব শিডিউল আর রোগী।"
+
+msgid "Physiotherapy Center"
+msgstr "ফিজিওথেরাপি সেন্টার"
+
+msgid "Track recurring sessions and patient progress over time."
+msgstr "নিয়মিত সেশন আর রোগীর উন্নতি সময়ের সাথে ট্র্যাক করুন।"
+
+msgid "Everything Your Clinic Needs, In One Package"
+msgstr "আপনার ক্লিনিকের যা দরকার, সব এক প্যাকেজে"
+
+msgid "Your clinic's own website"
+msgstr "আপনার ক্লিনিকের নিজস্ব ওয়েবসাইট"
+
+msgid "Online booking & live queue"
+msgstr "অনলাইন বুকিং ও লাইভ কিউ"
+
+msgid "Fast, managed server"
+msgstr "দ্রুত, ম্যানেজড সার্ভার"
+
+msgid "Your own .com or .com.bd"
+msgstr "আপনার নিজের .com বা .com.bd"
+
+msgid "Secure https padlock"
+msgstr "নিরাপদ https তালা"
+
+msgid "Email on your own domain"
+msgstr "নিজের ডোমেইনে ইমেইল"
+
+msgid "Onboarding for your staff"
+msgstr "আপনার স্টাফদের হাতে-কলমে শেখানো"
+
+msgid "Fixes & updates included"
+msgstr "সমাধান ও আপডেট অন্তর্ভুক্ত"
+
+msgid "How You Get Your Solution"
+msgstr "যেভাবে আপনার সলিউশন পাবেন"
+
+msgid "From the first call to a live clinic website, in four simple steps."
+msgstr "প্রথম কল থেকে লাইভ ক্লিনিক ওয়েবসাইট — চারটি সহজ ধাপে।"
+
+msgid "Contact & Appointment"
+msgstr "যোগাযোগ ও অ্যাপয়েন্টমেন্ট"
+
+msgid "Book a consultation and tell us about your clinic."
+msgstr "কনসালটেশন বুক করে আপনার ক্লিনিক সম্পর্কে জানান।"
+
+msgid "Select Your Domain"
+msgstr "ডোমেইন বেছে নিন"
+
+msgid "Pick your clinic's website address — or use one you already own."
+msgstr "আপনার ক্লিনিকের ওয়েবসাইটের ঠিকানা বেছে নিন — অথবা আগে থেকে থাকা ডোমেইন ব্যবহার করুন।"
+
+msgid "Deploy Solution"
+msgstr "সলিউশন চালু"
+
+msgid "We set up the website and appointment system, ready to use."
+msgstr "ওয়েবসাইট আর অ্যাপয়েন্টমেন্ট সিস্টেম সেটআপ করে ব্যবহারের জন্য প্রস্তুত করি।"
+
+msgid "Payment"
+msgstr "পেমেন্ট"
+
+msgid "Choose a 1, 2, 3 or 5 year plan, and pay once your clinic's system is live."
+msgstr "1, 2, 3 বা 5 বছরের প্ল্যান বেছে নিন, আর ক্লিনিকের সিস্টেম চালু হলে পেমেন্ট করুন।"
+
+msgid "Built for Clinics"
+msgstr "ক্লিনিকের জন্যই তৈরি"
+
+msgid "This isn't a generic website with a booking form bolted on. Doctor profiles and schedules, a live patient queue, check-in, SMS confirmations and patient records are all designed around how a real chamber or clinic runs day to day — so your staff work the way they already do, just faster."
+msgstr "এটা বুকিং ফর্ম জুড়ে দেওয়া কোনো সাধারণ ওয়েবসাইট নয়। ডাক্তারের প্রোফাইল ও সময়সূচি, লাইভ রোগী কিউ, চেক-ইন, SMS নিশ্চিতকরণ আর রোগীর রেকর্ড — সব একটা সত্যিকারের চেম্বার বা ক্লিনিক প্রতিদিন যেভাবে চলে, সেভাবে তৈরি। তাই আপনার স্টাফরা আগের মতোই কাজ করবেন, শুধু আরও দ্রুত।"
+
+msgid "Live in 7 Days"
+msgstr "7 দিনে লাইভ"
+
+msgid "From the day we start to a working website your patients can book on, in about a week. We handle the setup, the domain and the hosting, and add your doctors and schedules — you just review it and start taking bookings."
+msgstr "কাজ শুরুর দিন থেকে রোগীরা বুক করতে পারেন এমন ওয়েবসাইট — প্রায় এক সপ্তাহে। সেটআপ, ডোমেইন আর হোস্টিং আমরা সামলাই, আপনার ডাক্তার আর সময়সূচি যোগ করি — আপনি শুধু দেখে নিয়ে বুকিং নেওয়া শুরু করুন।"
+
+msgid "Everything in One Package"
+msgstr "সবকিছু এক প্যাকেজে"
+
+msgid "Website, appointment system, hosting, domain, SSL and business email come together. No separate developer, hosting company and booking tool to juggle, and no surprise add-ons later — one team is responsible for the whole thing."
+msgstr "ওয়েবসাইট, অ্যাপয়েন্টমেন্ট সিস্টেম, হোস্টিং, ডোমেইন, SSL আর বিজনেস ইমেইল একসাথে। আলাদা ডেভেলপার, হোস্টিং কোম্পানি আর বুকিং টুল সামলানোর ঝামেলা নেই, পরে কোনো চমকও নেই — পুরো দায়িত্ব একটি টিমের।"
+
+msgid "Patients Book Anytime"
+msgstr "রোগীরা যেকোনো সময় বুক করেন"
+
+msgid "Patients pick a doctor, a date and an open time slot online, any hour of the day, and get an instant confirmation by SMS. Fewer phone calls for your front desk, fewer missed appointments, and a calmer waiting room."
+msgstr "দিনের যেকোনো সময় রোগীরা অনলাইনে ডাক্তার, তারিখ আর ফাঁকা সময় বেছে নেন, আর সাথে সাথে SMS-এ নিশ্চিতকরণ পান। রিসেপশনে কম ফোন কল, কম মিস হওয়া অ্যাপয়েন্টমেন্ট, আর শান্ত ওয়েটিং রুম।"
+
+msgid "Training for Your Staff"
+msgstr "আপনার স্টাফদের ট্রেনিং"
+
+msgid "We sit with your receptionist and doctors and walk them through bookings, check-in, the live queue and patient records, so nobody is left guessing how the new system works on day one."
+msgstr "আপনার রিসেপশনিস্ট আর ডাক্তারদের সাথে বসে বুকিং, চেক-ইন, লাইভ কিউ আর রোগীর রেকর্ড হাতে-কলমে দেখিয়ে দিই, যাতে প্রথম দিন থেকেই কেউ নতুন সিস্টেম নিয়ে দ্বিধায় না থাকেন।"
+
+msgid "Support That Answers"
+msgstr "সাপোর্ট যা সাড়া দেয়"
+
+msgid "Reach us directly on WhatsApp or email — in Bangla or English. Fixes, small changes and updates are covered for the first year, and you talk to the people who actually built your system."
+msgstr "WhatsApp বা ইমেইলে সরাসরি আমাদের পান — বাংলা বা ইংরেজিতে। প্রথম বছর সমস্যা সমাধান, ছোট পরিবর্তন আর আপডেট অন্তর্ভুক্ত, আর আপনি কথা বলবেন যারা সিস্টেমটা বানিয়েছে তাদের সাথেই।"
+
+msgid "Your Data Stays Yours"
+msgstr "আপনার ডেটা আপনারই"
+
+msgid "Patient records and bookings belong to your clinic. The site runs on secure HTTPS with managed hosting, and we only access your data to set up, maintain and support the system."
+msgstr "রোগীর রেকর্ড আর বুকিং আপনার ক্লিনিকের। সাইট চলে নিরাপদ HTTPS আর ম্যানেজড হোস্টিংয়ে, আর আমরা আপনার ডেটায় ঢুকি শুধু সেটআপ, মেইনটেন্যান্স আর সাপোর্টের জন্য।"
+
+msgid "Grows With Your Clinic"
+msgstr "আপনার ক্লিনিকের সাথে বাড়ে"
+
+msgid "Start with one doctor and add more whenever you're ready — each with their own schedule and availability. The same system handles a private chamber today and a multi-doctor clinic tomorrow."
+msgstr "একজন ডাক্তার দিয়ে শুরু করুন, যখন প্রস্তুত তখন আরও যোগ করুন — প্রত্যেকের নিজস্ব শিডিউল আর সময়সূচি। একই সিস্টেম আজ প্রাইভেট চেম্বার আর কাল মাল্টি-ডাক্তার ক্লিনিক চালায়।"
+
+msgid "One price covers everything. Pick how many years — the longer the plan, the less you pay per year."
+msgstr "এক দামে সবকিছু। কত বছর চান বেছে নিন — প্ল্যান যত লম্বা, বছরে খরচ তত কম।"
+
+msgid "Clinic website"
+msgstr "ক্লিনিক ওয়েবসাইট"
+
+msgid "Appointment system"
+msgstr "অ্যাপয়েন্টমেন্ট সিস্টেম"
+
+msgid "Renew anytime at the end of your plan"
+msgstr "প্ল্যান শেষে যেকোনো সময় রিনিউ"
+
+msgid "Savings are compared with paying ৳12,000 every year. Not sure which plan fits? Book a free consultation."
+msgstr "প্রতি বছর ৳12,000 দেওয়ার তুলনায় সাশ্রয় হিসাব করা। কোন প্ল্যান ঠিক, বুঝতে পারছেন না? ফ্রি কনসালটেশন বুক করুন।"
+
+msgid "Can I take online payment?"
+msgstr "অনলাইনে পেমেন্ট নেওয়া যাবে?"
+
+msgid "Yes, online payments can be enabled through supported payment gateways."
+msgstr "হ্যাঁ, সাপোর্টেড পেমেন্ট গেটওয়ের মাধ্যমে অনলাইন পেমেন্ট চালু করা যায়।"
+
+msgid "Can I add multiple doctors?"
+msgstr "একাধিক ডাক্তার যোগ করা যাবে?"
+
+msgid "Yes, you can add multiple doctors, each with their own schedule and availability."
+msgstr "হ্যাঁ, একাধিক ডাক্তার যোগ করতে পারবেন, প্রত্যেকের নিজস্ব শিডিউল আর সময়সূচি।"
+
+msgid "Do you provide hosting?"
+msgstr "আপনারা কি হোস্টিং দেন?"
+
+msgid "Yes, managed hosting is included in every plan."
+msgstr "হ্যাঁ, প্রতিটি প্ল্যানে ম্যানেজড হোস্টিং অন্তর্ভুক্ত।"
+
+msgid "Do you provide training?"
+msgstr "আপনারা কি ট্রেনিং দেন?"
+
+msgid "Yes, every plan includes onboarding training for your staff."
+msgstr "হ্যাঁ, প্রতিটি প্ল্যানে আপনার স্টাফদের হাতে-কলমে ট্রেনিং অন্তর্ভুক্ত।"
+
+msgid "Ready to Launch Your Clinic Website?"
+msgstr "আপনার ক্লিনিকের ওয়েবসাইট চালু করতে প্রস্তুত?"
+
+msgid "Let's discuss your clinic requirements."
+msgstr "চলুন আপনার ক্লিনিকের প্রয়োজন নিয়ে কথা বলি।"
+
+msgid "From the first click to a finished appointment — bookings, staff and payments run through one connected system."
+msgstr "প্রথম ক্লিক থেকে শেষ হওয়া অ্যাপয়েন্টমেন্ট — বুকিং, স্টাফ আর পেমেন্ট চলে এক সংযুক্ত সিস্টেমে।"
+
+msgid "Browse Services & Prices"
+msgstr "সার্ভিস ও দাম দেখুন"
+
+msgid "Customers see every service with its duration and price, grouped by category, before they book."
+msgstr "বুক করার আগেই কাস্টমাররা ক্যাটাগরি অনুযায়ী প্রতিটি সার্ভিসের সময় আর দাম দেখেন।"
+
+msgid "Pick Staff, Date & Time"
+msgstr "স্টাফ, তারিখ ও সময় বেছে নিন"
+
+msgid "They choose a favourite staff member — or anyone free — and only real open slots are shown."
+msgstr "পছন্দের স্টাফ বেছে নেন — অথবা যে ফ্রি আছে — আর শুধু সত্যিকারের ফাঁকা স্লট দেখানো হয়।"
+
+msgid "Customers Add Their Details"
+msgstr "কাস্টমাররা তাদের তথ্য দেন"
+
+msgid "Name, phone and an optional note for the staff. No account or app download needed."
+msgstr "নাম, ফোন আর স্টাফের জন্য ঐচ্ছিক নোট। কোনো অ্যাকাউন্ট বা অ্যাপ লাগে না।"
+
+msgid "The booking is confirmed on the spot with every detail — service, staff, time and total."
+msgstr "সব তথ্যসহ সাথে সাথেই বুকিং নিশ্চিত হয় — সার্ভিস, স্টাফ, সময় আর মোট দাম।"
+
+msgid "SMS & Email Confirmation"
+msgstr "SMS ও ইমেইলে নিশ্চিতকরণ"
+
+msgid "Customers get the booking in writing and a reminder before their visit, so fewer people forget to show up."
+msgstr "কাস্টমাররা বুকিং লিখিতভাবে পান আর আসার আগে রিমাইন্ডার পান, তাই ভুলে যাওয়ার ঘটনা কমে।"
+
+msgid "Bookings Appear in the Admin Panel"
+msgstr "বুকিং চলে আসে অ্যাডমিন প্যানেলে"
+
+msgid "Every new booking shows up instantly in your admin panel — no WhatsApp scrolling, no notebook."
+msgstr "প্রতিটি নতুন বুকিং সাথে সাথে আপনার অ্যাডমিন প্যানেলে দেখা যায় — WhatsApp স্ক্রল বা খাতা লাগে না।"
+
+msgid "Staff Schedule at a Glance"
+msgstr "এক নজরে স্টাফ শিডিউল"
+
+msgid "See each staff member's day, breaks and free time in one view — double bookings simply can't happen."
+msgstr "প্রত্যেক স্টাফের দিন, বিরতি আর ফাঁকা সময় এক জায়গায় দেখুন — ডাবল বুকিং হওয়ার সুযোগই নেই।"
+
+msgid "Perfect for Every Appointment-Based Business"
+msgstr "অ্যাপয়েন্টমেন্ট-নির্ভর সব ব্যবসার জন্য উপযুক্ত"
+
+msgid "If your customers book a time with you, the system fits — one staff member or twenty."
+msgstr "কাস্টমাররা যদি আপনার কাছে সময় বুক করেন, সিস্টেমটা মানিয়ে যাবে — একজন স্টাফ হোক বা বিশজন।"
+
+msgid "Spa & Massage Center"
+msgstr "স্পা ও ম্যাসাজ সেন্টার"
+
+msgid "Treatments, therapists and rooms booked without phone calls."
+msgstr "ট্রিটমেন্ট, থেরাপিস্ট আর রুম বুক হয় ফোন কল ছাড়াই।"
+
+msgid "Beauty Salon & Parlour"
+msgstr "বিউটি সেলুন ও পার্লার"
+
+msgid "Hair, makeup, facial and bridal packages, each with its own price and time."
+msgstr "চুল, মেকআপ, ফেসিয়াল আর ব্রাইডাল প্যাকেজ — প্রত্যেকটার নিজস্ব দাম আর সময়।"
+
+msgid "Barber Shop"
+msgstr "বারবার শপ"
+
+msgid "Customers pick their barber and slot instead of waiting in line."
+msgstr "লাইনে অপেক্ষার বদলে কাস্টমাররা পছন্দের নাপিত আর সময় বেছে নেন।"
+
+msgid "Cleaning Service"
+msgstr "ক্লিনিং সার্ভিস"
+
+msgid "Home and office cleaning booked by date, with the address and notes attached."
+msgstr "বাসা আর অফিস পরিষ্কারের বুকিং তারিখ অনুযায়ী, ঠিকানা আর নোটসহ।"
+
+msgid "Repair & Maintenance"
+msgstr "রিপেয়ার ও মেইনটেন্যান্স"
+
+msgid "AC, appliance or device repair visits scheduled and assigned to technicians."
+msgstr "এসি, ইলেকট্রনিক্স বা ডিভাইস মেরামতের ভিজিট শিডিউল করে টেকনিশিয়ানদের দেওয়া হয়।"
+
+msgid "Fitness & Yoga Studio"
+msgstr "ফিটনেস ও ইয়োগা স্টুডিও"
+
+msgid "Personal training and class sessions booked against each trainer's schedule."
+msgstr "প্রতিটি ট্রেইনারের শিডিউল অনুযায়ী পার্সোনাল ট্রেনিং আর ক্লাস সেশন বুক হয়।"
+
+msgid "Everything Your Business Needs, In One Package"
+msgstr "আপনার ব্যবসার যা দরকার, সব এক প্যাকেজে"
+
+msgid "Your business's own website"
+msgstr "আপনার ব্যবসার নিজস্ব ওয়েবসাইট"
+
+msgid "Online booking & staff schedule"
+msgstr "অনলাইন বুকিং ও স্টাফ শিডিউল"
+
+msgid "From the first call to a live booking website, in four simple steps."
+msgstr "প্রথম কল থেকে লাইভ বুকিং ওয়েবসাইট — চারটি সহজ ধাপে।"
+
+msgid "Book a consultation and tell us about your services and staff."
+msgstr "কনসালটেশন বুক করে আপনার সার্ভিস আর স্টাফ সম্পর্কে জানান।"
+
+msgid "Pick your business's website address — or use one you already own."
+msgstr "আপনার ব্যবসার ওয়েবসাইটের ঠিকানা বেছে নিন — অথবা আগে থেকে থাকা ডোমেইন ব্যবহার করুন।"
+
+msgid "We set up the website and booking system with your services and staff."
+msgstr "আপনার সার্ভিস আর স্টাফ দিয়ে ওয়েবসাইট আর বুকিং সিস্টেম সেটআপ করি।"
+
+msgid "Choose a 1, 2, 3 or 5 year plan, and pay once your booking system is live."
+msgstr "1, 2, 3 বা 5 বছরের প্ল্যান বেছে নিন, আর বুকিং সিস্টেম চালু হলে পেমেন্ট করুন।"
+
+msgid "Built for Bookings"
+msgstr "বুকিংয়ের জন্যই তৈরি"
+
+msgid "Services with their own price and duration, staff with their own working hours, breaks and days off — the system is designed around how an appointment business actually runs, not a contact form someone has to answer by hand."
+msgstr "প্রতিটি সার্ভিসের নিজস্ব দাম আর সময়, প্রতিটি স্টাফের নিজস্ব কাজের সময়, বিরতি আর ছুটি — সিস্টেমটা তৈরি অ্যাপয়েন্টমেন্ট-নির্ভর ব্যবসা আসলে যেভাবে চলে সেভাবে, কেউ হাতে উত্তর দেবে এমন কোনো কন্টাক্ট ফর্ম নয়।"
+
+msgid "From the day we start to a website your customers can book on, in about a week. We set up the domain and hosting, add your services, prices and staff — you review it and start taking bookings."
+msgstr "কাজ শুরুর দিন থেকে কাস্টমাররা বুক করতে পারেন এমন ওয়েবসাইট — প্রায় এক সপ্তাহে। ডোমেইন আর হোস্টিং সেটআপ করি, আপনার সার্ভিস, দাম আর স্টাফ যোগ করি — আপনি দেখে নিয়ে বুকিং নেওয়া শুরু করুন।"
+
+msgid "Website, booking system, hosting, domain, SSL and business email come together. No separate developer, hosting company and booking app subscription to juggle — one team is responsible for all of it."
+msgstr "ওয়েবসাইট, বুকিং সিস্টেম, হোস্টিং, ডোমেইন, SSL আর বিজনেস ইমেইল একসাথে। আলাদা ডেভেলপার, হোস্টিং কোম্পানি আর বুকিং অ্যাপের সাবস্ক্রিপশন সামলানোর ঝামেলা নেই — পুরো দায়িত্ব একটি টিমের।"
+
+msgid "Customers Book Anytime"
+msgstr "কাস্টমাররা যেকোনো সময় বুক করেন"
+
+msgid "Customers book from their phone at midnight just as easily as at noon, and get an instant SMS confirmation. You stop losing bookings to missed calls and unanswered messages."
+msgstr "কাস্টমাররা দুপুরের মতো মাঝরাতেও ফোন থেকে সহজে বুক করেন আর সাথে সাথে SMS-এ নিশ্চিতকরণ পান। মিস হওয়া কল আর উত্তর না পাওয়া মেসেজের কারণে আর বুকিং হারাবেন না।"
+
+msgid "No More Double Bookings"
+msgstr "ডাবল বুকিং আর নয়"
+
+msgid "Every booking blocks that staff member's time automatically, so two customers can never land in the same slot. Reminders before each visit cut down on no-shows too."
+msgstr "প্রতিটি বুকিং সেই স্টাফের সময় নিজে থেকেই আটকে দেয়, তাই দুজন কাস্টমার কখনো একই স্লটে পড়েন না। প্রতিটি ভিজিটের আগে রিমাইন্ডার না-আসার ঘটনাও কমায়।"
+
+msgid "Reach us directly on WhatsApp or email — in Bangla or English. Fixes, small changes and updates are covered for the first year, and you talk to the people who built your system."
+msgstr "WhatsApp বা ইমেইলে সরাসরি আমাদের পান — বাংলা বা ইংরেজিতে। প্রথম বছর সমস্যা সমাধান, ছোট পরিবর্তন আর আপডেট অন্তর্ভুক্ত, আর আপনি কথা বলবেন যারা সিস্টেমটা বানিয়েছে তাদের সাথেই।"
+
+msgid "Your customer list and booking history belong to your business. The site runs on secure HTTPS with managed hosting, and we only access your data to set up, maintain and support it."
+msgstr "আপনার কাস্টমারের তালিকা আর বুকিংয়ের ইতিহাস আপনার ব্যবসার। সাইট চলে নিরাপদ HTTPS আর ম্যানেজড হোস্টিংয়ে, আর আমরা আপনার ডেটায় ঢুকি শুধু সেটআপ, মেইনটেন্যান্স আর সাপোর্টের জন্য।"
+
+msgid "Grows With Your Business"
+msgstr "আপনার ব্যবসার সাথে বাড়ে"
+
+msgid "Add new services, new staff or a second branch whenever you're ready. The same system works for a one-chair salon today and a busy multi-staff spa tomorrow."
+msgstr "যখন প্রস্তুত তখন নতুন সার্ভিস, নতুন স্টাফ বা দ্বিতীয় শাখা যোগ করুন। একই সিস্টেম আজ এক চেয়ারের সেলুন আর কাল ব্যস্ত মাল্টি-স্টাফ স্পা চালায়।"
+
+msgid "Booking website"
+msgstr "বুকিং ওয়েবসাইট"
+
+msgid "Booking & staff schedule system"
+msgstr "বুকিং ও স্টাফ শিডিউল সিস্টেম"
+
+msgid "Can I manage multiple staff?"
+msgstr "একাধিক স্টাফ সামলানো যাবে?"
+
+msgid "Yes, add as many staff as you need, each with their own services, working hours and days off."
+msgstr "হ্যাঁ, যত স্টাফ দরকার যোগ করুন, প্রত্যেকের নিজস্ব সার্ভিস, কাজের সময় আর ছুটি।"
+
+msgid "Can customers pay online?"
+msgstr "কাস্টমাররা কি অনলাইনে পেমেন্ট করতে পারবেন?"
+
+msgid "Yes, online payments can be enabled through supported payment gateways, or customers can pay at your venue."
+msgstr "হ্যাঁ, সাপোর্টেড পেমেন্ট গেটওয়ের মাধ্যমে অনলাইন পেমেন্ট চালু করা যায়, অথবা কাস্টমাররা সেখানে গিয়ে পেমেন্ট করতে পারেন।"
+
+msgid "Do customers get reminders?"
+msgstr "কাস্টমাররা কি রিমাইন্ডার পান?"
+
+msgid "Yes, customers get a confirmation by SMS and email when they book, and a reminder before their appointment."
+msgstr "হ্যাঁ, বুক করার সময় SMS ও ইমেইলে নিশ্চিতকরণ আর অ্যাপয়েন্টমেন্টের আগে রিমাইন্ডার পান।"
+
+msgid "Can I block days off or holidays?"
+msgstr "ছুটির দিন বন্ধ রাখা যাবে?"
+
+msgid "Yes, you can close the whole business or a single staff member for any day, and those slots disappear from booking."
+msgstr "হ্যাঁ, যেকোনো দিনের জন্য পুরো ব্যবসা বা একজন স্টাফকে বন্ধ রাখতে পারবেন, তখন সেই স্লটগুলো বুকিং থেকে সরে যায়।"
+
+msgid "Do you provide hosting and training?"
+msgstr "আপনারা কি হোস্টিং আর ট্রেনিং দেন?"
+
+msgid "Yes, managed hosting and onboarding training for your staff are included in every plan."
+msgstr "হ্যাঁ, প্রতিটি প্ল্যানে ম্যানেজড হোস্টিং আর আপনার স্টাফদের ট্রেনিং অন্তর্ভুক্ত।"
+
+msgid "Ready to Launch Your Booking Website?"
+msgstr "আপনার বুকিং ওয়েবসাইট চালু করতে প্রস্তুত?"
+
+msgid "Let's discuss your business requirements."
+msgstr "চলুন আপনার ব্যবসার প্রয়োজন নিয়ে কথা বলি।"
+
+msgid "Tailor Shop Management Solution"
+msgstr "টেইলর শপ ম্যানেজমেন্ট সলিউশন"
+
+msgid "From taking the order to handing over the finished garment — your whole shop runs in one connected system."
+msgstr "অর্ডার নেওয়া থেকে তৈরি পোশাক হাতে দেওয়া পর্যন্ত — আপনার পুরো দোকান চলে এক সংযুক্ত সিস্টেমে।"
+
+msgid "Every Customer in One Place"
+msgstr "সব কাস্টমার এক জায়গায়"
+
+msgid "Search by name or phone and see the customer's full profile, order history and any due amount instantly."
+msgstr "নাম বা ফোন নম্বর দিয়ে খুঁজুন আর সাথে সাথে কাস্টমারের পুরো প্রোফাইল, অর্ডারের ইতিহাস আর বাকি দেখুন।"
+
+msgid "Saved Body Measurements"
+msgstr "শরীরের মাপ সেভ থাকে"
+
+msgid "Measurements are stored per customer and per item, so repeat orders start pre-filled — no paper book to search."
+msgstr "প্রতিটি কাস্টমার আর আইটেমের মাপ সেভ থাকে, তাই আবার অর্ডারে মাপ আগে থেকেই বসানো থাকে — কাগজের খাতা খুঁজতে হয় না।"
+
+msgid "Create the Order in Seconds"
+msgstr "সেকেন্ডে অর্ডার তৈরি"
+
+msgid "Pick the item, quantity and fabric, set trial and delivery dates, and add design notes for the workshop."
+msgstr "আইটেম, পরিমাণ আর কাপড় বেছে নিন, ট্রায়াল আর ডেলিভারির তারিখ দিন, আর ওয়ার্কশপের জন্য ডিজাইন নোট লিখুন।"
+
+msgid "Invoice & Advance Payment"
+msgstr "ইনভয়েস ও অগ্রিম পেমেন্ট"
+
+msgid "The invoice builds itself with advance and due amounts, ready to print as a receipt for the customer."
+msgstr "অগ্রিম আর বাকিসহ ইনভয়েস নিজে থেকেই তৈরি হয়, কাস্টমারকে রসিদ হিসেবে প্রিন্ট করার জন্য প্রস্তুত।"
+
+msgid "Track Every Order's Progress"
+msgstr "প্রতিটি অর্ডারের অগ্রগতি দেখুন"
+
+msgid "Cutting, stitching, trial, ready — see exactly where each order is and who is working on it."
+msgstr "কাটা, সেলাই, ট্রায়াল, প্রস্তুত — প্রতিটি অর্ডার ঠিক কোথায় আছে আর কে কাজ করছে, দেখুন।"
+
+msgid "SMS Updates & Delivery Reminders"
+msgstr "SMS আপডেট ও ডেলিভারি রিমাইন্ডার"
+
+msgid "Customers get an SMS when the order is placed and when it's ready, and you get reminded of today's deliveries."
+msgstr "অর্ডার দেওয়ার সময় আর তৈরি হলে কাস্টমার SMS পান, আর আপনাকে আজকের ডেলিভারির কথা মনে করিয়ে দেওয়া হয়।"
+
+msgid "Sales, Due & Item Reports"
+msgstr "বিক্রি, বাকি ও আইটেম রিপোর্ট"
+
+msgid "See this month's orders, sales and total due, plus which items sell best — without adding up a single page."
+msgstr "এই মাসের অর্ডার, বিক্রি আর মোট বাকি দেখুন, সাথে কোন আইটেম বেশি চলে — একটা পাতাও যোগ না করে।"
+
+msgid "Perfect for Every Kind of Tailor Shop"
+msgstr "সব ধরনের টেইলর শপের জন্য উপযুক্ত"
+
+msgid "Whether you run a single counter or a busy workshop with cutters and tailors, the system fits how you work."
+msgstr "এক কাউন্টারের দোকান হোক বা কাটার আর দর্জিতে ভরা ব্যস্ত ওয়ার্কশপ — সিস্টেমটা আপনার কাজের ধরনের সাথে মানিয়ে নেয়।"
+
+msgid "Gents Tailor"
+msgstr "জেন্টস টেইলর"
+
+msgid "Shirts, pants, panjabis and suits with every customer's measurements on file."
+msgstr "শার্ট, প্যান্ট, পাঞ্জাবি আর স্যুট, প্রত্যেক কাস্টমারের মাপ সংরক্ষিত।"
+
+msgid "Ladies Tailor & Boutique"
+msgstr "লেডিস টেইলর ও বুটিক"
+
+msgid "Salwar kameez, blouses and gowns with design notes for each order."
+msgstr "সালোয়ার কামিজ, ব্লাউজ আর গাউন, প্রতিটি অর্ডারের ডিজাইন নোটসহ।"
+
+msgid "Bridal & Sherwani House"
+msgstr "ব্রাইডাল ও শেরওয়ানি হাউস"
+
+msgid "High-value orders with trials, advances and firm delivery dates."
+msgstr "ট্রায়াল, অগ্রিম আর নির্দিষ্ট ডেলিভারির তারিখসহ বড় অঙ্কের অর্ডার।"
+
+msgid "Uniform Maker"
+msgstr "ইউনিফর্ম প্রস্তুতকারক"
+
+msgid "Bulk orders for schools and offices, with sizes tracked per person."
+msgstr "স্কুল আর অফিসের বাল্ক অর্ডার, প্রত্যেকের সাইজ আলাদা ট্র্যাক করা।"
+
+msgid "Fashion Design Studio"
+msgstr "ফ্যাশন ডিজাইন স্টুডিও"
+
+msgid "Custom pieces from design to delivery, with clients kept up to date."
+msgstr "ডিজাইন থেকে ডেলিভারি পর্যন্ত কাস্টম পোশাক, ক্লায়েন্টদের সবসময় আপডেট রাখা।"
+
+msgid "Alteration Shop"
+msgstr "অল্টারেশন শপ"
+
+msgid "Many small, quick jobs tracked so nothing gets lost on the counter."
+msgstr "অনেক ছোট, দ্রুত কাজ ট্র্যাক করা, যাতে কাউন্টারে কিছু হারিয়ে না যায়।"
+
+msgid "Everything Your Shop Needs, In One Package"
+msgstr "আপনার দোকানের যা দরকার, সব এক প্যাকেজে"
+
+msgid "Your shop's own website"
+msgstr "আপনার দোকানের নিজস্ব ওয়েবসাইট"
+
+msgid "Orders, measurements & invoices"
+msgstr "অর্ডার, মাপ ও ইনভয়েস"
+
+msgid "From the first call to a live shop system, in four simple steps."
+msgstr "প্রথম কল থেকে লাইভ দোকানের সিস্টেম — চারটি সহজ ধাপে।"
+
+msgid "Book a consultation and tell us how your shop takes and tracks orders."
+msgstr "কনসালটেশন বুক করে জানান আপনার দোকান কীভাবে অর্ডার নেয় আর ট্র্যাক করে।"
+
+msgid "Pick your shop's website address — or use one you already own."
+msgstr "আপনার দোকানের ওয়েবসাইটের ঠিকানা বেছে নিন — অথবা আগে থেকে থাকা ডোমেইন ব্যবহার করুন।"
+
+msgid "We set up the website and order system with your items and prices."
+msgstr "আপনার আইটেম আর দাম দিয়ে ওয়েবসাইট আর অর্ডার সিস্টেম সেটআপ করি।"
+
+msgid "Choose a 1, 2, 3 or 5 year plan, and pay once your shop's system is live."
+msgstr "1, 2, 3 বা 5 বছরের প্ল্যান বেছে নিন, আর দোকানের সিস্টেম চালু হলে পেমেন্ট করুন।"
+
+msgid "Built for Tailor Shops"
+msgstr "টেইলর শপের জন্যই তৈরি"
+
+msgid "Measurements per item, trial and delivery dates, advance and due, cutting and stitching stages — the system follows how a real tailor shop works, so your counter staff and workshop pick it up quickly."
+msgstr "প্রতিটি আইটেমের মাপ, ট্রায়াল ও ডেলিভারির তারিখ, অগ্রিম ও বাকি, কাটা ও সেলাইয়ের ধাপ — সিস্টেমটা একটা সত্যিকারের টেইলর শপ যেভাবে চলে সেভাবেই চলে, তাই কাউন্টারের স্টাফ আর ওয়ার্কশপ দ্রুত শিখে নেন।"
+
+msgid "From the day we start to a working system your counter can take orders on, in about a week. We set up the domain and hosting and add your items and prices — you review it and start using it."
+msgstr "কাজ শুরুর দিন থেকে কাউন্টারে অর্ডার নেওয়া যায় এমন সিস্টেম — প্রায় এক সপ্তাহে। ডোমেইন আর হোস্টিং সেটআপ করি, আপনার আইটেম আর দাম যোগ করি — আপনি দেখে নিয়ে ব্যবহার শুরু করুন।"
+
+msgid "We Move Your Old Records"
+msgstr "আপনার পুরোনো রেকর্ড আমরা আনি"
+
+msgid "Already have customers and orders in a spreadsheet or old software? We can bring them across, so your history and measurements are there from day one — we have migrated thousands of customer records before."
+msgstr "কাস্টমার আর অর্ডার কি আগে থেকেই স্প্রেডশিট বা পুরোনো সফটওয়্যারে আছে? আমরা সেগুলো নিয়ে আসতে পারি, যাতে প্রথম দিন থেকেই ইতিহাস আর মাপ থাকে — আগেও হাজার হাজার কাস্টমারের রেকর্ড মাইগ্রেট করেছি।"
+
+msgid "No More Lost Measurements"
+msgstr "মাপ আর হারাবে না"
+
+msgid "Every measurement is saved to the customer and searchable by phone number. No more flipping through a torn measurement book or calling the customer back to measure again."
+msgstr "প্রতিটি মাপ কাস্টমারের সাথে সেভ থাকে আর ফোন নম্বর দিয়ে খোঁজা যায়। ছেঁড়া মাপের খাতা ঘাঁটা বা কাস্টমারকে আবার মাপ দিতে ডাকার দরকার নেই।"
+
+msgid "Always Know Who Owes What"
+msgstr "সবসময় জানুন কার কাছে কত বাকি"
+
+msgid "Advance, due and paid are tracked on every order, and the dashboard shows your total due at a glance. Receipts print straight from the invoice."
+msgstr "প্রতিটি অর্ডারে অগ্রিম, বাকি আর পরিশোধ ট্র্যাক হয়, আর ড্যাশবোর্ডে এক নজরে মোট বাকি দেখা যায়। ইনভয়েস থেকেই রসিদ প্রিন্ট হয়।"
+
+msgid "Customer records, measurements and order history belong to your shop. The system runs on secure HTTPS with managed hosting, and we only access it to set up, maintain and support it."
+msgstr "কাস্টমারের রেকর্ড, মাপ আর অর্ডারের ইতিহাস আপনার দোকানের। সিস্টেম চলে নিরাপদ HTTPS আর ম্যানেজড হোস্টিংয়ে, আর আমরা ঢুকি শুধু সেটআপ, মেইনটেন্যান্স আর সাপোর্টের জন্য।"
+
+msgid "Grows With Your Shop"
+msgstr "আপনার দোকানের সাথে বাড়ে"
+
+msgid "Add new items, more staff or a second branch whenever you're ready. The same system handles a one-counter shop today and a busy workshop tomorrow."
+msgstr "যখন প্রস্তুত তখন নতুন আইটেম, আরও স্টাফ বা দ্বিতীয় শাখা যোগ করুন। একই সিস্টেম আজ এক কাউন্টারের দোকান আর কাল ব্যস্ত ওয়ার্কশপ চালায়।"
+
+msgid "Tailor shop website"
+msgstr "টেইলর শপ ওয়েবসাইট"
+
+msgid "Order, measurement & invoice system"
+msgstr "অর্ডার, মাপ ও ইনভয়েস সিস্টেম"
+
+msgid "Can you move my old customer records?"
+msgstr "আমার পুরোনো কাস্টমারের রেকর্ড কি আনতে পারবেন?"
+
+msgid "Yes, we can import customers, measurements and orders from a spreadsheet or your old software during setup."
+msgstr "হ্যাঁ, সেটআপের সময় স্প্রেডশিট বা পুরোনো সফটওয়্যার থেকে কাস্টমার, মাপ আর অর্ডার ইমপোর্ট করতে পারি।"
+
+msgid "Can I set my own measurement fields?"
+msgstr "নিজের মতো মাপের ঘর কি ঠিক করা যাবে?"
+
+msgid "Yes, each item (shirt, pant, panjabi and so on) can have its own list of measurement fields."
+msgstr "হ্যাঁ, প্রতিটি আইটেমের (শার্ট, প্যান্ট, পাঞ্জাবি ইত্যাদি) নিজস্ব মাপের তালিকা থাকতে পারে।"
+
+msgid "Can I track advance and due payments?"
+msgstr "অগ্রিম আর বাকি পেমেন্ট কি ট্র্যাক করা যাবে?"
+
+msgid "Yes, every order records the total, advance and due amount, and receipts can be printed from the invoice."
+msgstr "হ্যাঁ, প্রতিটি অর্ডারে মোট, অগ্রিম আর বাকি লেখা থাকে, আর ইনভয়েস থেকে রসিদ প্রিন্ট করা যায়।"
+
+msgid "Can more than one staff member use it?"
+msgstr "একাধিক স্টাফ কি ব্যবহার করতে পারবেন?"
+
+msgid "Yes, give your counter staff and workshop their own logins, so everyone sees the same up-to-date orders."
+msgstr "হ্যাঁ, কাউন্টারের স্টাফ আর ওয়ার্কশপকে আলাদা লগইন দিন, যাতে সবাই একই হালনাগাদ অর্ডার দেখেন।"
+
+msgid "Ready to Digitize Your Tailor Shop?"
+msgstr "আপনার টেইলর শপ ডিজিটাল করতে প্রস্তুত?"
+
+msgid "Let's discuss your shop's requirements."
+msgstr "চলুন আপনার দোকানের প্রয়োজন নিয়ে কথা বলি।"
+
+msgid "Ready-Made Solutions for Your Business"
+msgstr "আপনার ব্যবসার জন্য রেডিমেড সলিউশন"
+
+msgid "Pick the solution built for your industry — we handle setup, hosting and support, so you can focus on running your business."
+msgstr "আপনার ব্যবসার ধরনের জন্য তৈরি সলিউশন বেছে নিন — সেটআপ, হোস্টিং আর সাপোর্ট আমরা সামলাই, আপনি ব্যবসায় মন দিন।"
+
+msgid "Which solution is right for my business?"
+msgstr "আমার ব্যবসার জন্য কোন সলিউশন ঠিক?"
+
+msgid "Doctors and clinics use the Doctor Appointment solution, tailor shops use Tailor Shop Management, and salons, spas and other appointment businesses use Service Booking. Not sure? Book a free consultation."
+msgstr "ডাক্তার ও ক্লিনিক ব্যবহার করেন ডাক্তার অ্যাপয়েন্টমেন্ট সলিউশন, টেইলর শপ ব্যবহার করে টেইলর শপ ম্যানেজমেন্ট, আর সেলুন, স্পা ও অন্যান্য অ্যাপয়েন্টমেন্ট-নির্ভর ব্যবসা ব্যবহার করে সার্ভিস বুকিং। নিশ্চিত না? ফ্রি কনসালটেশন বুক করুন।"
+
+msgid "What is included in a solution?"
+msgstr "একটি সলিউশনে কী কী থাকে?"
+
+msgid "A ready website, the management system, hosting, domain, SSL, business email, staff training and support — everything in one package."
+msgstr "রেডি ওয়েবসাইট, ম্যানেজমেন্ট সিস্টেম, হোস্টিং, ডোমেইন, SSL, বিজনেস ইমেইল, স্টাফ ট্রেনিং আর সাপোর্ট — সবকিছু এক প্যাকেজে।"
+
+msgid "How much does a solution cost?"
+msgstr "একটি সলিউশনের খরচ কত?"
+
+msgid "Plans start at ৳12,000 for 1 year, with lower yearly prices on 2, 3 and 5 year plans."
+msgstr "1 বছরের প্ল্যান ৳12,000 থেকে শুরু, আর 2, 3 ও 5 বছরের প্ল্যানে বছরে খরচ আরও কম।"
+
+msgid "How long does setup take?"
+msgstr "সেটআপে কত সময় লাগে?"
+
+msgid "Most solutions are live in about 7 days from the day we start."
+msgstr "বেশিরভাগ সলিউশন কাজ শুরুর দিন থেকে প্রায় 7 দিনে চালু হয়।"
+
+msgid "Can you customize it for my business?"
+msgstr "আমার ব্যবসার মতো করে কাস্টমাইজ করা যাবে?"
+
+msgid "Yes, we tailor the setup to your services, staff and workflow, and can build extra features when you need them."
+msgstr "হ্যাঁ, আপনার সার্ভিস, স্টাফ আর কাজের ধরন অনুযায়ী সেটআপ সাজাই, আর দরকার হলে বাড়তি ফিচারও বানিয়ে দিতে পারি।"
+
+msgid "Don't see my type of business?"
+msgstr "আমার ব্যবসার ধরন দেখছেন না?"
+
+msgid "We also build custom solutions for any business — tell us what you need."
+msgstr "যেকোনো ব্যবসার জন্য আমরা কাস্টম সলিউশনও তৈরি করি — কী দরকার জানান।"
+
+msgid "Don't See Your Business Type?"
+msgstr "আপনার ব্যবসার ধরন দেখছেন না?"
+
+msgid "We build custom solutions for any business — tell us what you need."
+msgstr "যেকোনো ব্যবসার জন্য আমরা কাস্টম সলিউশন তৈরি করি — কী দরকার জানান।"

@@ -29,6 +29,9 @@ get_template_part( 'template-parts/solution', 'features', array(
 		array( 'title' => __( 'Domain Registration', 'lieusoft' ), 'desc' => __( "We register and manage your domain so it's always renewed and pointed correctly.", 'lieusoft' ), 'icon' => 'globe' ),
 		array( 'title' => __( 'Website Maintenance', 'lieusoft' ), 'desc' => __( 'Regular updates, backups and health checks so your site keeps running smoothly.', 'lieusoft' ), 'icon' => 'sliders' ),
 		array( 'title' => __( 'Business Email Setup', 'lieusoft' ), 'desc' => __( 'Professional @yourdomain email addresses set up and configured for your team.', 'lieusoft' ), 'icon' => 'envelope' ),
+		array( 'title' => __( 'Business Automation', 'lieusoft' ), 'desc' => __( 'Custom n8n workflows that automate repetitive tasks and connect your tools together.', 'lieusoft' ), 'icon' => 'infinity' ),
+		array( 'title' => __( 'Migration Services', 'lieusoft' ), 'desc' => __( 'Moving from another host or builder? We migrate your site with no downtime.', 'lieusoft' ), 'icon' => 'refresh' ),
+		array( 'title' => __( 'Technical Support', 'lieusoft' ), 'desc' => __( 'A real team on the other end whenever something needs fixing or explaining.', 'lieusoft' ), 'icon' => 'headset' ),
 	),
 ) );
 
@@ -56,13 +59,7 @@ get_template_part( 'template-parts/solution', 'included', array(
 	),
 ) );
 
-get_template_part( 'template-parts/services', 'projects', array(
-	'items' => array(
-		array( 'title' => __( 'CozyThai', 'lieusoft' ), 'desc' => __( 'Thai massage booking website with online scheduling.', 'lieusoft' ), 'image' => 'case-study-preview.png' ),
-		array( 'title' => __( 'Doctor Website', 'lieusoft' ), 'desc' => __( 'Clinic website with appointment booking and patient records.', 'lieusoft' ), 'image' => 'solution-doctor-bg.png' ),
-		array( 'title' => __( 'Tailor Website', 'lieusoft' ), 'desc' => __( 'Order and measurement management for a tailor shop.', 'lieusoft' ), 'image' => 'solution-tailor-bg.png' ),
-	),
-) );
+get_template_part( 'template-parts/solution', 'projects' );
 
 get_template_part( 'template-parts/solution', 'how-it-works', array(
 	'title' => __( 'Work Process', 'lieusoft' ),
@@ -71,6 +68,17 @@ get_template_part( 'template-parts/solution', 'how-it-works', array(
 		array( 'title' => __( 'Planning', 'lieusoft' ), 'desc' => __( 'We map out the scope, timeline and tech.', 'lieusoft' ), 'icon' => 'clipboard' ),
 		array( 'title' => __( 'Development', 'lieusoft' ), 'desc' => __( 'We build your website and set up everything.', 'lieusoft' ), 'icon' => 'code' ),
 		array( 'title' => __( 'Launch & Support', 'lieusoft' ), 'desc' => __( 'We launch and stay on for ongoing support.', 'lieusoft' ), 'icon' => 'headset' ),
+	),
+) );
+
+get_template_part( 'template-parts/solution', 'faq', array(
+	'faqs' => array(
+		array( 'q' => __( 'How long does a website take?', 'lieusoft' ), 'a' => __( 'Most business websites are ready in 1–3 weeks, depending on the number of pages and features. We give you a clear timeline after the consultation.', 'lieusoft' ) ),
+		array( 'q' => __( 'Do I own my website?', 'lieusoft' ), 'a' => __( 'Yes. The website, its content and your domain belong to you. We just build, host and look after it.', 'lieusoft' ) ),
+		array( 'q' => __( 'Can you build a custom plugin for my workflow?', 'lieusoft' ), 'a' => __( 'Yes, we build WordPress plugins around your exact process — tell us what you need and we will scope it with you.', 'lieusoft' ) ),
+		array( 'q' => __( 'Can you migrate my existing website?', 'lieusoft' ), 'a' => __( 'Yes, we can move your site from another host or builder with no downtime.', 'lieusoft' ) ),
+		array( 'q' => __( 'Do you offer maintenance after launch?', 'lieusoft' ), 'a' => __( 'Yes, we handle updates, backups and fixes so your site keeps running smoothly.', 'lieusoft' ) ),
+		array( 'q' => __( 'Do you work with clients outside Bangladesh?', 'lieusoft' ), 'a' => __( 'Yes, we have built and launched sites for clients in Bangladesh, the UK, Portugal and the U.S.', 'lieusoft' ) ),
 	),
 ) );
 

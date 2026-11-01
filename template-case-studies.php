@@ -92,6 +92,18 @@ get_template_part( 'template-parts/solution', 'why-choose', array(
 	),
 ) );
 
+get_template_part( 'template-parts/solution', 'projects' );
+
+get_template_part( 'template-parts/solution', 'faq', array(
+	'faqs' => array(
+		array( 'q' => __( 'Can you build something similar for my business?', 'lieusoft' ), 'a' => __( 'Yes. Every project here started with a consultation — tell us what you need and we will show you how we would approach it.', 'lieusoft' ) ),
+		array( 'q' => __( 'Do you work with clients outside Bangladesh?', 'lieusoft' ), 'a' => __( 'Yes, we have delivered projects for clients in Bangladesh, the UK, Portugal and the U.S.', 'lieusoft' ) ),
+		array( 'q' => __( 'What technology do you use?', 'lieusoft' ), 'a' => __( 'Mostly WordPress, WooCommerce and custom PHP plugins, and Next.js where a project needs it — always on fast, secure hosting.', 'lieusoft' ) ),
+		array( 'q' => __( 'Do you support the site after launch?', 'lieusoft' ), 'a' => __( 'Yes, we stay on for updates, fixes and new features long after the site goes live.', 'lieusoft' ) ),
+		array( 'q' => __( 'How do we get started?', 'lieusoft' ), 'a' => __( 'Book a free consultation. We will talk through your goals, then send a clear plan, timeline and price.', 'lieusoft' ) ),
+	),
+) );
+
 get_template_part( 'template-parts/solution', 'cta', array(
 	'title' => __( 'Ready to Build Your Business?', 'lieusoft' ),
 	'desc'  => __( "Let's create a professional website that helps your business grow.", 'lieusoft' ),

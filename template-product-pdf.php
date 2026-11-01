@@ -72,6 +72,8 @@ get_template_part( 'template-parts/product', 'pricing', array(
 	),
 ) );
 
+get_template_part( 'template-parts/solution', 'projects' );
+
 get_template_part( 'template-parts/solution', 'faq', array(
 	'faqs' => array(
 		array( 'q' => __( 'Can I try before buying?', 'lieusoft' ), 'a' => __( 'Yes, you can test every view mode on the live demo before purchasing a license.', 'lieusoft' ) ),

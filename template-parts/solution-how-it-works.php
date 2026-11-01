@@ -8,9 +8,10 @@ $a = wp_parse_args( $args ?? array(), array(
 	'title'   => '',
 	'desc'    => '',
 	'steps'   => array(),
+	'variant' => '',
 ) );
 ?>
-<section class="how-it-works">
+<section class="how-it-works<?php echo $a['variant'] ? ' how-it-works--' . esc_attr( $a['variant'] ) : ''; ?>">
 	<div class="container">
 		<div class="section-head">
 			<?php if ( $a['eyebrow'] ) : ?>

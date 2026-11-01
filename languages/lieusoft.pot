@@ -1,0 +1,4684 @@
+# Copyright (C) 2026 Rasel Sha
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Lieusoft 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/lieusoft-theme\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-11-01T08:52:19+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: lieusoft\n"
+
+#. Theme Name of the theme
+#: style.css
+msgid "Lieusoft"
+msgstr ""
+
+#. Theme URI of the theme
+#: style.css
+msgid "https://github.com/raselsha/lieusoft-theme"
+msgstr ""
+
+#. Description of the theme
+#: style.css
+msgid "Custom coded theme for lieusoft.com — Complete WordPress Business Solutions. Built from the site's live Elementor design system (colors, typography) captured via Novamira."
+msgstr ""
+
+#. Author of the theme
+#: style.css
+msgid "Rasel Sha"
+msgstr ""
+
+#. Author URI of the theme
+#: style.css
+msgid "https://github.com/raselsha"
+msgstr ""
+
+#: archive.php:9
+msgid "Category"
+msgstr ""
+
+#: archive.php:9
+msgid "Tag"
+msgstr ""
+
+#: archive.php:9
+msgid "Archive"
+msgstr ""
+
+#: footer.php:11
+msgid "We build the digital backbone of your business — from custom websites and WordPress plugins to email infrastructure and IT strategy. Trusted by businesses worldwide."
+msgstr ""
+
+#: footer.php:21
+msgid "Product"
+msgstr ""
+
+#: footer.php:33
+#: inc/i18n-strings.php:10
+#: template-solution-doctor.php:18
+#: template-solution-service.php:16
+#: template-solution-tailor.php:16
+#: template-solutions-index.php:13
+msgid "Solutions"
+msgstr ""
+
+#. Template Name of the theme
+#: footer.php:45
+#: inc/i18n-strings.php:11
+#: template-parts/pricing-services.php:14
+#: template-pricing.php:47
+#: template-services.php:13
+msgid "Services"
+msgstr ""
+
+#: footer.php:57
+msgid "Company"
+msgstr ""
+
+#: footer.php:69
+msgid "Get in Touch"
+msgstr ""
+
+#: footer.php:72
+msgid "+8801521255463 — available on WhatsApp"
+msgstr ""
+
+#: footer.php:73
+msgid "Remote-first · Serving clients worldwide"
+msgstr ""
+
+#: footer.php:79
+msgid "All rights reserved."
+msgstr ""
+
+#: footer.php:79
+msgid "Privacy Policy"
+msgstr ""
+
+#: footer.php:83
+msgid "Chat on WhatsApp"
+msgstr ""
+
+#: front-page.php:21
+msgid "Do I need my own hosting?"
+msgstr ""
+
+#: front-page.php:21
+msgid "No, managed hosting is included with every business solution. You can also bring your own if you prefer."
+msgstr ""
+
+#: front-page.php:22
+#: template-solution-doctor.php:161
+#: template-solution-service.php:159
+#: template-solution-tailor.php:159
+msgid "Can I use my own domain?"
+msgstr ""
+
+#: front-page.php:22
+#: template-solution-doctor.php:161
+#: template-solution-service.php:159
+#: template-solution-tailor.php:159
+msgid "Yes, you can use a domain you already own or we can register one for you."
+msgstr ""
+
+#: front-page.php:23
+msgid "Can you migrate my website?"
+msgstr ""
+
+#: front-page.php:23
+msgid "Yes, we can migrate an existing website to a new solution or hosting with no downtime."
+msgstr ""
+
+#: front-page.php:24
+#: template-product-booking.php:80
+#: template-product-doctor.php:80
+#: template-product-tailor.php:80
+msgid "Do you provide support?"
+msgstr ""
+
+#: front-page.php:24
+msgid "Yes, every business solution includes ongoing support, and every plugin includes updates."
+msgstr ""
+
+#: front-page.php:25
+msgid "Can I request custom features?"
+msgstr ""
+
+#: front-page.php:25
+msgid "Yes, tell us what you need during your consultation and we will scope it for you."
+msgstr ""
+
+#: functions.php:79
+msgid "Main Menu"
+msgstr ""
+
+#: functions.php:80
+msgid "Footer — Product"
+msgstr ""
+
+#: functions.php:81
+msgid "Footer — Solutions"
+msgstr ""
+
+#: functions.php:82
+msgid "Footer — Services"
+msgstr ""
+
+#: functions.php:83
+msgid "Footer — Company"
+msgstr ""
+
+#: functions.php:112
+msgid "Footer"
+msgstr ""
+
+#: functions.php:140
+#: template-parts/solution-hero.php:4
+#: template-solution-doctor.php:20
+msgid "Doctor Appointment Solution"
+msgstr ""
+
+#: functions.php:141
+msgid "Modern website with online appointment booking, doctor profiles, patient management, Live Queue and an easy-to-use admin dashboard."
+msgstr ""
+
+#: functions.php:150
+#: template-parts/solution-hero-tailor.php:4
+msgid "Tailor Management Solution"
+msgstr ""
+
+#: functions.php:151
+msgid "Manage customer orders, body measurements, delivery schedules, invoices, and shop operations from one simple dashboard."
+msgstr ""
+
+#: functions.php:160
+#: inc/i18n-strings.php:31
+#: template-parts/solution-hero-service.php:4
+#: template-solution-service.php:18
+msgid "Service Booking Solution"
+msgstr ""
+
+#: functions.php:161
+msgid "Perfect for thai massage, salons, spas, beauty centers, repair services, consultants, and other appointment-based businesses."
+msgstr ""
+
+#: functions.php:179
+#: inc/i18n-strings.php:19
+#: template-parts/section-hero.php:56
+#: template-parts/section-what-we-do.php:8
+#: template-parts/section-what-we-do.php:17
+#: template-pricing.php:60
+#: template-product-booking.php:21
+msgid "Service Booking"
+msgstr ""
+
+#: functions.php:180
+msgid "Complete booking & appointment solution for any service."
+msgstr ""
+
+#: functions.php:187
+#: inc/i18n-strings.php:17
+#: template-parts/section-what-we-do.php:8
+#: template-parts/section-what-we-do.php:17
+#: template-pricing.php:58
+#: template-product-doctor.php:21
+msgid "Doctor Appointment"
+msgstr ""
+
+#: functions.php:188
+msgid "Appointment booking system for clinics and hospitals."
+msgstr ""
+
+#: functions.php:195
+#: inc/i18n-strings.php:21
+#: template-parts/section-hero.php:48
+msgid "Tailor Order Management"
+msgstr ""
+
+#: functions.php:196
+msgid "Manage tailor orders, customers, measurements and deliveries."
+msgstr ""
+
+#: functions.php:203
+#: inc/i18n-strings.php:20
+#: template-parts/section-what-we-do.php:17
+#: template-product-pdf.php:15
+#: template-product-pdf.php:21
+msgid "PDF Embed Viewer"
+msgstr ""
+
+#: functions.php:204
+msgid "3D flipbook PDF viewer & embedder for WordPress."
+msgstr ""
+
+#: functions.php:350
+msgid "Logo Display"
+msgstr ""
+
+#: functions.php:351
+msgid "Choose whether the header/footer logo shows the uploaded image, the \"Lieusoft\" text mark, or both together."
+msgstr ""
+
+#: functions.php:355
+msgid "Image Only"
+msgstr ""
+
+#: functions.php:356
+msgid "Text Only"
+msgstr ""
+
+#: functions.php:357
+msgid "Both"
+msgstr ""
+
+#: functions.php:363
+msgid "Layout"
+msgstr ""
+
+#: functions.php:374
+msgid "Container Width (px)"
+msgstr ""
+
+#: functions.php:375
+msgid "Controls the max width of the site's content container."
+msgstr ""
+
+#: functions.php:396
+#: functions.php:404
+#: functions.php:412
+msgid "PDF Embed Viewer user"
+msgstr ""
+
+#: functions.php:419
+#: functions.php:427
+#: functions.php:435
+#: functions.php:443
+#: functions.php:451
+#: functions.php:459
+#: functions.php:467
+#: functions.php:475
+#: functions.php:483
+#: functions.php:491
+#: functions.php:499
+#: functions.php:507
+#: functions.php:515
+#: functions.php:523
+msgid "Upwork Client"
+msgstr ""
+
+#: functions.php:541
+msgid "Massage & Wellness · Portugal"
+msgstr ""
+
+#: functions.php:542
+msgid "Booking website for a Thai massage studio in Lisbon, with online appointments and a full treatment menu."
+msgstr ""
+
+#: functions.php:543
+#: template-parts/section-success-stories.php:12
+#: template-parts/solution-hero-service.php:17
+#: template-solution-service.php:96
+msgid "Booking System"
+msgstr ""
+
+#: functions.php:543
+msgid "Bilingual"
+msgstr ""
+
+#: functions.php:549
+msgid "Healthcare · Bangladesh"
+msgstr ""
+
+#: functions.php:550
+msgid "Doctor appointment system with doctor profiles, weekly availability, online booking and a live patient queue."
+msgstr ""
+
+#: functions.php:551
+#: template-parts/solution-hero.php:17
+#: template-parts/solution-included.php:13
+#: template-solution-doctor.php:98
+msgid "Appointment System"
+msgstr ""
+
+#: functions.php:551
+msgid "Live Queue"
+msgstr ""
+
+#: functions.php:551
+#: template-parts/feature-widgets-service.php:167
+#: template-parts/feature-widgets-tailor.php:140
+#: template-parts/feature-widgets-tailor.php:148
+#: template-parts/solution-feature-steps.php:169
+msgid "SMS"
+msgstr ""
+
+#: functions.php:557
+msgid "Education & Care · UK"
+msgstr ""
+
+#: functions.php:558
+msgid "Website redesign for a teaching and research organisation serving families across East London."
+msgstr ""
+
+#: functions.php:559
+#: functions.php:640
+msgid "Redesign"
+msgstr ""
+
+#: functions.php:559
+msgid "Courses"
+msgstr ""
+
+#: functions.php:565
+msgid "Government Contracting · USA"
+msgstr ""
+
+#: functions.php:566
+msgid "Corporate website for a veteran-owned contractor delivering construction, IT, healthcare and facility services to government agencies."
+msgstr ""
+
+#: functions.php:567
+#: functions.php:583
+#: functions.php:615
+msgid "Corporate Website"
+msgstr ""
+
+#: functions.php:567
+msgid "Government"
+msgstr ""
+
+#: functions.php:573
+msgid "Managed IT · Hong Kong"
+msgstr ""
+
+#: functions.php:574
+msgid "Website for a managed IT and cybersecurity provider serving firms in Hong Kong, Singapore, Shanghai, London and the UAE."
+msgstr ""
+
+#: functions.php:575
+#: functions.php:631
+msgid "Brand Website"
+msgstr ""
+
+#: functions.php:575
+msgid "IT Services"
+msgstr ""
+
+#: functions.php:575
+msgid "Compliance"
+msgstr ""
+
+#: functions.php:581
+msgid "Cybersecurity · Hong Kong"
+msgstr ""
+
+#: functions.php:582
+msgid "Website for a cybersecurity firm offering penetration testing, vulnerability assessments and security awareness training."
+msgstr ""
+
+#: functions.php:583
+msgid "Cybersecurity"
+msgstr ""
+
+#: functions.php:589
+msgid "Import & Distribution · USA"
+msgstr ""
+
+#: functions.php:590
+msgid "Product catalogue website for an importer and distributor of small arms ammunition and components."
+msgstr ""
+
+#: functions.php:591
+msgid "Product Catalogue"
+msgstr ""
+
+#: functions.php:597
+msgid "Digital Agency"
+msgstr ""
+
+#: functions.php:598
+msgid "Website for a full-service digital agency covering web development, SEO and AI automation."
+msgstr ""
+
+#: functions.php:599
+msgid "Custom Theme"
+msgstr ""
+
+#: functions.php:599
+msgid "Dark Mode"
+msgstr ""
+
+#: functions.php:605
+msgid "Accounting · Australia"
+msgstr ""
+
+#: functions.php:606
+msgid "Website for a Melbourne accounting firm offering tax returns, bookkeeping and virtual CFO services Australia-wide."
+msgstr ""
+
+#: functions.php:607
+msgid "Service Website"
+msgstr ""
+
+#: functions.php:607
+msgid "Pricing Pages"
+msgstr ""
+
+#: functions.php:613
+msgid "Investment Management · Hong Kong"
+msgstr ""
+
+#: functions.php:614
+msgid "Website for an SFC-licensed fund manager investing in Chinese equities, with an investor login and regulatory disclaimer."
+msgstr ""
+
+#: functions.php:615
+msgid "Investor Portal"
+msgstr ""
+
+#: functions.php:621
+msgid "Fashion Design"
+msgstr ""
+
+#: functions.php:622
+msgid "Portfolio website for a fashion designer, showing collections, the creative process and commission enquiries, with a custom studio panel for editing."
+msgstr ""
+
+#: functions.php:623
+msgid "Headless WordPress"
+msgstr ""
+
+#: functions.php:623
+msgid "Portfolio"
+msgstr ""
+
+#: functions.php:629
+msgid "Food Brand · USA"
+msgstr ""
+
+#: functions.php:630
+msgid "Brand website for a premium dates company, with its product range and wholesale enquiries."
+msgstr ""
+
+#: functions.php:631
+msgid "Wholesale"
+msgstr ""
+
+#: functions.php:638
+msgid "Student Recruitment · UK"
+msgstr ""
+
+#: functions.php:639
+msgid "Website for a UK university admissions consultancy, built around courses, intakes and applications."
+msgstr ""
+
+#: functions.php:640
+msgid "Lead Generation"
+msgstr ""
+
+#: header.php:24
+msgid "Primary"
+msgstr ""
+
+#: header.php:29
+msgid "Close menu"
+msgstr ""
+
+#: header.php:47
+#: header.php:54
+#: template-parts/section-hero.php:27
+#: template-parts/services-hero.php:27
+#: template-parts/solution-hero-service.php:22
+#: template-parts/solution-hero-tailor.php:22
+#: template-parts/solution-hero.php:22
+#: template-parts/solution-included.php:30
+#: template-product-booking.php:92
+#: template-product-doctor.php:92
+#: template-product-pdf.php:94
+#: template-product-tailor.php:92
+#: template-services.php:88
+msgid "Book Consultation"
+msgstr ""
+
+#: header.php:59
+msgid "Menu"
+msgstr ""
+
+#: home.php:9
+#: template-parts/blog-index.php:9
+msgid "Insights & Guides"
+msgstr ""
+
+#: home.php:10
+msgid "Practical articles on websites, online booking, WordPress and running your business online."
+msgstr ""
+
+#: inc/i18n-strings.php:9
+#: single.php:19
+#: template-parts/blog-index.php:21
+#: template-pricing.php:33
+#: template-product-booking.php:11
+#: template-product-doctor.php:11
+#: template-product-pdf.php:11
+#: template-product-tailor.php:11
+#: template-products-index.php:11
+#: template-services.php:11
+#: template-solution-doctor.php:16
+#: template-solution-service.php:14
+#: template-solution-tailor.php:14
+#: template-solutions-index.php:11
+msgid "Home"
+msgstr ""
+
+#: inc/i18n-strings.php:12
+#: template-product-booking.php:13
+#: template-product-doctor.php:13
+#: template-product-pdf.php:13
+#: template-product-tailor.php:13
+#: template-products-index.php:13
+msgid "Products"
+msgstr ""
+
+#. Template Name of the theme
+#: inc/i18n-strings.php:13
+#: template-pricing.php:35
+#: template-pricing.php:41
+msgid "Pricing"
+msgstr ""
+
+#: inc/i18n-strings.php:14
+#: single.php:21
+#: template-parts/blog-index.php:8
+#: template-parts/blog-index.php:24
+#: template-parts/blog-index.php:28
+msgid "Blog"
+msgstr ""
+
+#: inc/i18n-strings.php:15
+msgid "Contact Us"
+msgstr ""
+
+#: inc/i18n-strings.php:16
+msgid "Case Studies"
+msgstr ""
+
+#: inc/i18n-strings.php:18
+#: template-parts/section-what-we-do.php:8
+#: template-product-tailor.php:21
+msgid "Tailor Management"
+msgstr ""
+
+#: inc/i18n-strings.php:22
+#: template-parts/section-services.php:4
+#: template-parts/section-what-we-do.php:26
+#: template-pricing.php:85
+#: template-services.php:26
+msgid "Website Development"
+msgstr ""
+
+#: inc/i18n-strings.php:23
+#: template-parts/section-services.php:5
+msgid "Plugin Customization"
+msgstr ""
+
+#: inc/i18n-strings.php:24
+#: template-parts/section-services.php:6
+#: template-parts/section-what-we-do.php:35
+#: template-pricing.php:87
+#: template-services.php:30
+msgid "Website Maintenance"
+msgstr ""
+
+#: inc/i18n-strings.php:25
+#: template-parts/section-services.php:7
+#: template-parts/section-what-we-do.php:35
+#: template-services.php:33
+msgid "Migration Services"
+msgstr ""
+
+#: inc/i18n-strings.php:26
+#: template-parts/section-services.php:8
+msgid "Custom Email Service"
+msgstr ""
+
+#: inc/i18n-strings.php:27
+#: template-parts/section-what-we-do.php:35
+#: template-services.php:34
+msgid "Technical Support"
+msgstr ""
+
+#: inc/i18n-strings.php:28
+#: template-parts/section-services.php:3
+#: template-parts/section-what-we-do.php:26
+#: template-pricing.php:90
+#: template-services.php:32
+msgid "Business Automation"
+msgstr ""
+
+#: inc/i18n-strings.php:29
+msgid "Doctor Solution"
+msgstr ""
+
+#: inc/i18n-strings.php:30
+msgid "Tailor Solution"
+msgstr ""
+
+#: inc/i18n-strings.php:32
+msgid "All Solutions"
+msgstr ""
+
+#: inc/i18n.php:206
+msgid "Language"
+msgstr ""
+
+#: inc/i18n.php:226
+msgid "Change language"
+msgstr ""
+
+#: index.php:18
+msgid "Nothing found."
+msgstr ""
+
+#: search.php:9
+#: search.php:12
+msgid "Search"
+msgstr ""
+
+#. translators: %s: search term
+#: search.php:11
+#, php-format
+msgid "Results for “%s”"
+msgstr ""
+
+#: single.php:17
+#: template-parts/blog-index.php:19
+#: template-pricing.php:31
+#: template-product-booking.php:9
+#: template-product-doctor.php:9
+#: template-product-pdf.php:9
+#: template-product-tailor.php:9
+#: template-products-index.php:9
+#: template-services.php:9
+#: template-solution-doctor.php:14
+#: template-solution-service.php:12
+#: template-solution-tailor.php:12
+#: template-solutions-index.php:9
+msgid "Breadcrumb"
+msgstr ""
+
+#: single.php:47
+#: template-parts/blog-card.php:28
+#, php-format
+msgid "%d min read"
+msgid_plural "%d min read"
+msgstr[0] ""
+msgstr[1] ""
+
+#: single.php:78
+msgid "Share"
+msgstr ""
+
+#: single.php:79
+msgid "Share on Facebook"
+msgstr ""
+
+#: single.php:80
+msgid "Share on LinkedIn"
+msgstr ""
+
+#: single.php:81
+msgid "Share on WhatsApp"
+msgstr ""
+
+#: single.php:104
+msgid "Keep Reading"
+msgstr ""
+
+#: single.php:105
+msgid "Related Articles"
+msgstr ""
+
+#: single.php:107
+msgid "All articles"
+msgstr ""
+
+#: single.php:125
+#: template-parts/blog-index.php:107
+msgid "Need a Website or System for Your Business?"
+msgstr ""
+
+#: single.php:126
+#: template-parts/blog-index.php:108
+msgid "Tell us what you need — we'll build, host and support it for you."
+msgstr ""
+
+#: template-parts/blog-index.php:43
+msgid "Search articles"
+msgstr ""
+
+#: template-parts/blog-index.php:44
+msgid "Search articles…"
+msgstr ""
+
+#: template-parts/blog-index.php:49
+msgid "Categories"
+msgstr ""
+
+#: template-parts/blog-index.php:50
+#: template-parts/feature-widgets-service.php:18
+#: template-parts/solution-hero-service.php:44
+msgid "All"
+msgstr ""
+
+#: template-parts/blog-index.php:77
+msgid "Previous"
+msgstr ""
+
+#: template-parts/blog-index.php:78
+#: template-parts/solution-feature-steps.php:274
+msgid "Next"
+msgstr ""
+
+#: template-parts/blog-index.php:82
+msgid "Pages"
+msgstr ""
+
+#: template-parts/blog-index.php:88
+msgid "No articles found"
+msgstr ""
+
+#: template-parts/blog-index.php:89
+msgid "Try a different word, or browse all articles."
+msgstr ""
+
+#: template-parts/blog-index.php:91
+msgid "Articles are on the way"
+msgstr ""
+
+#: template-parts/blog-index.php:92
+msgid "We are writing practical guides on websites, bookings and running your business online. Check back soon."
+msgstr ""
+
+#: template-parts/blog-index.php:96
+msgid "All Articles"
+msgstr ""
+
+#: template-parts/blog-index.php:98
+msgid "Explore Our Solutions"
+msgstr ""
+
+#: template-parts/feature-widgets-service.php:13
+#: template-services.php:22
+msgid "Our Services"
+msgstr ""
+
+#: template-parts/feature-widgets-service.php:19
+#: template-parts/solution-hero-service.php:45
+msgid "Massage"
+msgstr ""
+
+#: template-parts/feature-widgets-service.php:20
+#: template-parts/feature-widgets-service.php:246
+#: template-parts/feature-widgets-service.php:248
+#: template-parts/solution-hero-service.php:46
+msgid "Hair"
+msgstr ""
+
+#: template-parts/feature-widgets-service.php:21
+#: template-parts/solution-hero-service.php:47
+msgid "Skin Care"
+msgstr ""
+
+#: template-parts/feature-widgets-service.php:26
+#: template-parts/feature-widgets-service.php:153
+#: template-parts/solution-hero-service.php:53
+#: template-parts/solution-hero-service.php:177
+msgid "Traditional Thai Massage"
+msgstr ""
+
+#: template-parts/feature-widgets-service.php:26
+msgid "60 min · 3 staff available"
+msgstr ""
+
+#: template-parts/feature-widgets-service.php:31
+#: template-parts/solution-hero-service.php:59
+msgid "Haircut & Styling"
+msgstr ""
+
+#: template-parts/feature-widgets-service.php:31
+msgid "45 min · 2 staff available"
+msgstr ""
+
+#: template-parts/feature-widgets-service.php:36
+#: template-parts/solution-hero-service.php:64
+msgid "Deep Cleansing Facial"
+msgstr ""
+
+#: template-parts/feature-widgets-service.php:36
+msgid "50 min · 2 staff available"
+msgstr ""
+
+#: template-parts/feature-widgets-service.php:41
+#: template-parts/solution-hero-service.php:69
+msgid "Hot Stone Massage"
+msgstr ""
+
+#: template-parts/feature-widgets-service.php:41
+msgid "90 min · 1 staff available"
+msgstr ""
+
+#: template-parts/feature-widgets-service.php:50
+#: template-parts/feature-widgets-service.php:110
+#: template-parts/feature-widgets-service.php:145
+msgid "Book a Service"
+msgstr ""
+
+#: template-parts/feature-widgets-service.php:54
+#: template-parts/solution-hero-service.php:82
+msgid "Choose Staff"
+msgstr ""
+
+#: template-parts/feature-widgets-service.php:56
+#: template-parts/solution-hero-service.php:84
+msgid "Any"
+msgstr ""
+
+#: template-parts/feature-widgets-service.php:61
+#: template-parts/solution-feature-steps.php:59
+#: template-parts/solution-hero-service.php:89
+#: template-parts/solution-hero.php:63
+#: template-parts/solution-hero.php:69
+msgid "Pick Date & Time"
+msgstr ""
+
+#: template-parts/feature-widgets-service.php:64
+#: template-parts/solution-feature-steps.php:62
+#: template-parts/solution-hero-service.php:92
+msgid "October 2026"
+msgstr ""
+
+#: template-parts/feature-widgets-service.php:115
+#: template-parts/solution-feature-steps.php:113
+#: template-parts/solution-hero-service.php:138
+#: template-parts/solution-hero.php:119
+msgid "Selected"
+msgstr ""
+
+#: template-parts/feature-widgets-service.php:115
+#: template-parts/solution-hero-service.php:138
+msgid "Thai Massage · Oct 28 · 11:00 AM"
+msgstr ""
+
+#: template-parts/feature-widgets-service.php:116
+#: template-parts/solution-feature-steps.php:114
+#: template-parts/solution-hero-service.php:139
+#: template-parts/solution-hero.php:120
+msgid "Change"
+msgstr ""
+
+#: template-parts/feature-widgets-service.php:120
+#: template-parts/solution-feature-steps.php:118
+#: template-parts/solution-hero-service.php:143
+#: template-parts/solution-hero.php:124
+msgid "Full Name"
+msgstr ""
+
+#: template-parts/feature-widgets-service.php:121
+msgid "e.g. Tasnim Akter"
+msgstr ""
+
+#: template-parts/feature-widgets-service.php:125
+#: template-parts/solution-feature-steps.php:122
+#: template-parts/solution-hero-service.php:148
+#: template-parts/solution-hero.php:128
+msgid "Mobile Number"
+msgstr ""
+
+#: template-parts/feature-widgets-service.php:129
+#: template-parts/feature-widgets-service.php:175
+#: template-parts/solution-feature-steps.php:177
+#: template-parts/solution-hero-service.php:152
+msgid "Email"
+msgstr ""
+
+#: template-parts/feature-widgets-service.php:134
+#: template-parts/solution-hero-service.php:157
+msgid "Note for Staff"
+msgstr ""
+
+#: template-parts/feature-widgets-service.php:135
+msgid "Anything we should know?"
+msgstr ""
+
+#: template-parts/feature-widgets-service.php:138
+msgid "Total · 60 min"
+msgstr ""
+
+#: template-parts/feature-widgets-service.php:139
+#: template-parts/solution-hero-service.php:162
+msgid "Confirm Booking"
+msgstr ""
+
+#: template-parts/feature-widgets-service.php:150
+#: template-parts/solution-feature-steps.php:147
+#: template-parts/solution-hero-service.php:166
+#: template-parts/solution-hero-service.php:171
+#: template-parts/solution-hero.php:147
+#: template-parts/solution-hero.php:152
+msgid "Booking Confirmed"
+msgstr ""
+
+#: template-parts/feature-widgets-service.php:152
+#: template-parts/feature-widgets-service.php:184
+#: template-parts/solution-feature-steps.php:149
+#: template-parts/solution-feature-steps.php:186
+#: template-parts/solution-hero-service.php:172
+#: template-parts/solution-hero.php:153
+msgid "Booking ID"
+msgstr ""
+
+#: template-parts/feature-widgets-service.php:153
+#: template-parts/solution-hero-service.php:177
+msgid "Service"
+msgstr ""
+
+#: template-parts/feature-widgets-service.php:154
+#: template-parts/feature-widgets-service.php:181
+#: template-parts/solution-hero-service.php:178
+msgid "Staff"
+msgstr ""
+
+#: template-parts/feature-widgets-service.php:155
+#: template-parts/feature-widgets-service.php:182
+#: template-parts/solution-feature-steps.php:152
+#: template-parts/solution-feature-steps.php:184
+#: template-parts/solution-hero-service.php:179
+#: template-parts/solution-hero.php:159
+msgid "Date"
+msgstr ""
+
+#: template-parts/feature-widgets-service.php:156
+#: template-parts/feature-widgets-service.php:183
+#: template-parts/solution-feature-steps.php:153
+#: template-parts/solution-feature-steps.php:185
+#: template-parts/solution-hero-service.php:180
+#: template-parts/solution-hero.php:160
+msgid "Time"
+msgstr ""
+
+#: template-parts/feature-widgets-service.php:156
+#: template-parts/solution-hero-service.php:180
+msgid "11:00 AM · 60 min"
+msgstr ""
+
+#: template-parts/feature-widgets-service.php:157
+#: template-parts/feature-widgets-tailor.php:111
+#: template-parts/solution-hero-service.php:181
+#: template-parts/solution-hero-tailor.php:120
+msgid "Total"
+msgstr ""
+
+#: template-parts/feature-widgets-service.php:159
+msgid "Need to change it? Use the link in your SMS."
+msgstr ""
+
+#: template-parts/feature-widgets-service.php:168
+#: template-parts/feature-widgets-service.php:176
+#: template-parts/feature-widgets-tailor.php:149
+#: template-parts/solution-feature-steps.php:170
+#: template-parts/solution-feature-steps.php:178
+msgid "Just now"
+msgstr ""
+
+#: template-parts/feature-widgets-service.php:170
+msgid "Serenity Spa: Your Thai Massage with Nadia is confirmed for Oct 28 at 11:00 AM. Booking ID: SB-4127. We will remind you 2 hours before."
+msgstr ""
+
+#: template-parts/feature-widgets-service.php:178
+msgid "Your booking is confirmed — Traditional Thai Massage"
+msgstr ""
+
+#: template-parts/feature-widgets-service.php:179
+msgid "Hi Tasnim, thanks for booking with us. Please arrive 10 minutes early so you can relax before your session."
+msgstr ""
+
+#: template-parts/feature-widgets-service.php:186
+msgid "Serenity Spa"
+msgstr ""
+
+#: template-parts/feature-widgets-service.php:192
+msgid "Admin Panel · Bookings"
+msgstr ""
+
+#: template-parts/feature-widgets-service.php:197
+#: template-parts/feature-widgets-service.php:201
+#: template-parts/solution-hero-service.php:208
+#: template-parts/solution-hero-service.php:212
+msgid "Today's Bookings"
+msgstr ""
+
+#: template-parts/feature-widgets-service.php:198
+#: template-parts/solution-hero-service.php:209
+msgid "Total Customers"
+msgstr ""
+
+#: template-parts/feature-widgets-service.php:199
+#: template-parts/solution-hero-service.php:210
+msgid "Today's Revenue"
+msgstr ""
+
+#: template-parts/feature-widgets-service.php:207
+#: template-parts/solution-hero-service.php:217
+msgid "Done"
+msgstr ""
+
+#: template-parts/feature-widgets-service.php:213
+#: template-parts/solution-hero-service.php:223
+msgid "In Service"
+msgstr ""
+
+#: template-parts/feature-widgets-service.php:219
+msgid "New"
+msgstr ""
+
+#: template-parts/feature-widgets-service.php:225
+#: template-parts/feature-widgets-service.php:231
+#: template-parts/solution-hero-service.php:229
+#: template-parts/solution-hero-service.php:235
+msgid "Upcoming"
+msgstr ""
+
+#: template-parts/feature-widgets-service.php:239
+msgid "Staff Schedule · Today"
+msgstr ""
+
+#: template-parts/feature-widgets-service.php:245
+#: template-parts/feature-widgets-service.php:246
+#: template-parts/feature-widgets-service.php:248
+msgid "Facial"
+msgstr ""
+
+#: template-parts/feature-widgets-service.php:245
+#: template-parts/feature-widgets-service.php:247
+msgid "Thai"
+msgstr ""
+
+#: template-parts/feature-widgets-service.php:245
+#: template-parts/feature-widgets-service.php:247
+msgid "Break"
+msgstr ""
+
+#: template-parts/feature-widgets-service.php:245
+#: template-parts/feature-widgets-service.php:247
+msgid "Hot Stone"
+msgstr ""
+
+#: template-parts/feature-widgets-service.php:246
+#: template-parts/feature-widgets-service.php:248
+#: template-parts/solution-hero-service.php:48
+msgid "Nails"
+msgstr ""
+
+#: template-parts/feature-widgets-service.php:250
+msgid "Open slots update automatically — no double bookings."
+msgstr ""
+
+#: template-parts/feature-widgets-tailor.php:13
+msgid "Customer Profile"
+msgstr ""
+
+#: template-parts/feature-widgets-tailor.php:19
+msgid "01XXXXXXXXX · Mirpur, Dhaka"
+msgstr ""
+
+#: template-parts/feature-widgets-tailor.php:20
+msgid "Regular"
+msgstr ""
+
+#: template-parts/feature-widgets-tailor.php:23
+msgid "Total Orders"
+msgstr ""
+
+#: template-parts/feature-widgets-tailor.php:24
+msgid "Total Spent"
+msgstr ""
+
+#: template-parts/feature-widgets-tailor.php:25
+#: template-parts/feature-widgets-tailor.php:173
+msgid "Due"
+msgstr ""
+
+#: template-parts/feature-widgets-tailor.php:27
+msgid "Order History"
+msgstr ""
+
+#: template-parts/feature-widgets-tailor.php:29
+#: template-parts/feature-widgets-tailor.php:67
+#: template-parts/feature-widgets-tailor.php:182
+#: template-parts/solution-hero-tailor.php:53
+#: template-parts/solution-hero-tailor.php:166
+msgid "Suit"
+msgstr ""
+
+#: template-parts/feature-widgets-tailor.php:29
+#: template-parts/feature-widgets-tailor.php:30
+#: template-parts/feature-widgets-tailor.php:31
+msgid "Delivered"
+msgstr ""
+
+#: template-parts/feature-widgets-tailor.php:30
+#: template-parts/solution-hero-tailor.php:172
+msgid "Shirt × 3"
+msgstr ""
+
+#: template-parts/feature-widgets-tailor.php:31
+#: template-parts/feature-widgets-tailor.php:66
+#: template-parts/feature-widgets-tailor.php:180
+#: template-parts/solution-hero-tailor.php:52
+msgid "Panjabi"
+msgstr ""
+
+#: template-parts/feature-widgets-tailor.php:38
+msgid "Measurements · Panjabi"
+msgstr ""
+
+#: template-parts/feature-widgets-tailor.php:43
+#: template-parts/solution-hero-tailor.php:89
+msgid "Length"
+msgstr ""
+
+#: template-parts/feature-widgets-tailor.php:44
+#: template-parts/solution-hero-tailor.php:90
+msgid "Chest"
+msgstr ""
+
+#: template-parts/feature-widgets-tailor.php:45
+#: template-parts/solution-hero-tailor.php:91
+msgid "Waist"
+msgstr ""
+
+#: template-parts/feature-widgets-tailor.php:46
+#: template-parts/solution-hero-tailor.php:92
+msgid "Hip"
+msgstr ""
+
+#: template-parts/feature-widgets-tailor.php:47
+#: template-parts/solution-hero-tailor.php:93
+msgid "Shoulder"
+msgstr ""
+
+#: template-parts/feature-widgets-tailor.php:48
+#: template-parts/solution-hero-tailor.php:94
+msgid "Sleeve"
+msgstr ""
+
+#: template-parts/feature-widgets-tailor.php:49
+#: template-parts/solution-hero-tailor.php:95
+msgid "Collar"
+msgstr ""
+
+#: template-parts/feature-widgets-tailor.php:50
+#: template-parts/solution-hero-tailor.php:96
+msgid "Cuff"
+msgstr ""
+
+#: template-parts/feature-widgets-tailor.php:52
+msgid "Saved to Rahim Uddin — ready for his next order."
+msgstr ""
+
+#: template-parts/feature-widgets-tailor.php:58
+#: template-parts/solution-hero-tailor.php:36
+#: template-parts/solution-hero-tailor.php:42
+msgid "New Order"
+msgstr ""
+
+#: template-parts/feature-widgets-tailor.php:62
+#: template-parts/solution-hero-tailor.php:48
+msgid "Item"
+msgstr ""
+
+#: template-parts/feature-widgets-tailor.php:64
+#: template-parts/feature-widgets-tailor.php:181
+#: template-parts/solution-hero-tailor.php:50
+msgid "Shirt"
+msgstr ""
+
+#: template-parts/feature-widgets-tailor.php:65
+#: template-parts/solution-hero-tailor.php:51
+msgid "Pant"
+msgstr ""
+
+#: template-parts/feature-widgets-tailor.php:68
+#: template-parts/solution-hero-tailor.php:54
+#: template-parts/solution-hero-tailor.php:178
+msgid "Sherwani"
+msgstr ""
+
+#: template-parts/feature-widgets-tailor.php:73
+#: template-parts/solution-hero-tailor.php:60
+msgid "Quantity"
+msgstr ""
+
+#: template-parts/feature-widgets-tailor.php:77
+#: template-parts/solution-hero-tailor.php:64
+msgid "Fabric"
+msgstr ""
+
+#: template-parts/feature-widgets-tailor.php:78
+#: template-parts/solution-hero-tailor.php:65
+msgid "Cotton · 5 m"
+msgstr ""
+
+#: template-parts/feature-widgets-tailor.php:83
+#: template-parts/solution-hero-tailor.php:70
+msgid "Trial Date"
+msgstr ""
+
+#: template-parts/feature-widgets-tailor.php:87
+#: template-parts/solution-hero-tailor.php:74
+msgid "Delivery Date"
+msgstr ""
+
+#: template-parts/feature-widgets-tailor.php:92
+#: template-parts/solution-hero-tailor.php:102
+msgid "Design Note"
+msgstr ""
+
+#: template-parts/feature-widgets-tailor.php:93
+#: template-parts/solution-hero-tailor.php:103
+msgid "Chinese collar, 2 side pockets"
+msgstr ""
+
+#: template-parts/feature-widgets-tailor.php:96
+msgid "Create Order"
+msgstr ""
+
+#: template-parts/feature-widgets-tailor.php:102
+#: template-parts/solution-hero-tailor.php:110
+#: template-parts/solution-hero-tailor.php:112
+msgid "Invoice"
+msgstr ""
+
+#: template-parts/feature-widgets-tailor.php:103
+#: template-parts/solution-hero-tailor.php:113
+msgid "Partly Paid"
+msgstr ""
+
+#: template-parts/feature-widgets-tailor.php:107
+#: template-parts/solution-hero-tailor.php:116
+msgid "Panjabi stitching"
+msgstr ""
+
+#: template-parts/feature-widgets-tailor.php:108
+#: template-parts/solution-hero-tailor.php:117
+msgid "Cotton fabric"
+msgstr ""
+
+#: template-parts/feature-widgets-tailor.php:109
+#: template-parts/solution-hero-tailor.php:118
+msgid "Collar embroidery"
+msgstr ""
+
+#: template-parts/feature-widgets-tailor.php:110
+#: template-parts/solution-hero-tailor.php:119
+msgid "Discount"
+msgstr ""
+
+#: template-parts/feature-widgets-tailor.php:112
+#: template-parts/solution-hero-tailor.php:121
+msgid "Advance paid"
+msgstr ""
+
+#: template-parts/feature-widgets-tailor.php:113
+#: template-parts/solution-hero-tailor.php:122
+msgid "Due on delivery"
+msgstr ""
+
+#: template-parts/feature-widgets-tailor.php:115
+msgid "Print Receipt"
+msgstr ""
+
+#: template-parts/feature-widgets-tailor.php:121
+#: template-parts/solution-hero-tailor.php:131
+#: template-parts/solution-hero-tailor.php:190
+msgid "Panjabi × 2"
+msgstr ""
+
+#: template-parts/feature-widgets-tailor.php:126
+#: template-parts/solution-hero-tailor.php:134
+msgid "Order Received"
+msgstr ""
+
+#: template-parts/feature-widgets-tailor.php:126
+#: template-parts/solution-hero-tailor.php:134
+msgid "Oct 28 · advance ৳2,000 paid"
+msgstr ""
+
+#: template-parts/feature-widgets-tailor.php:127
+#: template-parts/solution-hero-tailor.php:135
+msgid "Fabric Cutting"
+msgstr ""
+
+#: template-parts/feature-widgets-tailor.php:127
+#: template-parts/solution-hero-tailor.php:135
+msgid "Oct 29 · Karim (cutter)"
+msgstr ""
+
+#: template-parts/feature-widgets-tailor.php:128
+#: template-parts/solution-hero-tailor.php:136
+#: template-parts/solution-hero-tailor.php:173
+#: template-parts/solution-hero-tailor.php:191
+msgid "Stitching"
+msgstr ""
+
+#: template-parts/feature-widgets-tailor.php:128
+#: template-parts/solution-hero-tailor.php:136
+msgid "In progress · Jamal (tailor)"
+msgstr ""
+
+#: template-parts/feature-widgets-tailor.php:129
+#: template-parts/solution-hero-tailor.php:137
+#: template-parts/solution-hero-tailor.php:179
+msgid "Trial"
+msgstr ""
+
+#: template-parts/feature-widgets-tailor.php:129
+#: template-parts/solution-hero-tailor.php:137
+msgid "Nov 2"
+msgstr ""
+
+#: template-parts/feature-widgets-tailor.php:130
+#: template-parts/solution-hero-tailor.php:138
+msgid "Ready for Delivery"
+msgstr ""
+
+#: template-parts/feature-widgets-tailor.php:130
+#: template-parts/solution-hero-tailor.php:138
+msgid "Customer gets an SMS"
+msgstr ""
+
+#: template-parts/feature-widgets-tailor.php:131
+#: template-parts/solution-hero-tailor.php:139
+msgid "Delivered & Paid"
+msgstr ""
+
+#: template-parts/feature-widgets-tailor.php:131
+#: template-parts/solution-hero-tailor.php:139
+msgid "Nov 5 · due ৳2,300"
+msgstr ""
+
+#: template-parts/feature-widgets-tailor.php:141
+msgid "Oct 28"
+msgstr ""
+
+#: template-parts/feature-widgets-tailor.php:143
+msgid "Al-Modina Tailors: Order #ORD-1026 received. Panjabi × 2, total ৳4,300, advance ৳2,000. Trial Nov 2, delivery Nov 5."
+msgstr ""
+
+#: template-parts/feature-widgets-tailor.php:151
+msgid "Al-Modina Tailors: Your order #ORD-1026 is ready for pickup. Due amount: ৳2,300. Thank you!"
+msgstr ""
+
+#: template-parts/feature-widgets-tailor.php:156
+msgid "Shop Reminder"
+msgstr ""
+
+#: template-parts/feature-widgets-tailor.php:157
+#: template-parts/solution-hero.php:53
+msgid "Today"
+msgstr ""
+
+#: template-parts/feature-widgets-tailor.php:159
+msgid "6 orders due for delivery today"
+msgstr ""
+
+#: template-parts/feature-widgets-tailor.php:160
+msgid "2 are still in stitching — check with the workshop so nothing is late."
+msgstr ""
+
+#: template-parts/feature-widgets-tailor.php:166
+msgid "Reports · This Month"
+msgstr ""
+
+#: template-parts/feature-widgets-tailor.php:171
+#: template-parts/solution-hero-tailor.php:154
+msgid "Orders"
+msgstr ""
+
+#: template-parts/feature-widgets-tailor.php:172
+msgid "Sales"
+msgstr ""
+
+#: template-parts/feature-widgets-tailor.php:175
+msgid "Orders per Week"
+msgstr ""
+
+#: template-parts/feature-widgets-tailor.php:178
+msgid "Top Items"
+msgstr ""
+
+#: template-parts/plugins-grid.php:20
+msgid "Rated 5.0 out of 5 from 6 reviews"
+msgstr ""
+
+#: template-parts/plugins-grid.php:25
+#: template-parts/pricing-plugin-licenses.php:33
+#: template-parts/product-hero.php:29
+#: template-parts/solution-hero-service.php:25
+#: template-parts/solution-hero-tailor.php:25
+#: template-parts/solution-hero.php:25
+msgid "Live Demo"
+msgstr ""
+
+#: template-parts/plugins-grid.php:26
+#: template-parts/pricing-plugin-licenses.php:31
+msgid "Details"
+msgstr ""
+
+#: template-parts/pricing-plugin-licenses.php:15
+#: template-pricing.php:46
+#: template-products-index.php:19
+msgid "WordPress Plugins"
+msgstr ""
+
+#: template-parts/pricing-plugin-licenses.php:16
+msgid "Plugin Licenses"
+msgstr ""
+
+#: template-parts/pricing-plugin-licenses.php:17
+msgid "Install on your own WordPress site. Pay once — updates are included for life."
+msgstr ""
+
+#: template-parts/pricing-plugin-licenses.php:42
+msgid "one time"
+msgstr ""
+
+#: template-parts/pricing-plugin-licenses.php:48
+#: template-parts/product-hero.php:30
+#: template-parts/product-pricing.php:32
+msgid "Buy Now"
+msgstr ""
+
+#: template-parts/pricing-services.php:15
+msgid "Custom Work, Quoted for You"
+msgstr ""
+
+#: template-parts/pricing-services.php:16
+msgid "Every project is different, so we scope it with you first and send a fixed quote — no surprises later."
+msgstr ""
+
+#: template-parts/pricing-services.php:25
+msgid "Get a Quote"
+msgstr ""
+
+#: template-parts/pricing-services.php:32
+msgid "Free consultation"
+msgstr ""
+
+#: template-parts/pricing-services.php:33
+msgid "Written scope & fixed quote"
+msgstr ""
+
+#: template-parts/pricing-services.php:34
+msgid "Work starts after you approve"
+msgstr ""
+
+#: template-parts/product-gallery.php:7
+#: template-product-booking.php:44
+#: template-product-doctor.php:44
+#: template-product-pdf.php:44
+#: template-product-tailor.php:44
+msgid "See It In Action"
+msgstr ""
+
+#: template-parts/product-hero.php:12
+msgid "Product Screenshot"
+msgstr ""
+
+#: template-parts/product-pricing.php:8
+#: template-product-booking.php:54
+#: template-product-doctor.php:54
+#: template-product-pdf.php:54
+#: template-product-tailor.php:54
+msgid "Simple Pricing"
+msgstr ""
+
+#: template-parts/product-pricing.php:9
+#: template-product-booking.php:55
+#: template-product-doctor.php:55
+#: template-product-pdf.php:55
+#: template-product-tailor.php:55
+msgid "One time payment, lifetime updates and support."
+msgstr ""
+
+#: template-parts/product-pricing.php:31
+msgid "One Time Payment"
+msgstr ""
+
+#: template-parts/section-cta.php:5
+msgid "Ready to Build Your Business Website?"
+msgstr ""
+
+#: template-parts/section-cta.php:6
+msgid "Let's discuss how we can help you grow your business online."
+msgstr ""
+
+#: template-parts/section-cta.php:9
+msgid "Book Consultant"
+msgstr ""
+
+#: template-parts/section-hero.php:4
+msgid "WordPress Business Solutions"
+msgstr ""
+
+#: template-parts/section-hero.php:6
+msgid "Complete"
+msgstr ""
+
+#: template-parts/section-hero.php:7
+#: template-parts/section-what-we-do.php:4
+#: template-pricing.php:45
+#: template-solutions-index.php:19
+msgid "Business Solutions"
+msgstr ""
+
+#: template-parts/section-hero.php:8
+msgid "for Growing Businesses"
+msgstr ""
+
+#: template-parts/section-hero.php:11
+msgid "We build complete business websites with custom software, managed hosting, domain setup, training, and ongoing support. Everything you need to launch and grow your business in one place."
+msgstr ""
+
+#: template-parts/section-hero.php:15
+msgid "Ready Solutions"
+msgstr ""
+
+#: template-parts/section-hero.php:16
+#: template-parts/section-what-we-do.php:13
+msgid "Premium Plugins"
+msgstr ""
+
+#: template-parts/section-hero.php:17
+msgid "Expert Services"
+msgstr ""
+
+#: template-parts/section-hero.php:18
+#: template-parts/section-what-we-do.php:31
+msgid "Reliable Support"
+msgstr ""
+
+#: template-parts/section-hero.php:23
+#: template-parts/section-what-we-do.php:10
+#: template-parts/solutions-grid.php:36
+msgid "View Solutions"
+msgstr ""
+
+#: template-parts/section-hero.php:40
+msgid "Doctor Appointment & Queue Management"
+msgstr ""
+
+#: template-parts/section-hero.php:41
+#: template-product-booking.php:23
+#: template-product-booking.php:34
+#: template-product-doctor.php:34
+msgid "Online Booking"
+msgstr ""
+
+#: template-parts/section-hero.php:41
+msgid "Patient Queue"
+msgstr ""
+
+#: template-parts/section-hero.php:41
+msgid "Doctor Panel"
+msgstr ""
+
+#: template-parts/section-hero.php:49
+#: template-parts/section-success-stories.php:28
+#: template-parts/solution-hero-tailor.php:83
+#: template-product-tailor.php:36
+msgid "Measurements"
+msgstr ""
+
+#: template-parts/section-hero.php:49
+msgid "Order Tracking"
+msgstr ""
+
+#: template-parts/section-hero.php:49
+#: template-product-tailor.php:23
+#: template-product-tailor.php:35
+msgid "Customer Management"
+msgstr ""
+
+#: template-parts/section-hero.php:57
+msgid "Book Services"
+msgstr ""
+
+#: template-parts/section-hero.php:57
+msgid "Manage Schedule"
+msgstr ""
+
+#: template-parts/section-hero.php:57
+msgid "Deliver Your Commitments"
+msgstr ""
+
+#: template-parts/section-hero.php:64
+msgid "Digital Flipbook & PDF Viewer"
+msgstr ""
+
+#: template-parts/section-hero.php:65
+msgid "Interactive Books"
+msgstr ""
+
+#: template-parts/section-hero.php:65
+msgid "PDF Viewer"
+msgstr ""
+
+#: template-parts/section-hero.php:65
+msgid "Modern Reading Experience"
+msgstr ""
+
+#: template-parts/section-plugins.php:5
+msgid "Featured WordPress Plugins"
+msgstr ""
+
+#: template-parts/section-plugins.php:6
+msgid "Powerful plugins built to extend WordPress and simplify your business workflow."
+msgstr ""
+
+#: template-parts/section-plugins.php:9
+msgid "View All Plugins"
+msgstr ""
+
+#: template-parts/section-principles.php:12
+msgid "We Only Build What Fits Your Business"
+msgstr ""
+
+#: template-parts/section-principles.php:13
+msgid "Every project is scoped around how your business actually runs, not squeezed into a generic template."
+msgstr ""
+
+#: template-parts/section-principles.php:15
+msgid "No one-size-fits-all packages"
+msgstr ""
+
+#: template-parts/section-principles.php:16
+msgid "Every solution starts with understanding your workflow"
+msgstr ""
+
+#: template-parts/section-principles.php:17
+msgid "Custom WordPress builds, not reused themes"
+msgstr ""
+
+#: template-parts/section-principles.php:22
+msgid "Transparent, All-Inclusive Pricing"
+msgstr ""
+
+#: template-parts/section-principles.php:23
+msgid "No hidden add-ons — every plan ships complete and ready to launch."
+msgstr ""
+
+#: template-parts/section-principles.php:25
+msgid "Website, hosting, domain, SSL and email included"
+msgstr ""
+
+#: template-parts/section-principles.php:26
+msgid "Clear pricing agreed before we start"
+msgstr ""
+
+#: template-parts/section-principles.php:27
+msgid "What you are quoted is what you pay"
+msgstr ""
+
+#: template-parts/section-principles.php:32
+msgid "Security & Reliability By Default"
+msgstr ""
+
+#: template-parts/section-principles.php:33
+msgid "SSL, backups and monitoring are built into every plan, not sold as extras."
+msgstr ""
+
+#: template-parts/section-principles.php:35
+msgid "Regular automatic backups"
+msgstr ""
+
+#: template-parts/section-principles.php:36
+msgid "Monitored, managed hosting"
+msgstr ""
+
+#: template-parts/section-principles.php:37
+msgid "SSL included from day one"
+msgstr ""
+
+#: template-parts/section-principles.php:42
+msgid "One Team, Start to Finish"
+msgstr ""
+
+#: template-parts/section-principles.php:43
+msgid "Development, hosting, email, maintenance and support — handled by one accountable team."
+msgstr ""
+
+#: template-parts/section-principles.php:45
+msgid "No juggling multiple vendors"
+msgstr ""
+
+#: template-parts/section-principles.php:46
+msgid "One point of contact for your whole project"
+msgstr ""
+
+#: template-parts/section-principles.php:47
+msgid "Consistent support after launch"
+msgstr ""
+
+#: template-parts/section-principles.php:52
+msgid "We Stay Reachable After Launch"
+msgstr ""
+
+#: template-parts/section-principles.php:53
+msgid "Our relationship doesn't end at launch — we stay on for ongoing support."
+msgstr ""
+
+#: template-parts/section-principles.php:55
+msgid "Direct WhatsApp and email support"
+msgstr ""
+
+#: template-parts/section-principles.php:56
+msgid "Regular maintenance and updates"
+msgstr ""
+
+#: template-parts/section-principles.php:57
+msgid "Help whenever something needs fixing"
+msgstr ""
+
+#: template-parts/section-principles.php:65
+msgid "Our Principles"
+msgstr ""
+
+#: template-parts/section-principles.php:66
+msgid "How We Work"
+msgstr ""
+
+#: template-parts/section-principles.php:67
+msgid "The principles we follow to deliver reliable, transparent business websites."
+msgstr ""
+
+#: template-parts/section-principles.php:75
+#, php-format
+msgid "Principle %s"
+msgstr ""
+
+#: template-parts/section-services.php:14
+msgid "Expert Services To Support your Business"
+msgstr ""
+
+#: template-parts/section-services.php:15
+msgid "We help you in every step of your journey."
+msgstr ""
+
+#: template-parts/section-solutions.php:4
+msgid "Our Business Solutions"
+msgstr ""
+
+#: template-parts/section-solutions.php:5
+msgid "Ready-made website solutions designed for your business. We handle everything from setup to support, so you can focus on running your business."
+msgstr ""
+
+#: template-parts/section-success-stories.php:9
+msgid "CozyThai – Thai Massage Booking Website"
+msgstr ""
+
+#: template-parts/section-success-stories.php:10
+msgid "Massage & Wellness"
+msgstr ""
+
+#: template-parts/section-success-stories.php:12
+#: template-parts/solution-hero-service.php:14
+#: template-parts/solution-hero-tailor.php:14
+#: template-parts/solution-hero.php:14
+#: template-parts/solution-included.php:12
+#: template-services.php:51
+#: template-solution-doctor.php:97
+#: template-solution-service.php:95
+#: template-solution-tailor.php:95
+msgid "Website"
+msgstr ""
+
+#: template-parts/section-success-stories.php:12
+#: template-parts/solution-hero-service.php:16
+#: template-parts/solution-hero-tailor.php:16
+#: template-parts/solution-hero.php:16
+#: template-parts/solution-included.php:14
+#: template-services.php:53
+#: template-solution-doctor.php:99
+#: template-solution-service.php:97
+#: template-solution-tailor.php:97
+msgid "Hosting"
+msgstr ""
+
+#: template-parts/section-success-stories.php:12
+msgid "Support"
+msgstr ""
+
+#: template-parts/section-success-stories.php:17
+msgid "Doctor Appointment Website"
+msgstr ""
+
+#: template-parts/section-success-stories.php:18
+msgid "Healthcare"
+msgstr ""
+
+#: template-parts/section-success-stories.php:20
+msgid "Clinic Website"
+msgstr ""
+
+#: template-parts/section-success-stories.php:20
+msgid "Appointment Booking"
+msgstr ""
+
+#: template-parts/section-success-stories.php:20
+#: template-product-doctor.php:23
+#: template-product-doctor.php:38
+msgid "Patient Management"
+msgstr ""
+
+#: template-parts/section-success-stories.php:25
+msgid "Tailor Management Website"
+msgstr ""
+
+#: template-parts/section-success-stories.php:26
+msgid "Tailoring & Fashion"
+msgstr ""
+
+#: template-parts/section-success-stories.php:28
+#: template-product-tailor.php:23
+#: template-product-tailor.php:34
+msgid "Order Management"
+msgstr ""
+
+#: template-parts/section-success-stories.php:28
+msgid "Invoices"
+msgstr ""
+
+#: template-parts/section-success-stories.php:41
+msgid "Completed"
+msgstr ""
+
+#: template-parts/section-success-stories.php:53
+msgid "View Case Study"
+msgstr ""
+
+#: template-parts/section-success-stories.php:62
+msgid "Real Client Work"
+msgstr ""
+
+#: template-parts/section-success-stories.php:63
+msgid "Successfully Delivered"
+msgstr ""
+
+#: template-parts/section-success-stories.php:63
+msgid "Business Websites"
+msgstr ""
+
+#: template-parts/section-success-stories.php:64
+msgid "Every project we take on is scoped carefully, built to the agreed plan, and handed over complete — hosting, domain, SSL and support included from day one."
+msgstr ""
+
+#: template-parts/section-success-stories.php:66
+msgid "View All Case Studies"
+msgstr ""
+
+#: template-parts/section-success-stories.php:71
+msgid "Our Track Record"
+msgstr ""
+
+#: template-parts/section-success-stories.php:72
+msgid "100% Delivered, Fully Supported"
+msgstr ""
+
+#: template-parts/section-success-stories.php:73
+msgid "Every project we've completed ships with hosting, SSL and ongoing support already in place."
+msgstr ""
+
+#: template-parts/section-success-stories.php:75
+msgid "Browse All Case Studies"
+msgstr ""
+
+#: template-parts/section-success-stories.php:79
+msgid "Delivered to the agreed scope"
+msgstr ""
+
+#: template-parts/section-success-stories.php:80
+msgid "Transparent process, real support"
+msgstr ""
+
+#: template-parts/section-what-we-do.php:5
+msgid "Ready-made websites built specifically for your business industry."
+msgstr ""
+
+#: template-parts/section-what-we-do.php:14
+msgid "Professional WordPress plugins for developers and growing businesses."
+msgstr ""
+
+#: template-parts/section-what-we-do.php:17
+msgid "Tailor Order"
+msgstr ""
+
+#: template-parts/section-what-we-do.php:19
+msgid "View Products"
+msgstr ""
+
+#: template-parts/section-what-we-do.php:22
+msgid "Custom Development"
+msgstr ""
+
+#: template-parts/section-what-we-do.php:23
+msgid "Need something unique? We build custom WordPress solutions tailored to your workflow."
+msgstr ""
+
+#: template-parts/section-what-we-do.php:26
+msgid "Plugin Development"
+msgstr ""
+
+#: template-parts/section-what-we-do.php:28
+#: template-parts/section-what-we-do.php:37
+msgid "View Services"
+msgstr ""
+
+#: template-parts/section-what-we-do.php:32
+msgid "Fast, friendly, and ongoing technical support whenever you need it."
+msgstr ""
+
+#: template-parts/section-what-we-do.php:44
+msgid "What We Do"
+msgstr ""
+
+#: template-parts/section-what-we-do.php:45
+msgid "Everything you need to build, launch, and grow your business online."
+msgstr ""
+
+#: template-parts/services-hero.php:6
+msgid "Website & Hosting"
+msgstr ""
+
+#: template-parts/services-hero.php:6
+msgid "Built, hosted and monitored"
+msgstr ""
+
+#: template-parts/services-hero.php:7
+msgid "Security & Backups"
+msgstr ""
+
+#: template-parts/services-hero.php:7
+msgid "SSL, backups, monitoring"
+msgstr ""
+
+#: template-parts/services-hero.php:8
+msgid "Automation"
+msgstr ""
+
+#: template-parts/services-hero.php:8
+msgid "Custom n8n workflows"
+msgstr ""
+
+#: template-parts/services-hero.php:9
+#: template-parts/solution-why-choose.php:12
+#: template-services.php:42
+msgid "Ongoing Support"
+msgstr ""
+
+#: template-parts/services-hero.php:9
+msgid "Reachable after you launch"
+msgstr ""
+
+#: template-parts/services-hero.php:15
+msgid "Complete Business Support"
+msgstr ""
+
+#: template-parts/services-hero.php:16
+msgid "We handle your business, so you don't have to"
+msgstr ""
+
+#: template-parts/services-hero.php:17
+msgid "From your first website to everyday support — development, hosting, email, maintenance and automation, built on WordPress and backed by a team that stays with you."
+msgstr ""
+
+#: template-parts/services-hero.php:20
+msgid "One team, start to finish"
+msgstr ""
+
+#: template-parts/services-hero.php:21
+msgid "Support after launch"
+msgstr ""
+
+#: template-parts/services-hero.php:22
+msgid "No add-on surprises"
+msgstr ""
+
+#: template-parts/services-hero.php:30
+msgid "See Our Services"
+msgstr ""
+
+#: template-parts/services-hero.php:40
+msgid "Your business, fully supported"
+msgstr ""
+
+#: template-parts/solution-cta.php:9
+#: template-parts/solution-faq.php:10
+#: template-pricing.php:110
+msgid "Book Free Consultation"
+msgstr ""
+
+#: template-parts/solution-faq.php:8
+msgid "Still Have Questions?"
+msgstr ""
+
+#: template-parts/solution-faq.php:9
+msgid "We are here to help you. Feel free to contact us anytime."
+msgstr ""
+
+#: template-parts/solution-faq.php:17
+msgid "FAQ"
+msgstr ""
+
+#: template-parts/solution-faq.php:18
+msgid "Frequently Asked Questions"
+msgstr ""
+
+#: template-parts/solution-feature-steps.php:34
+#: template-parts/solution-feature-steps.php:57
+#: template-parts/solution-hero.php:44
+#: template-parts/solution-hero.php:67
+#: template-parts/solution-hero.php:227
+msgid "Medicine"
+msgstr ""
+
+#: template-parts/solution-feature-steps.php:37
+#: template-parts/solution-hero.php:47
+msgid "Phone"
+msgstr ""
+
+#: template-parts/solution-feature-steps.php:39
+#: template-parts/solution-hero.php:49
+msgid "Availability"
+msgstr ""
+
+#: template-parts/solution-feature-steps.php:40
+#: template-parts/solution-hero.php:50
+msgid "Monday"
+msgstr ""
+
+#: template-parts/solution-feature-steps.php:41
+#: template-parts/solution-hero.php:51
+msgid "Tuesday"
+msgstr ""
+
+#: template-parts/solution-feature-steps.php:42
+#: template-parts/solution-hero.php:52
+msgid "Wednesday"
+msgstr ""
+
+#: template-parts/solution-feature-steps.php:43
+#: template-parts/solution-hero.php:53
+msgid "Friday"
+msgstr ""
+
+#: template-parts/solution-feature-steps.php:45
+#: template-parts/solution-feature-steps.php:50
+#: template-parts/solution-feature-steps.php:108
+#: template-parts/solution-feature-steps.php:136
+#: template-parts/solution-feature-steps.php:142
+#: template-parts/solution-hero.php:57
+#: template-parts/solution-hero.php:143
+msgid "Book Appointment"
+msgstr ""
+
+#: template-parts/solution-feature-steps.php:54
+#: template-parts/solution-hero.php:64
+msgid "Choose Specialty & Doctor"
+msgstr ""
+
+#: template-parts/solution-feature-steps.php:119
+msgid "e.g. Shafiul Islam"
+msgstr ""
+
+#: template-parts/solution-feature-steps.php:127
+#: template-parts/solution-hero.php:133
+msgid "Age"
+msgstr ""
+
+#: template-parts/solution-feature-steps.php:131
+#: template-parts/solution-hero.php:137
+msgid "Gender"
+msgstr ""
+
+#: template-parts/solution-feature-steps.php:132
+#: template-parts/solution-feature-steps.php:227
+#: template-parts/solution-feature-steps.php:233
+#: template-parts/solution-feature-steps.php:247
+#: template-parts/solution-hero.php:138
+msgid "Male"
+msgstr ""
+
+#: template-parts/solution-feature-steps.php:150
+#: template-parts/solution-hero.php:157
+msgid "Patient"
+msgstr ""
+
+#: template-parts/solution-feature-steps.php:151
+#: template-parts/solution-feature-steps.php:183
+#: template-parts/solution-hero.php:158
+msgid "Doctor"
+msgstr ""
+
+#: template-parts/solution-feature-steps.php:161
+#: template-parts/solution-hero.php:171
+msgid "Show this QR code at check-in."
+msgstr ""
+
+#: template-parts/solution-feature-steps.php:172
+msgid "National Institute of Neuroscience & Hospital: Appointment confirmed with Dr. Dewan Md. Kudrat-A-Elahi on Oct 28, 2026 at 3:20 PM. Booking ID: B002854. Helpline: 01707574598."
+msgstr ""
+
+#: template-parts/solution-feature-steps.php:180
+msgid "Appointment Confirmed — Dr. Dewan Md. Kudrat-A-Elahi"
+msgstr ""
+
+#: template-parts/solution-feature-steps.php:181
+msgid "Hi Abdur Rahman, your appointment is confirmed. Please arrive 10 minutes early and bring your QR code for check-in."
+msgstr ""
+
+#: template-parts/solution-feature-steps.php:188
+msgid "National Institute of Neuroscience & Hospital"
+msgstr ""
+
+#: template-parts/solution-feature-steps.php:194
+msgid "Admin Panel · Appointments"
+msgstr ""
+
+#: template-parts/solution-feature-steps.php:199
+#: template-parts/solution-hero.php:195
+msgid "Today's Appointments"
+msgstr ""
+
+#: template-parts/solution-feature-steps.php:200
+#: template-parts/solution-hero.php:196
+msgid "Total Patients"
+msgstr ""
+
+#: template-parts/solution-feature-steps.php:201
+#: template-parts/solution-hero.php:197
+msgid "Total Revenue"
+msgstr ""
+
+#: template-parts/solution-feature-steps.php:208
+msgid "Dr. Dewan Md. Kudrat-A-Elahi"
+msgstr ""
+
+#: template-parts/solution-feature-steps.php:209
+msgid "Medicine · Today"
+msgstr ""
+
+#: template-parts/solution-feature-steps.php:212
+#: template-parts/solution-hero.php:174
+msgid "Print"
+msgstr ""
+
+#: template-parts/solution-feature-steps.php:213
+msgid "Export CSV"
+msgstr ""
+
+#: template-parts/solution-feature-steps.php:216
+#: template-parts/solution-hero.php:199
+msgid "Today's Queue"
+msgstr ""
+
+#: template-parts/solution-feature-steps.php:220
+#: template-parts/solution-feature-steps.php:278
+#: template-parts/solution-hero.php:202
+msgid "Ayesha Rahman"
+msgstr ""
+
+#: template-parts/solution-feature-steps.php:221
+#: template-parts/solution-feature-steps.php:240
+msgid "Female"
+msgstr ""
+
+#: template-parts/solution-feature-steps.php:222
+#: template-parts/solution-feature-steps.php:228
+#: template-parts/solution-feature-steps.php:279
+#: template-parts/solution-feature-steps.php:284
+#: template-parts/solution-feature-steps.php:289
+#: template-parts/solution-feature-steps.php:304
+#: template-parts/solution-hero.php:210
+#: template-parts/solution-hero.php:222
+msgid "Waiting"
+msgstr ""
+
+#: template-parts/solution-feature-steps.php:226
+#: template-parts/solution-feature-steps.php:263
+#: template-parts/solution-feature-steps.php:268
+#: template-parts/solution-hero.php:208
+msgid "Mehedi Hasan"
+msgstr ""
+
+#: template-parts/solution-feature-steps.php:232
+#: template-parts/solution-feature-steps.php:283
+#: template-parts/solution-hero.php:214
+msgid "Rafiqul Islam"
+msgstr ""
+
+#: template-parts/solution-feature-steps.php:234
+#: template-parts/solution-feature-steps.php:241
+#: template-parts/solution-feature-steps.php:248
+msgid "Booked"
+msgstr ""
+
+#: template-parts/solution-feature-steps.php:235
+#: template-parts/solution-feature-steps.php:242
+#: template-parts/solution-feature-steps.php:249
+msgid "Check In"
+msgstr ""
+
+#: template-parts/solution-feature-steps.php:239
+#: template-parts/solution-feature-steps.php:288
+#: template-parts/solution-hero.php:220
+msgid "Nusrat Jahan"
+msgstr ""
+
+#: template-parts/solution-feature-steps.php:246
+#: template-parts/solution-feature-steps.php:273
+#: template-parts/solution-hero.php:226
+msgid "Abdur Rahman"
+msgstr ""
+
+#: template-parts/solution-feature-steps.php:257
+msgid "Live Queue · Dr. Dewan Md. Kudrat-A-Elahi"
+msgstr ""
+
+#: template-parts/solution-feature-steps.php:262
+msgid "Now Serving"
+msgstr ""
+
+#: template-parts/solution-feature-steps.php:269
+msgid "In Room"
+msgstr ""
+
+#: template-parts/solution-feature-steps.php:293
+msgid "Kamal Hossain"
+msgstr ""
+
+#: template-parts/solution-feature-steps.php:294
+msgid "Checked In"
+msgstr ""
+
+#: template-parts/solution-feature-steps.php:298
+msgid "Sultana Begum"
+msgstr ""
+
+#: template-parts/solution-feature-steps.php:299
+msgid "Away"
+msgstr ""
+
+#: template-parts/solution-feature-steps.php:303
+msgid "Tanvir Ahmed"
+msgstr ""
+
+#: template-parts/solution-hero-service.php:6
+msgid "Complete Booking Website &"
+msgstr ""
+
+#: template-parts/solution-hero-service.php:7
+#: template-parts/solution-hero.php:7
+msgid "Appointment Management System"
+msgstr ""
+
+#: template-parts/solution-hero-service.php:10
+msgid "We build a complete booking website for salons, spas, cleaning, repair and beauty businesses — online booking, staff management, hosting and support."
+msgstr ""
+
+#: template-parts/solution-hero-service.php:15
+#: template-parts/solution-hero-tailor.php:15
+#: template-parts/solution-hero.php:15
+#: template-parts/solution-included.php:15
+#: template-services.php:52
+#: template-solution-doctor.php:100
+#: template-solution-service.php:98
+#: template-solution-tailor.php:98
+msgid "Domain"
+msgstr ""
+
+#: template-parts/solution-hero-service.php:36
+#: template-parts/solution-hero-service.php:42
+msgid "Choose a Service"
+msgstr ""
+
+#: template-parts/solution-hero-service.php:53
+msgid "60 min · Massage"
+msgstr ""
+
+#: template-parts/solution-hero-service.php:59
+msgid "45 min · Hair"
+msgstr ""
+
+#: template-parts/solution-hero-service.php:64
+msgid "50 min · Skin Care"
+msgstr ""
+
+#: template-parts/solution-hero-service.php:69
+msgid "90 min · Massage"
+msgstr ""
+
+#: template-parts/solution-hero-service.php:74
+msgid "Manicure & Pedicure"
+msgstr ""
+
+#: template-parts/solution-hero-service.php:74
+msgid "60 min · Nails"
+msgstr ""
+
+#: template-parts/solution-hero-service.php:81
+msgid "Pick Staff & Time"
+msgstr ""
+
+#: template-parts/solution-hero-service.php:136
+msgid "Your Details"
+msgstr ""
+
+#: template-parts/solution-hero-service.php:158
+msgid "Medium pressure, please"
+msgstr ""
+
+#: template-parts/solution-hero-service.php:161
+msgid "Total · 60 min with Nadia"
+msgstr ""
+
+#: template-parts/solution-hero-service.php:176
+msgid "Customer"
+msgstr ""
+
+#: template-parts/solution-hero-service.php:181
+msgid "Pay at venue"
+msgstr ""
+
+#: template-parts/solution-hero-service.php:184
+msgid "A reminder SMS will arrive 2 hours before."
+msgstr ""
+
+#: template-parts/solution-hero-service.php:186
+msgid "Add to calendar"
+msgstr ""
+
+#: template-parts/solution-hero-service.php:187
+#: template-parts/solution-hero.php:173
+msgid "Download"
+msgstr ""
+
+#: template-parts/solution-hero-service.php:194
+#: template-parts/solution-hero.php:181
+msgid "Admin Dashboard"
+msgstr ""
+
+#: template-parts/solution-hero-service.php:204
+msgid "Bookings"
+msgstr ""
+
+#: template-parts/solution-hero-service.php:205
+#: template-parts/solution-hero-tailor.php:155
+msgid "Wed, Oct 28, 2026"
+msgstr ""
+
+#: template-parts/solution-hero-service.php:216
+msgid "Facial · 10:00"
+msgstr ""
+
+#: template-parts/solution-hero-service.php:222
+msgid "Haircut · 10:30"
+msgstr ""
+
+#: template-parts/solution-hero-service.php:228
+msgid "Nails · 12:00"
+msgstr ""
+
+#: template-parts/solution-hero-service.php:234
+msgid "Hot Stone · 2:00"
+msgstr ""
+
+#: template-parts/solution-hero-service.php:240
+msgid "Thai Massage · 11:00"
+msgstr ""
+
+#: template-parts/solution-hero-service.php:241
+#: template-parts/solution-hero.php:204
+#: template-parts/solution-hero.php:216
+#: template-parts/solution-hero.php:228
+msgid "Confirmed"
+msgstr ""
+
+#: template-parts/solution-hero-tailor.php:6
+msgid "Complete Tailor Shop Website &"
+msgstr ""
+
+#: template-parts/solution-hero-tailor.php:7
+msgid "Order Management System"
+msgstr ""
+
+#: template-parts/solution-hero-tailor.php:10
+msgid "We build a complete tailor shop website with online order tracking, measurement records, delivery management, hosting and support."
+msgstr ""
+
+#: template-parts/solution-hero-tailor.php:17
+#: template-solution-tailor.php:96
+msgid "Order System"
+msgstr ""
+
+#: template-parts/solution-hero-tailor.php:45
+msgid "01XXXXXXXXX · Customer since 2023"
+msgstr ""
+
+#: template-parts/solution-hero-tailor.php:46
+msgid "12 orders"
+msgstr ""
+
+#: template-parts/solution-hero-tailor.php:55
+msgid "Blazer"
+msgstr ""
+
+#: template-parts/solution-hero-tailor.php:79
+msgid "Next: Measurements"
+msgstr ""
+
+#: template-parts/solution-hero-tailor.php:85
+msgid "Panjabi · Rahim Uddin"
+msgstr ""
+
+#: template-parts/solution-hero-tailor.php:85
+msgid "Measurements in inches"
+msgstr ""
+
+#: template-parts/solution-hero-tailor.php:86
+msgid "Edit"
+msgstr ""
+
+#: template-parts/solution-hero-tailor.php:97
+msgid "Armhole"
+msgstr ""
+
+#: template-parts/solution-hero-tailor.php:98
+msgid "Neck Depth"
+msgstr ""
+
+#: template-parts/solution-hero-tailor.php:106
+msgid "Loaded from his last order — just update what changed."
+msgstr ""
+
+#: template-parts/solution-hero-tailor.php:112
+msgid "Rahim Uddin · Delivery Nov 5"
+msgstr ""
+
+#: template-parts/solution-hero-tailor.php:124
+msgid "Save & Print Receipt"
+msgstr ""
+
+#: template-parts/solution-hero-tailor.php:128
+msgid "Order Status"
+msgstr ""
+
+#: template-parts/solution-hero-tailor.php:131
+msgid "Rahim Uddin · Delivery Nov 5, 2026"
+msgstr ""
+
+#: template-parts/solution-hero-tailor.php:144
+msgid "Shop Dashboard"
+msgstr ""
+
+#: template-parts/solution-hero-tailor.php:158
+msgid "Orders in Progress"
+msgstr ""
+
+#: template-parts/solution-hero-tailor.php:159
+msgid "Today's Deliveries"
+msgstr ""
+
+#: template-parts/solution-hero-tailor.php:160
+msgid "Total Due"
+msgstr ""
+
+#: template-parts/solution-hero-tailor.php:162
+msgid "Recent Orders"
+msgstr ""
+
+#: template-parts/solution-hero-tailor.php:167
+msgid "Ready"
+msgstr ""
+
+#: template-parts/solution-hero-tailor.php:184
+msgid "Pant × 2"
+msgstr ""
+
+#: template-parts/solution-hero-tailor.php:185
+msgid "Cutting"
+msgstr ""
+
+#: template-parts/solution-hero.php:6
+msgid "Complete Clinic Website &"
+msgstr ""
+
+#: template-parts/solution-hero.php:10
+msgid "We build a complete clinic website with online appointment booking, doctor management, patient records, hosting and support."
+msgstr ""
+
+#: template-parts/solution-hero.php:36
+#: template-parts/solution-hero.php:42
+msgid "Find a Doctor"
+msgstr ""
+
+#: template-parts/solution-hero.php:56
+msgid "Today's Patients"
+msgstr ""
+
+#: template-parts/solution-hero.php:72
+msgid "September 2026"
+msgstr ""
+
+#: template-parts/solution-hero.php:117
+msgid "Patient Details"
+msgstr ""
+
+#: template-parts/solution-hero.php:142
+msgid "Consultation Fee"
+msgstr ""
+
+#: template-parts/solution-hero.php:161
+msgid "Serial No."
+msgstr ""
+
+#: template-parts/solution-hero.php:162
+msgid "Fee"
+msgstr ""
+
+#: template-parts/solution-hero.php:162
+msgid "Pay at clinic"
+msgstr ""
+
+#: template-parts/solution-hero.php:191
+msgid "Booking"
+msgstr ""
+
+#: template-parts/solution-hero.php:192
+msgid "Sun, Sep 13, 2026"
+msgstr ""
+
+#: template-parts/solution-hero.php:203
+msgid "Cardiology"
+msgstr ""
+
+#: template-parts/solution-hero.php:209
+msgid "Dermatology"
+msgstr ""
+
+#: template-parts/solution-hero.php:215
+msgid "Pediatrics"
+msgstr ""
+
+#: template-parts/solution-hero.php:221
+msgid "Orthopedics"
+msgstr ""
+
+#: template-parts/solution-included.php:9
+msgid "Everything Included. One Simple Package."
+msgstr ""
+
+#: template-parts/solution-included.php:10
+#: template-solution-doctor.php:106
+#: template-solution-service.php:104
+#: template-solution-tailor.php:104
+msgid "No hidden add-ons — every plan ships complete, ready to launch."
+msgstr ""
+
+#: template-parts/solution-included.php:16
+#: template-services.php:54
+#: template-solution-doctor.php:101
+#: template-solution-service.php:99
+#: template-solution-tailor.php:99
+msgid "SSL"
+msgstr ""
+
+#: template-parts/solution-included.php:17
+#: template-pricing.php:89
+#: template-services.php:55
+#: template-solution-doctor.php:102
+#: template-solution-service.php:100
+#: template-solution-tailor.php:100
+msgid "Business Email"
+msgstr ""
+
+#: template-parts/solution-included.php:18
+#: template-services.php:58
+#: template-solution-doctor.php:103
+#: template-solution-service.php:101
+#: template-solution-tailor.php:101
+msgid "Training"
+msgstr ""
+
+#: template-parts/solution-included.php:19
+#: template-solution-doctor.php:104
+#: template-solution-service.php:102
+#: template-solution-tailor.php:102
+msgid "1 Year Support"
+msgstr ""
+
+#: template-parts/solution-included.php:26
+msgid "Our Promise"
+msgstr ""
+
+#: template-parts/solution-pricing-plans.php:10
+#: template-pricing.php:42
+#: template-solution-doctor.php:136
+#: template-solution-service.php:134
+#: template-solution-tailor.php:134
+msgid "Simple, Honest Pricing"
+msgstr ""
+
+#: template-parts/solution-pricing-plans.php:47
+msgid "Choose Plan"
+msgstr ""
+
+#: template-parts/solution-pricing-plans.php:61
+msgid "Every plan includes"
+msgstr ""
+
+#: template-parts/solution-projects.php:10
+msgid "Our Work"
+msgstr ""
+
+#: template-parts/solution-projects.php:11
+msgid "Projects We've Delivered"
+msgstr ""
+
+#: template-parts/solution-projects.php:12
+msgid "Real websites and systems we have built and launched for our clients."
+msgstr ""
+
+#: template-parts/solution-projects.php:42
+#, php-format
+msgid "%s website"
+msgstr ""
+
+#: template-parts/solution-projects.php:53
+msgid "Visit website"
+msgstr ""
+
+#: template-parts/solution-why-choose.php:7
+#: template-parts/solution-why-tabs.php:9
+#: template-solution-doctor.php:122
+#: template-solution-service.php:120
+#: template-solution-tailor.php:120
+msgid "Why Choose Lieusoft"
+msgstr ""
+
+#: template-parts/solution-why-choose.php:9
+msgid "Ready in 7 Days"
+msgstr ""
+
+#: template-parts/solution-why-choose.php:9
+msgid "From kickoff to a live website."
+msgstr ""
+
+#: template-parts/solution-why-choose.php:10
+#: template-services.php:41
+msgid "Business Focused"
+msgstr ""
+
+#: template-parts/solution-why-choose.php:10
+msgid "Built around how your business actually runs."
+msgstr ""
+
+#: template-parts/solution-why-choose.php:11
+msgid "Training Included"
+msgstr ""
+
+#: template-parts/solution-why-choose.php:11
+msgid "Your team gets hands-on onboarding."
+msgstr ""
+
+#: template-parts/solution-why-choose.php:12
+msgid "We stay reachable after launch."
+msgstr ""
+
+#: template-parts/solution-why-tabs.php:39
+msgid "Book a free consultation"
+msgstr ""
+
+#: template-parts/solutions-grid.php:30
+msgid "Starting from"
+msgstr ""
+
+#: template-parts/solutions-grid.php:32
+msgid "Domain + hosting + ready solution"
+msgstr ""
+
+#: template-pricing.php:14
+#: template-pricing.php:18
+#: template-product-booking.php:58
+#: template-product-doctor.php:58
+#: template-product-pdf.php:58
+#: template-product-tailor.php:58
+msgid "Regular License"
+msgstr ""
+
+#: template-pricing.php:14
+#: template-pricing.php:18
+msgid "Use on 1 website"
+msgstr ""
+
+#: template-pricing.php:14
+#: template-pricing.php:15
+#: template-pricing.php:18
+#: template-pricing.php:19
+msgid "Lifetime updates"
+msgstr ""
+
+#: template-pricing.php:14
+#: template-pricing.php:15
+msgid "Lifetime support"
+msgstr ""
+
+#: template-pricing.php:15
+#: template-product-pdf.php:65
+msgid "Developer License"
+msgstr ""
+
+#: template-pricing.php:15
+#: template-pricing.php:19
+msgid "Use on unlimited websites"
+msgstr ""
+
+#: template-pricing.php:18
+msgid "6 months support"
+msgstr ""
+
+#: template-pricing.php:19
+#: template-product-booking.php:64
+#: template-product-doctor.php:64
+#: template-product-tailor.php:64
+msgid "Extended License"
+msgstr ""
+
+#: template-pricing.php:19
+msgid "12 months support"
+msgstr ""
+
+#: template-pricing.php:43
+msgid "Clear prices for our ready-made business solutions and WordPress plugins, and a fixed quote for any custom work."
+msgstr ""
+
+#: template-pricing.php:44
+msgid "Pricing sections"
+msgstr ""
+
+#: template-pricing.php:45
+msgid "From ৳9,000 / year"
+msgstr ""
+
+#: template-pricing.php:46
+msgid "From ৳2,999 one time"
+msgstr ""
+
+#: template-pricing.php:47
+msgid "Fixed quote per project"
+msgstr ""
+
+#: template-pricing.php:55
+msgid "Business Solution Plans"
+msgstr ""
+
+#: template-pricing.php:56
+msgid "A complete website and management system for your business, with hosting, domain and support. One price for every solution — the longer the plan, the less you pay per year."
+msgstr ""
+
+#: template-pricing.php:59
+msgid "Tailor Shop Management"
+msgstr ""
+
+#: template-pricing.php:63
+#: template-solution-doctor.php:139
+#: template-solution-service.php:137
+#: template-solution-tailor.php:137
+msgid "1 Year"
+msgstr ""
+
+#: template-pricing.php:63
+#: template-solution-doctor.php:139
+#: template-solution-service.php:137
+#: template-solution-tailor.php:137
+msgid "Get started"
+msgstr ""
+
+#: template-pricing.php:63
+#: template-solution-doctor.php:139
+#: template-solution-service.php:137
+#: template-solution-tailor.php:137
+msgid "৳12,000 per year"
+msgstr ""
+
+#: template-pricing.php:64
+#: template-solution-doctor.php:140
+#: template-solution-service.php:138
+#: template-solution-tailor.php:138
+msgid "2 Years"
+msgstr ""
+
+#: template-pricing.php:64
+#: template-solution-doctor.php:140
+#: template-solution-service.php:138
+#: template-solution-tailor.php:138
+msgid "Save ৳2,000"
+msgstr ""
+
+#: template-pricing.php:64
+#: template-solution-doctor.php:140
+#: template-solution-service.php:138
+#: template-solution-tailor.php:138
+msgid "৳11,000 per year"
+msgstr ""
+
+#: template-pricing.php:65
+#: template-solution-doctor.php:141
+#: template-solution-service.php:139
+#: template-solution-tailor.php:139
+msgid "3 Years"
+msgstr ""
+
+#: template-pricing.php:65
+#: template-solution-doctor.php:141
+#: template-solution-service.php:139
+#: template-solution-tailor.php:139
+msgid "Save ৳6,000"
+msgstr ""
+
+#: template-pricing.php:65
+#: template-solution-doctor.php:141
+#: template-solution-service.php:139
+#: template-solution-tailor.php:139
+msgid "৳10,000 per year"
+msgstr ""
+
+#: template-pricing.php:66
+#: template-solution-doctor.php:142
+#: template-solution-service.php:140
+#: template-solution-tailor.php:140
+msgid "5 Years"
+msgstr ""
+
+#: template-pricing.php:66
+#: template-solution-doctor.php:142
+#: template-solution-service.php:140
+#: template-solution-tailor.php:140
+msgid "Save ৳15,000"
+msgstr ""
+
+#: template-pricing.php:66
+#: template-solution-doctor.php:142
+#: template-solution-service.php:140
+#: template-solution-tailor.php:140
+msgid "৳9,000 per year"
+msgstr ""
+
+#: template-pricing.php:66
+#: template-solution-doctor.php:142
+#: template-solution-service.php:140
+#: template-solution-tailor.php:140
+msgid "Best Value"
+msgstr ""
+
+#: template-pricing.php:69
+msgid "Business website"
+msgstr ""
+
+#: template-pricing.php:70
+msgid "Management system (appointments, orders or bookings)"
+msgstr ""
+
+#: template-pricing.php:71
+#: template-solution-doctor.php:147
+#: template-solution-service.php:145
+#: template-solution-tailor.php:145
+msgid "Hosting & domain for the full plan"
+msgstr ""
+
+#: template-pricing.php:72
+#: template-solution-doctor.php:148
+#: template-solution-service.php:146
+#: template-solution-tailor.php:146
+msgid "SSL certificate"
+msgstr ""
+
+#: template-pricing.php:73
+#: template-solution-doctor.php:149
+#: template-solution-service.php:147
+#: template-solution-tailor.php:147
+msgid "Business email"
+msgstr ""
+
+#: template-pricing.php:74
+#: template-solution-doctor.php:150
+#: template-solution-service.php:148
+#: template-solution-tailor.php:148
+msgid "Staff training"
+msgstr ""
+
+#: template-pricing.php:75
+#: template-solution-doctor.php:151
+#: template-solution-service.php:149
+#: template-solution-tailor.php:149
+msgid "Support & updates for the full plan"
+msgstr ""
+
+#: template-pricing.php:76
+msgid "Pay once the system is live"
+msgstr ""
+
+#: template-pricing.php:78
+msgid "Savings are compared with paying ৳12,000 every year. Renewal after your plan ends is priced separately — ask us for the current rate."
+msgstr ""
+
+#: template-pricing.php:85
+msgid "A custom WordPress website designed and built for your business."
+msgstr ""
+
+#: template-pricing.php:86
+#: template-services.php:27
+msgid "Custom Plugin Development"
+msgstr ""
+
+#: template-pricing.php:86
+msgid "A WordPress plugin built around your exact workflow."
+msgstr ""
+
+#: template-pricing.php:87
+msgid "Updates, backups, security checks and small fixes, every month."
+msgstr ""
+
+#: template-pricing.php:88
+msgid "Managed Hosting & Domain"
+msgstr ""
+
+#: template-pricing.php:88
+msgid "Fast, secure hosting and domain registration, managed for you."
+msgstr ""
+
+#: template-pricing.php:89
+msgid "Professional email addresses on your own domain, set up for your team."
+msgstr ""
+
+#: template-pricing.php:90
+msgid "n8n workflows that connect your tools and remove repetitive work."
+msgstr ""
+
+#: template-pricing.php:98
+msgid "What does a business solution plan include?"
+msgstr ""
+
+#: template-pricing.php:98
+msgid "The website, the management system for your business, hosting, domain, SSL, business email, staff training, and support and updates — all for the length of the plan you choose."
+msgstr ""
+
+#: template-pricing.php:99
+msgid "Is the price the same for every solution?"
+msgstr ""
+
+#: template-pricing.php:99
+msgid "Yes. Doctor Appointment, Tailor Shop Management and Service Booking all use the same 1, 2, 3 and 5 year plans."
+msgstr ""
+
+#: template-pricing.php:100
+msgid "When do I pay for a solution?"
+msgstr ""
+
+#: template-pricing.php:100
+msgid "After your system is set up and live. You choose the plan during the consultation."
+msgstr ""
+
+#: template-pricing.php:101
+msgid "What happens when my plan ends?"
+msgstr ""
+
+#: template-pricing.php:101
+msgid "You can renew to keep your website, system, hosting and domain running. Renewal is priced separately — we will share the rate before your plan ends."
+msgstr ""
+
+#: template-pricing.php:102
+msgid "Are plugin licenses a one-time payment?"
+msgstr ""
+
+#: template-pricing.php:102
+msgid "Yes. You pay once and get updates for life. Support length depends on the license — see each plugin above."
+msgstr ""
+
+#: template-pricing.php:103
+msgid "How are services priced?"
+msgstr ""
+
+#: template-pricing.php:103
+msgid "After a free consultation we send a written scope and a fixed quote. Work only starts once you approve it."
+msgstr ""
+
+#: template-pricing.php:108
+msgid "Not Sure Which Option is Right?"
+msgstr ""
+
+#: template-pricing.php:109
+msgid "Tell us about your business and we'll recommend the best fit — free."
+msgstr ""
+
+#. Template Name of the theme
+msgid "Product — Service Booking Plugin"
+msgstr ""
+
+#: template-product-booking.php:15
+msgid "Service Booking Plugin"
+msgstr ""
+
+#: template-product-booking.php:22
+msgid "A simple and powerful booking & appointment plugin for service-based businesses."
+msgstr ""
+
+#: template-product-booking.php:23
+#: template-product-booking.php:36
+#: template-product-doctor.php:23
+#: template-product-doctor.php:36
+msgid "Secure Payments"
+msgstr ""
+
+#: template-product-booking.php:23
+#: template-product-booking.php:35
+msgid "Staff & Schedule"
+msgstr ""
+
+#: template-product-booking.php:23
+#: template-product-booking.php:38
+msgid "Custom Fields"
+msgstr ""
+
+#: template-product-booking.php:23
+#: template-product-doctor.php:23
+msgid "Email & SMS Notification"
+msgstr ""
+
+#: template-product-booking.php:23
+#: template-product-booking.php:39
+#: template-product-doctor.php:23
+#: template-product-doctor.php:39
+#: template-product-tailor.php:23
+#: template-product-tailor.php:39
+msgid "Reports & Analytics"
+msgstr ""
+
+#: template-product-booking.php:25
+msgid "Booking Dashboard Screenshot"
+msgstr ""
+
+#: template-product-booking.php:30
+#: template-product-doctor.php:30
+#: template-product-pdf.php:30
+#: template-product-tailor.php:30
+msgid "Features"
+msgstr ""
+
+#: template-product-booking.php:31
+#: template-product-doctor.php:31
+#: template-product-pdf.php:31
+#: template-product-tailor.php:31
+msgid "Everything You Need"
+msgstr ""
+
+#: template-product-booking.php:37
+#: template-product-doctor.php:37
+msgid "Notifications"
+msgstr ""
+
+#: template-product-booking.php:46
+#: template-product-doctor.php:46
+msgid "Booking Form"
+msgstr ""
+
+#: template-product-booking.php:47
+msgid "Service List"
+msgstr ""
+
+#: template-product-booking.php:48
+msgid "Staff Grid"
+msgstr ""
+
+#: template-product-booking.php:49
+msgid "Calendar View"
+msgstr ""
+
+#: template-product-booking.php:60
+#: template-product-doctor.php:60
+#: template-product-pdf.php:60
+#: template-product-tailor.php:60
+msgid "Use on 1 Website"
+msgstr ""
+
+#: template-product-booking.php:60
+#: template-product-booking.php:66
+#: template-product-doctor.php:60
+#: template-product-doctor.php:66
+#: template-product-pdf.php:60
+#: template-product-pdf.php:67
+#: template-product-tailor.php:60
+#: template-product-tailor.php:66
+msgid "Lifetime Updates"
+msgstr ""
+
+#: template-product-booking.php:60
+#: template-product-doctor.php:60
+#: template-product-tailor.php:60
+msgid "6 Months Support"
+msgstr ""
+
+#: template-product-booking.php:66
+#: template-product-doctor.php:66
+#: template-product-pdf.php:67
+#: template-product-tailor.php:66
+msgid "Use on Unlimited Websites"
+msgstr ""
+
+#: template-product-booking.php:66
+#: template-product-doctor.php:66
+#: template-product-tailor.php:66
+msgid "12 Months Support"
+msgstr ""
+
+#: template-product-booking.php:77
+#: template-product-doctor.php:77
+#: template-product-pdf.php:79
+#: template-product-tailor.php:77
+msgid "Can I try before buying?"
+msgstr ""
+
+#: template-product-booking.php:77
+#: template-product-doctor.php:77
+#: template-product-tailor.php:77
+msgid "Yes, you can test the live demo before purchasing a license."
+msgstr ""
+
+#: template-product-booking.php:78
+#: template-product-doctor.php:78
+#: template-product-tailor.php:78
+msgid "Will it work with my theme?"
+msgstr ""
+
+#: template-product-booking.php:78
+#: template-product-doctor.php:78
+#: template-product-tailor.php:78
+msgid "Yes, it is built to work with any properly coded WordPress theme."
+msgstr ""
+
+#: template-product-booking.php:79
+msgid "Can I collect payments using this plugin?"
+msgstr ""
+
+#: template-product-booking.php:79
+msgid "Yes, secure online payments are supported through multiple gateways."
+msgstr ""
+
+#: template-product-booking.php:80
+#: template-product-doctor.php:80
+#: template-product-tailor.php:80
+msgid "Yes, every license includes dedicated support for the covered period."
+msgstr ""
+
+#: template-product-booking.php:83
+#: template-product-doctor.php:83
+#: template-product-pdf.php:85
+#: template-product-tailor.php:83
+msgid "Need Help?"
+msgstr ""
+
+#: template-product-booking.php:84
+#: template-product-doctor.php:84
+#: template-product-tailor.php:84
+msgid "Our support team is always ready to help you with any questions."
+msgstr ""
+
+#: template-product-booking.php:85
+#: template-product-doctor.php:85
+#: template-product-pdf.php:87
+#: template-product-tailor.php:85
+msgid "Contact Support"
+msgstr ""
+
+#: template-product-booking.php:90
+#: template-product-doctor.php:90
+#: template-product-pdf.php:92
+#: template-product-tailor.php:90
+msgid "Need a Complete Website?"
+msgstr ""
+
+#: template-product-booking.php:91
+#: template-product-doctor.php:91
+#: template-product-pdf.php:93
+#: template-product-tailor.php:91
+msgid "We also build complete business solutions."
+msgstr ""
+
+#. Template Name of the theme
+msgid "Product — Doctor Appointment Plugin"
+msgstr ""
+
+#: template-product-doctor.php:15
+msgid "Doctor Appointment Plugin"
+msgstr ""
+
+#: template-product-doctor.php:22
+msgid "A complete appointment booking solution for doctors, clinics and hospitals."
+msgstr ""
+
+#: template-product-doctor.php:23
+msgid "Online Appointment Booking"
+msgstr ""
+
+#: template-product-doctor.php:23
+msgid "Doctor & Schedule Management"
+msgstr ""
+
+#: template-product-doctor.php:25
+msgid "Clinic Dashboard Screenshot"
+msgstr ""
+
+#: template-product-doctor.php:35
+msgid "Doctors & Schedule"
+msgstr ""
+
+#: template-product-doctor.php:47
+msgid "Doctor List"
+msgstr ""
+
+#: template-product-doctor.php:48
+msgid "Time Slot"
+msgstr ""
+
+#: template-product-doctor.php:49
+msgid "Appointment Calendar"
+msgstr ""
+
+#: template-product-doctor.php:79
+msgid "Can I manage multiple doctors and departments?"
+msgstr ""
+
+#: template-product-doctor.php:79
+msgid "Yes, you can add multiple doctors, assign them to departments, and manage each one's own schedule."
+msgstr ""
+
+#. Template Name of the theme
+msgid "Product — PDF Embed Viewer"
+msgstr ""
+
+#: template-product-pdf.php:22
+msgid "Embed and display PDFs on your WordPress site in both traditional and interactive 3D flipbook modes."
+msgstr ""
+
+#: template-product-pdf.php:23
+#: template-product-pdf.php:35
+#: template-product-pdf.php:46
+msgid "Flipbook"
+msgstr ""
+
+#: template-product-pdf.php:23
+msgid "Grid View"
+msgstr ""
+
+#: template-product-pdf.php:23
+msgid "List View"
+msgstr ""
+
+#: template-product-pdf.php:23
+msgid "Shortcode Generator"
+msgstr ""
+
+#: template-product-pdf.php:23
+msgid "Elementor Support"
+msgstr ""
+
+#: template-product-pdf.php:23
+msgid "Remote PDF"
+msgstr ""
+
+#: template-product-pdf.php:25
+msgid "Viewer Screenshot"
+msgstr ""
+
+#: template-product-pdf.php:34
+msgid "Online Viewer"
+msgstr ""
+
+#: template-product-pdf.php:36
+msgid "Grid Layout"
+msgstr ""
+
+#: template-product-pdf.php:37
+msgid "List Layout"
+msgstr ""
+
+#: template-product-pdf.php:38
+msgid "Elementor"
+msgstr ""
+
+#: template-product-pdf.php:39
+msgid "Shortcode"
+msgstr ""
+
+#: template-product-pdf.php:47
+msgid "Grid"
+msgstr ""
+
+#: template-product-pdf.php:48
+msgid "List"
+msgstr ""
+
+#: template-product-pdf.php:49
+msgid "E-book"
+msgstr ""
+
+#: template-product-pdf.php:60
+#: template-product-pdf.php:67
+msgid "Lifetime Support"
+msgstr ""
+
+#: template-product-pdf.php:79
+msgid "Yes, you can test every view mode on the live demo before purchasing a license."
+msgstr ""
+
+#: template-product-pdf.php:80
+msgid "Will this plugin work with my theme?"
+msgstr ""
+
+#: template-product-pdf.php:80
+msgid "Yes, it is built to work with any properly coded WordPress theme, including page builders like Elementor."
+msgstr ""
+
+#: template-product-pdf.php:81
+msgid "Can I embed a PDF from another website?"
+msgstr ""
+
+#: template-product-pdf.php:81
+msgid "Yes, you can embed a PDF hosted on your own server or from any external URL."
+msgstr ""
+
+#: template-product-pdf.php:82
+msgid "Is it compatible with Elementor?"
+msgstr ""
+
+#: template-product-pdf.php:82
+msgid "Yes, a dedicated Elementor widget is included so you can add and style the viewer visually."
+msgstr ""
+
+#: template-product-pdf.php:86
+msgid "If you have any questions, our support team is always here to help you."
+msgstr ""
+
+#. Template Name of the theme
+msgid "Product — Tailor Management Plugin"
+msgstr ""
+
+#: template-product-tailor.php:15
+msgid "Tailor Management Plugin"
+msgstr ""
+
+#: template-product-tailor.php:22
+msgid "Manage customer orders, measurements, fabrics and deliveries easily."
+msgstr ""
+
+#: template-product-tailor.php:23
+msgid "Measurement & Fitting"
+msgstr ""
+
+#: template-product-tailor.php:23
+msgid "Fabric & Item Management"
+msgstr ""
+
+#: template-product-tailor.php:23
+msgid "Payment Management"
+msgstr ""
+
+#: template-product-tailor.php:25
+msgid "Order Dashboard Screenshot"
+msgstr ""
+
+#: template-product-tailor.php:37
+msgid "Items & Fabrics"
+msgstr ""
+
+#: template-product-tailor.php:38
+msgid "Payments"
+msgstr ""
+
+#: template-product-tailor.php:46
+msgid "Order Form"
+msgstr ""
+
+#: template-product-tailor.php:47
+msgid "Customer List"
+msgstr ""
+
+#: template-product-tailor.php:48
+msgid "Measurement Sheet"
+msgstr ""
+
+#: template-product-tailor.php:49
+msgid "Order Status Board"
+msgstr ""
+
+#: template-product-tailor.php:79
+msgid "Can I track deliveries and payments?"
+msgstr ""
+
+#: template-product-tailor.php:79
+msgid "Yes, every order tracks its delivery status and payment/due amount in one place."
+msgstr ""
+
+#. Template Name of the theme
+msgid "Products Index"
+msgstr ""
+
+#: template-products-index.php:20
+msgid "Premium Plugins for Your WordPress Site"
+msgstr ""
+
+#: template-products-index.php:21
+msgid "Professional, actively supported plugins built by the Lieusoft team — install on your own site or ask us to set it up for you."
+msgstr ""
+
+#: template-products-index.php:36
+msgid "Can I try a plugin before buying?"
+msgstr ""
+
+#: template-products-index.php:36
+msgid "Yes, each plugin has a live demo you can test before you purchase a license."
+msgstr ""
+
+#: template-products-index.php:37
+msgid "Will the plugins work with my theme?"
+msgstr ""
+
+#: template-products-index.php:37
+msgid "Yes, they are built to work with any properly coded WordPress theme."
+msgstr ""
+
+#: template-products-index.php:38
+msgid "Do licenses include updates and support?"
+msgstr ""
+
+#: template-products-index.php:38
+msgid "Yes, every license includes updates and support for the covered period."
+msgstr ""
+
+#: template-products-index.php:39
+msgid "Can you install and set it up for me?"
+msgstr ""
+
+#: template-products-index.php:39
+msgid "Yes, we can install, configure and style the plugin on your site for you."
+msgstr ""
+
+#: template-products-index.php:40
+msgid "Can you customize a plugin for my business?"
+msgstr ""
+
+#: template-products-index.php:40
+msgid "Yes, tell us what you need and we will build it on top of the plugin or create a custom one."
+msgstr ""
+
+#: template-products-index.php:45
+msgid "Need a Custom Plugin?"
+msgstr ""
+
+#: template-products-index.php:46
+msgid "If none of these fit your workflow, we'll build one that does."
+msgstr ""
+
+#: template-products-index.php:48
+#: template-solutions-index.php:49
+msgid "Talk to Us"
+msgstr ""
+
+#: template-services.php:23
+msgid "Everything Your Business Needs"
+msgstr ""
+
+#: template-services.php:26
+msgid "Custom WordPress websites built for your business, from scratch or on a page builder."
+msgstr ""
+
+#: template-services.php:27
+msgid "Bespoke WordPress plugins built around your exact workflow and requirements."
+msgstr ""
+
+#: template-services.php:28
+msgid "Managed Hosting"
+msgstr ""
+
+#: template-services.php:28
+msgid "Fast, secure hosting with monitoring and updates handled for you."
+msgstr ""
+
+#: template-services.php:29
+msgid "Domain Registration"
+msgstr ""
+
+#: template-services.php:29
+msgid "We register and manage your domain so it's always renewed and pointed correctly."
+msgstr ""
+
+#: template-services.php:30
+msgid "Regular updates, backups and health checks so your site keeps running smoothly."
+msgstr ""
+
+#: template-services.php:31
+msgid "Business Email Setup"
+msgstr ""
+
+#: template-services.php:31
+msgid "Professional @yourdomain email addresses set up and configured for your team."
+msgstr ""
+
+#: template-services.php:32
+msgid "Custom n8n workflows that automate repetitive tasks and connect your tools together."
+msgstr ""
+
+#: template-services.php:33
+msgid "Moving from another host or builder? We migrate your site with no downtime."
+msgstr ""
+
+#: template-services.php:34
+msgid "A real team on the other end whenever something needs fixing or explaining."
+msgstr ""
+
+#: template-services.php:40
+msgid "One-Stop Solution"
+msgstr ""
+
+#: template-services.php:40
+msgid "Website, hosting, email and support — all from one team."
+msgstr ""
+
+#: template-services.php:41
+msgid "Built around how your business actually operates."
+msgstr ""
+
+#: template-services.php:42
+msgid "We stay reachable long after your site goes live."
+msgstr ""
+
+#: template-services.php:43
+msgid "Secure Infrastructure"
+msgstr ""
+
+#: template-services.php:43
+msgid "SSL, backups and monitoring built into every plan."
+msgstr ""
+
+#: template-services.php:48
+msgid "A Complete Business Setup"
+msgstr ""
+
+#: template-services.php:49
+msgid "Everything included, so nothing is left for you to chase down separately."
+msgstr ""
+
+#: template-services.php:56
+msgid "Backups"
+msgstr ""
+
+#: template-services.php:57
+msgid "Security"
+msgstr ""
+
+#: template-services.php:65
+msgid "Work Process"
+msgstr ""
+
+#: template-services.php:67
+msgid "Consultation"
+msgstr ""
+
+#: template-services.php:67
+msgid "We learn about your business and goals."
+msgstr ""
+
+#: template-services.php:68
+msgid "Planning"
+msgstr ""
+
+#: template-services.php:68
+msgid "We map out the scope, timeline and tech."
+msgstr ""
+
+#: template-services.php:69
+msgid "Development"
+msgstr ""
+
+#: template-services.php:69
+msgid "We build your website and set up everything."
+msgstr ""
+
+#: template-services.php:70
+msgid "Launch & Support"
+msgstr ""
+
+#: template-services.php:70
+msgid "We launch and stay on for ongoing support."
+msgstr ""
+
+#: template-services.php:76
+msgid "How long does a website take?"
+msgstr ""
+
+#: template-services.php:76
+msgid "Most business websites are ready in 1–3 weeks, depending on the number of pages and features. We give you a clear timeline after the consultation."
+msgstr ""
+
+#: template-services.php:77
+msgid "Do I own my website?"
+msgstr ""
+
+#: template-services.php:77
+msgid "Yes. The website, its content and your domain belong to you. We just build, host and look after it."
+msgstr ""
+
+#: template-services.php:78
+msgid "Can you build a custom plugin for my workflow?"
+msgstr ""
+
+#: template-services.php:78
+msgid "Yes, we build WordPress plugins around your exact process — tell us what you need and we will scope it with you."
+msgstr ""
+
+#: template-services.php:79
+msgid "Can you migrate my existing website?"
+msgstr ""
+
+#: template-services.php:79
+msgid "Yes, we can move your site from another host or builder with no downtime."
+msgstr ""
+
+#: template-services.php:80
+msgid "Do you offer maintenance after launch?"
+msgstr ""
+
+#: template-services.php:80
+msgid "Yes, we handle updates, backups and fixes so your site keeps running smoothly."
+msgstr ""
+
+#: template-services.php:81
+msgid "Do you work with clients outside Bangladesh?"
+msgstr ""
+
+#: template-services.php:81
+msgid "Yes, we have built and launched sites for clients in Bangladesh, the UK, Portugal and the U.S."
+msgstr ""
+
+#: template-services.php:86
+msgid "Need a Complete Business Website?"
+msgstr ""
+
+#: template-services.php:87
+msgid "Tell us about your business and we'll build everything for you."
+msgstr ""
+
+#. Template Name of the theme
+msgid "Solution — Doctor Appointment"
+msgstr ""
+
+#: template-solution-doctor.php:28
+#: template-solution-service.php:26
+#: template-solution-tailor.php:26
+msgid "Key Features"
+msgstr ""
+
+#: template-solution-doctor.php:29
+#: template-solution-service.php:27
+#: template-solution-tailor.php:27
+msgid "See How It Works"
+msgstr ""
+
+#: template-solution-doctor.php:30
+msgid "From booking to running your clinic day-to-day — everything happens in one connected system."
+msgstr ""
+
+#: template-solution-doctor.php:34
+msgid "Browse Doctor Profiles"
+msgstr ""
+
+#: template-solution-doctor.php:35
+msgid "Patients see each doctor's specialty, credentials and weekly availability before they ever book."
+msgstr ""
+
+#: template-solution-doctor.php:40
+msgid "Pick a Date & Time"
+msgstr ""
+
+#: template-solution-doctor.php:41
+msgid "An interactive calendar shows real open slots, so patients only ever pick a time that actually works."
+msgstr ""
+
+#: template-solution-doctor.php:46
+msgid "Patients Fill in Their Details"
+msgstr ""
+
+#: template-solution-doctor.php:47
+msgid "A short form collects name, contact and basic details — no account or app download needed."
+msgstr ""
+
+#: template-solution-doctor.php:52
+#: template-solution-service.php:50
+msgid "Instant Booking Confirmation"
+msgstr ""
+
+#: template-solution-doctor.php:53
+msgid "Patients get an instant confirmation with a QR code they can show at check-in."
+msgstr ""
+
+#: template-solution-doctor.php:58
+msgid "Instant SMS & Email Confirmation"
+msgstr ""
+
+#: template-solution-doctor.php:59
+msgid "The moment a booking is confirmed, patients get it in writing too — straight to their phone and inbox."
+msgstr ""
+
+#: template-solution-doctor.php:64
+msgid "Booking Appears in the Admin Panel"
+msgstr ""
+
+#: template-solution-doctor.php:65
+msgid "The new booking shows up instantly in the clinic's admin panel — no manual entry, no phone calls."
+msgstr ""
+
+#: template-solution-doctor.php:70
+msgid "Live Queue Management"
+msgstr ""
+
+#: template-solution-doctor.php:71
+msgid "Staff manage the queue in real time, and patients always know exactly where they stand."
+msgstr ""
+
+#: template-solution-doctor.php:78
+#: template-solution-service.php:76
+#: template-solution-tailor.php:76
+msgid "Who Can Use This"
+msgstr ""
+
+#: template-solution-doctor.php:79
+msgid "Perfect for Every Kind of Clinic"
+msgstr ""
+
+#: template-solution-doctor.php:80
+msgid "Whether you run a solo practice or a multi-doctor clinic, the system adapts to how you actually work."
+msgstr ""
+
+#: template-solution-doctor.php:83
+msgid "Private Chamber"
+msgstr ""
+
+#: template-solution-doctor.php:83
+msgid "Built for solo doctors managing their own patients and schedule."
+msgstr ""
+
+#: template-solution-doctor.php:84
+msgid "Dental Clinic"
+msgstr ""
+
+#: template-solution-doctor.php:84
+msgid "Organize patient visits, follow-ups and treatment appointments."
+msgstr ""
+
+#: template-solution-doctor.php:85
+msgid "Gynecology & Obstetrics"
+msgstr ""
+
+#: template-solution-doctor.php:85
+msgid "Private, organized scheduling for sensitive patient care."
+msgstr ""
+
+#: template-solution-doctor.php:86
+msgid "Diagnostic Center"
+msgstr ""
+
+#: template-solution-doctor.php:86
+msgid "Coordinate test bookings and keep patient records in one place."
+msgstr ""
+
+#: template-solution-doctor.php:87
+msgid "Multi-Specialty Clinic"
+msgstr ""
+
+#: template-solution-doctor.php:87
+msgid "Add multiple doctors, each with their own schedule and patients."
+msgstr ""
+
+#: template-solution-doctor.php:88
+msgid "Physiotherapy Center"
+msgstr ""
+
+#: template-solution-doctor.php:88
+msgid "Track recurring sessions and patient progress over time."
+msgstr ""
+
+#: template-solution-doctor.php:95
+msgid "Everything Your Clinic Needs, In One Package"
+msgstr ""
+
+#: template-solution-doctor.php:97
+msgid "Your clinic's own website"
+msgstr ""
+
+#: template-solution-doctor.php:98
+msgid "Online booking & live queue"
+msgstr ""
+
+#: template-solution-doctor.php:99
+#: template-solution-service.php:97
+#: template-solution-tailor.php:97
+msgid "Fast, managed server"
+msgstr ""
+
+#: template-solution-doctor.php:100
+#: template-solution-service.php:98
+#: template-solution-tailor.php:98
+msgid "Your own .com or .com.bd"
+msgstr ""
+
+#: template-solution-doctor.php:101
+#: template-solution-service.php:99
+#: template-solution-tailor.php:99
+msgid "Secure https padlock"
+msgstr ""
+
+#: template-solution-doctor.php:102
+#: template-solution-service.php:100
+#: template-solution-tailor.php:100
+msgid "Email on your own domain"
+msgstr ""
+
+#: template-solution-doctor.php:103
+#: template-solution-service.php:101
+#: template-solution-tailor.php:101
+msgid "Onboarding for your staff"
+msgstr ""
+
+#: template-solution-doctor.php:104
+#: template-solution-service.php:102
+#: template-solution-tailor.php:102
+msgid "Fixes & updates included"
+msgstr ""
+
+#: template-solution-doctor.php:111
+#: template-solution-service.php:109
+#: template-solution-tailor.php:109
+msgid "How You Get Your Solution"
+msgstr ""
+
+#: template-solution-doctor.php:112
+msgid "From the first call to a live clinic website, in four simple steps."
+msgstr ""
+
+#: template-solution-doctor.php:114
+#: template-solution-service.php:112
+#: template-solution-tailor.php:112
+msgid "Contact & Appointment"
+msgstr ""
+
+#: template-solution-doctor.php:114
+msgid "Book a consultation and tell us about your clinic."
+msgstr ""
+
+#: template-solution-doctor.php:115
+#: template-solution-service.php:113
+#: template-solution-tailor.php:113
+msgid "Select Your Domain"
+msgstr ""
+
+#: template-solution-doctor.php:115
+msgid "Pick your clinic's website address — or use one you already own."
+msgstr ""
+
+#: template-solution-doctor.php:116
+#: template-solution-service.php:114
+#: template-solution-tailor.php:114
+msgid "Deploy Solution"
+msgstr ""
+
+#: template-solution-doctor.php:116
+msgid "We set up the website and appointment system, ready to use."
+msgstr ""
+
+#: template-solution-doctor.php:117
+#: template-solution-service.php:115
+#: template-solution-tailor.php:115
+msgid "Payment"
+msgstr ""
+
+#: template-solution-doctor.php:117
+msgid "Choose a 1, 2, 3 or 5 year plan, and pay once your clinic's system is live."
+msgstr ""
+
+#: template-solution-doctor.php:124
+msgid "Built for Clinics"
+msgstr ""
+
+#: template-solution-doctor.php:124
+msgid "This isn't a generic website with a booking form bolted on. Doctor profiles and schedules, a live patient queue, check-in, SMS confirmations and patient records are all designed around how a real chamber or clinic runs day to day — so your staff work the way they already do, just faster."
+msgstr ""
+
+#: template-solution-doctor.php:125
+#: template-solution-service.php:123
+#: template-solution-tailor.php:123
+msgid "Live in 7 Days"
+msgstr ""
+
+#: template-solution-doctor.php:125
+msgid "From the day we start to a working website your patients can book on, in about a week. We handle the setup, the domain and the hosting, and add your doctors and schedules — you just review it and start taking bookings."
+msgstr ""
+
+#: template-solution-doctor.php:126
+#: template-solution-service.php:124
+msgid "Everything in One Package"
+msgstr ""
+
+#: template-solution-doctor.php:126
+msgid "Website, appointment system, hosting, domain, SSL and business email come together. No separate developer, hosting company and booking tool to juggle, and no surprise add-ons later — one team is responsible for the whole thing."
+msgstr ""
+
+#: template-solution-doctor.php:127
+msgid "Patients Book Anytime"
+msgstr ""
+
+#: template-solution-doctor.php:127
+msgid "Patients pick a doctor, a date and an open time slot online, any hour of the day, and get an instant confirmation by SMS. Fewer phone calls for your front desk, fewer missed appointments, and a calmer waiting room."
+msgstr ""
+
+#: template-solution-doctor.php:128
+msgid "Training for Your Staff"
+msgstr ""
+
+#: template-solution-doctor.php:128
+msgid "We sit with your receptionist and doctors and walk them through bookings, check-in, the live queue and patient records, so nobody is left guessing how the new system works on day one."
+msgstr ""
+
+#: template-solution-doctor.php:129
+#: template-solution-service.php:127
+#: template-solution-tailor.php:127
+msgid "Support That Answers"
+msgstr ""
+
+#: template-solution-doctor.php:129
+msgid "Reach us directly on WhatsApp or email — in Bangla or English. Fixes, small changes and updates are covered for the first year, and you talk to the people who actually built your system."
+msgstr ""
+
+#: template-solution-doctor.php:130
+#: template-solution-service.php:128
+#: template-solution-tailor.php:128
+msgid "Your Data Stays Yours"
+msgstr ""
+
+#: template-solution-doctor.php:130
+msgid "Patient records and bookings belong to your clinic. The site runs on secure HTTPS with managed hosting, and we only access your data to set up, maintain and support the system."
+msgstr ""
+
+#: template-solution-doctor.php:131
+msgid "Grows With Your Clinic"
+msgstr ""
+
+#: template-solution-doctor.php:131
+msgid "Start with one doctor and add more whenever you're ready — each with their own schedule and availability. The same system handles a private chamber today and a multi-doctor clinic tomorrow."
+msgstr ""
+
+#: template-solution-doctor.php:137
+#: template-solution-service.php:135
+#: template-solution-tailor.php:135
+msgid "One price covers everything. Pick how many years — the longer the plan, the less you pay per year."
+msgstr ""
+
+#: template-solution-doctor.php:145
+msgid "Clinic website"
+msgstr ""
+
+#: template-solution-doctor.php:146
+msgid "Appointment system"
+msgstr ""
+
+#: template-solution-doctor.php:152
+#: template-solution-service.php:150
+#: template-solution-tailor.php:150
+msgid "Renew anytime at the end of your plan"
+msgstr ""
+
+#: template-solution-doctor.php:154
+#: template-solution-service.php:152
+#: template-solution-tailor.php:152
+msgid "Savings are compared with paying ৳12,000 every year. Not sure which plan fits? Book a free consultation."
+msgstr ""
+
+#: template-solution-doctor.php:162
+msgid "Can I take online payment?"
+msgstr ""
+
+#: template-solution-doctor.php:162
+msgid "Yes, online payments can be enabled through supported payment gateways."
+msgstr ""
+
+#: template-solution-doctor.php:163
+msgid "Can I add multiple doctors?"
+msgstr ""
+
+#: template-solution-doctor.php:163
+msgid "Yes, you can add multiple doctors, each with their own schedule and availability."
+msgstr ""
+
+#: template-solution-doctor.php:164
+msgid "Do you provide hosting?"
+msgstr ""
+
+#: template-solution-doctor.php:164
+msgid "Yes, managed hosting is included in every plan."
+msgstr ""
+
+#: template-solution-doctor.php:165
+msgid "Do you provide training?"
+msgstr ""
+
+#: template-solution-doctor.php:165
+msgid "Yes, every plan includes onboarding training for your staff."
+msgstr ""
+
+#: template-solution-doctor.php:170
+msgid "Ready to Launch Your Clinic Website?"
+msgstr ""
+
+#: template-solution-doctor.php:171
+msgid "Let's discuss your clinic requirements."
+msgstr ""
+
+#. Template Name of the theme
+msgid "Solution — Service Booking"
+msgstr ""
+
+#: template-solution-service.php:28
+msgid "From the first click to a finished appointment — bookings, staff and payments run through one connected system."
+msgstr ""
+
+#: template-solution-service.php:32
+msgid "Browse Services & Prices"
+msgstr ""
+
+#: template-solution-service.php:33
+msgid "Customers see every service with its duration and price, grouped by category, before they book."
+msgstr ""
+
+#: template-solution-service.php:38
+msgid "Pick Staff, Date & Time"
+msgstr ""
+
+#: template-solution-service.php:39
+msgid "They choose a favourite staff member — or anyone free — and only real open slots are shown."
+msgstr ""
+
+#: template-solution-service.php:44
+msgid "Customers Add Their Details"
+msgstr ""
+
+#: template-solution-service.php:45
+msgid "Name, phone and an optional note for the staff. No account or app download needed."
+msgstr ""
+
+#: template-solution-service.php:51
+msgid "The booking is confirmed on the spot with every detail — service, staff, time and total."
+msgstr ""
+
+#: template-solution-service.php:56
+msgid "SMS & Email Confirmation"
+msgstr ""
+
+#: template-solution-service.php:57
+msgid "Customers get the booking in writing and a reminder before their visit, so fewer people forget to show up."
+msgstr ""
+
+#: template-solution-service.php:62
+msgid "Bookings Appear in the Admin Panel"
+msgstr ""
+
+#: template-solution-service.php:63
+msgid "Every new booking shows up instantly in your admin panel — no WhatsApp scrolling, no notebook."
+msgstr ""
+
+#: template-solution-service.php:68
+msgid "Staff Schedule at a Glance"
+msgstr ""
+
+#: template-solution-service.php:69
+msgid "See each staff member's day, breaks and free time in one view — double bookings simply can't happen."
+msgstr ""
+
+#: template-solution-service.php:77
+msgid "Perfect for Every Appointment-Based Business"
+msgstr ""
+
+#: template-solution-service.php:78
+msgid "If your customers book a time with you, the system fits — one staff member or twenty."
+msgstr ""
+
+#: template-solution-service.php:81
+msgid "Spa & Massage Center"
+msgstr ""
+
+#: template-solution-service.php:81
+msgid "Treatments, therapists and rooms booked without phone calls."
+msgstr ""
+
+#: template-solution-service.php:82
+msgid "Beauty Salon & Parlour"
+msgstr ""
+
+#: template-solution-service.php:82
+msgid "Hair, makeup, facial and bridal packages, each with its own price and time."
+msgstr ""
+
+#: template-solution-service.php:83
+msgid "Barber Shop"
+msgstr ""
+
+#: template-solution-service.php:83
+msgid "Customers pick their barber and slot instead of waiting in line."
+msgstr ""
+
+#: template-solution-service.php:84
+msgid "Cleaning Service"
+msgstr ""
+
+#: template-solution-service.php:84
+msgid "Home and office cleaning booked by date, with the address and notes attached."
+msgstr ""
+
+#: template-solution-service.php:85
+msgid "Repair & Maintenance"
+msgstr ""
+
+#: template-solution-service.php:85
+msgid "AC, appliance or device repair visits scheduled and assigned to technicians."
+msgstr ""
+
+#: template-solution-service.php:86
+msgid "Fitness & Yoga Studio"
+msgstr ""
+
+#: template-solution-service.php:86
+msgid "Personal training and class sessions booked against each trainer's schedule."
+msgstr ""
+
+#: template-solution-service.php:93
+msgid "Everything Your Business Needs, In One Package"
+msgstr ""
+
+#: template-solution-service.php:95
+msgid "Your business's own website"
+msgstr ""
+
+#: template-solution-service.php:96
+msgid "Online booking & staff schedule"
+msgstr ""
+
+#: template-solution-service.php:110
+msgid "From the first call to a live booking website, in four simple steps."
+msgstr ""
+
+#: template-solution-service.php:112
+msgid "Book a consultation and tell us about your services and staff."
+msgstr ""
+
+#: template-solution-service.php:113
+msgid "Pick your business's website address — or use one you already own."
+msgstr ""
+
+#: template-solution-service.php:114
+msgid "We set up the website and booking system with your services and staff."
+msgstr ""
+
+#: template-solution-service.php:115
+msgid "Choose a 1, 2, 3 or 5 year plan, and pay once your booking system is live."
+msgstr ""
+
+#: template-solution-service.php:122
+msgid "Built for Bookings"
+msgstr ""
+
+#: template-solution-service.php:122
+msgid "Services with their own price and duration, staff with their own working hours, breaks and days off — the system is designed around how an appointment business actually runs, not a contact form someone has to answer by hand."
+msgstr ""
+
+#: template-solution-service.php:123
+msgid "From the day we start to a website your customers can book on, in about a week. We set up the domain and hosting, add your services, prices and staff — you review it and start taking bookings."
+msgstr ""
+
+#: template-solution-service.php:124
+msgid "Website, booking system, hosting, domain, SSL and business email come together. No separate developer, hosting company and booking app subscription to juggle — one team is responsible for all of it."
+msgstr ""
+
+#: template-solution-service.php:125
+msgid "Customers Book Anytime"
+msgstr ""
+
+#: template-solution-service.php:125
+msgid "Customers book from their phone at midnight just as easily as at noon, and get an instant SMS confirmation. You stop losing bookings to missed calls and unanswered messages."
+msgstr ""
+
+#: template-solution-service.php:126
+msgid "No More Double Bookings"
+msgstr ""
+
+#: template-solution-service.php:126
+msgid "Every booking blocks that staff member's time automatically, so two customers can never land in the same slot. Reminders before each visit cut down on no-shows too."
+msgstr ""
+
+#: template-solution-service.php:127
+#: template-solution-tailor.php:127
+msgid "Reach us directly on WhatsApp or email — in Bangla or English. Fixes, small changes and updates are covered for the first year, and you talk to the people who built your system."
+msgstr ""
+
+#: template-solution-service.php:128
+msgid "Your customer list and booking history belong to your business. The site runs on secure HTTPS with managed hosting, and we only access your data to set up, maintain and support it."
+msgstr ""
+
+#: template-solution-service.php:129
+msgid "Grows With Your Business"
+msgstr ""
+
+#: template-solution-service.php:129
+msgid "Add new services, new staff or a second branch whenever you're ready. The same system works for a one-chair salon today and a busy multi-staff spa tomorrow."
+msgstr ""
+
+#: template-solution-service.php:143
+msgid "Booking website"
+msgstr ""
+
+#: template-solution-service.php:144
+msgid "Booking & staff schedule system"
+msgstr ""
+
+#: template-solution-service.php:160
+msgid "Can I manage multiple staff?"
+msgstr ""
+
+#: template-solution-service.php:160
+msgid "Yes, add as many staff as you need, each with their own services, working hours and days off."
+msgstr ""
+
+#: template-solution-service.php:161
+msgid "Can customers pay online?"
+msgstr ""
+
+#: template-solution-service.php:161
+msgid "Yes, online payments can be enabled through supported payment gateways, or customers can pay at your venue."
+msgstr ""
+
+#: template-solution-service.php:162
+msgid "Do customers get reminders?"
+msgstr ""
+
+#: template-solution-service.php:162
+msgid "Yes, customers get a confirmation by SMS and email when they book, and a reminder before their appointment."
+msgstr ""
+
+#: template-solution-service.php:163
+msgid "Can I block days off or holidays?"
+msgstr ""
+
+#: template-solution-service.php:163
+msgid "Yes, you can close the whole business or a single staff member for any day, and those slots disappear from booking."
+msgstr ""
+
+#: template-solution-service.php:164
+#: template-solution-tailor.php:164
+msgid "Do you provide hosting and training?"
+msgstr ""
+
+#: template-solution-service.php:164
+#: template-solution-tailor.php:164
+msgid "Yes, managed hosting and onboarding training for your staff are included in every plan."
+msgstr ""
+
+#: template-solution-service.php:169
+msgid "Ready to Launch Your Booking Website?"
+msgstr ""
+
+#: template-solution-service.php:170
+msgid "Let's discuss your business requirements."
+msgstr ""
+
+#. Template Name of the theme
+msgid "Solution — Tailor Shop Management"
+msgstr ""
+
+#: template-solution-tailor.php:18
+msgid "Tailor Shop Management Solution"
+msgstr ""
+
+#: template-solution-tailor.php:28
+msgid "From taking the order to handing over the finished garment — your whole shop runs in one connected system."
+msgstr ""
+
+#: template-solution-tailor.php:32
+msgid "Every Customer in One Place"
+msgstr ""
+
+#: template-solution-tailor.php:33
+msgid "Search by name or phone and see the customer's full profile, order history and any due amount instantly."
+msgstr ""
+
+#: template-solution-tailor.php:38
+msgid "Saved Body Measurements"
+msgstr ""
+
+#: template-solution-tailor.php:39
+msgid "Measurements are stored per customer and per item, so repeat orders start pre-filled — no paper book to search."
+msgstr ""
+
+#: template-solution-tailor.php:44
+msgid "Create the Order in Seconds"
+msgstr ""
+
+#: template-solution-tailor.php:45
+msgid "Pick the item, quantity and fabric, set trial and delivery dates, and add design notes for the workshop."
+msgstr ""
+
+#: template-solution-tailor.php:50
+msgid "Invoice & Advance Payment"
+msgstr ""
+
+#: template-solution-tailor.php:51
+msgid "The invoice builds itself with advance and due amounts, ready to print as a receipt for the customer."
+msgstr ""
+
+#: template-solution-tailor.php:56
+msgid "Track Every Order's Progress"
+msgstr ""
+
+#: template-solution-tailor.php:57
+msgid "Cutting, stitching, trial, ready — see exactly where each order is and who is working on it."
+msgstr ""
+
+#: template-solution-tailor.php:62
+msgid "SMS Updates & Delivery Reminders"
+msgstr ""
+
+#: template-solution-tailor.php:63
+msgid "Customers get an SMS when the order is placed and when it's ready, and you get reminded of today's deliveries."
+msgstr ""
+
+#: template-solution-tailor.php:68
+msgid "Sales, Due & Item Reports"
+msgstr ""
+
+#: template-solution-tailor.php:69
+msgid "See this month's orders, sales and total due, plus which items sell best — without adding up a single page."
+msgstr ""
+
+#: template-solution-tailor.php:77
+msgid "Perfect for Every Kind of Tailor Shop"
+msgstr ""
+
+#: template-solution-tailor.php:78
+msgid "Whether you run a single counter or a busy workshop with cutters and tailors, the system fits how you work."
+msgstr ""
+
+#: template-solution-tailor.php:81
+msgid "Gents Tailor"
+msgstr ""
+
+#: template-solution-tailor.php:81
+msgid "Shirts, pants, panjabis and suits with every customer's measurements on file."
+msgstr ""
+
+#: template-solution-tailor.php:82
+msgid "Ladies Tailor & Boutique"
+msgstr ""
+
+#: template-solution-tailor.php:82
+msgid "Salwar kameez, blouses and gowns with design notes for each order."
+msgstr ""
+
+#: template-solution-tailor.php:83
+msgid "Bridal & Sherwani House"
+msgstr ""
+
+#: template-solution-tailor.php:83
+msgid "High-value orders with trials, advances and firm delivery dates."
+msgstr ""
+
+#: template-solution-tailor.php:84
+msgid "Uniform Maker"
+msgstr ""
+
+#: template-solution-tailor.php:84
+msgid "Bulk orders for schools and offices, with sizes tracked per person."
+msgstr ""
+
+#: template-solution-tailor.php:85
+msgid "Fashion Design Studio"
+msgstr ""
+
+#: template-solution-tailor.php:85
+msgid "Custom pieces from design to delivery, with clients kept up to date."
+msgstr ""
+
+#: template-solution-tailor.php:86
+msgid "Alteration Shop"
+msgstr ""
+
+#: template-solution-tailor.php:86
+msgid "Many small, quick jobs tracked so nothing gets lost on the counter."
+msgstr ""
+
+#: template-solution-tailor.php:93
+msgid "Everything Your Shop Needs, In One Package"
+msgstr ""
+
+#: template-solution-tailor.php:95
+msgid "Your shop's own website"
+msgstr ""
+
+#: template-solution-tailor.php:96
+msgid "Orders, measurements & invoices"
+msgstr ""
+
+#: template-solution-tailor.php:110
+msgid "From the first call to a live shop system, in four simple steps."
+msgstr ""
+
+#: template-solution-tailor.php:112
+msgid "Book a consultation and tell us how your shop takes and tracks orders."
+msgstr ""
+
+#: template-solution-tailor.php:113
+msgid "Pick your shop's website address — or use one you already own."
+msgstr ""
+
+#: template-solution-tailor.php:114
+msgid "We set up the website and order system with your items and prices."
+msgstr ""
+
+#: template-solution-tailor.php:115
+msgid "Choose a 1, 2, 3 or 5 year plan, and pay once your shop's system is live."
+msgstr ""
+
+#: template-solution-tailor.php:122
+msgid "Built for Tailor Shops"
+msgstr ""
+
+#: template-solution-tailor.php:122
+msgid "Measurements per item, trial and delivery dates, advance and due, cutting and stitching stages — the system follows how a real tailor shop works, so your counter staff and workshop pick it up quickly."
+msgstr ""
+
+#: template-solution-tailor.php:123
+msgid "From the day we start to a working system your counter can take orders on, in about a week. We set up the domain and hosting and add your items and prices — you review it and start using it."
+msgstr ""
+
+#: template-solution-tailor.php:124
+msgid "We Move Your Old Records"
+msgstr ""
+
+#: template-solution-tailor.php:124
+msgid "Already have customers and orders in a spreadsheet or old software? We can bring them across, so your history and measurements are there from day one — we have migrated thousands of customer records before."
+msgstr ""
+
+#: template-solution-tailor.php:125
+msgid "No More Lost Measurements"
+msgstr ""
+
+#: template-solution-tailor.php:125
+msgid "Every measurement is saved to the customer and searchable by phone number. No more flipping through a torn measurement book or calling the customer back to measure again."
+msgstr ""
+
+#: template-solution-tailor.php:126
+msgid "Always Know Who Owes What"
+msgstr ""
+
+#: template-solution-tailor.php:126
+msgid "Advance, due and paid are tracked on every order, and the dashboard shows your total due at a glance. Receipts print straight from the invoice."
+msgstr ""
+
+#: template-solution-tailor.php:128
+msgid "Customer records, measurements and order history belong to your shop. The system runs on secure HTTPS with managed hosting, and we only access it to set up, maintain and support it."
+msgstr ""
+
+#: template-solution-tailor.php:129
+msgid "Grows With Your Shop"
+msgstr ""
+
+#: template-solution-tailor.php:129
+msgid "Add new items, more staff or a second branch whenever you're ready. The same system handles a one-counter shop today and a busy workshop tomorrow."
+msgstr ""
+
+#: template-solution-tailor.php:143
+msgid "Tailor shop website"
+msgstr ""
+
+#: template-solution-tailor.php:144
+msgid "Order, measurement & invoice system"
+msgstr ""
+
+#: template-solution-tailor.php:160
+msgid "Can you move my old customer records?"
+msgstr ""
+
+#: template-solution-tailor.php:160
+msgid "Yes, we can import customers, measurements and orders from a spreadsheet or your old software during setup."
+msgstr ""
+
+#: template-solution-tailor.php:161
+msgid "Can I set my own measurement fields?"
+msgstr ""
+
+#: template-solution-tailor.php:161
+msgid "Yes, each item (shirt, pant, panjabi and so on) can have its own list of measurement fields."
+msgstr ""
+
+#: template-solution-tailor.php:162
+msgid "Can I track advance and due payments?"
+msgstr ""
+
+#: template-solution-tailor.php:162
+msgid "Yes, every order records the total, advance and due amount, and receipts can be printed from the invoice."
+msgstr ""
+
+#: template-solution-tailor.php:163
+msgid "Can more than one staff member use it?"
+msgstr ""
+
+#: template-solution-tailor.php:163
+msgid "Yes, give your counter staff and workshop their own logins, so everyone sees the same up-to-date orders."
+msgstr ""
+
+#: template-solution-tailor.php:169
+msgid "Ready to Digitize Your Tailor Shop?"
+msgstr ""
+
+#: template-solution-tailor.php:170
+msgid "Let's discuss your shop's requirements."
+msgstr ""
+
+#. Template Name of the theme
+msgid "Solutions Index"
+msgstr ""
+
+#: template-solutions-index.php:20
+msgid "Ready-Made Solutions for Your Business"
+msgstr ""
+
+#: template-solutions-index.php:21
+msgid "Pick the solution built for your industry — we handle setup, hosting and support, so you can focus on running your business."
+msgstr ""
+
+#: template-solutions-index.php:36
+msgid "Which solution is right for my business?"
+msgstr ""
+
+#: template-solutions-index.php:36
+msgid "Doctors and clinics use the Doctor Appointment solution, tailor shops use Tailor Shop Management, and salons, spas and other appointment businesses use Service Booking. Not sure? Book a free consultation."
+msgstr ""
+
+#: template-solutions-index.php:37
+msgid "What is included in a solution?"
+msgstr ""
+
+#: template-solutions-index.php:37
+msgid "A ready website, the management system, hosting, domain, SSL, business email, staff training and support — everything in one package."
+msgstr ""
+
+#: template-solutions-index.php:38
+msgid "How much does a solution cost?"
+msgstr ""
+
+#: template-solutions-index.php:38
+msgid "Plans start at ৳12,000 for 1 year, with lower yearly prices on 2, 3 and 5 year plans."
+msgstr ""
+
+#: template-solutions-index.php:39
+msgid "How long does setup take?"
+msgstr ""
+
+#: template-solutions-index.php:39
+msgid "Most solutions are live in about 7 days from the day we start."
+msgstr ""
+
+#: template-solutions-index.php:40
+msgid "Can you customize it for my business?"
+msgstr ""
+
+#: template-solutions-index.php:40
+msgid "Yes, we tailor the setup to your services, staff and workflow, and can build extra features when you need them."
+msgstr ""
+
+#: template-solutions-index.php:41
+msgid "Don't see my type of business?"
+msgstr ""
+
+#: template-solutions-index.php:41
+msgid "We also build custom solutions for any business — tell us what you need."
+msgstr ""
+
+#: template-solutions-index.php:46
+msgid "Don't See Your Business Type?"
+msgstr ""
+
+#: template-solutions-index.php:47
+msgid "We build custom solutions for any business — tell us what you need."
+msgstr ""

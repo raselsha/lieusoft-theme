@@ -7,7 +7,7 @@ $a = wp_parse_args( $args ?? array(), array(
 	'desc'     => '',
 	'icon'     => 'calendar',
 	'btn_text' => __( 'Book Free Consultation', 'lieusoft' ),
-	'btn_href' => 'https://wa.me/8801737266685',
+	'btn_href' => 'https://wa.me/8801521255463',
 	'anchor'   => 'book-consultation',
 ) );
 ?>

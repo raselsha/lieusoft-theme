@@ -29,6 +29,18 @@ get_header();
 </section>
 
 <?php
+get_template_part( 'template-parts/solution', 'projects' );
+
+get_template_part( 'template-parts/solution', 'faq', array(
+	'faqs' => array(
+		array( 'q' => __( 'Can I try a plugin before buying?', 'lieusoft' ), 'a' => __( 'Yes, each plugin has a live demo you can test before you purchase a license.', 'lieusoft' ) ),
+		array( 'q' => __( 'Will the plugins work with my theme?', 'lieusoft' ), 'a' => __( 'Yes, they are built to work with any properly coded WordPress theme.', 'lieusoft' ) ),
+		array( 'q' => __( 'Do licenses include updates and support?', 'lieusoft' ), 'a' => __( 'Yes, every license includes updates and support for the covered period.', 'lieusoft' ) ),
+		array( 'q' => __( 'Can you install and set it up for me?', 'lieusoft' ), 'a' => __( 'Yes, we can install, configure and style the plugin on your site for you.', 'lieusoft' ) ),
+		array( 'q' => __( 'Can you customize a plugin for my business?', 'lieusoft' ), 'a' => __( 'Yes, tell us what you need and we will build it on top of the plugin or create a custom one.', 'lieusoft' ) ),
+	),
+) );
+
 get_template_part( 'template-parts/solution', 'cta', array(
 	'title'    => __( 'Need a Custom Plugin?', 'lieusoft' ),
 	'desc'     => __( "If none of these fit your workflow, we'll build one that does.", 'lieusoft' ),

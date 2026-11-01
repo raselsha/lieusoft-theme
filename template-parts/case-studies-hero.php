@@ -13,7 +13,7 @@
 			</p>
 
 			<div class="hero__actions">
-				<a class="btn btn--primary btn--lg" href="https://wa.me/8801737266685" target="_blank" rel="noopener"><?php esc_html_e( 'Book Consultation', 'lieusoft' ); ?></a>
+				<a class="btn btn--primary btn--lg" href="https://wa.me/8801521255463" target="_blank" rel="noopener"><?php esc_html_e( 'Book Consultation', 'lieusoft' ); ?></a>
 				<a class="btn btn--outline btn--lg" href="<?php echo esc_url( home_url( '/solutions/' ) ); ?>"><?php esc_html_e( 'View Solutions', 'lieusoft' ); ?></a>
 			</div>
 		</div>

@@ -11,7 +11,7 @@
 					<?php esc_html_e( 'We build the digital backbone of your business — from custom websites and WordPress plugins to email infrastructure and IT strategy. Trusted by businesses worldwide.', 'lieusoft' ); ?>
 				</p>
 				<div class="social-icons">
-					<a href="#" aria-label="Facebook"><?php echo lieusoft_icon( 'facebook' ); ?></a>
+					<a href="https://facebook.com/lieusoft" target="_blank" rel="noopener" aria-label="Facebook"><?php echo lieusoft_icon( 'facebook' ); ?></a>
 					<a href="#" aria-label="LinkedIn"><?php echo lieusoft_icon( 'linkedin' ); ?></a>
 					<a href="#" aria-label="YouTube"><?php echo lieusoft_icon( 'youtube' ); ?></a>
 				</div>
@@ -69,18 +69,18 @@
 				<h3 class="footer-widget__title"><?php esc_html_e( 'Get in Touch', 'lieusoft' ); ?></h3>
 				<ul class="footer-contact">
 					<li><?php echo lieusoft_icon( 'envelope' ); ?><a href="mailto:hello@lieusoft.com">hello@lieusoft.com</a></li>
-					<li><?php echo lieusoft_icon( 'whatsapp' ); ?><a href="https://wa.me/8801737266685" target="_blank" rel="noopener"><?php esc_html_e( '+8801737266685 — available on WhatsApp', 'lieusoft' ); ?></a></li>
+					<li><?php echo lieusoft_icon( 'whatsapp' ); ?><a href="https://wa.me/8801521255463" target="_blank" rel="noopener"><?php esc_html_e( '+8801521255463 — available on WhatsApp', 'lieusoft' ); ?></a></li>
 					<li><?php echo lieusoft_icon( 'pin' ); ?><span><?php esc_html_e( 'Remote-first · Serving clients worldwide', 'lieusoft' ); ?></span></li>
 				</ul>
 			</div>
 		</div>
 
 		<div class="container site-footer__bottom">
-			<p>&copy; <?php echo esc_html( date_i18n( 'Y' ) ); ?> <?php bloginfo( 'name' ); ?>. <?php esc_html_e( 'All rights reserved.', 'lieusoft' ); ?></p>
+			<p>&copy; <?php echo esc_html( date_i18n( 'Y' ) ); ?> <?php bloginfo( 'name' ); ?>. <?php esc_html_e( 'All rights reserved.', 'lieusoft' ); ?><?php if ( get_privacy_policy_url() ) : ?> &middot; <a href="<?php echo esc_url( get_privacy_policy_url() ); ?>"><?php esc_html_e( 'Privacy Policy', 'lieusoft' ); ?></a><?php endif; ?></p>
 		</div>
 	</footer>
 
-	<a class="whatsapp-float" href="https://wa.me/8801737266685" target="_blank" rel="noopener" aria-label="<?php esc_attr_e( 'Chat on WhatsApp', 'lieusoft' ); ?>">
+	<a class="whatsapp-float" href="https://wa.me/8801521255463" target="_blank" rel="noopener" aria-label="<?php esc_attr_e( 'Chat on WhatsApp', 'lieusoft' ); ?>">
 		<?php echo lieusoft_icon( 'whatsapp' ); ?>
 	</a>
 

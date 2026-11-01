@@ -31,8 +31,44 @@
 		</div>
 
 		<div class="hero__media">
-			<?php $hero_image_path = '/assets/images/hero-mockup.png'; ?>
-			<img src="<?php echo esc_url( get_theme_file_uri( $hero_image_path ) . '?v=' . filemtime( get_theme_file_path( $hero_image_path ) ) ); ?>" alt="<?php esc_attr_e( 'Lieusoft business solutions: Doctor Appointment, Tailor Order Management, Service Booking and Digital Flipbook & PDF Viewer', 'lieusoft' ); ?>">
+			<?php
+			get_template_part( 'template-parts/hero', 'slider', array(
+				'slides' => array(
+					array(
+						'accent'   => 'purple',
+						'icon'     => 'stethoscope',
+						'title'    => __( 'Doctor Appointment & Queue Management', 'lieusoft' ),
+						'features' => array( __( 'Online Booking', 'lieusoft' ), __( 'Patient Queue', 'lieusoft' ), __( 'Doctor Panel', 'lieusoft' ) ),
+						'url'      => home_url( '/doctor-appointment-solution/' ),
+						'image'    => 'slide-doctor.jpg',
+					),
+					array(
+						'accent'   => 'orange',
+						'icon'     => 'shirt',
+						'title'    => __( 'Tailor Order Management', 'lieusoft' ),
+						'features' => array( __( 'Measurements', 'lieusoft' ), __( 'Order Tracking', 'lieusoft' ), __( 'Customer Management', 'lieusoft' ) ),
+						'url'      => home_url( '/tailor-shop-management-solution/' ),
+						'image'    => 'slide-tailor.jpg',
+					),
+					array(
+						'accent'   => 'green',
+						'icon'     => 'calendar',
+						'title'    => __( 'Service Booking', 'lieusoft' ),
+						'features' => array( __( 'Book Services', 'lieusoft' ), __( 'Manage Schedule', 'lieusoft' ), __( 'Deliver Your Commitments', 'lieusoft' ) ),
+						'url'      => home_url( '/service-booking-solution/' ),
+						'image'    => 'slide-service.jpg',
+					),
+					array(
+						'accent'   => 'blue',
+						'icon'     => 'book-open',
+						'title'    => __( 'Digital Flipbook & PDF Viewer', 'lieusoft' ),
+						'features' => array( __( 'Interactive Books', 'lieusoft' ), __( 'PDF Viewer', 'lieusoft' ), __( 'Modern Reading Experience', 'lieusoft' ) ),
+						'url'      => home_url( '/pdf-embed-viewer/' ),
+						'image'    => 'slide-flipbook.jpg',
+					),
+				),
+			) );
+			?>
 		</div>
 	</div>
 </section>

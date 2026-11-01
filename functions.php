@@ -9,6 +9,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 define( 'LIEUSOFT_VERSION', '1.0.0' );
 
+require get_template_directory() . '/inc/i18n.php';
+
 /**
  * WordPress marks a nav item "current" by comparing the URL path only, so
  * in-page anchors like /#solutions on the front page all match "/" and get
@@ -142,6 +144,7 @@ function lieusoft_get_solutions() {
 			'bg'     => 'solution-doctor-bg.png',
 			'badge'  => 'badge-doctor.png',
 			'url'    => home_url( '/doctor-appointment-solution/' ),
+			'price'  => '12,000',
 		),
 		array(
 			'title'  => __( 'Tailor Management Solution', 'lieusoft' ),
@@ -151,6 +154,7 @@ function lieusoft_get_solutions() {
 			'bg'     => 'solution-tailor-bg.png',
 			'badge'  => 'badge-shirt.png',
 			'url'    => home_url( '/tailor-shop-management-solution/' ),
+			'price'  => '12,000',
 		),
 		array(
 			'title'  => __( 'Service Booking Solution', 'lieusoft' ),
@@ -160,6 +164,7 @@ function lieusoft_get_solutions() {
 			'bg'     => 'solution-spa-bg.jpg',
 			'badge'  => 'badge-calendar.png',
 			'url'    => home_url( '/service-booking-solution/' ),
+			'price'  => '12,000',
 		),
 	);
 }
@@ -172,7 +177,7 @@ function lieusoft_get_plugins() {
 	return array(
 		array(
 			'title'    => __( 'Service Booking', 'lieusoft' ),
-			'desc'     => __( 'Complete Booking & appointment solutions for any service.', 'lieusoft' ),
+			'desc'     => __( 'Complete booking & appointment solution for any service.', 'lieusoft' ),
 			'icon'     => 'badge-calendar.png',
 			'accent'   => 'green',
 			'url'      => home_url( '/service-booking-plugin/' ),
@@ -184,11 +189,11 @@ function lieusoft_get_plugins() {
 			'icon'     => 'badge-doctor.png',
 			'accent'   => 'purple',
 			'url'      => home_url( '/doctor-appointment-plugin/' ),
-			'demo_url' => 'https://shafiulamraz.lieusoft.com/',
+			'demo_url' => 'https://medbook.lieusoft.com/',
 		),
 		array(
 			'title'    => __( 'Tailor Order Management', 'lieusoft' ),
-			'desc'     => __( 'Manage tailor orders, customers, measurements and deliveries', 'lieusoft' ),
+			'desc'     => __( 'Manage tailor orders, customers, measurements and deliveries.', 'lieusoft' ),
 			'icon'     => 'badge-shirt.png',
 			'accent'   => 'orange',
 			'url'      => home_url( '/tailor-order-management-plugin/' ),
@@ -196,7 +201,7 @@ function lieusoft_get_plugins() {
 		),
 		array(
 			'title'    => __( 'PDF Embed Viewer', 'lieusoft' ),
-			'desc'     => __( '3d Flip book PDF Viewer & Embedded for WordPress.', 'lieusoft' ),
+			'desc'     => __( '3D flipbook PDF viewer & embedder for WordPress.', 'lieusoft' ),
 			'icon'     => 'icon-open-book.png',
 			'accent'   => 'blue',
 			'url'      => home_url( '/pdf-embed-viewer/' ),
@@ -264,6 +269,7 @@ function lieusoft_icon( $name, $class = '' ) {
 		'x-circle'      => '<circle cx="12" cy="12" r="9"/><path d="m9 9 6 6M15 9l-6 6"/>',
 		'cloud'         => '<path d="M7 18a4.5 4.5 0 0 1-1-8.9 5.5 5.5 0 0 1 10.7-2A4 4 0 0 1 18 18H7Z"/>',
 		'refresh'       => '<path d="M21 12a9 9 0 1 1-3-6.7"/><path d="M21 4v5h-5"/>',
+		'infinity'      => '<path d="M18.178 8c5.096 0 5.096 8 0 8-5.095 0-7.133-8-12.739-8-4.546 0-4.546 8 0 8 5.606 0 7.644-8 12.74-8z"/>',
 	);
 
 	if ( ! isset( $icons[ $name ] ) ) {
@@ -377,3 +383,293 @@ function lieusoft_customize_register( $wp_customize ) {
 	) );
 }
 add_action( 'customize_register', 'lieusoft_customize_register' );
+
+/**
+ * Real client reviews, shared by every page that shows testimonials. Each
+ * one is quoted as posted and links back to its source — add Upwork
+ * reviews here the same way.
+ */
+function lieusoft_get_testimonials() {
+	return array(
+		array(
+			'name'   => 'yuseyhan',
+			'role'   => __( 'PDF Embed Viewer user', 'lieusoft' ),
+			'rating' => 5,
+			'quote'  => 'The interface is really easy to use, so embedding and showcasing PDFs in a visually appealing, interactive 3D flipbook format is a breeze! … It loads super quickly and doesn’t have any glitches, which is great!',
+			'source' => 'WordPress.org',
+			'url'    => 'https://wordpress.org/support/topic/stunning-3d-flipbook-plugin-a-game-changer-for-pdf-display/',
+		),
+		array(
+			'name'   => 'Thobie',
+			'role'   => __( 'PDF Embed Viewer user', 'lieusoft' ),
+			'rating' => 5,
+			'quote'  => 'The plugin works flawlessly and is very stable. There are certainly still a few areas that could be improved. But the developer took one of my suggestions and implemented it in an update to the plugin. That’s what I call customer service.',
+			'source' => 'WordPress.org',
+			'url'    => 'https://wordpress.org/support/topic/excellent-14254/',
+		),
+		array(
+			'name'   => 'fabriziolaneve',
+			'role'   => __( 'PDF Embed Viewer user', 'lieusoft' ),
+			'rating' => 5,
+			'quote'  => 'very simple to use and fast in scrolling pages. The Support is SUPER',
+			'source' => 'WordPress.org',
+			'url'    => 'https://wordpress.org/support/topic/awesome-plugin-7399/',
+		),
+		array(
+			'name'   => __( 'Upwork Client', 'lieusoft' ),
+			'role'   => 'Web design',
+			'rating' => 5,
+			'quote'  => 'It was great working with Shahadat, as always...exceptional quality of work, excellent communication, project completed on time and on budget, what more is there to say?? Highly recommended.',
+			'source' => 'Upwork',
+			'url'    => 'https://www.upwork.com/freelancers/~01a78b3a652ea76ba3',
+		),
+		array(
+			'name'   => __( 'Upwork Client', 'lieusoft' ),
+			'role'   => 'Web development',
+			'rating' => 5,
+			'quote'  => 'Shahadat was an excellent web developer. His communication and responsiveness were top-notch and his skills were exceptional.',
+			'source' => 'Upwork',
+			'url'    => 'https://www.upwork.com/freelancers/~01a78b3a652ea76ba3',
+		),
+		array(
+			'name'   => __( 'Upwork Client', 'lieusoft' ),
+			'role'   => 'Responsive one-page redesign',
+			'rating' => 5,
+			'quote'  => 'Great freelancer. He went above an beyond for my project. Great communication and simplified my code to make it much better.',
+			'source' => 'Upwork',
+			'url'    => 'https://www.upwork.com/freelancers/~01a78b3a652ea76ba3',
+		),
+		array(
+			'name'   => __( 'Upwork Client', 'lieusoft' ),
+			'role'   => 'Chat room website redesign',
+			'rating' => 5,
+			'quote'  => 'Shahadat is the best contractor I\'ve ever worked with. He cares about the work more than anyone I\'ve ever hired on Upwork.',
+			'source' => 'Upwork',
+			'url'    => 'https://www.upwork.com/freelancers/~01a78b3a652ea76ba3',
+		),
+		array(
+			'name'   => __( 'Upwork Client', 'lieusoft' ),
+			'role'   => 'WordPress plugin development',
+			'rating' => 5,
+			'quote'  => 'Shahadat is a great communicator and a very proactive freelancer. I would totally recommend him to anyone. Thank you very much.',
+			'source' => 'Upwork',
+			'url'    => 'https://www.upwork.com/freelancers/~01a78b3a652ea76ba3',
+		),
+		array(
+			'name'   => __( 'Upwork Client', 'lieusoft' ),
+			'role'   => 'Pages added to existing website',
+			'rating' => 5,
+			'quote'  => 'Shahadat will always be my go to guy. He does the best job possible in a very short period of time. Very nice, knowledgeable and friendly to work with.',
+			'source' => 'Upwork',
+			'url'    => 'https://www.upwork.com/freelancers/~01a78b3a652ea76ba3',
+		),
+		array(
+			'name'   => __( 'Upwork Client', 'lieusoft' ),
+			'role'   => 'WordPress website setup',
+			'rating' => 5,
+			'quote'  => 'Shahadat did this project very fast. He is extremely knowledgeable. He will be my main go to guy for any of my future websites creations.',
+			'source' => 'Upwork',
+			'url'    => 'https://www.upwork.com/freelancers/~01a78b3a652ea76ba3',
+		),
+		array(
+			'name'   => __( 'Upwork Client', 'lieusoft' ),
+			'role'   => 'Artist website & logo',
+			'rating' => 5,
+			'quote'  => 'Shahadat is an experienced designer and a developer. He performed all the stages of the project perfectly including Design, Development, Testing and Deployment.',
+			'source' => 'Upwork',
+			'url'    => 'https://www.upwork.com/freelancers/~01a78b3a652ea76ba3',
+		),
+		array(
+			'name'   => __( 'Upwork Client', 'lieusoft' ),
+			'role'   => 'WordPress expert',
+			'rating' => 5,
+			'quote'  => 'He is very skilled word-press developer. Always available for help and great communication.',
+			'source' => 'Upwork',
+			'url'    => 'https://www.upwork.com/freelancers/~01a78b3a652ea76ba3',
+		),
+		array(
+			'name'   => __( 'Upwork Client', 'lieusoft' ),
+			'role'   => 'HTML & CSS report templates',
+			'rating' => 5,
+			'quote'  => 'Excellent work, Shahadat took our examples from PDF and turned them into usable, well-structured HTML and CSS that we can now re-use for different reports. He worked very quickly!',
+			'source' => 'Upwork',
+			'url'    => 'https://www.upwork.com/freelancers/~01a78b3a652ea76ba3',
+		),
+		array(
+			'name'   => __( 'Upwork Client', 'lieusoft' ),
+			'role'   => 'WordPress theme customisation',
+			'rating' => 5,
+			'quote'  => 'He setup complicated theme for me and also did small quick changes. He is really Awesome guy!!',
+			'source' => 'Upwork',
+			'url'    => 'https://www.upwork.com/freelancers/~01a78b3a652ea76ba3',
+		),
+		array(
+			'name'   => __( 'Upwork Client', 'lieusoft' ),
+			'role'   => 'WordPress backup & migration',
+			'rating' => 5,
+			'quote'  => 'Shahadat did a very good job and delivered fast and professional work on this project. I enjoyed working with him and with his quick response.',
+			'source' => 'Upwork',
+			'url'    => 'https://www.upwork.com/freelancers/~01a78b3a652ea76ba3',
+		),
+		array(
+			'name'   => __( 'Upwork Client', 'lieusoft' ),
+			'role'   => 'Single page WordPress website',
+			'rating' => 5,
+			'quote'  => 'Great Guy. Five Star Communication, Professionalism, Timeliness and Experience.',
+			'source' => 'Upwork',
+			'url'    => 'https://www.upwork.com/freelancers/~01a78b3a652ea76ba3',
+		),
+		array(
+			'name'   => __( 'Upwork Client', 'lieusoft' ),
+			'role'   => 'Website graphic & display enhancement',
+			'rating' => 5,
+			'quote'  => 'A very good service provider and completed the work very well and beyond expectations. At no point he was hesitant to make repeated changes or to improve his own work.',
+			'source' => 'Upwork',
+			'url'    => 'https://www.upwork.com/freelancers/~01a78b3a652ea76ba3',
+		),
+	);
+}
+
+/**
+ * Live client projects shown in the "Projects We've Delivered" strip.
+ * Screenshots live in assets/images/project-*.jpg.
+ */
+function lieusoft_get_projects() {
+	return array(
+		array(
+			'name'     => 'CozyThai',
+			'category' => __( 'Massage & Wellness · Portugal', 'lieusoft' ),
+			'desc'     => __( 'Booking website for a Thai massage studio in Lisbon, with online appointments and a full treatment menu.', 'lieusoft' ),
+			'tags'     => array( __( 'Booking System', 'lieusoft' ), 'WooCommerce', __( 'Bilingual', 'lieusoft' ) ),
+			'image'    => 'project-cozythai.jpg',
+			'url'      => 'https://cozythai.pt/',
+		),
+		array(
+			'name'     => 'Shafiul Amraz',
+			'category' => __( 'Healthcare · Bangladesh', 'lieusoft' ),
+			'desc'     => __( 'Doctor appointment system with doctor profiles, weekly availability, online booking and a live patient queue.', 'lieusoft' ),
+			'tags'     => array( __( 'Appointment System', 'lieusoft' ), __( 'Live Queue', 'lieusoft' ), __( 'SMS', 'lieusoft' ) ),
+			'image'    => 'project-shafiulamraz.jpg',
+			'url'      => 'https://shafiulamraz.com/',
+		),
+		array(
+			'name'     => 'KnowledgeHut',
+			'category' => __( 'Education & Care · UK', 'lieusoft' ),
+			'desc'     => __( 'Website redesign for a teaching and research organisation serving families across East London.', 'lieusoft' ),
+			'tags'     => array( __( 'Redesign', 'lieusoft' ), 'Elementor', __( 'Courses', 'lieusoft' ) ),
+			'image'    => 'project-knowledgehut.jpg',
+			'url'      => 'https://knowledgehut.org.uk/',
+		),
+		array(
+			'name'     => 'Bennon Solutions',
+			'category' => __( 'Government Contracting · USA', 'lieusoft' ),
+			'desc'     => __( 'Corporate website for a veteran-owned contractor delivering construction, IT, healthcare and facility services to government agencies.', 'lieusoft' ),
+			'tags'     => array( __( 'Corporate Website', 'lieusoft' ), 'Elementor', __( 'Government', 'lieusoft' ) ),
+			'image'    => 'project-bennon.jpg',
+			'url'      => 'https://bennonsolutions.com/',
+		),
+		array(
+			'name'     => 'Dual Layer IT',
+			'category' => __( 'Managed IT · Hong Kong', 'lieusoft' ),
+			'desc'     => __( 'Website for a managed IT and cybersecurity provider serving firms in Hong Kong, Singapore, Shanghai, London and the UAE.', 'lieusoft' ),
+			'tags'     => array( __( 'Brand Website', 'lieusoft' ), __( 'IT Services', 'lieusoft' ), __( 'Compliance', 'lieusoft' ) ),
+			'image'    => 'project-duallayerit.jpg',
+			'url'      => 'https://www.duallayerit.com/',
+		),
+		array(
+			'name'     => 'Dual Layer Cyber',
+			'category' => __( 'Cybersecurity · Hong Kong', 'lieusoft' ),
+			'desc'     => __( 'Website for a cybersecurity firm offering penetration testing, vulnerability assessments and security awareness training.', 'lieusoft' ),
+			'tags'     => array( __( 'Corporate Website', 'lieusoft' ), 'Elementor', __( 'Cybersecurity', 'lieusoft' ) ),
+			'image'    => 'project-duallayercyber.jpg',
+			'url'      => 'https://duallayercyber.com/',
+		),
+		array(
+			'name'     => 'RBA',
+			'category' => __( 'Import & Distribution · USA', 'lieusoft' ),
+			'desc'     => __( 'Product catalogue website for an importer and distributor of small arms ammunition and components.', 'lieusoft' ),
+			'tags'     => array( __( 'Product Catalogue', 'lieusoft' ), 'Elementor', 'B2B' ),
+			'image'    => 'project-rba.jpg',
+			'url'      => 'https://rbaammo.com/',
+		),
+		array(
+			'name'     => 'CMX',
+			'category' => __( 'Digital Agency', 'lieusoft' ),
+			'desc'     => __( 'Website for a full-service digital agency covering web development, SEO and AI automation.', 'lieusoft' ),
+			'tags'     => array( __( 'Custom Theme', 'lieusoft' ), __( 'Dark Mode', 'lieusoft' ), 'SEO' ),
+			'image'    => 'project-cmx-dark.jpg',
+			'url'      => 'https://www.cmxchat.com/',
+		),
+		array(
+			'name'     => 'eFirm Accountants',
+			'category' => __( 'Accounting · Australia', 'lieusoft' ),
+			'desc'     => __( 'Website for a Melbourne accounting firm offering tax returns, bookkeeping and virtual CFO services Australia-wide.', 'lieusoft' ),
+			'tags'     => array( __( 'Service Website', 'lieusoft' ), 'Elementor', __( 'Pricing Pages', 'lieusoft' ) ),
+			'image'    => 'project-efirm.jpg',
+			'url'      => 'https://efirm.com.au/',
+		),
+		array(
+			'name'     => 'Blue Creek Capital',
+			'category' => __( 'Investment Management · Hong Kong', 'lieusoft' ),
+			'desc'     => __( 'Website for an SFC-licensed fund manager investing in Chinese equities, with an investor login and regulatory disclaimer.', 'lieusoft' ),
+			'tags'     => array( __( 'Corporate Website', 'lieusoft' ), 'Elementor', __( 'Investor Portal', 'lieusoft' ) ),
+			'image'    => 'project-bluecreek.jpg',
+			'url'      => 'https://www.bluecreekasset.com/',
+		),
+		array(
+			'name'     => 'Yasmeen Baig',
+			'category' => __( 'Fashion Design', 'lieusoft' ),
+			'desc'     => __( 'Portfolio website for a fashion designer, showing collections, the creative process and commission enquiries, with a custom studio panel for editing.', 'lieusoft' ),
+			'tags'     => array( 'Next.js', __( 'Headless WordPress', 'lieusoft' ), __( 'Portfolio', 'lieusoft' ) ),
+			'image'    => 'project-yasmeenbaig.jpg',
+			'url'      => 'https://yasmeenbaig.com/',
+		),
+		array(
+			'name'     => 'UROOD',
+			'category' => __( 'Food Brand · USA', 'lieusoft' ),
+			'desc'     => __( 'Brand website for a premium dates company, with its product range and wholesale enquiries.', 'lieusoft' ),
+			'tags'     => array( __( 'Brand Website', 'lieusoft' ), 'Next.js', __( 'Wholesale', 'lieusoft' ) ),
+			'image'    => 'project-urood.jpg',
+			'url'      => 'https://urood.com/',
+		),
+		// Last on purpose: the strip loops, so this sits between UROOD and CozyThai.
+		array(
+			'name'     => 'KH Education',
+			'category' => __( 'Student Recruitment · UK', 'lieusoft' ),
+			'desc'     => __( 'Website for a UK university admissions consultancy, built around courses, intakes and applications.', 'lieusoft' ),
+			'tags'     => array( __( 'Redesign', 'lieusoft' ), 'Elementor', __( 'Lead Generation', 'lieusoft' ) ),
+			'image'    => 'project-kheducation.jpg',
+			'url'      => 'https://kh-education.org.uk/',
+		),
+	);
+}
+
+/**
+ * Estimated reading time for a post, in whole minutes (200 words/min, min 1).
+ */
+function lieusoft_reading_time( $post = null ) {
+	$words = str_word_count( wp_strip_all_tags( get_post_field( 'post_content', $post ) ) );
+	return max( 1, (int) ceil( $words / 200 ) );
+}
+
+/**
+ * The URL of the blog index (the "Posts page"), or the home URL when none is set.
+ */
+function lieusoft_blog_url() {
+	$page_id = (int) get_option( 'page_for_posts' );
+	return $page_id ? get_permalink( $page_id ) : home_url( '/' );
+}
+
+/**
+ * Show 9 posts per blog/archive page so the 3-column grid always fills evenly.
+ */
+function lieusoft_blog_posts_per_page( $query ) {
+	if ( ! is_admin() && $query->is_main_query() && ( $query->is_home() || $query->is_category() || $query->is_tag() || $query->is_author() || $query->is_date() || $query->is_search() ) ) {
+		$query->set( 'posts_per_page', 9 );
+	}
+}
+add_action( 'pre_get_posts', 'lieusoft_blog_posts_per_page' );
+
+// Archive headings read "Booking Tips", not "Category: Booking Tips" — the
+// eyebrow above the title already says what kind of archive it is.
+add_filter( 'get_the_archive_title_prefix', '__return_empty_string' );

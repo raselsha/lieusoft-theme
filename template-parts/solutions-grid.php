@@ -25,6 +25,13 @@ $a = wp_parse_args( $args ?? array(), array(
 						<li><?php echo esc_html( $tag ); ?></li>
 					<?php endforeach; ?>
 				</ul>
+				<?php if ( ! empty( $solution['price'] ) ) : ?>
+					<div class="solution-card__price">
+						<span class="solution-card__price-label"><?php esc_html_e( 'Starting from', 'lieusoft' ); ?></span>
+						<span class="solution-card__price-value">৳<?php echo esc_html( $solution['price'] ); ?></span>
+						<span class="solution-card__price-note"><?php esc_html_e( 'Domain + hosting + ready solution', 'lieusoft' ); ?></span>
+					</div>
+				<?php endif; ?>
 				<a class="link-arrow" href="<?php echo esc_url( $solution['url'] ?? '#solutions' ); ?>">
 					<?php esc_html_e( 'View Solutions', 'lieusoft' ); ?>
 					<?php echo lieusoft_icon( 'arrow-right' ); ?>

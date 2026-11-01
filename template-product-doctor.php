@@ -23,7 +23,7 @@ get_template_part( 'template-parts/product', 'hero', array(
 	'checklist'        => array( __( 'Online Appointment Booking', 'lieusoft' ), __( 'Secure Payments', 'lieusoft' ), __( 'Doctor & Schedule Management', 'lieusoft' ), __( 'Email & SMS Notification', 'lieusoft' ), __( 'Patient Management', 'lieusoft' ), __( 'Reports & Analytics', 'lieusoft' ) ),
 	'screenshot_icon'  => 'stethoscope',
 	'screenshot_label' => __( 'Clinic Dashboard Screenshot', 'lieusoft' ),
-	'demo_url'         => 'https://shafiulamraz.lieusoft.com/',
+	'demo_url'         => 'https://medbook.lieusoft.com/',
 ) );
 
 get_template_part( 'template-parts/solution', 'features', array(
@@ -69,6 +69,8 @@ get_template_part( 'template-parts/product', 'pricing', array(
 		),
 	),
 ) );
+
+get_template_part( 'template-parts/solution', 'projects' );
 
 get_template_part( 'template-parts/solution', 'faq', array(
 	'faqs' => array(

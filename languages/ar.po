@@ -1,0 +1,2936 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Lieusoft\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5);\n"
+
+msgid "Category"
+msgstr "التصنيف"
+
+msgid "Tag"
+msgstr "الوسم"
+
+msgid "Archive"
+msgstr "الأرشيف"
+
+msgid "We build the digital backbone of your business — from custom websites and WordPress plugins to email infrastructure and IT strategy. Trusted by businesses worldwide."
+msgstr "نبني الأساس الرقمي لأعمالك — من المواقع المخصصة وإضافات WordPress إلى أنظمة البريد الإلكتروني واستراتيجية تقنية المعلومات. تثق بنا الشركات حول العالم."
+
+msgid "Product"
+msgstr "المنتجات"
+
+msgid "Solutions"
+msgstr "الحلول"
+
+msgid "Services"
+msgstr "الخدمات"
+
+msgid "Company"
+msgstr "الشركة"
+
+msgid "Get in Touch"
+msgstr "تواصل معنا"
+
+msgid "+8801521255463 — available on WhatsApp"
+msgstr "‎+8801521255463 — متاح على واتساب"
+
+msgid "Remote-first · Serving clients worldwide"
+msgstr "نعمل عن بُعد · نخدم العملاء حول العالم"
+
+msgid "All rights reserved."
+msgstr "جميع الحقوق محفوظة."
+
+msgid "Privacy Policy"
+msgstr "سياسة الخصوصية"
+
+msgid "Chat on WhatsApp"
+msgstr "تحدث معنا على واتساب"
+
+msgid "Do I need my own hosting?"
+msgstr "هل أحتاج إلى استضافة خاصة بي؟"
+
+msgid "No, managed hosting is included with every business solution. You can also bring your own if you prefer."
+msgstr "لا، الاستضافة المُدارة مشمولة في كل حل أعمال. ويمكنك استخدام استضافتك الخاصة إن أردت."
+
+msgid "Can I use my own domain?"
+msgstr "هل يمكنني استخدام نطاقي الخاص؟"
+
+msgid "Yes, you can use a domain you already own or we can register one for you."
+msgstr "نعم، يمكنك استخدام نطاق تملكه بالفعل أو يمكننا تسجيل نطاق جديد لك."
+
+msgid "Can you migrate my website?"
+msgstr "هل يمكنكم نقل موقعي؟"
+
+msgid "Yes, we can migrate an existing website to a new solution or hosting with no downtime."
+msgstr "نعم، يمكننا نقل موقعك الحالي إلى حل أو استضافة جديدة دون أي توقف."
+
+msgid "Do you provide support?"
+msgstr "هل تقدمون الدعم؟"
+
+msgid "Yes, every business solution includes ongoing support, and every plugin includes updates."
+msgstr "نعم، يشمل كل حل أعمال دعمًا مستمرًا، وتشمل كل إضافة التحديثات."
+
+msgid "Can I request custom features?"
+msgstr "هل يمكنني طلب ميزات مخصصة؟"
+
+msgid "Yes, tell us what you need during your consultation and we will scope it for you."
+msgstr "نعم، أخبرنا بما تحتاجه خلال الاستشارة وسنحدد نطاق العمل لك."
+
+msgid "Doctor Appointment Solution"
+msgstr "حل حجز مواعيد الأطباء"
+
+msgid "Modern website with online appointment booking, doctor profiles, patient management, Live Queue and an easy-to-use admin dashboard."
+msgstr "موقع حديث مع حجز المواعيد عبر الإنترنت، وملفات الأطباء، وإدارة المرضى، وطابور مباشر، ولوحة تحكم سهلة الاستخدام."
+
+msgid "Tailor Management Solution"
+msgstr "حل إدارة محلات الخياطة"
+
+msgid "Manage customer orders, body measurements, delivery schedules, invoices, and shop operations from one simple dashboard."
+msgstr "أدِر طلبات العملاء والمقاسات ومواعيد التسليم والفواتير وعمليات المحل من لوحة تحكم واحدة بسيطة."
+
+msgid "Service Booking Solution"
+msgstr "حل حجز الخدمات"
+
+msgid "Perfect for thai massage, salons, spas, beauty centers, repair services, consultants, and other appointment-based businesses."
+msgstr "مثالي لمراكز التدليك التايلاندي والصالونات والسبا ومراكز التجميل وخدمات الصيانة والاستشاريين وغيرها من الأعمال القائمة على المواعيد."
+
+msgid "Service Booking"
+msgstr "حجز الخدمات"
+
+msgid "Complete booking & appointment solution for any service."
+msgstr "حل متكامل للحجز والمواعيد لأي خدمة."
+
+msgid "Doctor Appointment"
+msgstr "مواعيد الأطباء"
+
+msgid "Appointment booking system for clinics and hospitals."
+msgstr "نظام حجز مواعيد للعيادات والمستشفيات."
+
+msgid "Tailor Order Management"
+msgstr "إدارة طلبات الخياطة"
+
+msgid "Manage tailor orders, customers, measurements and deliveries."
+msgstr "أدِر طلبات الخياطة والعملاء والمقاسات والتسليم."
+
+msgid "PDF Embed Viewer"
+msgstr "PDF Embed Viewer"
+
+msgid "3D flipbook PDF viewer & embedder for WordPress."
+msgstr "عارض PDF بتقليب صفحات ثلاثي الأبعاد وأداة تضمين لـ WordPress."
+
+msgid "Massage & Wellness · Portugal"
+msgstr "التدليك والعافية · البرتغال"
+
+msgid "Booking website for a Thai massage studio in Lisbon, with online appointments and a full treatment menu."
+msgstr "موقع حجز لاستوديو تدليك تايلاندي في لشبونة، مع مواعيد عبر الإنترنت وقائمة علاجات كاملة."
+
+msgid "Booking System"
+msgstr "نظام الحجز"
+
+msgid "Bilingual"
+msgstr "ثنائي اللغة"
+
+msgid "Healthcare · Bangladesh"
+msgstr "الرعاية الصحية · بنغلاديش"
+
+msgid "Doctor appointment system with doctor profiles, weekly availability, online booking and a live patient queue."
+msgstr "نظام مواعيد أطباء مع ملفات الأطباء، والمواعيد الأسبوعية، والحجز عبر الإنترنت، وطابور مرضى مباشر."
+
+msgid "Appointment System"
+msgstr "نظام المواعيد"
+
+msgid "Live Queue"
+msgstr "طابور مباشر"
+
+msgid "SMS"
+msgstr "رسائل SMS"
+
+msgid "Education & Care · UK"
+msgstr "التعليم والرعاية · المملكة المتحدة"
+
+msgid "Website redesign for a teaching and research organisation serving families across East London."
+msgstr "إعادة تصميم موقع لمؤسسة تعليمية وبحثية تخدم العائلات في شرق لندن."
+
+msgid "Redesign"
+msgstr "إعادة تصميم"
+
+msgid "Courses"
+msgstr "الدورات"
+
+msgid "Government Contracting · USA"
+msgstr "التعاقدات الحكومية · الولايات المتحدة"
+
+msgid "Corporate website for a veteran-owned contractor delivering construction, IT, healthcare and facility services to government agencies."
+msgstr "موقع شركة لمقاول يملكه محاربون قدامى يقدم خدمات البناء وتقنية المعلومات والرعاية الصحية والمرافق للجهات الحكومية."
+
+msgid "Corporate Website"
+msgstr "موقع شركة"
+
+msgid "Government"
+msgstr "حكومي"
+
+msgid "Managed IT · Hong Kong"
+msgstr "تقنية معلومات مُدارة · هونغ كونغ"
+
+msgid "Website for a managed IT and cybersecurity provider serving firms in Hong Kong, Singapore, Shanghai, London and the UAE."
+msgstr "موقع لمزود خدمات تقنية معلومات مُدارة وأمن سيبراني يخدم الشركات في هونغ كونغ وسنغافورة وشنغهاي ولندن والإمارات."
+
+msgid "Brand Website"
+msgstr "موقع علامة تجارية"
+
+msgid "IT Services"
+msgstr "خدمات تقنية المعلومات"
+
+msgid "Compliance"
+msgstr "الامتثال"
+
+msgid "Cybersecurity · Hong Kong"
+msgstr "الأمن السيبراني · هونغ كونغ"
+
+msgid "Website for a cybersecurity firm offering penetration testing, vulnerability assessments and security awareness training."
+msgstr "موقع لشركة أمن سيبراني تقدم اختبارات الاختراق وتقييم الثغرات والتدريب على الوعي الأمني."
+
+msgid "Cybersecurity"
+msgstr "الأمن السيبراني"
+
+msgid "Import & Distribution · USA"
+msgstr "الاستيراد والتوزيع · الولايات المتحدة"
+
+msgid "Product catalogue website for an importer and distributor of small arms ammunition and components."
+msgstr "موقع كتالوج منتجات لمستورد وموزع لذخائر الأسلحة الخفيفة ومكوناتها."
+
+msgid "Product Catalogue"
+msgstr "كتالوج المنتجات"
+
+msgid "Digital Agency"
+msgstr "وكالة رقمية"
+
+msgid "Website for a full-service digital agency covering web development, SEO and AI automation."
+msgstr "موقع لوكالة رقمية متكاملة تقدم تطوير الويب وتحسين محركات البحث وأتمتة الذكاء الاصطناعي."
+
+msgid "Custom Theme"
+msgstr "قالب مخصص"
+
+msgid "Dark Mode"
+msgstr "الوضع الداكن"
+
+msgid "Accounting · Australia"
+msgstr "المحاسبة · أستراليا"
+
+msgid "Website for a Melbourne accounting firm offering tax returns, bookkeeping and virtual CFO services Australia-wide."
+msgstr "موقع لمكتب محاسبة في ملبورن يقدم الإقرارات الضريبية ومسك الدفاتر وخدمات المدير المالي الافتراضي في جميع أنحاء أستراليا."
+
+msgid "Service Website"
+msgstr "موقع خدمات"
+
+msgid "Pricing Pages"
+msgstr "صفحات الأسعار"
+
+msgid "Investment Management · Hong Kong"
+msgstr "إدارة الاستثمار · هونغ كونغ"
+
+msgid "Website for an SFC-licensed fund manager investing in Chinese equities, with an investor login and regulatory disclaimer."
+msgstr "موقع لمدير صناديق مرخص من هيئة SFC يستثمر في الأسهم الصينية، مع تسجيل دخول للمستثمرين وإخلاء مسؤولية تنظيمي."
+
+msgid "Investor Portal"
+msgstr "بوابة المستثمرين"
+
+msgid "Fashion Design"
+msgstr "تصميم الأزياء"
+
+msgid "Portfolio website for a fashion designer, showing collections, the creative process and commission enquiries, with a custom studio panel for editing."
+msgstr "موقع معرض أعمال لمصممة أزياء يعرض المجموعات والعملية الإبداعية وطلبات التفصيل، مع لوحة استوديو مخصصة للتعديل."
+
+msgid "Headless WordPress"
+msgstr "WordPress بدون واجهة (Headless)"
+
+msgid "Portfolio"
+msgstr "معرض أعمال"
+
+msgid "Food Brand · USA"
+msgstr "علامة غذائية · الولايات المتحدة"
+
+msgid "Brand website for a premium dates company, with its product range and wholesale enquiries."
+msgstr "موقع علامة تجارية لشركة تمور فاخرة، مع مجموعة منتجاتها واستفسارات البيع بالجملة."
+
+msgid "Wholesale"
+msgstr "البيع بالجملة"
+
+msgid "Student Recruitment · UK"
+msgstr "استقطاب الطلاب · المملكة المتحدة"
+
+msgid "Website for a UK university admissions consultancy, built around courses, intakes and applications."
+msgstr "موقع لاستشارات القبول في الجامعات البريطانية، مبني حول الدورات ومواعيد القبول والطلبات."
+
+msgid "Lead Generation"
+msgstr "توليد العملاء المحتملين"
+
+msgid "Primary"
+msgstr "الرئيسية"
+
+msgid "Close menu"
+msgstr "إغلاق القائمة"
+
+msgid "Book Consultation"
+msgstr "احجز استشارة"
+
+msgid "Menu"
+msgstr "القائمة"
+
+msgid "Insights & Guides"
+msgstr "رؤى وأدلة"
+
+msgid "Practical articles on websites, online booking, WordPress and running your business online."
+msgstr "مقالات عملية عن المواقع والحجز عبر الإنترنت وWordPress وإدارة أعمالك عبر الإنترنت."
+
+msgid "Home"
+msgstr "الرئيسية"
+
+msgid "Products"
+msgstr "المنتجات"
+
+msgid "Pricing"
+msgstr "الأسعار"
+
+msgid "Blog"
+msgstr "المدونة"
+
+msgid "Contact Us"
+msgstr "اتصل بنا"
+
+msgid "Case Studies"
+msgstr "دراسات الحالة"
+
+msgid "Tailor Management"
+msgstr "إدارة الخياطة"
+
+msgid "Website Development"
+msgstr "تطوير المواقع"
+
+msgid "Plugin Customization"
+msgstr "تخصيص الإضافات"
+
+msgid "Website Maintenance"
+msgstr "صيانة المواقع"
+
+msgid "Migration Services"
+msgstr "خدمات النقل"
+
+msgid "Custom Email Service"
+msgstr "خدمة بريد إلكتروني مخصصة"
+
+msgid "Technical Support"
+msgstr "الدعم الفني"
+
+msgid "Business Automation"
+msgstr "أتمتة الأعمال"
+
+msgid "Doctor Solution"
+msgstr "حل الأطباء"
+
+msgid "Tailor Solution"
+msgstr "حل الخياطة"
+
+msgid "All Solutions"
+msgstr "جميع الحلول"
+
+msgid "Language"
+msgstr "اللغة"
+
+msgid "Change language"
+msgstr "تغيير اللغة"
+
+msgid "Nothing found."
+msgstr "لم يتم العثور على شيء."
+
+msgid "Search"
+msgstr "بحث"
+
+msgid "Results for “%s”"
+msgstr "نتائج البحث عن “%s”"
+
+msgid "Breadcrumb"
+msgstr "مسار التنقل"
+
+msgid "%d min read"
+msgid_plural "%d min read"
+msgstr[0] "قراءة في %d دقيقة"
+msgstr[1] "قراءة في %d دقيقة"
+msgstr[2] "قراءة في %d دقيقة"
+msgstr[3] "قراءة في %d دقيقة"
+msgstr[4] "قراءة في %d دقيقة"
+msgstr[5] "قراءة في %d دقيقة"
+
+msgid "Share"
+msgstr "مشاركة"
+
+msgid "Share on Facebook"
+msgstr "المشاركة على فيسبوك"
+
+msgid "Share on LinkedIn"
+msgstr "المشاركة على لينكدإن"
+
+msgid "Share on WhatsApp"
+msgstr "المشاركة على واتساب"
+
+msgid "Keep Reading"
+msgstr "تابع القراءة"
+
+msgid "Related Articles"
+msgstr "مقالات ذات صلة"
+
+msgid "All articles"
+msgstr "كل المقالات"
+
+msgid "Need a Website or System for Your Business?"
+msgstr "هل تحتاج موقعًا أو نظامًا لأعمالك؟"
+
+msgid "Tell us what you need — we'll build, host and support it for you."
+msgstr "أخبرنا بما تحتاجه — سنبنيه ونستضيفه وندعمه لك."
+
+msgid "Search articles"
+msgstr "ابحث في المقالات"
+
+msgid "Search articles…"
+msgstr "ابحث في المقالات…"
+
+msgid "Categories"
+msgstr "التصنيفات"
+
+msgid "All"
+msgstr "الكل"
+
+msgid "Previous"
+msgstr "السابق"
+
+msgid "Next"
+msgstr "التالي"
+
+msgid "Pages"
+msgstr "الصفحات"
+
+msgid "No articles found"
+msgstr "لم يتم العثور على مقالات"
+
+msgid "Try a different word, or browse all articles."
+msgstr "جرّب كلمة أخرى، أو تصفح كل المقالات."
+
+msgid "Articles are on the way"
+msgstr "المقالات في الطريق"
+
+msgid "We are writing practical guides on websites, bookings and running your business online. Check back soon."
+msgstr "نكتب أدلة عملية عن المواقع والحجوزات وإدارة أعمالك عبر الإنترنت. عد قريبًا."
+
+msgid "All Articles"
+msgstr "كل المقالات"
+
+msgid "Explore Our Solutions"
+msgstr "استكشف حلولنا"
+
+msgid "Our Services"
+msgstr "خدماتنا"
+
+msgid "Massage"
+msgstr "تدليك"
+
+msgid "Hair"
+msgstr "الشعر"
+
+msgid "Skin Care"
+msgstr "العناية بالبشرة"
+
+msgid "Traditional Thai Massage"
+msgstr "تدليك تايلاندي تقليدي"
+
+msgid "60 min · 3 staff available"
+msgstr "60 دقيقة · 3 موظفين متاحين"
+
+msgid "Haircut & Styling"
+msgstr "قص وتصفيف الشعر"
+
+msgid "45 min · 2 staff available"
+msgstr "45 دقيقة · موظفان متاحان"
+
+msgid "Deep Cleansing Facial"
+msgstr "تنظيف عميق للبشرة"
+
+msgid "50 min · 2 staff available"
+msgstr "50 دقيقة · موظفان متاحان"
+
+msgid "Hot Stone Massage"
+msgstr "تدليك بالأحجار الساخنة"
+
+msgid "90 min · 1 staff available"
+msgstr "90 دقيقة · موظف واحد متاح"
+
+msgid "Book a Service"
+msgstr "احجز خدمة"
+
+msgid "Choose Staff"
+msgstr "اختر الموظف"
+
+msgid "Any"
+msgstr "أي موظف"
+
+msgid "Pick Date & Time"
+msgstr "اختر التاريخ والوقت"
+
+msgid "October 2026"
+msgstr "أكتوبر 2026"
+
+msgid "Selected"
+msgstr "المحدد"
+
+msgid "Thai Massage · Oct 28 · 11:00 AM"
+msgstr "تدليك تايلاندي · 28 أكتوبر · 11:00 ص"
+
+msgid "Change"
+msgstr "تغيير"
+
+msgid "Full Name"
+msgstr "الاسم الكامل"
+
+msgid "e.g. Tasnim Akter"
+msgstr "مثال: تسنيم أختر"
+
+msgid "Mobile Number"
+msgstr "رقم الجوال"
+
+msgid "Email"
+msgstr "البريد الإلكتروني"
+
+msgid "Note for Staff"
+msgstr "ملاحظة للموظف"
+
+msgid "Anything we should know?"
+msgstr "هل هناك ما يجب أن نعرفه؟"
+
+msgid "Total · 60 min"
+msgstr "الإجمالي · 60 دقيقة"
+
+msgid "Confirm Booking"
+msgstr "تأكيد الحجز"
+
+msgid "Booking Confirmed"
+msgstr "تم تأكيد الحجز"
+
+msgid "Booking ID"
+msgstr "رقم الحجز"
+
+msgid "Service"
+msgstr "الخدمة"
+
+msgid "Staff"
+msgstr "الموظف"
+
+msgid "Date"
+msgstr "التاريخ"
+
+msgid "Time"
+msgstr "الوقت"
+
+msgid "11:00 AM · 60 min"
+msgstr "11:00 ص · 60 دقيقة"
+
+msgid "Total"
+msgstr "الإجمالي"
+
+msgid "Need to change it? Use the link in your SMS."
+msgstr "تريد التغيير؟ استخدم الرابط في رسالة SMS."
+
+msgid "Just now"
+msgstr "الآن"
+
+msgid "Serenity Spa: Your Thai Massage with Nadia is confirmed for Oct 28 at 11:00 AM. Booking ID: SB-4127. We will remind you 2 hours before."
+msgstr "Serenity Spa: تم تأكيد جلسة التدليك التايلاندي مع نادية في 28 أكتوبر الساعة 11:00 صباحًا. رقم الحجز: SB-4127. سنذكّرك قبل ساعتين."
+
+msgid "Your booking is confirmed — Traditional Thai Massage"
+msgstr "تم تأكيد حجزك — تدليك تايلاندي تقليدي"
+
+msgid "Hi Tasnim, thanks for booking with us. Please arrive 10 minutes early so you can relax before your session."
+msgstr "مرحبًا تسنيم، شكرًا لحجزك معنا. يُرجى الحضور قبل 10 دقائق لتسترخي قبل جلستك."
+
+msgid "Serenity Spa"
+msgstr "Serenity Spa"
+
+msgid "Admin Panel · Bookings"
+msgstr "لوحة التحكم · الحجوزات"
+
+msgid "Today's Bookings"
+msgstr "حجوزات اليوم"
+
+msgid "Total Customers"
+msgstr "إجمالي العملاء"
+
+msgid "Today's Revenue"
+msgstr "إيرادات اليوم"
+
+msgid "Done"
+msgstr "تم"
+
+msgid "In Service"
+msgstr "قيد الخدمة"
+
+msgid "New"
+msgstr "جديد"
+
+msgid "Upcoming"
+msgstr "قادم"
+
+msgid "Staff Schedule · Today"
+msgstr "جدول الموظفين · اليوم"
+
+msgid "Facial"
+msgstr "تنظيف البشرة"
+
+msgid "Thai"
+msgstr "تايلاندي"
+
+msgid "Break"
+msgstr "استراحة"
+
+msgid "Hot Stone"
+msgstr "الأحجار الساخنة"
+
+msgid "Nails"
+msgstr "الأظافر"
+
+msgid "Open slots update automatically — no double bookings."
+msgstr "تتحدث المواعيد المتاحة تلقائيًا — لا حجوزات مزدوجة."
+
+msgid "Customer Profile"
+msgstr "ملف العميل"
+
+msgid "01XXXXXXXXX · Mirpur, Dhaka"
+msgstr "01XXXXXXXXX · ميربور، دكا"
+
+msgid "Regular"
+msgstr "عميل دائم"
+
+msgid "Total Orders"
+msgstr "إجمالي الطلبات"
+
+msgid "Total Spent"
+msgstr "إجمالي الإنفاق"
+
+msgid "Due"
+msgstr "المستحق"
+
+msgid "Order History"
+msgstr "سجل الطلبات"
+
+msgid "Suit"
+msgstr "بدلة"
+
+msgid "Delivered"
+msgstr "تم التسليم"
+
+msgid "Shirt × 3"
+msgstr "قميص × 3"
+
+msgid "Panjabi"
+msgstr "بنجابي"
+
+msgid "Measurements · Panjabi"
+msgstr "المقاسات · بنجابي"
+
+msgid "Length"
+msgstr "الطول"
+
+msgid "Chest"
+msgstr "الصدر"
+
+msgid "Waist"
+msgstr "الخصر"
+
+msgid "Hip"
+msgstr "الورك"
+
+msgid "Shoulder"
+msgstr "الكتف"
+
+msgid "Sleeve"
+msgstr "الكم"
+
+msgid "Collar"
+msgstr "الياقة"
+
+msgid "Cuff"
+msgstr "الكفّة"
+
+msgid "Saved to Rahim Uddin — ready for his next order."
+msgstr "تم الحفظ في ملف رحيم الدين — جاهز لطلبه القادم."
+
+msgid "New Order"
+msgstr "طلب جديد"
+
+msgid "Item"
+msgstr "القطعة"
+
+msgid "Shirt"
+msgstr "قميص"
+
+msgid "Pant"
+msgstr "بنطال"
+
+msgid "Sherwani"
+msgstr "شيرواني"
+
+msgid "Quantity"
+msgstr "الكمية"
+
+msgid "Fabric"
+msgstr "القماش"
+
+msgid "Cotton · 5 m"
+msgstr "قطن · 5 م"
+
+msgid "Trial Date"
+msgstr "موعد القياس"
+
+msgid "Delivery Date"
+msgstr "موعد التسليم"
+
+msgid "Design Note"
+msgstr "ملاحظة التصميم"
+
+msgid "Chinese collar, 2 side pockets"
+msgstr "ياقة صينية، جيبان جانبيان"
+
+msgid "Create Order"
+msgstr "إنشاء الطلب"
+
+msgid "Invoice"
+msgstr "الفاتورة"
+
+msgid "Partly Paid"
+msgstr "مدفوعة جزئيًا"
+
+msgid "Panjabi stitching"
+msgstr "خياطة بنجابي"
+
+msgid "Cotton fabric"
+msgstr "قماش قطني"
+
+msgid "Collar embroidery"
+msgstr "تطريز الياقة"
+
+msgid "Discount"
+msgstr "خصم"
+
+msgid "Advance paid"
+msgstr "الدفعة المقدمة"
+
+msgid "Due on delivery"
+msgstr "المستحق عند التسليم"
+
+msgid "Print Receipt"
+msgstr "طباعة الإيصال"
+
+msgid "Panjabi × 2"
+msgstr "بنجابي × 2"
+
+msgid "Order Received"
+msgstr "تم استلام الطلب"
+
+msgid "Oct 28 · advance ৳2,000 paid"
+msgstr "28 أكتوبر · دُفع مقدم ৳2,000"
+
+msgid "Fabric Cutting"
+msgstr "قص القماش"
+
+msgid "Oct 29 · Karim (cutter)"
+msgstr "29 أكتوبر · كريم (القصّاص)"
+
+msgid "Stitching"
+msgstr "الخياطة"
+
+msgid "In progress · Jamal (tailor)"
+msgstr "قيد التنفيذ · جمال (الخياط)"
+
+msgid "Trial"
+msgstr "القياس"
+
+msgid "Nov 2"
+msgstr "2 نوفمبر"
+
+msgid "Ready for Delivery"
+msgstr "جاهز للتسليم"
+
+msgid "Customer gets an SMS"
+msgstr "يتلقى العميل رسالة SMS"
+
+msgid "Delivered & Paid"
+msgstr "تم التسليم والدفع"
+
+msgid "Nov 5 · due ৳2,300"
+msgstr "5 نوفمبر · المستحق ৳2,300"
+
+msgid "Oct 28"
+msgstr "28 أكتوبر"
+
+msgid "Al-Modina Tailors: Order #ORD-1026 received. Panjabi × 2, total ৳4,300, advance ৳2,000. Trial Nov 2, delivery Nov 5."
+msgstr "خياطة المدينة: تم استلام الطلب #ORD-1026. بنجابي × 2، الإجمالي ৳4,300، المقدم ৳2,000. القياس 2 نوفمبر، التسليم 5 نوفمبر."
+
+msgid "Al-Modina Tailors: Your order #ORD-1026 is ready for pickup. Due amount: ৳2,300. Thank you!"
+msgstr "خياطة المدينة: طلبك #ORD-1026 جاهز للاستلام. المبلغ المستحق: ৳2,300. شكرًا لك!"
+
+msgid "Shop Reminder"
+msgstr "تذكير المحل"
+
+msgid "Today"
+msgstr "اليوم"
+
+msgid "6 orders due for delivery today"
+msgstr "6 طلبات مستحقة التسليم اليوم"
+
+msgid "2 are still in stitching — check with the workshop so nothing is late."
+msgstr "طلبان ما زالا قيد الخياطة — تابع مع الورشة حتى لا يتأخر شيء."
+
+msgid "Reports · This Month"
+msgstr "التقارير · هذا الشهر"
+
+msgid "Orders"
+msgstr "الطلبات"
+
+msgid "Sales"
+msgstr "المبيعات"
+
+msgid "Orders per Week"
+msgstr "الطلبات أسبوعيًا"
+
+msgid "Top Items"
+msgstr "الأكثر طلبًا"
+
+msgid "Rated 5.0 out of 5 from 6 reviews"
+msgstr "تقييم 5.0 من 5 بناءً على 6 مراجعات"
+
+msgid "Live Demo"
+msgstr "عرض مباشر"
+
+msgid "Details"
+msgstr "التفاصيل"
+
+msgid "WordPress Plugins"
+msgstr "إضافات WordPress"
+
+msgid "Plugin Licenses"
+msgstr "تراخيص الإضافات"
+
+msgid "Install on your own WordPress site. Pay once — updates are included for life."
+msgstr "ثبّتها على موقع WordPress الخاص بك. ادفع مرة واحدة — التحديثات مشمولة مدى الحياة."
+
+msgid "one time"
+msgstr "دفعة واحدة"
+
+msgid "Buy Now"
+msgstr "اشترِ الآن"
+
+msgid "Custom Work, Quoted for You"
+msgstr "أعمال مخصصة بعرض سعر لك"
+
+msgid "Every project is different, so we scope it with you first and send a fixed quote — no surprises later."
+msgstr "كل مشروع مختلف، لذا نحدد نطاق العمل معك أولًا ثم نرسل عرض سعر ثابت — بلا مفاجآت لاحقًا."
+
+msgid "Get a Quote"
+msgstr "اطلب عرض سعر"
+
+msgid "Free consultation"
+msgstr "استشارة مجانية"
+
+msgid "Written scope & fixed quote"
+msgstr "نطاق عمل مكتوب وعرض سعر ثابت"
+
+msgid "Work starts after you approve"
+msgstr "يبدأ العمل بعد موافقتك"
+
+msgid "See It In Action"
+msgstr "شاهده أثناء العمل"
+
+msgid "Product Screenshot"
+msgstr "لقطة شاشة للمنتج"
+
+msgid "Simple Pricing"
+msgstr "أسعار بسيطة"
+
+msgid "One time payment, lifetime updates and support."
+msgstr "دفعة واحدة، وتحديثات ودعم مدى الحياة."
+
+msgid "One Time Payment"
+msgstr "دفعة واحدة"
+
+msgid "Ready to Build Your Business Website?"
+msgstr "هل أنت مستعد لبناء موقع أعمالك؟"
+
+msgid "Let's discuss how we can help you grow your business online."
+msgstr "لنتحدث عن كيف يمكننا مساعدتك في تنمية أعمالك عبر الإنترنت."
+
+msgid "Book Consultant"
+msgstr "احجز استشارة"
+
+msgid "WordPress Business Solutions"
+msgstr "حلول أعمال WordPress"
+
+msgid "Complete"
+msgstr "حلول"
+
+msgid "Business Solutions"
+msgstr "أعمال متكاملة"
+
+msgid "for Growing Businesses"
+msgstr "للشركات النامية"
+
+msgid "We build complete business websites with custom software, managed hosting, domain setup, training, and ongoing support. Everything you need to launch and grow your business in one place."
+msgstr "نبني مواقع أعمال متكاملة مع برمجيات مخصصة واستضافة مُدارة وإعداد النطاق والتدريب والدعم المستمر. كل ما تحتاجه لإطلاق أعمالك وتنميتها في مكان واحد."
+
+msgid "Ready Solutions"
+msgstr "حلول جاهزة"
+
+msgid "Premium Plugins"
+msgstr "إضافات مميزة"
+
+msgid "Expert Services"
+msgstr "خدمات احترافية"
+
+msgid "Reliable Support"
+msgstr "دعم موثوق"
+
+msgid "View Solutions"
+msgstr "عرض الحلول"
+
+msgid "Doctor Appointment & Queue Management"
+msgstr "مواعيد الأطباء وإدارة الطوابير"
+
+msgid "Online Booking"
+msgstr "الحجز عبر الإنترنت"
+
+msgid "Patient Queue"
+msgstr "طابور المرضى"
+
+msgid "Doctor Panel"
+msgstr "لوحة الطبيب"
+
+msgid "Measurements"
+msgstr "المقاسات"
+
+msgid "Order Tracking"
+msgstr "تتبع الطلبات"
+
+msgid "Customer Management"
+msgstr "إدارة العملاء"
+
+msgid "Book Services"
+msgstr "احجز الخدمات"
+
+msgid "Manage Schedule"
+msgstr "أدِر الجدول"
+
+msgid "Deliver Your Commitments"
+msgstr "أوفِ بالتزاماتك"
+
+msgid "Digital Flipbook & PDF Viewer"
+msgstr "كتاب رقمي تفاعلي وعارض PDF"
+
+msgid "Interactive Books"
+msgstr "كتب تفاعلية"
+
+msgid "PDF Viewer"
+msgstr "عارض PDF"
+
+msgid "Modern Reading Experience"
+msgstr "تجربة قراءة حديثة"
+
+msgid "Featured WordPress Plugins"
+msgstr "إضافات WordPress مميزة"
+
+msgid "Powerful plugins built to extend WordPress and simplify your business workflow."
+msgstr "إضافات قوية مصممة لتوسيع WordPress وتبسيط سير عمل أعمالك."
+
+msgid "View All Plugins"
+msgstr "عرض كل الإضافات"
+
+msgid "We Only Build What Fits Your Business"
+msgstr "نبني فقط ما يناسب أعمالك"
+
+msgid "Every project is scoped around how your business actually runs, not squeezed into a generic template."
+msgstr "يُصمم كل مشروع حول طريقة عمل نشاطك فعليًا، لا يُحشر في قالب عام."
+
+msgid "No one-size-fits-all packages"
+msgstr "لا باقات موحدة للجميع"
+
+msgid "Every solution starts with understanding your workflow"
+msgstr "يبدأ كل حل بفهم سير عملك"
+
+msgid "Custom WordPress builds, not reused themes"
+msgstr "بناء WordPress مخصص، لا قوالب معاد استخدامها"
+
+msgid "Transparent, All-Inclusive Pricing"
+msgstr "أسعار شفافة وشاملة"
+
+msgid "No hidden add-ons — every plan ships complete and ready to launch."
+msgstr "لا إضافات خفية — كل خطة تأتي كاملة وجاهزة للإطلاق."
+
+msgid "Website, hosting, domain, SSL and email included"
+msgstr "الموقع والاستضافة والنطاق وSSL والبريد مشمولة"
+
+msgid "Clear pricing agreed before we start"
+msgstr "أسعار واضحة متفق عليها قبل البدء"
+
+msgid "What you are quoted is what you pay"
+msgstr "تدفع ما عُرض عليك فقط"
+
+msgid "Security & Reliability By Default"
+msgstr "الأمان والموثوقية افتراضيًا"
+
+msgid "SSL, backups and monitoring are built into every plan, not sold as extras."
+msgstr "SSL والنسخ الاحتياطي والمراقبة مدمجة في كل خطة، لا تُباع كإضافات."
+
+msgid "Regular automatic backups"
+msgstr "نسخ احتياطي تلقائي منتظم"
+
+msgid "Monitored, managed hosting"
+msgstr "استضافة مُدارة ومراقبة"
+
+msgid "SSL included from day one"
+msgstr "SSL مشمول من اليوم الأول"
+
+msgid "One Team, Start to Finish"
+msgstr "فريق واحد من البداية للنهاية"
+
+msgid "Development, hosting, email, maintenance and support — handled by one accountable team."
+msgstr "التطوير والاستضافة والبريد والصيانة والدعم — يتولاها فريق واحد مسؤول."
+
+msgid "No juggling multiple vendors"
+msgstr "لا حاجة للتنقل بين عدة مزودين"
+
+msgid "One point of contact for your whole project"
+msgstr "جهة تواصل واحدة لمشروعك بالكامل"
+
+msgid "Consistent support after launch"
+msgstr "دعم مستمر بعد الإطلاق"
+
+msgid "We Stay Reachable After Launch"
+msgstr "نبقى متاحين بعد الإطلاق"
+
+msgid "Our relationship doesn't end at launch — we stay on for ongoing support."
+msgstr "علاقتنا لا تنتهي عند الإطلاق — نبقى معك للدعم المستمر."
+
+msgid "Direct WhatsApp and email support"
+msgstr "دعم مباشر عبر واتساب والبريد الإلكتروني"
+
+msgid "Regular maintenance and updates"
+msgstr "صيانة وتحديثات منتظمة"
+
+msgid "Help whenever something needs fixing"
+msgstr "مساعدة كلما احتاج شيء إلى إصلاح"
+
+msgid "Our Principles"
+msgstr "مبادئنا"
+
+msgid "How We Work"
+msgstr "كيف نعمل"
+
+msgid "The principles we follow to deliver reliable, transparent business websites."
+msgstr "المبادئ التي نتبعها لتقديم مواقع أعمال موثوقة وشفافة."
+
+msgid "Principle %s"
+msgstr "المبدأ %s"
+
+msgid "Expert Services To Support your Business"
+msgstr "خدمات احترافية لدعم أعمالك"
+
+msgid "We help you in every step of your journey."
+msgstr "نساعدك في كل خطوة من رحلتك."
+
+msgid "Our Business Solutions"
+msgstr "حلول الأعمال لدينا"
+
+msgid "Ready-made website solutions designed for your business. We handle everything from setup to support, so you can focus on running your business."
+msgstr "حلول مواقع جاهزة مصممة لأعمالك. نتولى كل شيء من الإعداد إلى الدعم، لتتفرغ لإدارة أعمالك."
+
+msgid "CozyThai – Thai Massage Booking Website"
+msgstr "CozyThai – موقع حجز التدليك التايلاندي"
+
+msgid "Massage & Wellness"
+msgstr "التدليك والعافية"
+
+msgid "Website"
+msgstr "الموقع"
+
+msgid "Hosting"
+msgstr "الاستضافة"
+
+msgid "Support"
+msgstr "الدعم"
+
+msgid "Doctor Appointment Website"
+msgstr "موقع مواعيد الأطباء"
+
+msgid "Healthcare"
+msgstr "الرعاية الصحية"
+
+msgid "Clinic Website"
+msgstr "موقع العيادة"
+
+msgid "Appointment Booking"
+msgstr "حجز المواعيد"
+
+msgid "Patient Management"
+msgstr "إدارة المرضى"
+
+msgid "Tailor Management Website"
+msgstr "موقع إدارة الخياطة"
+
+msgid "Tailoring & Fashion"
+msgstr "الخياطة والأزياء"
+
+msgid "Order Management"
+msgstr "إدارة الطلبات"
+
+msgid "Invoices"
+msgstr "الفواتير"
+
+msgid "Completed"
+msgstr "مكتمل"
+
+msgid "View Case Study"
+msgstr "عرض دراسة الحالة"
+
+msgid "Real Client Work"
+msgstr "أعمال حقيقية لعملاء"
+
+msgid "Successfully Delivered"
+msgstr "تم تسليمها بنجاح"
+
+msgid "Business Websites"
+msgstr "مواقع أعمال"
+
+msgid "Every project we take on is scoped carefully, built to the agreed plan, and handed over complete — hosting, domain, SSL and support included from day one."
+msgstr "كل مشروع نتولاه يُخطط بعناية ويُبنى وفق الخطة المتفق عليها ويُسلَّم كاملًا — الاستضافة والنطاق وSSL والدعم مشمولة من اليوم الأول."
+
+msgid "View All Case Studies"
+msgstr "عرض كل دراسات الحالة"
+
+msgid "Our Track Record"
+msgstr "سجل أعمالنا"
+
+msgid "100% Delivered, Fully Supported"
+msgstr "تسليم 100%، ودعم كامل"
+
+msgid "Every project we've completed ships with hosting, SSL and ongoing support already in place."
+msgstr "كل مشروع أنجزناه يأتي مع الاستضافة وSSL والدعم المستمر جاهزة."
+
+msgid "Browse All Case Studies"
+msgstr "تصفح كل دراسات الحالة"
+
+msgid "Delivered to the agreed scope"
+msgstr "تسليم وفق النطاق المتفق عليه"
+
+msgid "Transparent process, real support"
+msgstr "عملية شفافة ودعم حقيقي"
+
+msgid "Ready-made websites built specifically for your business industry."
+msgstr "مواقع جاهزة مصممة خصيصًا لمجال عملك."
+
+msgid "Professional WordPress plugins for developers and growing businesses."
+msgstr "إضافات WordPress احترافية للمطورين والشركات النامية."
+
+msgid "Tailor Order"
+msgstr "طلبات الخياطة"
+
+msgid "View Products"
+msgstr "عرض المنتجات"
+
+msgid "Custom Development"
+msgstr "تطوير مخصص"
+
+msgid "Need something unique? We build custom WordPress solutions tailored to your workflow."
+msgstr "تحتاج شيئًا فريدًا؟ نبني حلول WordPress مخصصة حسب سير عملك."
+
+msgid "Plugin Development"
+msgstr "تطوير الإضافات"
+
+msgid "View Services"
+msgstr "عرض الخدمات"
+
+msgid "Fast, friendly, and ongoing technical support whenever you need it."
+msgstr "دعم فني سريع وودود ومستمر متى احتجته."
+
+msgid "What We Do"
+msgstr "ما نقوم به"
+
+msgid "Everything you need to build, launch, and grow your business online."
+msgstr "كل ما تحتاجه لبناء أعمالك وإطلاقها وتنميتها عبر الإنترنت."
+
+msgid "Website & Hosting"
+msgstr "الموقع والاستضافة"
+
+msgid "Built, hosted and monitored"
+msgstr "بناء واستضافة ومراقبة"
+
+msgid "Security & Backups"
+msgstr "الأمان والنسخ الاحتياطي"
+
+msgid "SSL, backups, monitoring"
+msgstr "SSL، نسخ احتياطي، مراقبة"
+
+msgid "Automation"
+msgstr "الأتمتة"
+
+msgid "Custom n8n workflows"
+msgstr "مسارات عمل n8n مخصصة"
+
+msgid "Ongoing Support"
+msgstr "دعم مستمر"
+
+msgid "Reachable after you launch"
+msgstr "متاحون بعد الإطلاق"
+
+msgid "Complete Business Support"
+msgstr "دعم أعمال متكامل"
+
+msgid "We handle your business, so you don't have to"
+msgstr "نتولى أعمالك التقنية، فلا تقلق"
+
+msgid "From your first website to everyday support — development, hosting, email, maintenance and automation, built on WordPress and backed by a team that stays with you."
+msgstr "من موقعك الأول إلى الدعم اليومي — التطوير والاستضافة والبريد والصيانة والأتمتة، مبنية على WordPress ومدعومة بفريق يبقى معك."
+
+msgid "One team, start to finish"
+msgstr "فريق واحد من البداية للنهاية"
+
+msgid "Support after launch"
+msgstr "دعم بعد الإطلاق"
+
+msgid "No add-on surprises"
+msgstr "لا مفاجآت في الإضافات"
+
+msgid "See Our Services"
+msgstr "اطّلع على خدماتنا"
+
+msgid "Your business, fully supported"
+msgstr "أعمالك مدعومة بالكامل"
+
+msgid "Book Free Consultation"
+msgstr "احجز استشارة مجانية"
+
+msgid "Still Have Questions?"
+msgstr "لديك أسئلة أخرى؟"
+
+msgid "We are here to help you. Feel free to contact us anytime."
+msgstr "نحن هنا لمساعدتك. تواصل معنا في أي وقت."
+
+msgid "FAQ"
+msgstr "الأسئلة الشائعة"
+
+msgid "Frequently Asked Questions"
+msgstr "الأسئلة الشائعة"
+
+msgid "Medicine"
+msgstr "الباطنة"
+
+msgid "Phone"
+msgstr "الهاتف"
+
+msgid "Availability"
+msgstr "المواعيد المتاحة"
+
+msgid "Monday"
+msgstr "الإثنين"
+
+msgid "Tuesday"
+msgstr "الثلاثاء"
+
+msgid "Wednesday"
+msgstr "الأربعاء"
+
+msgid "Friday"
+msgstr "الجمعة"
+
+msgid "Book Appointment"
+msgstr "احجز موعدًا"
+
+msgid "Choose Specialty & Doctor"
+msgstr "اختر التخصص والطبيب"
+
+msgid "e.g. Shafiul Islam"
+msgstr "مثال: شفيع الإسلام"
+
+msgid "Age"
+msgstr "العمر"
+
+msgid "Gender"
+msgstr "الجنس"
+
+msgid "Male"
+msgstr "ذكر"
+
+msgid "Patient"
+msgstr "المريض"
+
+msgid "Doctor"
+msgstr "الطبيب"
+
+msgid "Show this QR code at check-in."
+msgstr "اعرض رمز QR هذا عند تسجيل الوصول."
+
+msgid "National Institute of Neuroscience & Hospital: Appointment confirmed with Dr. Dewan Md. Kudrat-A-Elahi on Oct 28, 2026 at 3:20 PM. Booking ID: B002854. Helpline: 01707574598."
+msgstr "المعهد الوطني لعلوم الأعصاب والمستشفى: تم تأكيد موعدك مع د. ديوان محمد قدرت إلهي في 28 أكتوبر 2026 الساعة 3:20 مساءً. رقم الحجز: B002854. خط المساعدة: 01707574598."
+
+msgid "Appointment Confirmed — Dr. Dewan Md. Kudrat-A-Elahi"
+msgstr "تم تأكيد الموعد — د. ديوان محمد قدرت إلهي"
+
+msgid "Hi Abdur Rahman, your appointment is confirmed. Please arrive 10 minutes early and bring your QR code for check-in."
+msgstr "مرحبًا عبد الرحمن، تم تأكيد موعدك. يُرجى الحضور قبل 10 دقائق وإحضار رمز QR لتسجيل الوصول."
+
+msgid "National Institute of Neuroscience & Hospital"
+msgstr "المعهد الوطني لعلوم الأعصاب والمستشفى"
+
+msgid "Admin Panel · Appointments"
+msgstr "لوحة التحكم · المواعيد"
+
+msgid "Today's Appointments"
+msgstr "مواعيد اليوم"
+
+msgid "Total Patients"
+msgstr "إجمالي المرضى"
+
+msgid "Total Revenue"
+msgstr "إجمالي الإيرادات"
+
+msgid "Dr. Dewan Md. Kudrat-A-Elahi"
+msgstr "د. ديوان محمد قدرت إلهي"
+
+msgid "Medicine · Today"
+msgstr "الباطنة · اليوم"
+
+msgid "Print"
+msgstr "طباعة"
+
+msgid "Export CSV"
+msgstr "تصدير CSV"
+
+msgid "Today's Queue"
+msgstr "طابور اليوم"
+
+msgid "Ayesha Rahman"
+msgstr "عائشة رحمن"
+
+msgid "Female"
+msgstr "أنثى"
+
+msgid "Waiting"
+msgstr "في الانتظار"
+
+msgid "Mehedi Hasan"
+msgstr "مهدي حسن"
+
+msgid "Rafiqul Islam"
+msgstr "رفيق الإسلام"
+
+msgid "Booked"
+msgstr "محجوز"
+
+msgid "Check In"
+msgstr "تسجيل الوصول"
+
+msgid "Nusrat Jahan"
+msgstr "نصرت جهان"
+
+msgid "Abdur Rahman"
+msgstr "عبد الرحمن"
+
+msgid "Live Queue · Dr. Dewan Md. Kudrat-A-Elahi"
+msgstr "الطابور المباشر · د. ديوان محمد قدرت إلهي"
+
+msgid "Now Serving"
+msgstr "يُخدم الآن"
+
+msgid "In Room"
+msgstr "في الغرفة"
+
+msgid "Kamal Hossain"
+msgstr "كمال حسين"
+
+msgid "Checked In"
+msgstr "سجّل الوصول"
+
+msgid "Sultana Begum"
+msgstr "سلطانة بيغم"
+
+msgid "Away"
+msgstr "غير موجود"
+
+msgid "Tanvir Ahmed"
+msgstr "تنوير أحمد"
+
+msgid "Complete Booking Website &"
+msgstr "موقع حجز متكامل و"
+
+msgid "Appointment Management System"
+msgstr "نظام إدارة المواعيد"
+
+msgid "We build a complete booking website for salons, spas, cleaning, repair and beauty businesses — online booking, staff management, hosting and support."
+msgstr "نبني موقع حجز متكاملًا للصالونات والسبا وخدمات التنظيف والصيانة ومراكز التجميل — مع الحجز عبر الإنترنت وإدارة الموظفين والاستضافة والدعم."
+
+msgid "Domain"
+msgstr "النطاق"
+
+msgid "Choose a Service"
+msgstr "اختر خدمة"
+
+msgid "60 min · Massage"
+msgstr "60 دقيقة · تدليك"
+
+msgid "45 min · Hair"
+msgstr "45 دقيقة · الشعر"
+
+msgid "50 min · Skin Care"
+msgstr "50 دقيقة · العناية بالبشرة"
+
+msgid "90 min · Massage"
+msgstr "90 دقيقة · تدليك"
+
+msgid "Manicure & Pedicure"
+msgstr "مانيكير وباديكير"
+
+msgid "60 min · Nails"
+msgstr "60 دقيقة · الأظافر"
+
+msgid "Pick Staff & Time"
+msgstr "اختر الموظف والوقت"
+
+msgid "Your Details"
+msgstr "بياناتك"
+
+msgid "Medium pressure, please"
+msgstr "ضغط متوسط من فضلك"
+
+msgid "Total · 60 min with Nadia"
+msgstr "الإجمالي · 60 دقيقة مع نادية"
+
+msgid "Customer"
+msgstr "العميل"
+
+msgid "Pay at venue"
+msgstr "الدفع في المكان"
+
+msgid "A reminder SMS will arrive 2 hours before."
+msgstr "ستصلك رسالة تذكير قبل ساعتين."
+
+msgid "Add to calendar"
+msgstr "أضف إلى التقويم"
+
+msgid "Download"
+msgstr "تنزيل"
+
+msgid "Admin Dashboard"
+msgstr "لوحة تحكم المدير"
+
+msgid "Bookings"
+msgstr "الحجوزات"
+
+msgid "Wed, Oct 28, 2026"
+msgstr "الأربعاء، 28 أكتوبر 2026"
+
+msgid "Facial · 10:00"
+msgstr "تنظيف البشرة · 10:00"
+
+msgid "Haircut · 10:30"
+msgstr "قص الشعر · 10:30"
+
+msgid "Nails · 12:00"
+msgstr "الأظافر · 12:00"
+
+msgid "Hot Stone · 2:00"
+msgstr "الأحجار الساخنة · 2:00"
+
+msgid "Thai Massage · 11:00"
+msgstr "تدليك تايلاندي · 11:00"
+
+msgid "Confirmed"
+msgstr "مؤكد"
+
+msgid "Complete Tailor Shop Website &"
+msgstr "موقع متكامل لمحل الخياطة و"
+
+msgid "Order Management System"
+msgstr "نظام إدارة الطلبات"
+
+msgid "We build a complete tailor shop website with online order tracking, measurement records, delivery management, hosting and support."
+msgstr "نبني موقعًا متكاملًا لمحل الخياطة مع تتبع الطلبات عبر الإنترنت وسجلات المقاسات وإدارة التسليم والاستضافة والدعم."
+
+msgid "Order System"
+msgstr "نظام الطلبات"
+
+msgid "01XXXXXXXXX · Customer since 2023"
+msgstr "01XXXXXXXXX · عميل منذ 2023"
+
+msgid "12 orders"
+msgstr "12 طلبًا"
+
+msgid "Blazer"
+msgstr "بليزر"
+
+msgid "Next: Measurements"
+msgstr "التالي: المقاسات"
+
+msgid "Panjabi · Rahim Uddin"
+msgstr "بنجابي · رحيم الدين"
+
+msgid "Measurements in inches"
+msgstr "المقاسات بالبوصة"
+
+msgid "Edit"
+msgstr "تعديل"
+
+msgid "Armhole"
+msgstr "فتحة الذراع"
+
+msgid "Neck Depth"
+msgstr "عمق الرقبة"
+
+msgid "Loaded from his last order — just update what changed."
+msgstr "مُحمّلة من طلبه السابق — حدّث ما تغيّر فقط."
+
+msgid "Rahim Uddin · Delivery Nov 5"
+msgstr "رحيم الدين · التسليم 5 نوفمبر"
+
+msgid "Save & Print Receipt"
+msgstr "حفظ وطباعة الإيصال"
+
+msgid "Order Status"
+msgstr "حالة الطلب"
+
+msgid "Rahim Uddin · Delivery Nov 5, 2026"
+msgstr "رحيم الدين · التسليم 5 نوفمبر 2026"
+
+msgid "Shop Dashboard"
+msgstr "لوحة تحكم المحل"
+
+msgid "Orders in Progress"
+msgstr "الطلبات قيد التنفيذ"
+
+msgid "Today's Deliveries"
+msgstr "تسليمات اليوم"
+
+msgid "Total Due"
+msgstr "إجمالي المستحق"
+
+msgid "Recent Orders"
+msgstr "أحدث الطلبات"
+
+msgid "Ready"
+msgstr "جاهز"
+
+msgid "Pant × 2"
+msgstr "بنطال × 2"
+
+msgid "Cutting"
+msgstr "قيد القص"
+
+msgid "Complete Clinic Website &"
+msgstr "موقع متكامل للعيادة و"
+
+msgid "We build a complete clinic website with online appointment booking, doctor management, patient records, hosting and support."
+msgstr "نبني موقعًا متكاملًا للعيادة مع حجز المواعيد عبر الإنترنت وإدارة الأطباء وسجلات المرضى والاستضافة والدعم."
+
+msgid "Find a Doctor"
+msgstr "ابحث عن طبيب"
+
+msgid "Today's Patients"
+msgstr "مرضى اليوم"
+
+msgid "September 2026"
+msgstr "سبتمبر 2026"
+
+msgid "Patient Details"
+msgstr "بيانات المريض"
+
+msgid "Consultation Fee"
+msgstr "رسوم الاستشارة"
+
+msgid "Serial No."
+msgstr "الرقم التسلسلي"
+
+msgid "Fee"
+msgstr "الرسوم"
+
+msgid "Pay at clinic"
+msgstr "الدفع في العيادة"
+
+msgid "Booking"
+msgstr "الحجوزات"
+
+msgid "Sun, Sep 13, 2026"
+msgstr "الأحد، 13 سبتمبر 2026"
+
+msgid "Cardiology"
+msgstr "أمراض القلب"
+
+msgid "Dermatology"
+msgstr "الأمراض الجلدية"
+
+msgid "Pediatrics"
+msgstr "طب الأطفال"
+
+msgid "Orthopedics"
+msgstr "جراحة العظام"
+
+msgid "Everything Included. One Simple Package."
+msgstr "كل شيء مشمول. باقة واحدة بسيطة."
+
+msgid "No hidden add-ons — every plan ships complete, ready to launch."
+msgstr "لا إضافات خفية — كل خطة تأتي كاملة وجاهزة للإطلاق."
+
+msgid "SSL"
+msgstr "SSL"
+
+msgid "Business Email"
+msgstr "بريد الأعمال"
+
+msgid "Training"
+msgstr "التدريب"
+
+msgid "1 Year Support"
+msgstr "دعم لمدة سنة"
+
+msgid "Our Promise"
+msgstr "وعدنا"
+
+msgid "Simple, Honest Pricing"
+msgstr "أسعار بسيطة وصادقة"
+
+msgid "Choose Plan"
+msgstr "اختر الخطة"
+
+msgid "Every plan includes"
+msgstr "تشمل كل خطة"
+
+msgid "Our Work"
+msgstr "أعمالنا"
+
+msgid "Projects We've Delivered"
+msgstr "مشاريع أنجزناها"
+
+msgid "Real websites and systems we have built and launched for our clients."
+msgstr "مواقع وأنظمة حقيقية بنيناها وأطلقناها لعملائنا."
+
+msgid "%s website"
+msgstr "موقع %s"
+
+msgid "Visit website"
+msgstr "زيارة الموقع"
+
+msgid "Why Choose Lieusoft"
+msgstr "لماذا تختار Lieusoft"
+
+msgid "Ready in 7 Days"
+msgstr "جاهز خلال 7 أيام"
+
+msgid "From kickoff to a live website."
+msgstr "من بدء العمل حتى إطلاق الموقع."
+
+msgid "Business Focused"
+msgstr "يركز على الأعمال"
+
+msgid "Built around how your business actually runs."
+msgstr "مبني حول طريقة عمل نشاطك فعليًا."
+
+msgid "Training Included"
+msgstr "التدريب مشمول"
+
+msgid "Your team gets hands-on onboarding."
+msgstr "يحصل فريقك على تدريب عملي."
+
+msgid "We stay reachable after launch."
+msgstr "نبقى متاحين بعد الإطلاق."
+
+msgid "Book a free consultation"
+msgstr "احجز استشارة مجانية"
+
+msgid "Starting from"
+msgstr "ابتداءً من"
+
+msgid "Domain + hosting + ready solution"
+msgstr "نطاق + استضافة + حل جاهز"
+
+msgid "Regular License"
+msgstr "الترخيص العادي"
+
+msgid "Use on 1 website"
+msgstr "للاستخدام على موقع واحد"
+
+msgid "Lifetime updates"
+msgstr "تحديثات مدى الحياة"
+
+msgid "Lifetime support"
+msgstr "دعم مدى الحياة"
+
+msgid "Developer License"
+msgstr "ترخيص المطور"
+
+msgid "Use on unlimited websites"
+msgstr "للاستخدام على عدد غير محدود من المواقع"
+
+msgid "6 months support"
+msgstr "دعم لمدة 6 أشهر"
+
+msgid "Extended License"
+msgstr "الترخيص الموسّع"
+
+msgid "12 months support"
+msgstr "دعم لمدة 12 شهرًا"
+
+msgid "Clear prices for our ready-made business solutions and WordPress plugins, and a fixed quote for any custom work."
+msgstr "أسعار واضحة لحلول الأعمال الجاهزة وإضافات WordPress، وعرض سعر ثابت لأي عمل مخصص."
+
+msgid "Pricing sections"
+msgstr "أقسام الأسعار"
+
+msgid "From ৳9,000 / year"
+msgstr "من ৳9,000 سنويًا"
+
+msgid "From ৳2,999 one time"
+msgstr "من ৳2,999 دفعة واحدة"
+
+msgid "Fixed quote per project"
+msgstr "عرض سعر ثابت لكل مشروع"
+
+msgid "Business Solution Plans"
+msgstr "خطط حلول الأعمال"
+
+msgid "A complete website and management system for your business, with hosting, domain and support. One price for every solution — the longer the plan, the less you pay per year."
+msgstr "موقع متكامل ونظام إدارة لأعمالك، مع الاستضافة والنطاق والدعم. سعر واحد لكل الحلول — كلما طالت الخطة قلّ ما تدفعه سنويًا."
+
+msgid "Tailor Shop Management"
+msgstr "إدارة محلات الخياطة"
+
+msgid "1 Year"
+msgstr "سنة واحدة"
+
+msgid "Get started"
+msgstr "ابدأ الآن"
+
+msgid "৳12,000 per year"
+msgstr "৳12,000 سنويًا"
+
+msgid "2 Years"
+msgstr "سنتان"
+
+msgid "Save ৳2,000"
+msgstr "وفّر ৳2,000"
+
+msgid "৳11,000 per year"
+msgstr "৳11,000 سنويًا"
+
+msgid "3 Years"
+msgstr "3 سنوات"
+
+msgid "Save ৳6,000"
+msgstr "وفّر ৳6,000"
+
+msgid "৳10,000 per year"
+msgstr "৳10,000 سنويًا"
+
+msgid "5 Years"
+msgstr "5 سنوات"
+
+msgid "Save ৳15,000"
+msgstr "وفّر ৳15,000"
+
+msgid "৳9,000 per year"
+msgstr "৳9,000 سنويًا"
+
+msgid "Best Value"
+msgstr "أفضل قيمة"
+
+msgid "Business website"
+msgstr "موقع الأعمال"
+
+msgid "Management system (appointments, orders or bookings)"
+msgstr "نظام إدارة (مواعيد أو طلبات أو حجوزات)"
+
+msgid "Hosting & domain for the full plan"
+msgstr "الاستضافة والنطاق طوال مدة الخطة"
+
+msgid "SSL certificate"
+msgstr "شهادة SSL"
+
+msgid "Business email"
+msgstr "بريد الأعمال"
+
+msgid "Staff training"
+msgstr "تدريب الموظفين"
+
+msgid "Support & updates for the full plan"
+msgstr "الدعم والتحديثات طوال مدة الخطة"
+
+msgid "Pay once the system is live"
+msgstr "ادفع بعد تشغيل النظام"
+
+msgid "Savings are compared with paying ৳12,000 every year. Renewal after your plan ends is priced separately — ask us for the current rate."
+msgstr "التوفير محسوب مقارنةً بدفع ৳12,000 كل سنة. التجديد بعد انتهاء خطتك له سعر منفصل — اسألنا عن السعر الحالي."
+
+msgid "A custom WordPress website designed and built for your business."
+msgstr "موقع WordPress مخصص مصمم ومبني لأعمالك."
+
+msgid "Custom Plugin Development"
+msgstr "تطوير إضافات مخصصة"
+
+msgid "A WordPress plugin built around your exact workflow."
+msgstr "إضافة WordPress مبنية حول سير عملك بدقة."
+
+msgid "Updates, backups, security checks and small fixes, every month."
+msgstr "تحديثات ونسخ احتياطي وفحوصات أمنية وإصلاحات صغيرة كل شهر."
+
+msgid "Managed Hosting & Domain"
+msgstr "استضافة مُدارة ونطاق"
+
+msgid "Fast, secure hosting and domain registration, managed for you."
+msgstr "استضافة سريعة وآمنة وتسجيل نطاق، نديرها لك."
+
+msgid "Professional email addresses on your own domain, set up for your team."
+msgstr "عناوين بريد احترافية على نطاقك الخاص، مُعدّة لفريقك."
+
+msgid "n8n workflows that connect your tools and remove repetitive work."
+msgstr "مسارات عمل n8n تربط أدواتك وتزيل العمل المتكرر."
+
+msgid "What does a business solution plan include?"
+msgstr "ماذا تشمل خطة حل الأعمال؟"
+
+msgid "The website, the management system for your business, hosting, domain, SSL, business email, staff training, and support and updates — all for the length of the plan you choose."
+msgstr "الموقع، ونظام الإدارة لأعمالك، والاستضافة، والنطاق، وSSL، وبريد الأعمال، وتدريب الموظفين، والدعم والتحديثات — طوال مدة الخطة التي تختارها."
+
+msgid "Is the price the same for every solution?"
+msgstr "هل السعر نفسه لكل الحلول؟"
+
+msgid "Yes. Doctor Appointment, Tailor Shop Management and Service Booking all use the same 1, 2, 3 and 5 year plans."
+msgstr "نعم. حلول مواعيد الأطباء وإدارة محلات الخياطة وحجز الخدمات كلها تستخدم نفس خطط 1 و2 و3 و5 سنوات."
+
+msgid "When do I pay for a solution?"
+msgstr "متى أدفع مقابل الحل؟"
+
+msgid "After your system is set up and live. You choose the plan during the consultation."
+msgstr "بعد إعداد نظامك وتشغيله. تختار الخطة خلال الاستشارة."
+
+msgid "What happens when my plan ends?"
+msgstr "ماذا يحدث عند انتهاء خطتي؟"
+
+msgid "You can renew to keep your website, system, hosting and domain running. Renewal is priced separately — we will share the rate before your plan ends."
+msgstr "يمكنك التجديد للحفاظ على موقعك ونظامك واستضافتك ونطاقك. للتجديد سعر منفصل — سنخبرك به قبل انتهاء خطتك."
+
+msgid "Are plugin licenses a one-time payment?"
+msgstr "هل تراخيص الإضافات دفعة واحدة؟"
+
+msgid "Yes. You pay once and get updates for life. Support length depends on the license — see each plugin above."
+msgstr "نعم. تدفع مرة واحدة وتحصل على التحديثات مدى الحياة. مدة الدعم تعتمد على الترخيص — راجع كل إضافة أعلاه."
+
+msgid "How are services priced?"
+msgstr "كيف تُسعّر الخدمات؟"
+
+msgid "After a free consultation we send a written scope and a fixed quote. Work only starts once you approve it."
+msgstr "بعد استشارة مجانية نرسل نطاق عمل مكتوبًا وعرض سعر ثابتًا. لا يبدأ العمل إلا بعد موافقتك."
+
+msgid "Not Sure Which Option is Right?"
+msgstr "لست متأكدًا من الخيار المناسب؟"
+
+msgid "Tell us about your business and we'll recommend the best fit — free."
+msgstr "أخبرنا عن أعمالك وسنقترح عليك الأنسب — مجانًا."
+
+msgid "Service Booking Plugin"
+msgstr "إضافة حجز الخدمات"
+
+msgid "A simple and powerful booking & appointment plugin for service-based businesses."
+msgstr "إضافة حجز ومواعيد بسيطة وقوية للأعمال القائمة على الخدمات."
+
+msgid "Secure Payments"
+msgstr "مدفوعات آمنة"
+
+msgid "Staff & Schedule"
+msgstr "الموظفون والجدول"
+
+msgid "Custom Fields"
+msgstr "حقول مخصصة"
+
+msgid "Email & SMS Notification"
+msgstr "إشعارات البريد وSMS"
+
+msgid "Reports & Analytics"
+msgstr "التقارير والتحليلات"
+
+msgid "Booking Dashboard Screenshot"
+msgstr "لقطة شاشة للوحة الحجوزات"
+
+msgid "Features"
+msgstr "المميزات"
+
+msgid "Everything You Need"
+msgstr "كل ما تحتاجه"
+
+msgid "Notifications"
+msgstr "الإشعارات"
+
+msgid "Booking Form"
+msgstr "نموذج الحجز"
+
+msgid "Service List"
+msgstr "قائمة الخدمات"
+
+msgid "Staff Grid"
+msgstr "شبكة الموظفين"
+
+msgid "Calendar View"
+msgstr "عرض التقويم"
+
+msgid "Use on 1 Website"
+msgstr "للاستخدام على موقع واحد"
+
+msgid "Lifetime Updates"
+msgstr "تحديثات مدى الحياة"
+
+msgid "6 Months Support"
+msgstr "دعم لمدة 6 أشهر"
+
+msgid "Use on Unlimited Websites"
+msgstr "للاستخدام على عدد غير محدود من المواقع"
+
+msgid "12 Months Support"
+msgstr "دعم لمدة 12 شهرًا"
+
+msgid "Can I try before buying?"
+msgstr "هل يمكنني التجربة قبل الشراء؟"
+
+msgid "Yes, you can test the live demo before purchasing a license."
+msgstr "نعم، يمكنك تجربة العرض المباشر قبل شراء الترخيص."
+
+msgid "Will it work with my theme?"
+msgstr "هل ستعمل مع القالب الخاص بي؟"
+
+msgid "Yes, it is built to work with any properly coded WordPress theme."
+msgstr "نعم، صُممت لتعمل مع أي قالب WordPress مبرمج بشكل صحيح."
+
+msgid "Can I collect payments using this plugin?"
+msgstr "هل يمكنني تحصيل المدفوعات بهذه الإضافة؟"
+
+msgid "Yes, secure online payments are supported through multiple gateways."
+msgstr "نعم، تدعم المدفوعات الآمنة عبر الإنترنت من خلال عدة بوابات."
+
+msgid "Yes, every license includes dedicated support for the covered period."
+msgstr "نعم، يشمل كل ترخيص دعمًا مخصصًا طوال الفترة المشمولة."
+
+msgid "Need Help?"
+msgstr "تحتاج مساعدة؟"
+
+msgid "Our support team is always ready to help you with any questions."
+msgstr "فريق الدعم لدينا جاهز دائمًا لمساعدتك في أي سؤال."
+
+msgid "Contact Support"
+msgstr "تواصل مع الدعم"
+
+msgid "Need a Complete Website?"
+msgstr "تحتاج موقعًا متكاملًا؟"
+
+msgid "We also build complete business solutions."
+msgstr "نبني أيضًا حلول أعمال متكاملة."
+
+msgid "Doctor Appointment Plugin"
+msgstr "إضافة مواعيد الأطباء"
+
+msgid "A complete appointment booking solution for doctors, clinics and hospitals."
+msgstr "حل متكامل لحجز المواعيد للأطباء والعيادات والمستشفيات."
+
+msgid "Online Appointment Booking"
+msgstr "حجز المواعيد عبر الإنترنت"
+
+msgid "Doctor & Schedule Management"
+msgstr "إدارة الأطباء والجداول"
+
+msgid "Clinic Dashboard Screenshot"
+msgstr "لقطة شاشة للوحة العيادة"
+
+msgid "Doctors & Schedule"
+msgstr "الأطباء والجداول"
+
+msgid "Doctor List"
+msgstr "قائمة الأطباء"
+
+msgid "Time Slot"
+msgstr "الفترة الزمنية"
+
+msgid "Appointment Calendar"
+msgstr "تقويم المواعيد"
+
+msgid "Can I manage multiple doctors and departments?"
+msgstr "هل يمكنني إدارة عدة أطباء وأقسام؟"
+
+msgid "Yes, you can add multiple doctors, assign them to departments, and manage each one's own schedule."
+msgstr "نعم، يمكنك إضافة عدة أطباء وتوزيعهم على الأقسام وإدارة جدول كل منهم."
+
+msgid "Embed and display PDFs on your WordPress site in both traditional and interactive 3D flipbook modes."
+msgstr "ضمّن ملفات PDF واعرضها على موقع WordPress بالوضع التقليدي وبوضع الكتاب التفاعلي ثلاثي الأبعاد."
+
+msgid "Flipbook"
+msgstr "كتاب تفاعلي"
+
+msgid "Grid View"
+msgstr "عرض شبكي"
+
+msgid "List View"
+msgstr "عرض قائمة"
+
+msgid "Shortcode Generator"
+msgstr "مولّد الأكواد المختصرة"
+
+msgid "Elementor Support"
+msgstr "دعم Elementor"
+
+msgid "Remote PDF"
+msgstr "PDF عن بُعد"
+
+msgid "Viewer Screenshot"
+msgstr "لقطة شاشة للعارض"
+
+msgid "Online Viewer"
+msgstr "عارض عبر الإنترنت"
+
+msgid "Grid Layout"
+msgstr "تخطيط شبكي"
+
+msgid "List Layout"
+msgstr "تخطيط قائمة"
+
+msgid "Elementor"
+msgstr "Elementor"
+
+msgid "Shortcode"
+msgstr "كود مختصر"
+
+msgid "Grid"
+msgstr "شبكة"
+
+msgid "List"
+msgstr "قائمة"
+
+msgid "E-book"
+msgstr "كتاب إلكتروني"
+
+msgid "Lifetime Support"
+msgstr "دعم مدى الحياة"
+
+msgid "Yes, you can test every view mode on the live demo before purchasing a license."
+msgstr "نعم، يمكنك تجربة كل أوضاع العرض في العرض المباشر قبل شراء الترخيص."
+
+msgid "Will this plugin work with my theme?"
+msgstr "هل ستعمل هذه الإضافة مع القالب الخاص بي؟"
+
+msgid "Yes, it is built to work with any properly coded WordPress theme, including page builders like Elementor."
+msgstr "نعم، صُممت لتعمل مع أي قالب WordPress مبرمج بشكل صحيح، بما في ذلك منشئات الصفحات مثل Elementor."
+
+msgid "Can I embed a PDF from another website?"
+msgstr "هل يمكنني تضمين PDF من موقع آخر؟"
+
+msgid "Yes, you can embed a PDF hosted on your own server or from any external URL."
+msgstr "نعم، يمكنك تضمين PDF مستضاف على خادمك أو من أي رابط خارجي."
+
+msgid "Is it compatible with Elementor?"
+msgstr "هل هي متوافقة مع Elementor؟"
+
+msgid "Yes, a dedicated Elementor widget is included so you can add and style the viewer visually."
+msgstr "نعم، تتضمن أداة Elementor مخصصة لتضيف العارض وتنسقه بصريًا."
+
+msgid "If you have any questions, our support team is always here to help you."
+msgstr "إن كانت لديك أي أسئلة، ففريق الدعم لدينا هنا دائمًا لمساعدتك."
+
+msgid "Tailor Management Plugin"
+msgstr "إضافة إدارة الخياطة"
+
+msgid "Manage customer orders, measurements, fabrics and deliveries easily."
+msgstr "أدِر طلبات العملاء والمقاسات والأقمشة والتسليم بسهولة."
+
+msgid "Measurement & Fitting"
+msgstr "المقاسات والقياس"
+
+msgid "Fabric & Item Management"
+msgstr "إدارة الأقمشة والقطع"
+
+msgid "Payment Management"
+msgstr "إدارة المدفوعات"
+
+msgid "Order Dashboard Screenshot"
+msgstr "لقطة شاشة للوحة الطلبات"
+
+msgid "Items & Fabrics"
+msgstr "القطع والأقمشة"
+
+msgid "Payments"
+msgstr "المدفوعات"
+
+msgid "Order Form"
+msgstr "نموذج الطلب"
+
+msgid "Customer List"
+msgstr "قائمة العملاء"
+
+msgid "Measurement Sheet"
+msgstr "ورقة المقاسات"
+
+msgid "Order Status Board"
+msgstr "لوحة حالة الطلبات"
+
+msgid "Can I track deliveries and payments?"
+msgstr "هل يمكنني تتبع التسليم والمدفوعات؟"
+
+msgid "Yes, every order tracks its delivery status and payment/due amount in one place."
+msgstr "نعم، يتتبع كل طلب حالة التسليم والمبلغ المدفوع والمستحق في مكان واحد."
+
+msgid "Premium Plugins for Your WordPress Site"
+msgstr "إضافات مميزة لموقع WordPress الخاص بك"
+
+msgid "Professional, actively supported plugins built by the Lieusoft team — install on your own site or ask us to set it up for you."
+msgstr "إضافات احترافية مدعومة باستمرار من فريق Lieusoft — ثبّتها على موقعك أو اطلب منا إعدادها لك."
+
+msgid "Can I try a plugin before buying?"
+msgstr "هل يمكنني تجربة الإضافة قبل الشراء؟"
+
+msgid "Yes, each plugin has a live demo you can test before you purchase a license."
+msgstr "نعم، لكل إضافة عرض مباشر يمكنك تجربته قبل شراء الترخيص."
+
+msgid "Will the plugins work with my theme?"
+msgstr "هل ستعمل الإضافات مع القالب الخاص بي؟"
+
+msgid "Yes, they are built to work with any properly coded WordPress theme."
+msgstr "نعم، صُممت لتعمل مع أي قالب WordPress مبرمج بشكل صحيح."
+
+msgid "Do licenses include updates and support?"
+msgstr "هل تشمل التراخيص التحديثات والدعم؟"
+
+msgid "Yes, every license includes updates and support for the covered period."
+msgstr "نعم، يشمل كل ترخيص التحديثات والدعم طوال الفترة المشمولة."
+
+msgid "Can you install and set it up for me?"
+msgstr "هل يمكنكم تثبيتها وإعدادها لي؟"
+
+msgid "Yes, we can install, configure and style the plugin on your site for you."
+msgstr "نعم، يمكننا تثبيت الإضافة وإعدادها وتنسيقها على موقعك."
+
+msgid "Can you customize a plugin for my business?"
+msgstr "هل يمكنكم تخصيص إضافة لأعمالي؟"
+
+msgid "Yes, tell us what you need and we will build it on top of the plugin or create a custom one."
+msgstr "نعم، أخبرنا بما تحتاجه وسنبنيه فوق الإضافة أو ننشئ إضافة مخصصة."
+
+msgid "Need a Custom Plugin?"
+msgstr "تحتاج إضافة مخصصة؟"
+
+msgid "If none of these fit your workflow, we'll build one that does."
+msgstr "إن لم تناسب أيٌّ منها سير عملك، سنبني لك واحدة تناسبه."
+
+msgid "Talk to Us"
+msgstr "تحدث معنا"
+
+msgid "Everything Your Business Needs"
+msgstr "كل ما تحتاجه أعمالك"
+
+msgid "Custom WordPress websites built for your business, from scratch or on a page builder."
+msgstr "مواقع WordPress مخصصة لأعمالك، من الصفر أو باستخدام منشئ صفحات."
+
+msgid "Bespoke WordPress plugins built around your exact workflow and requirements."
+msgstr "إضافات WordPress مفصّلة حسب سير عملك ومتطلباتك بدقة."
+
+msgid "Managed Hosting"
+msgstr "استضافة مُدارة"
+
+msgid "Fast, secure hosting with monitoring and updates handled for you."
+msgstr "استضافة سريعة وآمنة مع المراقبة والتحديثات التي نتولاها عنك."
+
+msgid "Domain Registration"
+msgstr "تسجيل النطاقات"
+
+msgid "We register and manage your domain so it's always renewed and pointed correctly."
+msgstr "نسجل نطاقك وندير، ليبقى مجددًا ومربوطًا بشكل صحيح دائمًا."
+
+msgid "Regular updates, backups and health checks so your site keeps running smoothly."
+msgstr "تحديثات ونسخ احتياطي وفحوصات دورية ليبقى موقعك يعمل بسلاسة."
+
+msgid "Business Email Setup"
+msgstr "إعداد بريد الأعمال"
+
+msgid "Professional @yourdomain email addresses set up and configured for your team."
+msgstr "عناوين بريد احترافية @نطاقك مُعدّة ومهيأة لفريقك."
+
+msgid "Custom n8n workflows that automate repetitive tasks and connect your tools together."
+msgstr "مسارات عمل n8n مخصصة تؤتمت المهام المتكررة وتربط أدواتك معًا."
+
+msgid "Moving from another host or builder? We migrate your site with no downtime."
+msgstr "تنتقل من استضافة أو منشئ آخر؟ ننقل موقعك دون أي توقف."
+
+msgid "A real team on the other end whenever something needs fixing or explaining."
+msgstr "فريق حقيقي على الطرف الآخر كلما احتاج شيء إلى إصلاح أو شرح."
+
+msgid "One-Stop Solution"
+msgstr "حل شامل في مكان واحد"
+
+msgid "Website, hosting, email and support — all from one team."
+msgstr "الموقع والاستضافة والبريد والدعم — كلها من فريق واحد."
+
+msgid "Built around how your business actually operates."
+msgstr "مبني حول طريقة عمل نشاطك فعليًا."
+
+msgid "We stay reachable long after your site goes live."
+msgstr "نبقى متاحين بعد إطلاق موقعك بوقت طويل."
+
+msgid "Secure Infrastructure"
+msgstr "بنية تحتية آمنة"
+
+msgid "SSL, backups and monitoring built into every plan."
+msgstr "SSL والنسخ الاحتياطي والمراقبة مدمجة في كل خطة."
+
+msgid "A Complete Business Setup"
+msgstr "إعداد أعمال متكامل"
+
+msgid "Everything included, so nothing is left for you to chase down separately."
+msgstr "كل شيء مشمول، فلا يبقى شيء تبحث عنه بشكل منفصل."
+
+msgid "Backups"
+msgstr "النسخ الاحتياطي"
+
+msgid "Security"
+msgstr "الأمان"
+
+msgid "Work Process"
+msgstr "مراحل العمل"
+
+msgid "Consultation"
+msgstr "الاستشارة"
+
+msgid "We learn about your business and goals."
+msgstr "نتعرف على أعمالك وأهدافك."
+
+msgid "Planning"
+msgstr "التخطيط"
+
+msgid "We map out the scope, timeline and tech."
+msgstr "نحدد النطاق والجدول الزمني والتقنيات."
+
+msgid "Development"
+msgstr "التطوير"
+
+msgid "We build your website and set up everything."
+msgstr "نبني موقعك ونجهز كل شيء."
+
+msgid "Launch & Support"
+msgstr "الإطلاق والدعم"
+
+msgid "We launch and stay on for ongoing support."
+msgstr "نطلق الموقع ونبقى معك للدعم المستمر."
+
+msgid "How long does a website take?"
+msgstr "كم يستغرق بناء الموقع؟"
+
+msgid "Most business websites are ready in 1–3 weeks, depending on the number of pages and features. We give you a clear timeline after the consultation."
+msgstr "معظم مواقع الأعمال تكون جاهزة خلال 1–3 أسابيع حسب عدد الصفحات والميزات. نعطيك جدولًا زمنيًا واضحًا بعد الاستشارة."
+
+msgid "Do I own my website?"
+msgstr "هل أملك موقعي؟"
+
+msgid "Yes. The website, its content and your domain belong to you. We just build, host and look after it."
+msgstr "نعم. الموقع ومحتواه ونطاقك ملك لك. نحن فقط نبنيه ونستضيفه ونعتني به."
+
+msgid "Can you build a custom plugin for my workflow?"
+msgstr "هل يمكنكم بناء إضافة مخصصة لسير عملي؟"
+
+msgid "Yes, we build WordPress plugins around your exact process — tell us what you need and we will scope it with you."
+msgstr "نعم، نبني إضافات WordPress حول طريقة عملك بدقة — أخبرنا بما تحتاجه وسنحدد النطاق معك."
+
+msgid "Can you migrate my existing website?"
+msgstr "هل يمكنكم نقل موقعي الحالي؟"
+
+msgid "Yes, we can move your site from another host or builder with no downtime."
+msgstr "نعم، يمكننا نقل موقعك من استضافة أو منشئ آخر دون أي توقف."
+
+msgid "Do you offer maintenance after launch?"
+msgstr "هل تقدمون الصيانة بعد الإطلاق؟"
+
+msgid "Yes, we handle updates, backups and fixes so your site keeps running smoothly."
+msgstr "نعم، نتولى التحديثات والنسخ الاحتياطي والإصلاحات ليبقى موقعك يعمل بسلاسة."
+
+msgid "Do you work with clients outside Bangladesh?"
+msgstr "هل تعملون مع عملاء خارج بنغلاديش؟"
+
+msgid "Yes, we have built and launched sites for clients in Bangladesh, the UK, Portugal and the U.S."
+msgstr "نعم، بنينا وأطلقنا مواقع لعملاء في بنغلاديش والمملكة المتحدة والبرتغال والولايات المتحدة."
+
+msgid "Need a Complete Business Website?"
+msgstr "تحتاج موقع أعمال متكاملًا؟"
+
+msgid "Tell us about your business and we'll build everything for you."
+msgstr "أخبرنا عن أعمالك وسنبني لك كل شيء."
+
+msgid "Key Features"
+msgstr "الميزات الرئيسية"
+
+msgid "See How It Works"
+msgstr "شاهد كيف يعمل"
+
+msgid "From booking to running your clinic day-to-day — everything happens in one connected system."
+msgstr "من الحجز إلى إدارة عيادتك يوميًا — كل شيء يحدث في نظام واحد متصل."
+
+msgid "Browse Doctor Profiles"
+msgstr "تصفح ملفات الأطباء"
+
+msgid "Patients see each doctor's specialty, credentials and weekly availability before they ever book."
+msgstr "يرى المرضى تخصص كل طبيب ومؤهلاته ومواعيده الأسبوعية قبل الحجز."
+
+msgid "Pick a Date & Time"
+msgstr "اختر التاريخ والوقت"
+
+msgid "An interactive calendar shows real open slots, so patients only ever pick a time that actually works."
+msgstr "يعرض تقويم تفاعلي المواعيد المتاحة فعلًا، فلا يختار المرضى إلا وقتًا مناسبًا حقًا."
+
+msgid "Patients Fill in Their Details"
+msgstr "يملأ المرضى بياناتهم"
+
+msgid "A short form collects name, contact and basic details — no account or app download needed."
+msgstr "نموذج قصير يجمع الاسم وبيانات التواصل والمعلومات الأساسية — دون حساب أو تنزيل تطبيق."
+
+msgid "Instant Booking Confirmation"
+msgstr "تأكيد فوري للحجز"
+
+msgid "Patients get an instant confirmation with a QR code they can show at check-in."
+msgstr "يحصل المرضى على تأكيد فوري برمز QR يعرضونه عند تسجيل الوصول."
+
+msgid "Instant SMS & Email Confirmation"
+msgstr "تأكيد فوري عبر SMS والبريد"
+
+msgid "The moment a booking is confirmed, patients get it in writing too — straight to their phone and inbox."
+msgstr "بمجرد تأكيد الحجز يحصل المرضى عليه مكتوبًا أيضًا — مباشرة على هواتفهم وبريدهم."
+
+msgid "Booking Appears in the Admin Panel"
+msgstr "يظهر الحجز في لوحة التحكم"
+
+msgid "The new booking shows up instantly in the clinic's admin panel — no manual entry, no phone calls."
+msgstr "يظهر الحجز الجديد فورًا في لوحة تحكم العيادة — دون إدخال يدوي أو مكالمات هاتفية."
+
+msgid "Live Queue Management"
+msgstr "إدارة الطابور المباشر"
+
+msgid "Staff manage the queue in real time, and patients always know exactly where they stand."
+msgstr "يدير الموظفون الطابور لحظيًا، ويعرف المرضى دائمًا موقعهم بالضبط."
+
+msgid "Who Can Use This"
+msgstr "من يمكنه الاستخدام"
+
+msgid "Perfect for Every Kind of Clinic"
+msgstr "مثالي لكل أنواع العيادات"
+
+msgid "Whether you run a solo practice or a multi-doctor clinic, the system adapts to how you actually work."
+msgstr "سواء كانت عيادة فردية أو عيادة بعدة أطباء، يتكيف النظام مع طريقة عملك."
+
+msgid "Private Chamber"
+msgstr "عيادة خاصة"
+
+msgid "Built for solo doctors managing their own patients and schedule."
+msgstr "مصمم للأطباء المستقلين الذين يديرون مرضاهم وجداولهم بأنفسهم."
+
+msgid "Dental Clinic"
+msgstr "عيادة أسنان"
+
+msgid "Organize patient visits, follow-ups and treatment appointments."
+msgstr "نظّم زيارات المرضى والمتابعات ومواعيد العلاج."
+
+msgid "Gynecology & Obstetrics"
+msgstr "أمراض النساء والتوليد"
+
+msgid "Private, organized scheduling for sensitive patient care."
+msgstr "جدولة خاصة ومنظمة لرعاية المرضى الحساسة."
+
+msgid "Diagnostic Center"
+msgstr "مركز تشخيص"
+
+msgid "Coordinate test bookings and keep patient records in one place."
+msgstr "نسّق حجوزات الفحوصات واحفظ سجلات المرضى في مكان واحد."
+
+msgid "Multi-Specialty Clinic"
+msgstr "عيادة متعددة التخصصات"
+
+msgid "Add multiple doctors, each with their own schedule and patients."
+msgstr "أضف عدة أطباء، لكل منهم جدوله ومرضاه."
+
+msgid "Physiotherapy Center"
+msgstr "مركز علاج طبيعي"
+
+msgid "Track recurring sessions and patient progress over time."
+msgstr "تتبّع الجلسات المتكررة وتقدم المرضى مع الوقت."
+
+msgid "Everything Your Clinic Needs, In One Package"
+msgstr "كل ما تحتاجه عيادتك في باقة واحدة"
+
+msgid "Your clinic's own website"
+msgstr "موقع عيادتك الخاص"
+
+msgid "Online booking & live queue"
+msgstr "حجز عبر الإنترنت وطابور مباشر"
+
+msgid "Fast, managed server"
+msgstr "خادم سريع ومُدار"
+
+msgid "Your own .com or .com.bd"
+msgstr "‎.com أو ‎.com.bd خاص بك"
+
+msgid "Secure https padlock"
+msgstr "قفل https آمن"
+
+msgid "Email on your own domain"
+msgstr "بريد على نطاقك الخاص"
+
+msgid "Onboarding for your staff"
+msgstr "تدريب موظفيك على البدء"
+
+msgid "Fixes & updates included"
+msgstr "الإصلاحات والتحديثات مشمولة"
+
+msgid "How You Get Your Solution"
+msgstr "كيف تحصل على حلّك"
+
+msgid "From the first call to a live clinic website, in four simple steps."
+msgstr "من أول مكالمة إلى موقع عيادة يعمل، في أربع خطوات بسيطة."
+
+msgid "Contact & Appointment"
+msgstr "التواصل والموعد"
+
+msgid "Book a consultation and tell us about your clinic."
+msgstr "احجز استشارة وأخبرنا عن عيادتك."
+
+msgid "Select Your Domain"
+msgstr "اختر نطاقك"
+
+msgid "Pick your clinic's website address — or use one you already own."
+msgstr "اختر عنوان موقع عيادتك — أو استخدم نطاقًا تملكه بالفعل."
+
+msgid "Deploy Solution"
+msgstr "تشغيل الحل"
+
+msgid "We set up the website and appointment system, ready to use."
+msgstr "نُعدّ الموقع ونظام المواعيد جاهزين للاستخدام."
+
+msgid "Payment"
+msgstr "الدفع"
+
+msgid "Choose a 1, 2, 3 or 5 year plan, and pay once your clinic's system is live."
+msgstr "اختر خطة 1 أو 2 أو 3 أو 5 سنوات، وادفع بعد تشغيل نظام عيادتك."
+
+msgid "Built for Clinics"
+msgstr "مصمم للعيادات"
+
+msgid "This isn't a generic website with a booking form bolted on. Doctor profiles and schedules, a live patient queue, check-in, SMS confirmations and patient records are all designed around how a real chamber or clinic runs day to day — so your staff work the way they already do, just faster."
+msgstr "هذا ليس موقعًا عامًا أُضيف إليه نموذج حجز. ملفات الأطباء وجداولهم، والطابور المباشر، وتسجيل الوصول، وتأكيدات SMS، وسجلات المرضى — كلها مصممة حول طريقة عمل العيادة الحقيقية يوميًا، ليعمل موظفوك كما اعتادوا، لكن بسرعة أكبر."
+
+msgid "Live in 7 Days"
+msgstr "جاهز خلال 7 أيام"
+
+msgid "From the day we start to a working website your patients can book on, in about a week. We handle the setup, the domain and the hosting, and add your doctors and schedules — you just review it and start taking bookings."
+msgstr "من يوم البدء إلى موقع يعمل يحجز عليه مرضاك، خلال أسبوع تقريبًا. نتولى الإعداد والنطاق والاستضافة ونضيف أطباءك وجداولهم — عليك فقط المراجعة وبدء استقبال الحجوزات."
+
+msgid "Everything in One Package"
+msgstr "كل شيء في باقة واحدة"
+
+msgid "Website, appointment system, hosting, domain, SSL and business email come together. No separate developer, hosting company and booking tool to juggle, and no surprise add-ons later — one team is responsible for the whole thing."
+msgstr "الموقع ونظام المواعيد والاستضافة والنطاق وSSL وبريد الأعمال معًا. لا حاجة للتعامل مع مطور وشركة استضافة وأداة حجز منفصلة، ولا إضافات مفاجئة لاحقًا — فريق واحد مسؤول عن كل شيء."
+
+msgid "Patients Book Anytime"
+msgstr "يحجز المرضى في أي وقت"
+
+msgid "Patients pick a doctor, a date and an open time slot online, any hour of the day, and get an instant confirmation by SMS. Fewer phone calls for your front desk, fewer missed appointments, and a calmer waiting room."
+msgstr "يختار المرضى الطبيب والتاريخ والموعد المتاح عبر الإنترنت في أي ساعة، ويحصلون على تأكيد فوري عبر SMS. مكالمات أقل لموظف الاستقبال، ومواعيد فائتة أقل، وغرفة انتظار أهدأ."
+
+msgid "Training for Your Staff"
+msgstr "تدريب موظفيك"
+
+msgid "We sit with your receptionist and doctors and walk them through bookings, check-in, the live queue and patient records, so nobody is left guessing how the new system works on day one."
+msgstr "نجلس مع موظف الاستقبال والأطباء ونشرح لهم الحجوزات وتسجيل الوصول والطابور المباشر وسجلات المرضى، حتى لا يحتار أحد في النظام الجديد من اليوم الأول."
+
+msgid "Support That Answers"
+msgstr "دعم يستجيب فعلًا"
+
+msgid "Reach us directly on WhatsApp or email — in Bangla or English. Fixes, small changes and updates are covered for the first year, and you talk to the people who actually built your system."
+msgstr "تواصل معنا مباشرة عبر واتساب أو البريد — بالبنغالية أو الإنجليزية. الإصلاحات والتغييرات الصغيرة والتحديثات مشمولة في السنة الأولى، وتتحدث مع من بنوا نظامك فعلًا."
+
+msgid "Your Data Stays Yours"
+msgstr "بياناتك تبقى ملكك"
+
+msgid "Patient records and bookings belong to your clinic. The site runs on secure HTTPS with managed hosting, and we only access your data to set up, maintain and support the system."
+msgstr "سجلات المرضى والحجوزات ملك لعيادتك. يعمل الموقع عبر HTTPS آمن واستضافة مُدارة، ولا نصل إلى بياناتك إلا للإعداد والصيانة والدعم."
+
+msgid "Grows With Your Clinic"
+msgstr "ينمو مع عيادتك"
+
+msgid "Start with one doctor and add more whenever you're ready — each with their own schedule and availability. The same system handles a private chamber today and a multi-doctor clinic tomorrow."
+msgstr "ابدأ بطبيب واحد وأضف المزيد متى شئت — لكل منهم جدوله ومواعيده. النظام نفسه يدير عيادة خاصة اليوم وعيادة بعدة أطباء غدًا."
+
+msgid "One price covers everything. Pick how many years — the longer the plan, the less you pay per year."
+msgstr "سعر واحد يشمل كل شيء. اختر عدد السنوات — كلما طالت الخطة قلّ ما تدفعه سنويًا."
+
+msgid "Clinic website"
+msgstr "موقع العيادة"
+
+msgid "Appointment system"
+msgstr "نظام المواعيد"
+
+msgid "Renew anytime at the end of your plan"
+msgstr "جدّد في أي وقت عند انتهاء خطتك"
+
+msgid "Savings are compared with paying ৳12,000 every year. Not sure which plan fits? Book a free consultation."
+msgstr "التوفير محسوب مقارنةً بدفع ৳12,000 كل سنة. لست متأكدًا أي خطة تناسبك؟ احجز استشارة مجانية."
+
+msgid "Can I take online payment?"
+msgstr "هل يمكنني استقبال المدفوعات عبر الإنترنت؟"
+
+msgid "Yes, online payments can be enabled through supported payment gateways."
+msgstr "نعم، يمكن تفعيل المدفوعات عبر الإنترنت من خلال بوابات الدفع المدعومة."
+
+msgid "Can I add multiple doctors?"
+msgstr "هل يمكنني إضافة عدة أطباء؟"
+
+msgid "Yes, you can add multiple doctors, each with their own schedule and availability."
+msgstr "نعم، يمكنك إضافة عدة أطباء، لكل منهم جدوله ومواعيده."
+
+msgid "Do you provide hosting?"
+msgstr "هل توفرون الاستضافة؟"
+
+msgid "Yes, managed hosting is included in every plan."
+msgstr "نعم، الاستضافة المُدارة مشمولة في كل خطة."
+
+msgid "Do you provide training?"
+msgstr "هل تقدمون التدريب؟"
+
+msgid "Yes, every plan includes onboarding training for your staff."
+msgstr "نعم، تشمل كل خطة تدريبًا عمليًا لموظفيك."
+
+msgid "Ready to Launch Your Clinic Website?"
+msgstr "هل أنت مستعد لإطلاق موقع عيادتك؟"
+
+msgid "Let's discuss your clinic requirements."
+msgstr "لنتحدث عن متطلبات عيادتك."
+
+msgid "From the first click to a finished appointment — bookings, staff and payments run through one connected system."
+msgstr "من أول نقرة إلى موعد مكتمل — الحجوزات والموظفون والمدفوعات في نظام واحد متصل."
+
+msgid "Browse Services & Prices"
+msgstr "تصفح الخدمات والأسعار"
+
+msgid "Customers see every service with its duration and price, grouped by category, before they book."
+msgstr "يرى العملاء كل خدمة بمدتها وسعرها، مجمعة حسب التصنيف، قبل الحجز."
+
+msgid "Pick Staff, Date & Time"
+msgstr "اختر الموظف والتاريخ والوقت"
+
+msgid "They choose a favourite staff member — or anyone free — and only real open slots are shown."
+msgstr "يختارون موظفهم المفضل — أو أي موظف متاح — ولا تُعرض إلا المواعيد المتاحة فعلًا."
+
+msgid "Customers Add Their Details"
+msgstr "يضيف العملاء بياناتهم"
+
+msgid "Name, phone and an optional note for the staff. No account or app download needed."
+msgstr "الاسم والهاتف وملاحظة اختيارية للموظف. دون حساب أو تنزيل تطبيق."
+
+msgid "The booking is confirmed on the spot with every detail — service, staff, time and total."
+msgstr "يُؤكَّد الحجز فورًا بكل التفاصيل — الخدمة والموظف والوقت والإجمالي."
+
+msgid "SMS & Email Confirmation"
+msgstr "تأكيد عبر SMS والبريد"
+
+msgid "Customers get the booking in writing and a reminder before their visit, so fewer people forget to show up."
+msgstr "يحصل العملاء على الحجز مكتوبًا وتذكير قبل زيارتهم، فيقلّ من ينسون الحضور."
+
+msgid "Bookings Appear in the Admin Panel"
+msgstr "تظهر الحجوزات في لوحة التحكم"
+
+msgid "Every new booking shows up instantly in your admin panel — no WhatsApp scrolling, no notebook."
+msgstr "يظهر كل حجز جديد فورًا في لوحة التحكم — دون التمرير في واتساب أو دفتر."
+
+msgid "Staff Schedule at a Glance"
+msgstr "جدول الموظفين في لمحة"
+
+msgid "See each staff member's day, breaks and free time in one view — double bookings simply can't happen."
+msgstr "شاهد يوم كل موظف واستراحاته ووقت فراغه في عرض واحد — الحجز المزدوج مستحيل ببساطة."
+
+msgid "Perfect for Every Appointment-Based Business"
+msgstr "مثالي لكل الأعمال القائمة على المواعيد"
+
+msgid "If your customers book a time with you, the system fits — one staff member or twenty."
+msgstr "إن كان عملاؤك يحجزون وقتًا معك فالنظام يناسبك — موظف واحد أو عشرون."
+
+msgid "Spa & Massage Center"
+msgstr "مراكز السبا والتدليك"
+
+msgid "Treatments, therapists and rooms booked without phone calls."
+msgstr "حجز العلاجات والمعالجين والغرف دون مكالمات هاتفية."
+
+msgid "Beauty Salon & Parlour"
+msgstr "صالونات التجميل"
+
+msgid "Hair, makeup, facial and bridal packages, each with its own price and time."
+msgstr "باقات الشعر والمكياج والعناية بالبشرة والعرائس، لكل منها سعرها ووقتها."
+
+msgid "Barber Shop"
+msgstr "صالونات الحلاقة"
+
+msgid "Customers pick their barber and slot instead of waiting in line."
+msgstr "يختار العملاء حلاقهم وموعدهم بدل الانتظار في الطابور."
+
+msgid "Cleaning Service"
+msgstr "خدمات التنظيف"
+
+msgid "Home and office cleaning booked by date, with the address and notes attached."
+msgstr "حجز تنظيف المنازل والمكاتب حسب التاريخ، مع العنوان والملاحظات."
+
+msgid "Repair & Maintenance"
+msgstr "الصيانة والإصلاح"
+
+msgid "AC, appliance or device repair visits scheduled and assigned to technicians."
+msgstr "جدولة زيارات إصلاح المكيفات والأجهزة وتعيينها للفنيين."
+
+msgid "Fitness & Yoga Studio"
+msgstr "استوديوهات اللياقة واليوغا"
+
+msgid "Personal training and class sessions booked against each trainer's schedule."
+msgstr "حجز التدريب الشخصي وجلسات الحصص حسب جدول كل مدرب."
+
+msgid "Everything Your Business Needs, In One Package"
+msgstr "كل ما تحتاجه أعمالك في باقة واحدة"
+
+msgid "Your business's own website"
+msgstr "موقع أعمالك الخاص"
+
+msgid "Online booking & staff schedule"
+msgstr "حجز عبر الإنترنت وجدول الموظفين"
+
+msgid "From the first call to a live booking website, in four simple steps."
+msgstr "من أول مكالمة إلى موقع حجز يعمل، في أربع خطوات بسيطة."
+
+msgid "Book a consultation and tell us about your services and staff."
+msgstr "احجز استشارة وأخبرنا عن خدماتك وموظفيك."
+
+msgid "Pick your business's website address — or use one you already own."
+msgstr "اختر عنوان موقع أعمالك — أو استخدم نطاقًا تملكه بالفعل."
+
+msgid "We set up the website and booking system with your services and staff."
+msgstr "نُعدّ الموقع ونظام الحجز بخدماتك وموظفيك."
+
+msgid "Choose a 1, 2, 3 or 5 year plan, and pay once your booking system is live."
+msgstr "اختر خطة 1 أو 2 أو 3 أو 5 سنوات، وادفع بعد تشغيل نظام الحجز."
+
+msgid "Built for Bookings"
+msgstr "مصمم للحجوزات"
+
+msgid "Services with their own price and duration, staff with their own working hours, breaks and days off — the system is designed around how an appointment business actually runs, not a contact form someone has to answer by hand."
+msgstr "خدمات لكل منها سعرها ومدتها، وموظفون لكل منهم ساعات عمله واستراحاته وأيام إجازته — النظام مصمم حول طريقة عمل الأعمال القائمة على المواعيد فعليًا، لا نموذج تواصل ينتظر من يرد عليه يدويًا."
+
+msgid "From the day we start to a website your customers can book on, in about a week. We set up the domain and hosting, add your services, prices and staff — you review it and start taking bookings."
+msgstr "من يوم البدء إلى موقع يحجز عليه عملاؤك، خلال أسبوع تقريبًا. نُعدّ النطاق والاستضافة ونضيف خدماتك وأسعارك وموظفيك — عليك فقط المراجعة وبدء استقبال الحجوزات."
+
+msgid "Website, booking system, hosting, domain, SSL and business email come together. No separate developer, hosting company and booking app subscription to juggle — one team is responsible for all of it."
+msgstr "الموقع ونظام الحجز والاستضافة والنطاق وSSL وبريد الأعمال معًا. لا حاجة للتعامل مع مطور وشركة استضافة واشتراك تطبيق حجز منفصل — فريق واحد مسؤول عن كل شيء."
+
+msgid "Customers Book Anytime"
+msgstr "يحجز العملاء في أي وقت"
+
+msgid "Customers book from their phone at midnight just as easily as at noon, and get an instant SMS confirmation. You stop losing bookings to missed calls and unanswered messages."
+msgstr "يحجز العملاء من هواتفهم في منتصف الليل بسهولة كما في الظهيرة، ويحصلون على تأكيد فوري عبر SMS. لن تخسر حجوزات بسبب مكالمات فائتة أو رسائل بلا رد."
+
+msgid "No More Double Bookings"
+msgstr "لا مزيد من الحجوزات المزدوجة"
+
+msgid "Every booking blocks that staff member's time automatically, so two customers can never land in the same slot. Reminders before each visit cut down on no-shows too."
+msgstr "كل حجز يحجب وقت الموظف تلقائيًا، فلا يقع عميلان في الموعد نفسه أبدًا. والتذكيرات قبل كل زيارة تقلل حالات الغياب أيضًا."
+
+msgid "Reach us directly on WhatsApp or email — in Bangla or English. Fixes, small changes and updates are covered for the first year, and you talk to the people who built your system."
+msgstr "تواصل معنا مباشرة عبر واتساب أو البريد — بالبنغالية أو الإنجليزية. الإصلاحات والتغييرات الصغيرة والتحديثات مشمولة في السنة الأولى، وتتحدث مع من بنوا نظامك."
+
+msgid "Your customer list and booking history belong to your business. The site runs on secure HTTPS with managed hosting, and we only access your data to set up, maintain and support it."
+msgstr "قائمة عملائك وسجل حجوزاتك ملك لأعمالك. يعمل الموقع عبر HTTPS آمن واستضافة مُدارة، ولا نصل إلى بياناتك إلا للإعداد والصيانة والدعم."
+
+msgid "Grows With Your Business"
+msgstr "ينمو مع أعمالك"
+
+msgid "Add new services, new staff or a second branch whenever you're ready. The same system works for a one-chair salon today and a busy multi-staff spa tomorrow."
+msgstr "أضف خدمات جديدة أو موظفين جددًا أو فرعًا ثانيًا متى شئت. النظام نفسه يعمل لصالون بكرسي واحد اليوم ولسبا مزدحم بعدة موظفين غدًا."
+
+msgid "Booking website"
+msgstr "موقع الحجز"
+
+msgid "Booking & staff schedule system"
+msgstr "نظام الحجز وجدول الموظفين"
+
+msgid "Can I manage multiple staff?"
+msgstr "هل يمكنني إدارة عدة موظفين؟"
+
+msgid "Yes, add as many staff as you need, each with their own services, working hours and days off."
+msgstr "نعم، أضف من الموظفين ما تحتاج، لكل منهم خدماته وساعات عمله وأيام إجازته."
+
+msgid "Can customers pay online?"
+msgstr "هل يمكن للعملاء الدفع عبر الإنترنت؟"
+
+msgid "Yes, online payments can be enabled through supported payment gateways, or customers can pay at your venue."
+msgstr "نعم، يمكن تفعيل الدفع عبر الإنترنت من خلال بوابات الدفع المدعومة، أو يمكن للعملاء الدفع في مكانك."
+
+msgid "Do customers get reminders?"
+msgstr "هل يتلقى العملاء تذكيرات؟"
+
+msgid "Yes, customers get a confirmation by SMS and email when they book, and a reminder before their appointment."
+msgstr "نعم، يحصل العملاء على تأكيد عبر SMS والبريد عند الحجز، وتذكير قبل موعدهم."
+
+msgid "Can I block days off or holidays?"
+msgstr "هل يمكنني إغلاق أيام الإجازات؟"
+
+msgid "Yes, you can close the whole business or a single staff member for any day, and those slots disappear from booking."
+msgstr "نعم، يمكنك إغلاق النشاط كله أو موظف واحد في أي يوم، فتختفي تلك المواعيد من الحجز."
+
+msgid "Do you provide hosting and training?"
+msgstr "هل توفرون الاستضافة والتدريب؟"
+
+msgid "Yes, managed hosting and onboarding training for your staff are included in every plan."
+msgstr "نعم، الاستضافة المُدارة وتدريب موظفيك مشمولان في كل خطة."
+
+msgid "Ready to Launch Your Booking Website?"
+msgstr "هل أنت مستعد لإطلاق موقع الحجز الخاص بك؟"
+
+msgid "Let's discuss your business requirements."
+msgstr "لنتحدث عن متطلبات أعمالك."
+
+msgid "Tailor Shop Management Solution"
+msgstr "حل إدارة محلات الخياطة"
+
+msgid "From taking the order to handing over the finished garment — your whole shop runs in one connected system."
+msgstr "من استلام الطلب إلى تسليم القطعة الجاهزة — محلك كله يعمل في نظام واحد متصل."
+
+msgid "Every Customer in One Place"
+msgstr "كل العملاء في مكان واحد"
+
+msgid "Search by name or phone and see the customer's full profile, order history and any due amount instantly."
+msgstr "ابحث بالاسم أو الهاتف واعرض ملف العميل الكامل وسجل طلباته وأي مبلغ مستحق فورًا."
+
+msgid "Saved Body Measurements"
+msgstr "حفظ مقاسات الجسم"
+
+msgid "Measurements are stored per customer and per item, so repeat orders start pre-filled — no paper book to search."
+msgstr "تُحفظ المقاسات لكل عميل ولكل قطعة، فتبدأ الطلبات المتكررة جاهزة — دون البحث في دفتر ورقي."
+
+msgid "Create the Order in Seconds"
+msgstr "أنشئ الطلب في ثوانٍ"
+
+msgid "Pick the item, quantity and fabric, set trial and delivery dates, and add design notes for the workshop."
+msgstr "اختر القطعة والكمية والقماش، وحدد موعدي القياس والتسليم، وأضف ملاحظات التصميم للورشة."
+
+msgid "Invoice & Advance Payment"
+msgstr "الفاتورة والدفعة المقدمة"
+
+msgid "The invoice builds itself with advance and due amounts, ready to print as a receipt for the customer."
+msgstr "تُنشأ الفاتورة تلقائيًا بالمقدم والمستحق، جاهزة للطباعة كإيصال للعميل."
+
+msgid "Track Every Order's Progress"
+msgstr "تتبّع تقدم كل طلب"
+
+msgid "Cutting, stitching, trial, ready — see exactly where each order is and who is working on it."
+msgstr "القص، الخياطة، القياس، الجاهزية — اعرف أين وصل كل طلب ومن يعمل عليه."
+
+msgid "SMS Updates & Delivery Reminders"
+msgstr "تحديثات SMS وتذكيرات التسليم"
+
+msgid "Customers get an SMS when the order is placed and when it's ready, and you get reminded of today's deliveries."
+msgstr "يتلقى العملاء رسالة SMS عند تقديم الطلب وعند جاهزيته، وتُذكَّر أنت بتسليمات اليوم."
+
+msgid "Sales, Due & Item Reports"
+msgstr "تقارير المبيعات والمستحقات والقطع"
+
+msgid "See this month's orders, sales and total due, plus which items sell best — without adding up a single page."
+msgstr "اطّلع على طلبات هذا الشهر ومبيعاته وإجمالي المستحق، والقطع الأكثر مبيعًا — دون جمع صفحة واحدة."
+
+msgid "Perfect for Every Kind of Tailor Shop"
+msgstr "مثالي لكل أنواع محلات الخياطة"
+
+msgid "Whether you run a single counter or a busy workshop with cutters and tailors, the system fits how you work."
+msgstr "سواء كان لديك مكتب استقبال واحد أو ورشة مزدحمة بالقصّاصين والخياطين، يناسب النظام طريقة عملك."
+
+msgid "Gents Tailor"
+msgstr "خياط رجالي"
+
+msgid "Shirts, pants, panjabis and suits with every customer's measurements on file."
+msgstr "قمصان وبناطيل وبنجابي وبدلات مع حفظ مقاسات كل عميل."
+
+msgid "Ladies Tailor & Boutique"
+msgstr "خياطة نسائية وبوتيك"
+
+msgid "Salwar kameez, blouses and gowns with design notes for each order."
+msgstr "شلوار قميص وبلوزات وفساتين مع ملاحظات تصميم لكل طلب."
+
+msgid "Bridal & Sherwani House"
+msgstr "دار أزياء العرائس والشيرواني"
+
+msgid "High-value orders with trials, advances and firm delivery dates."
+msgstr "طلبات عالية القيمة مع مواعيد قياس ودفعات مقدمة ومواعيد تسليم ثابتة."
+
+msgid "Uniform Maker"
+msgstr "صانع الزي الموحد"
+
+msgid "Bulk orders for schools and offices, with sizes tracked per person."
+msgstr "طلبات بالجملة للمدارس والمكاتب، مع تتبع المقاس لكل شخص."
+
+msgid "Fashion Design Studio"
+msgstr "استوديو تصميم أزياء"
+
+msgid "Custom pieces from design to delivery, with clients kept up to date."
+msgstr "قطع مخصصة من التصميم إلى التسليم، مع إبقاء العملاء على اطلاع."
+
+msgid "Alteration Shop"
+msgstr "محل تعديل الملابس"
+
+msgid "Many small, quick jobs tracked so nothing gets lost on the counter."
+msgstr "تتبع الكثير من الأعمال الصغيرة السريعة حتى لا يضيع شيء على المكتب."
+
+msgid "Everything Your Shop Needs, In One Package"
+msgstr "كل ما يحتاجه محلك في باقة واحدة"
+
+msgid "Your shop's own website"
+msgstr "موقع محلك الخاص"
+
+msgid "Orders, measurements & invoices"
+msgstr "الطلبات والمقاسات والفواتير"
+
+msgid "From the first call to a live shop system, in four simple steps."
+msgstr "من أول مكالمة إلى نظام محل يعمل، في أربع خطوات بسيطة."
+
+msgid "Book a consultation and tell us how your shop takes and tracks orders."
+msgstr "احجز استشارة وأخبرنا كيف يستلم محلك الطلبات ويتابعها."
+
+msgid "Pick your shop's website address — or use one you already own."
+msgstr "اختر عنوان موقع محلك — أو استخدم نطاقًا تملكه بالفعل."
+
+msgid "We set up the website and order system with your items and prices."
+msgstr "نُعدّ الموقع ونظام الطلبات بقطعك وأسعارك."
+
+msgid "Choose a 1, 2, 3 or 5 year plan, and pay once your shop's system is live."
+msgstr "اختر خطة 1 أو 2 أو 3 أو 5 سنوات، وادفع بعد تشغيل نظام محلك."
+
+msgid "Built for Tailor Shops"
+msgstr "مصمم لمحلات الخياطة"
+
+msgid "Measurements per item, trial and delivery dates, advance and due, cutting and stitching stages — the system follows how a real tailor shop works, so your counter staff and workshop pick it up quickly."
+msgstr "مقاسات لكل قطعة، ومواعيد القياس والتسليم، والمقدم والمستحق، ومراحل القص والخياطة — يتبع النظام طريقة عمل محل الخياطة الحقيقي، فيتعلمه موظفو الاستقبال والورشة بسرعة."
+
+msgid "From the day we start to a working system your counter can take orders on, in about a week. We set up the domain and hosting and add your items and prices — you review it and start using it."
+msgstr "من يوم البدء إلى نظام يعمل يستلم عليه مكتبك الطلبات، خلال أسبوع تقريبًا. نُعدّ النطاق والاستضافة ونضيف قطعك وأسعارك — عليك فقط المراجعة وبدء الاستخدام."
+
+msgid "We Move Your Old Records"
+msgstr "ننقل سجلاتك القديمة"
+
+msgid "Already have customers and orders in a spreadsheet or old software? We can bring them across, so your history and measurements are there from day one — we have migrated thousands of customer records before."
+msgstr "هل لديك عملاء وطلبات في جدول بيانات أو برنامج قديم؟ يمكننا نقلها لتجد سجلك ومقاساتك من اليوم الأول — سبق أن نقلنا آلاف سجلات العملاء."
+
+msgid "No More Lost Measurements"
+msgstr "لا مزيد من المقاسات الضائعة"
+
+msgid "Every measurement is saved to the customer and searchable by phone number. No more flipping through a torn measurement book or calling the customer back to measure again."
+msgstr "يُحفظ كل مقاس مع العميل ويمكن البحث عنه برقم الهاتف. لا مزيد من تقليب دفتر مقاسات ممزق أو استدعاء العميل لأخذ مقاساته مجددًا."
+
+msgid "Always Know Who Owes What"
+msgstr "اعرف دائمًا من يدين بماذا"
+
+msgid "Advance, due and paid are tracked on every order, and the dashboard shows your total due at a glance. Receipts print straight from the invoice."
+msgstr "يُتتبَّع المقدم والمستحق والمدفوع في كل طلب، وتعرض لوحة التحكم إجمالي المستحق في لمحة. وتُطبع الإيصالات مباشرة من الفاتورة."
+
+msgid "Customer records, measurements and order history belong to your shop. The system runs on secure HTTPS with managed hosting, and we only access it to set up, maintain and support it."
+msgstr "سجلات العملاء والمقاسات وسجل الطلبات ملك لمحلك. يعمل النظام عبر HTTPS آمن واستضافة مُدارة، ولا نصل إليه إلا للإعداد والصيانة والدعم."
+
+msgid "Grows With Your Shop"
+msgstr "ينمو مع محلك"
+
+msgid "Add new items, more staff or a second branch whenever you're ready. The same system handles a one-counter shop today and a busy workshop tomorrow."
+msgstr "أضف قطعًا جديدة أو موظفين أكثر أو فرعًا ثانيًا متى شئت. النظام نفسه يدير محلًا بمكتب واحد اليوم وورشة مزدحمة غدًا."
+
+msgid "Tailor shop website"
+msgstr "موقع محل الخياطة"
+
+msgid "Order, measurement & invoice system"
+msgstr "نظام الطلبات والمقاسات والفواتير"
+
+msgid "Can you move my old customer records?"
+msgstr "هل يمكنكم نقل سجلات عملائي القديمة؟"
+
+msgid "Yes, we can import customers, measurements and orders from a spreadsheet or your old software during setup."
+msgstr "نعم، يمكننا استيراد العملاء والمقاسات والطلبات من جدول بيانات أو برنامجك القديم أثناء الإعداد."
+
+msgid "Can I set my own measurement fields?"
+msgstr "هل يمكنني تحديد حقول المقاسات الخاصة بي؟"
+
+msgid "Yes, each item (shirt, pant, panjabi and so on) can have its own list of measurement fields."
+msgstr "نعم، يمكن أن يكون لكل قطعة (قميص، بنطال، بنجابي وغيرها) قائمة حقول مقاسات خاصة بها."
+
+msgid "Can I track advance and due payments?"
+msgstr "هل يمكنني تتبع الدفعات المقدمة والمستحقة؟"
+
+msgid "Yes, every order records the total, advance and due amount, and receipts can be printed from the invoice."
+msgstr "نعم، يسجل كل طلب الإجمالي والمقدم والمستحق، ويمكن طباعة الإيصالات من الفاتورة."
+
+msgid "Can more than one staff member use it?"
+msgstr "هل يمكن لأكثر من موظف استخدامه؟"
+
+msgid "Yes, give your counter staff and workshop their own logins, so everyone sees the same up-to-date orders."
+msgstr "نعم، امنح موظفي الاستقبال والورشة حسابات دخول خاصة، ليرى الجميع الطلبات المحدثة نفسها."
+
+msgid "Ready to Digitize Your Tailor Shop?"
+msgstr "هل أنت مستعد لرقمنة محل الخياطة؟"
+
+msgid "Let's discuss your shop's requirements."
+msgstr "لنتحدث عن متطلبات محلك."
+
+msgid "Ready-Made Solutions for Your Business"
+msgstr "حلول جاهزة لأعمالك"
+
+msgid "Pick the solution built for your industry — we handle setup, hosting and support, so you can focus on running your business."
+msgstr "اختر الحل المصمم لمجالك — نتولى الإعداد والاستضافة والدعم، لتتفرغ لإدارة أعمالك."
+
+msgid "Which solution is right for my business?"
+msgstr "أي حل يناسب أعمالي؟"
+
+msgid "Doctors and clinics use the Doctor Appointment solution, tailor shops use Tailor Shop Management, and salons, spas and other appointment businesses use Service Booking. Not sure? Book a free consultation."
+msgstr "الأطباء والعيادات يستخدمون حل مواعيد الأطباء، ومحلات الخياطة تستخدم إدارة محلات الخياطة، والصالونات والسبا وغيرها من الأعمال القائمة على المواعيد تستخدم حجز الخدمات. لست متأكدًا؟ احجز استشارة مجانية."
+
+msgid "What is included in a solution?"
+msgstr "ماذا يشمل الحل؟"
+
+msgid "A ready website, the management system, hosting, domain, SSL, business email, staff training and support — everything in one package."
+msgstr "موقع جاهز، ونظام الإدارة، والاستضافة، والنطاق، وSSL، وبريد الأعمال، وتدريب الموظفين، والدعم — كل شيء في باقة واحدة."
+
+msgid "How much does a solution cost?"
+msgstr "كم تكلفة الحل؟"
+
+msgid "Plans start at ৳12,000 for 1 year, with lower yearly prices on 2, 3 and 5 year plans."
+msgstr "تبدأ الخطط من ৳12,000 لسنة واحدة، مع أسعار سنوية أقل في خطط 2 و3 و5 سنوات."
+
+msgid "How long does setup take?"
+msgstr "كم يستغرق الإعداد؟"
+
+msgid "Most solutions are live in about 7 days from the day we start."
+msgstr "معظم الحلول تعمل خلال 7 أيام تقريبًا من يوم البدء."
+
+msgid "Can you customize it for my business?"
+msgstr "هل يمكنكم تخصيصه لأعمالي؟"
+
+msgid "Yes, we tailor the setup to your services, staff and workflow, and can build extra features when you need them."
+msgstr "نعم، نكيّف الإعداد حسب خدماتك وموظفيك وسير عملك، ويمكننا بناء ميزات إضافية عند الحاجة."
+
+msgid "Don't see my type of business?"
+msgstr "لا تجد نوع نشاطك؟"
+
+msgid "We also build custom solutions for any business — tell us what you need."
+msgstr "نبني أيضًا حلولًا مخصصة لأي نشاط — أخبرنا بما تحتاجه."
+
+msgid "Don't See Your Business Type?"
+msgstr "لا تجد نوع نشاطك؟"
+
+msgid "We build custom solutions for any business — tell us what you need."
+msgstr "نبني حلولًا مخصصة لأي نشاط — أخبرنا بما تحتاجه."

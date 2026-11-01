@@ -1,9 +1,31 @@
 <?php
 /**
  * Template Name: Pricing
+ *
+ * Real prices: business solutions (1/2/3/5-year plans, same for all three
+ * solutions), plugin licenses (must match each product page's pricing),
+ * and quote-based services.
  */
 
 get_header();
+
+$lieusoft_plugin_licenses = array(
+	'pdf-embed-viewer' => array(
+		array( 'name' => __( 'Regular License', 'lieusoft' ), 'price' => '2,999', 'features' => array( __( 'Use on 1 website', 'lieusoft' ), __( 'Lifetime updates', 'lieusoft' ), __( 'Lifetime support', 'lieusoft' ) ) ),
+		array( 'name' => __( 'Developer License', 'lieusoft' ), 'price' => '5,999', 'features' => array( __( 'Use on unlimited websites', 'lieusoft' ), __( 'Lifetime updates', 'lieusoft' ), __( 'Lifetime support', 'lieusoft' ) ), 'featured' => true ),
+	),
+	'default'          => array(
+		array( 'name' => __( 'Regular License', 'lieusoft' ), 'price' => '4,999', 'features' => array( __( 'Use on 1 website', 'lieusoft' ), __( 'Lifetime updates', 'lieusoft' ), __( '6 months support', 'lieusoft' ) ) ),
+		array( 'name' => __( 'Extended License', 'lieusoft' ), 'price' => '8,999', 'features' => array( __( 'Use on unlimited websites', 'lieusoft' ), __( 'Lifetime updates', 'lieusoft' ), __( '12 months support', 'lieusoft' ) ), 'featured' => true ),
+	),
+);
+
+$lieusoft_plugins = array();
+foreach ( lieusoft_get_plugins() as $plugin ) {
+	$slug                 = basename( (string) wp_parse_url( $plugin['url'], PHP_URL_PATH ) ); // Last segment, so a /bn/ or /ar/ prefix doesn't matter.
+	$plugin['licenses']   = $lieusoft_plugin_licenses[ $slug ] ?? $lieusoft_plugin_licenses['default'];
+	$lieusoft_plugins[]   = $plugin;
+}
 ?>
 
 <nav class="breadcrumb" aria-label="<?php esc_attr_e( 'Breadcrumb', 'lieusoft' ); ?>">
@@ -14,58 +36,78 @@ get_header();
 	</div>
 </nav>
 
-<section class="index-hero">
+<section class="index-hero pricing-hero">
 	<div class="container">
-		<h1><?php esc_html_e( 'Simple & Transparent Pricing', 'lieusoft' ); ?></h1>
-		<p><?php esc_html_e( "Choose the option that fits your business. Whether you need a complete business solution or a standalone plugin, we've got you covered.", 'lieusoft' ); ?></p>
+		<span class="eyebrow"><?php esc_html_e( 'Pricing', 'lieusoft' ); ?></span>
+		<h1><?php esc_html_e( 'Simple, Honest Pricing', 'lieusoft' ); ?></h1>
+		<p><?php esc_html_e( 'Clear prices for our ready-made business solutions and WordPress plugins, and a fixed quote for any custom work.', 'lieusoft' ); ?></p>
+		<nav class="pricing-jump" aria-label="<?php esc_attr_e( 'Pricing sections', 'lieusoft' ); ?>">
+			<a href="#solutions"><?php echo lieusoft_icon( 'briefcase' ); ?><span><strong><?php esc_html_e( 'Business Solutions', 'lieusoft' ); ?></strong><small><?php esc_html_e( 'From ৳9,000 / year', 'lieusoft' ); ?></small></span></a>
+			<a href="#plugins"><?php echo lieusoft_icon( 'puzzle' ); ?><span><strong><?php esc_html_e( 'WordPress Plugins', 'lieusoft' ); ?></strong><small><?php esc_html_e( 'From ৳2,999 one time', 'lieusoft' ); ?></small></span></a>
+			<a href="#services"><?php echo lieusoft_icon( 'code' ); ?><span><strong><?php esc_html_e( 'Services', 'lieusoft' ); ?></strong><small><?php esc_html_e( 'Fixed quote per project', 'lieusoft' ); ?></small></span></a>
+		</nav>
 	</div>
 </section>
 
 <?php
-get_template_part( 'template-parts/pricing', 'solutions-table', array(
-	'items' => array(
-		array( 'name' => __( 'Doctor Clinic Website', 'lieusoft' ) ),
-		array( 'name' => __( 'Tailor Shop Website', 'lieusoft' ) ),
-		array( 'name' => __( 'Service Booking Website', 'lieusoft' ) ),
+get_template_part( 'template-parts/solution', 'pricing-plans', array(
+	'id'       => 'solutions',
+	'title'    => __( 'Business Solution Plans', 'lieusoft' ),
+	'desc'     => __( 'A complete website and management system for your business, with hosting, domain and support. One price for every solution — the longer the plan, the less you pay per year.', 'lieusoft' ),
+	'links'    => array(
+		array( 'label' => __( 'Doctor Appointment', 'lieusoft' ), 'url' => home_url( '/doctor-appointment-solution/' ) ),
+		array( 'label' => __( 'Tailor Shop Management', 'lieusoft' ), 'url' => home_url( '/tailor-shop-management-solution/' ) ),
+		array( 'label' => __( 'Service Booking', 'lieusoft' ), 'url' => home_url( '/service-booking-solution/' ) ),
 	),
+	'plans'    => array(
+		array( 'name' => __( '1 Year', 'lieusoft' ), 'tagline' => __( 'Get started', 'lieusoft' ), 'price' => '12,000', 'period' => '', 'note' => __( '৳12,000 per year', 'lieusoft' ) ),
+		array( 'name' => __( '2 Years', 'lieusoft' ), 'tagline' => __( 'Save ৳2,000', 'lieusoft' ), 'price' => '22,000', 'period' => '', 'note' => __( '৳11,000 per year', 'lieusoft' ) ),
+		array( 'name' => __( '3 Years', 'lieusoft' ), 'tagline' => __( 'Save ৳6,000', 'lieusoft' ), 'price' => '30,000', 'period' => '', 'note' => __( '৳10,000 per year', 'lieusoft' ) ),
+		array( 'name' => __( '5 Years', 'lieusoft' ), 'tagline' => __( 'Save ৳15,000', 'lieusoft' ), 'price' => '45,000', 'period' => '', 'note' => __( '৳9,000 per year', 'lieusoft' ), 'featured' => true, 'badge' => __( 'Best Value', 'lieusoft' ) ),
+	),
+	'includes' => array(
+		__( 'Business website', 'lieusoft' ),
+		__( 'Management system (appointments, orders or bookings)', 'lieusoft' ),
+		__( 'Hosting & domain for the full plan', 'lieusoft' ),
+		__( 'SSL certificate', 'lieusoft' ),
+		__( 'Business email', 'lieusoft' ),
+		__( 'Staff training', 'lieusoft' ),
+		__( 'Support & updates for the full plan', 'lieusoft' ),
+		__( 'Pay once the system is live', 'lieusoft' ),
+	),
+	'footnote' => __( 'Savings are compared with paying ৳12,000 every year. Renewal after your plan ends is priced separately — ask us for the current rate.', 'lieusoft' ),
 ) );
+
+get_template_part( 'template-parts/pricing', 'plugin-licenses', array( 'items' => $lieusoft_plugins ) );
 
 get_template_part( 'template-parts/pricing', 'services', array(
 	'items' => array(
-		array( 'title' => __( 'Website Development', 'lieusoft' ), 'icon' => 'globe' ),
-		array( 'title' => __( 'Custom Plugin Development', 'lieusoft' ), 'icon' => 'puzzle' ),
-		array( 'title' => __( 'Managed Hosting', 'lieusoft' ), 'icon' => 'cloud' ),
-		array( 'title' => __( 'Domain Registration', 'lieusoft' ), 'icon' => 'globe' ),
-		array( 'title' => __( 'Website Maintenance', 'lieusoft' ), 'icon' => 'sliders' ),
-		array( 'title' => __( 'Business Email', 'lieusoft' ), 'icon' => 'envelope' ),
+		array( 'title' => __( 'Website Development', 'lieusoft' ), 'desc' => __( 'A custom WordPress website designed and built for your business.', 'lieusoft' ), 'icon' => 'globe' ),
+		array( 'title' => __( 'Custom Plugin Development', 'lieusoft' ), 'desc' => __( 'A WordPress plugin built around your exact workflow.', 'lieusoft' ), 'icon' => 'puzzle' ),
+		array( 'title' => __( 'Website Maintenance', 'lieusoft' ), 'desc' => __( 'Updates, backups, security checks and small fixes, every month.', 'lieusoft' ), 'icon' => 'sliders' ),
+		array( 'title' => __( 'Managed Hosting & Domain', 'lieusoft' ), 'desc' => __( 'Fast, secure hosting and domain registration, managed for you.', 'lieusoft' ), 'icon' => 'cloud' ),
+		array( 'title' => __( 'Business Email', 'lieusoft' ), 'desc' => __( 'Professional email addresses on your own domain, set up for your team.', 'lieusoft' ), 'icon' => 'envelope' ),
+		array( 'title' => __( 'Business Automation', 'lieusoft' ), 'desc' => __( 'n8n workflows that connect your tools and remove repetitive work.', 'lieusoft' ), 'icon' => 'infinity' ),
 	),
 ) );
 
-get_template_part( 'template-parts/pricing', 'plugins', array(
-	'items' => array(
-		array( 'title' => __( 'PDF Embed Viewer', 'lieusoft' ), 'desc' => __( '3D flipbook PDF viewer & embed for WordPress.', 'lieusoft' ), 'icon' => 'icon-open-book.png', 'accent' => 'blue', 'price' => '2,999', 'url' => home_url( '/pdf-embed-viewer/' ) ),
-		array( 'title' => __( 'Service Booking Plugin', 'lieusoft' ), 'desc' => __( 'Complete booking & appointment solution for any service.', 'lieusoft' ), 'icon' => 'badge-calendar.png', 'accent' => 'green', 'price' => '4,999', 'url' => home_url( '/service-booking-plugin/' ) ),
-		array( 'title' => __( 'Doctor Appointment Plugin', 'lieusoft' ), 'desc' => __( 'Appointment booking system for clinics and hospitals.', 'lieusoft' ), 'icon' => 'badge-doctor.png', 'accent' => 'purple', 'price' => '4,999', 'url' => home_url( '/doctor-appointment-plugin/' ) ),
-		array( 'title' => __( 'Tailor Order Plugin', 'lieusoft' ), 'desc' => __( 'Manage tailor orders, customers, measurements and deliveries.', 'lieusoft' ), 'icon' => 'badge-shirt.png', 'accent' => 'orange', 'price' => '4,999', 'url' => home_url( '/tailor-order-management-plugin/' ) ),
-	),
-) );
-
-get_template_part( 'template-parts/pricing', 'compare' );
+get_template_part( 'template-parts/solution', 'projects' );
 
 get_template_part( 'template-parts/solution', 'faq', array(
 	'faqs' => array(
-		array( 'q' => __( 'Do I need my own hosting?', 'lieusoft' ), 'a' => __( 'No, managed hosting is included with every business solution. You can also bring your own if you prefer.', 'lieusoft' ) ),
-		array( 'q' => __( 'Can I use my own domain?', 'lieusoft' ), 'a' => __( 'Yes, you can use a domain you already own or we can register one for you.', 'lieusoft' ) ),
-		array( 'q' => __( 'Can you migrate my website?', 'lieusoft' ), 'a' => __( 'Yes, we can migrate an existing website to a new solution or hosting with no downtime.', 'lieusoft' ) ),
-		array( 'q' => __( 'Do you provide support?', 'lieusoft' ), 'a' => __( 'Yes, every business solution includes ongoing support, and every plugin includes updates.', 'lieusoft' ) ),
-		array( 'q' => __( 'Can I request custom features?', 'lieusoft' ), 'a' => __( 'Yes, tell us what you need during your consultation and we will scope it for you.', 'lieusoft' ) ),
+		array( 'q' => __( 'What does a business solution plan include?', 'lieusoft' ), 'a' => __( 'The website, the management system for your business, hosting, domain, SSL, business email, staff training, and support and updates — all for the length of the plan you choose.', 'lieusoft' ) ),
+		array( 'q' => __( 'Is the price the same for every solution?', 'lieusoft' ), 'a' => __( 'Yes. Doctor Appointment, Tailor Shop Management and Service Booking all use the same 1, 2, 3 and 5 year plans.', 'lieusoft' ) ),
+		array( 'q' => __( 'When do I pay for a solution?', 'lieusoft' ), 'a' => __( 'After your system is set up and live. You choose the plan during the consultation.', 'lieusoft' ) ),
+		array( 'q' => __( 'What happens when my plan ends?', 'lieusoft' ), 'a' => __( 'You can renew to keep your website, system, hosting and domain running. Renewal is priced separately — we will share the rate before your plan ends.', 'lieusoft' ) ),
+		array( 'q' => __( 'Are plugin licenses a one-time payment?', 'lieusoft' ), 'a' => __( 'Yes. You pay once and get updates for life. Support length depends on the license — see each plugin above.', 'lieusoft' ) ),
+		array( 'q' => __( 'How are services priced?', 'lieusoft' ), 'a' => __( 'After a free consultation we send a written scope and a fixed quote. Work only starts once you approve it.', 'lieusoft' ) ),
 	),
 ) );
 
 get_template_part( 'template-parts/solution', 'cta', array(
 	'title'    => __( 'Not Sure Which Option is Right?', 'lieusoft' ),
-	'desc'     => __( "Let's discuss your business.", 'lieusoft' ),
-	'btn_text' => __( 'Book Consultation', 'lieusoft' ),
+	'desc'     => __( "Tell us about your business and we'll recommend the best fit — free.", 'lieusoft' ),
+	'btn_text' => __( 'Book Free Consultation', 'lieusoft' ),
 ) );
 
 get_footer();

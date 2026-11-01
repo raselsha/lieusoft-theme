@@ -7,8 +7,9 @@
  * REQUEST_URI before WordPress parses it, so /bn/pricing/ resolves to the
  * normal Pricing page; every home_url() (permalinks, menus, forms) then
  * gets the prefix back, so visitors stay in their language as they browse.
- * Theme strings come from languages/{locale}.mo; post and page content
- * stays in the language it was written in.
+ * Theme strings come from languages/{locale}.mo; page content stays in the
+ * language it was written in, and blog posts get a language of their own
+ * (inc/i18n-posts.php).
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
@@ -176,6 +177,16 @@ add_filter( 'body_class', 'lieusoft_language_body_class' );
  * The same page's URL in another language.
  */
 function lieusoft_language_url( $lang, $keep_query = true ) {
+	// A blog post links to its translation, or to that language's blog when it has none.
+	if ( is_singular( 'post' ) && function_exists( 'lieusoft_post_translations' ) ) {
+		$translations = lieusoft_post_translations( get_queried_object_id() );
+		if ( isset( $translations[ $lang ] ) ) {
+			return get_permalink( $translations[ $lang ] );
+		}
+		$page_id = (int) get_option( 'page_for_posts' );
+		return lieusoft_localize_url( lieusoft_delocalize_url( $page_id ? get_permalink( $page_id ) : home_url( '/' ) ), $lang );
+	}
+
 	$query = $keep_query && isset( $_SERVER['QUERY_STRING'] ) && '' !== $_SERVER['QUERY_STRING'] ? '?' . wp_unslash( $_SERVER['QUERY_STRING'] ) : ''; // phpcs:ignore WordPress.Security.ValidatedSanitizedInput
 	$url   = untrailingslashit( get_option( 'home' ) ) . lieusoft_request_path() . $query;
 	return lieusoft_localize_url( $url, $lang );
@@ -186,6 +197,15 @@ function lieusoft_language_url( $lang, $keep_query = true ) {
  */
 function lieusoft_hreflang_links() {
 	if ( is_404() || is_search() ) {
+		return;
+	}
+	// A post only has alternates in the languages it was translated into.
+	if ( is_singular( 'post' ) && function_exists( 'lieusoft_post_translations' ) ) {
+		$translations = lieusoft_post_translations( get_queried_object_id() );
+		foreach ( $translations as $code => $id ) {
+			printf( '<link rel="alternate" hreflang="%s" href="%s">' . "\n", esc_attr( $code ), esc_url( get_permalink( $id ) ) );
+		}
+		printf( '<link rel="alternate" hreflang="x-default" href="%s">' . "\n", esc_url( get_permalink( $translations['en'] ?? get_queried_object_id() ) ) );
 		return;
 	}
 	foreach ( lieusoft_languages() as $code => $lang ) {

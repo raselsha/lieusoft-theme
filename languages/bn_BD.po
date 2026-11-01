@@ -2930,3 +2930,15 @@ msgstr "আপনার ব্যবসার ধরন দেখছেন ন�
 
 msgid "We build custom solutions for any business — tell us what you need."
 msgstr "যেকোনো ব্যবসার জন্য আমরা কাস্টম সলিউশন তৈরি করি — কী দরকার জানান।"
+
+msgid "Written by"
+msgstr "যিনি লিখেছেন"
+
+msgid "Close"
+msgstr "বন্ধ করুন"
+
+msgid "Previous image"
+msgstr "আগের ছবি"
+
+msgid "Next image"
+msgstr "পরের ছবি"

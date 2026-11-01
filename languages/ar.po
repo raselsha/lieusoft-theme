@@ -2934,3 +2934,15 @@ msgstr "لا تجد نوع نشاطك؟"
 
 msgid "We build custom solutions for any business — tell us what you need."
 msgstr "نبني حلولًا مخصصة لأي نشاط — أخبرنا بما تحتاجه."
+
+msgid "Written by"
+msgstr "بقلم"
+
+msgid "Close"
+msgstr "إغلاق"
+
+msgid "Previous image"
+msgstr "الصورة السابقة"
+
+msgid "Next image"
+msgstr "الصورة التالية"

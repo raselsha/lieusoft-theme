@@ -10,6 +10,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 define( 'LIEUSOFT_VERSION', '1.0.0' );
 
 require get_template_directory() . '/inc/i18n.php';
+require get_template_directory() . '/inc/i18n-posts.php';
+require get_template_directory() . '/inc/seo.php';
 
 /**
  * WordPress marks a nav item "current" by comparing the URL path only, so
@@ -98,6 +100,11 @@ function lieusoft_scripts() {
 	wp_enqueue_style( 'lieusoft-theme', get_theme_file_uri( '/assets/css/theme.css' ), array( 'lieusoft-fonts' ), filemtime( get_theme_file_path( '/assets/css/theme.css' ) ) );
 
 	wp_enqueue_script( 'lieusoft-theme', get_theme_file_uri( '/assets/js/theme.js' ), array(), filemtime( get_theme_file_path( '/assets/js/theme.js' ) ), true );
+	wp_localize_script( 'lieusoft-theme', 'lieusoftL10n', array(
+		'close'    => __( 'Close', 'lieusoft' ),
+		'previous' => __( 'Previous image', 'lieusoft' ),
+		'next'     => __( 'Next image', 'lieusoft' ),
+	) );
 
 	$container_width = absint( get_theme_mod( 'lieusoft_container_width', 1180 ) );
 	wp_add_inline_style( 'lieusoft-theme', ":root{--container-width:{$container_width}px;}" );

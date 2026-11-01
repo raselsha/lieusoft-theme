@@ -370,3 +370,124 @@
 		}
 	} );
 } )();
+
+/**
+ * Lightbox for images in blog posts: click a linked image to see it full
+ * size; close with the button, the backdrop or Esc; arrows step through the
+ * post's other images.
+ */
+( function () {
+	'use strict';
+
+	var links = Array.prototype.slice.call( document.querySelectorAll( '.prose a' ) ).filter( function ( a ) {
+		return a.querySelector( 'img' ) && /\.(png|jpe?g|gif|webp|avif)(\?.*)?$/i.test( a.getAttribute( 'href' ) || '' );
+	} );
+	if ( ! links.length ) {
+		return;
+	}
+
+	var l10n = window.lieusoftL10n || {};
+	var box = document.createElement( 'div' );
+	box.className = 'lightbox';
+	box.setAttribute( 'role', 'dialog' );
+	box.setAttribute( 'aria-modal', 'true' );
+	box.hidden = true;
+	box.innerHTML =
+		'<button type="button" class="lightbox__close" aria-label="' + ( l10n.close || 'Close' ) + '"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button>' +
+		'<button type="button" class="lightbox__nav lightbox__nav--prev" aria-label="' + ( l10n.previous || 'Previous image' ) + '"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></button>' +
+		'<figure class="lightbox__figure"><img alt=""><figcaption></figcaption></figure>' +
+		'<button type="button" class="lightbox__nav lightbox__nav--next" aria-label="' + ( l10n.next || 'Next image' ) + '"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></button>';
+	document.body.appendChild( box );
+
+	var img = box.querySelector( 'img' );
+	var caption = box.querySelector( 'figcaption' );
+	var closeBtn = box.querySelector( '.lightbox__close' );
+	var current = 0;
+	var opener = null;
+
+	if ( links.length < 2 ) {
+		box.classList.add( 'lightbox--single' );
+	}
+
+	function show( index ) {
+		current = ( index + links.length ) % links.length;
+		var link = links[ current ];
+		var thumb = link.querySelector( 'img' );
+		var figure = link.closest( 'figure' );
+		var text = figure && figure.querySelector( 'figcaption' ) ? figure.querySelector( 'figcaption' ).textContent : '';
+		img.src = link.getAttribute( 'href' );
+		img.alt = thumb.getAttribute( 'alt' ) || '';
+		caption.textContent = text;
+		caption.hidden = ! text;
+	}
+
+	function open( index ) {
+		opener = document.activeElement;
+		show( index );
+		box.hidden = false;
+		document.body.classList.add( 'lightbox-open' );
+		requestAnimationFrame( function () {
+			box.classList.add( 'is-open' );
+		} );
+		closeBtn.focus();
+	}
+
+	function close() {
+		box.classList.remove( 'is-open' );
+		document.body.classList.remove( 'lightbox-open' );
+		box.hidden = true;
+		img.removeAttribute( 'src' );
+		if ( opener ) {
+			opener.focus();
+		}
+	}
+
+	links.forEach( function ( link, i ) {
+		link.classList.add( 'has-lightbox' );
+		link.addEventListener( 'click', function ( e ) {
+			e.preventDefault();
+			open( i );
+		} );
+	} );
+
+	closeBtn.addEventListener( 'click', close );
+	box.querySelector( '.lightbox__nav--prev' ).addEventListener( 'click', function () {
+		show( current - 1 );
+	} );
+	box.querySelector( '.lightbox__nav--next' ).addEventListener( 'click', function () {
+		show( current + 1 );
+	} );
+	box.addEventListener( 'click', function ( e ) {
+		if ( e.target === box ) {
+			close();
+		}
+	} );
+
+	document.addEventListener( 'keydown', function ( e ) {
+		if ( box.hidden ) {
+			return;
+		}
+		var rtl = 'rtl' === document.documentElement.dir;
+		if ( 'Escape' === e.key ) {
+			close();
+		} else if ( 'ArrowRight' === e.key ) {
+			show( current + ( rtl ? -1 : 1 ) );
+		} else if ( 'ArrowLeft' === e.key ) {
+			show( current + ( rtl ? 1 : -1 ) );
+		} else if ( 'Tab' === e.key ) {
+			// Keep focus inside the dialog.
+			var focusable = Array.prototype.filter.call( box.querySelectorAll( 'button' ), function ( b ) {
+				return b.offsetParent !== null;
+			} );
+			var first = focusable[ 0 ];
+			var last = focusable[ focusable.length - 1 ];
+			if ( e.shiftKey && document.activeElement === first ) {
+				e.preventDefault();
+				last.focus();
+			} else if ( ! e.shiftKey && document.activeElement === last ) {
+				e.preventDefault();
+				first.focus();
+			}
+		}
+	} );
+} )();

@@ -38,7 +38,7 @@ while ( have_posts() ) :
 				<?php endif; ?>
 				<div class="article__meta">
 					<?php if ( get_the_author() ) : ?>
-						<span class="article__avatar"><?php echo esc_html( strtoupper( mb_substr( get_the_author(), 0, 1 ) ) ); ?></span>
+						<?php echo lieusoft_author_avatar( (int) get_the_author_meta( 'ID' ), 64 ); ?>
 						<span class="article__author"><?php the_author(); ?></span>
 						<span aria-hidden="true">&middot;</span>
 					<?php endif; ?>
@@ -81,6 +81,22 @@ while ( have_posts() ) :
 						<a href="https://wa.me/?text=<?php echo esc_attr( $share_txt . '%20' . $share_url ); ?>" target="_blank" rel="noopener" aria-label="<?php esc_attr_e( 'Share on WhatsApp', 'lieusoft' ); ?>"><?php echo lieusoft_icon( 'whatsapp' ); ?></a>
 					</div>
 				</footer>
+
+				<?php
+				$author_id   = (int) get_the_author_meta( 'ID' );
+				$author_bio  = lieusoft_author_field( $author_id, 'description' );
+				$author_role = lieusoft_author_field( $author_id, 'lieusoft_role' );
+				if ( $author_bio ) :
+					?>
+					<aside class="article__author-box">
+						<?php echo lieusoft_author_avatar( $author_id, 112, 'article__avatar--lg' ); ?>
+						<div>
+							<span class="eyebrow"><?php esc_html_e( 'Written by', 'lieusoft' ); ?></span>
+							<p class="article__author-name"><a href="<?php echo esc_url( get_author_posts_url( $author_id ) ); ?>"><?php the_author(); ?></a><?php if ( $author_role ) : ?> <span>· <?php echo esc_html( $author_role ); ?></span><?php endif; ?></p>
+							<p class="article__author-bio"><?php echo esc_html( $author_bio ); ?></p>
+						</div>
+					</aside>
+				<?php endif; ?>
 			</div>
 		</div>
 	</article>
@@ -93,6 +109,7 @@ while ( have_posts() ) :
 		'category__in'        => $category ? array( $category->term_id ) : array(),
 		'ignore_sticky_posts' => true,
 		'no_found_rows'       => true,
+		'meta_query'          => lieusoft_lang_meta_query( lieusoft_post_lang() ), // phpcs:ignore WordPress.DB.SlowDBQuery
 	) );
 
 	if ( $related->have_posts() ) :

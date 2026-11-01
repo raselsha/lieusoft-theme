@@ -196,6 +196,37 @@ function lieusoft_output_schema() {
 add_action( 'wp_head', 'lieusoft_output_schema', 30 );
 
 /**
+ * Share images: WhatsApp drops link-preview images much over 300 KB, so
+ * when an og:image attachment is heavier, Rank Math is pointed at the
+ * largest generated size of the same image that stays under the limit.
+ */
+function lieusoft_og_remember_attachment( $attachment_id ) {
+	$GLOBALS['lieusoft_og_attachment'] = (int) $attachment_id;
+}
+add_action( 'rank_math/opengraph/pre_attachment_image_check', 'lieusoft_og_remember_attachment' );
+
+function lieusoft_og_image_sizes( $sizes ) {
+	$id   = $GLOBALS['lieusoft_og_attachment'] ?? 0;
+	$file = $id ? get_attached_file( $id ) : '';
+	$meta = $id ? wp_get_attachment_metadata( $id ) : array();
+	$max  = 300 * KB_IN_BYTES;
+	if ( ! $file || ! file_exists( $file ) || filesize( $file ) <= $max || empty( $meta['sizes'] ) ) {
+		return $sizes;
+	}
+
+	$light = array();
+	foreach ( $meta['sizes'] as $name => $size ) {
+		$path = path_join( dirname( $file ), $size['file'] );
+		if ( min( $size['width'], $size['height'] ) >= 200 && file_exists( $path ) && filesize( $path ) <= $max ) {
+			$light[ $name ] = $size['width'] * $size['height'];
+		}
+	}
+	arsort( $light );
+	return $light ? array_keys( $light ) : $sizes;
+}
+add_filter( 'rank_math/opengraph/image_sizes', 'lieusoft_og_image_sizes' );
+
+/**
  * Rank Math falls back to en_US for bn_BD (not a Facebook locale).
  */
 function lieusoft_og_locale( $locale ) {

@@ -12,6 +12,8 @@ define( 'LIEUSOFT_VERSION', '1.0.0' );
 require get_template_directory() . '/inc/i18n.php';
 require get_template_directory() . '/inc/i18n-posts.php';
 require get_template_directory() . '/inc/seo.php';
+require get_template_directory() . '/inc/performance.php';
+require get_template_directory() . '/inc/checkout.php';
 
 /**
  * WordPress marks a nav item "current" by comparing the URL path only, so
@@ -148,7 +150,7 @@ function lieusoft_get_solutions() {
 			'desc'   => __( 'Modern website with online appointment booking, doctor profiles, patient management, Live Queue and an easy-to-use admin dashboard.', 'lieusoft' ),
 			'tags'   => array( 'Appointment', 'Patient', 'LIve Queue' ),
 			'accent' => 'purple',
-			'bg'     => 'solution-doctor-bg.png',
+			'bg'     => 'solution-doctor-bg.jpg',
 			'badge'  => 'badge-doctor.png',
 			'url'    => home_url( '/doctor-appointment-solution/' ),
 			'price'  => '12,000',
@@ -158,7 +160,7 @@ function lieusoft_get_solutions() {
 			'desc'   => __( 'Manage customer orders, body measurements, delivery schedules, invoices, and shop operations from one simple dashboard.', 'lieusoft' ),
 			'tags'   => array( 'Orders', 'Mesurments', 'Customers', 'Invoices' ),
 			'accent' => 'orange',
-			'bg'     => 'solution-tailor-bg.png',
+			'bg'     => 'solution-tailor-bg.jpg',
 			'badge'  => 'badge-shirt.png',
 			'url'    => home_url( '/tailor-shop-management-solution/' ),
 			'price'  => '12,000',
@@ -323,7 +325,9 @@ function lieusoft_render_logo( $class = '', $wrap_link = true ) {
 
 	$html = '';
 	if ( $show_image ) {
-		$html .= wp_get_attachment_image( $logo_id, 'full', false, array( 'class' => 'site-logo-img' ) );
+		// Shown at ~32px: let the browser pick a small crop, and don't let it
+		// compete with the hero image for bandwidth.
+		$html .= wp_get_attachment_image( $logo_id, 'thumbnail', false, array( 'class' => 'site-logo-img', 'sizes' => '48px', 'fetchpriority' => 'low', 'loading' => false ) );
 	}
 	if ( $show_text ) {
 		$html .= lieusoft_logo();
@@ -662,6 +666,18 @@ function lieusoft_reading_time( $post = null ) {
 /**
  * The URL of the blog index (the "Posts page"), or the home URL when none is set.
  */
+/**
+ * EDD checkout link that adds a download (optionally one price option) to
+ * the cart on the way in.
+ */
+function lieusoft_buy_url( $download_id, $price_id = null ) {
+	$args = array( 'edd_action' => 'add_to_cart', 'download_id' => absint( $download_id ) );
+	if ( null !== $price_id ) {
+		$args['edd_options[price_id]'] = absint( $price_id );
+	}
+	return add_query_arg( $args, home_url( '/checkout/' ) );
+}
+
 function lieusoft_blog_url() {
 	$page_id = (int) get_option( 'page_for_posts' );
 	return $page_id ? get_permalink( $page_id ) : home_url( '/' );

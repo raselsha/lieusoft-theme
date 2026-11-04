@@ -48,6 +48,11 @@
 			</div>
 		</nav>
 
+		<div class="site-header__icons">
+			<a class="site-header__icon" href="<?php echo esc_url( home_url( '/my-account/' ) ); ?>" aria-label="<?php esc_attr_e( 'My Account', 'lieusoft' ); ?>"><?php echo lieusoft_icon( 'user' ); ?></a>
+			<a class="site-header__icon" href="<?php echo esc_url( home_url( '/cart/' ) ); ?>" aria-label="<?php esc_attr_e( 'Cart', 'lieusoft' ); ?>"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 4h2.5l2.2 11.2a1.5 1.5 0 0 0 1.5 1.3h8.6a1.5 1.5 0 0 0 1.5-1.2L21 8H6.2"/><circle cx="9.5" cy="20" r="1.4"/><circle cx="17.5" cy="20" r="1.4"/></svg></a>
+		</div>
+
 		<?php lieusoft_language_switcher(); ?>
 
 		<div class="site-header__cta">

@@ -491,3 +491,71 @@
 		}
 	} );
 } )();
+
+// My Account: tabbed panels ([data-lsac-tabs]). Any [data-tab] button
+// shows the panel with that id; the #hash keeps the choice on reload and
+// lets links point straight at a panel (e.g. /my-account/#licenses).
+( function () {
+	'use strict';
+
+	var root = document.querySelector( '[data-lsac-tabs]' );
+	if ( ! root ) {
+		return;
+	}
+	var panels = Array.prototype.slice.call( root.querySelectorAll( '.lsac-panel' ) );
+	var tabs = Array.prototype.slice.call( root.querySelectorAll( '[role="tab"]' ) );
+
+	function show( id, focus ) {
+		if ( ! panels.some( function ( p ) { return p.id === id; } ) ) {
+			return;
+		}
+		panels.forEach( function ( p ) {
+			p.hidden = p.id !== id;
+		} );
+		tabs.forEach( function ( t ) {
+			t.setAttribute( 'aria-selected', String( t.getAttribute( 'data-tab' ) === id ) );
+			t.tabIndex = t.getAttribute( 'data-tab' ) === id ? 0 : -1;
+		} );
+		if ( window.history && window.history.replaceState ) {
+			window.history.replaceState( null, '', '#' + id );
+		}
+		if ( focus ) {
+			var active = tabs.filter( function ( t ) { return t.getAttribute( 'data-tab' ) === id; } )[ 0 ];
+			if ( active ) {
+				active.focus();
+			}
+		}
+	}
+
+	root.addEventListener( 'click', function ( e ) {
+		var btn = e.target.closest( '[data-tab]' );
+		if ( btn && root.contains( btn ) ) {
+			show( btn.getAttribute( 'data-tab' ) );
+		}
+	} );
+
+	root.addEventListener( 'keydown', function ( e ) {
+		var i = tabs.indexOf( document.activeElement );
+		if ( i < 0 ) {
+			return;
+		}
+		var step = { ArrowRight: 1, ArrowDown: 1, ArrowLeft: -1, ArrowUp: -1 }[ e.key ];
+		if ( step ) {
+			e.preventDefault();
+			show( tabs[ ( i + step + tabs.length ) % tabs.length ].getAttribute( 'data-tab' ), true );
+		}
+	} );
+
+	// EDD's register/login error notices land in the matching panel — open it.
+	var start = window.location.hash.slice( 1 );
+	if ( ! start ) {
+		var withError = panels.filter( function ( p ) { return p.querySelector( '.edd-alert-error, .edd_errors' ); } )[ 0 ];
+		start = withError ? withError.id : '';
+	}
+	if ( start ) {
+		show( start );
+	}
+	tabs.forEach( function ( t ) {
+		t.tabIndex = t.getAttribute( 'aria-selected' ) === 'true' ? 0 : -1;
+	} );
+} )();

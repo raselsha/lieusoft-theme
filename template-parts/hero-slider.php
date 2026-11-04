@@ -24,8 +24,13 @@ $a = wp_parse_args( $args ?? array(), array(
 					$image_path = get_theme_file_path( '/assets/images/' . $slide['image'] );
 					$image_size = file_exists( $image_path ) ? getimagesize( $image_path ) : false;
 					?>
-					<h3 class="screen-reader-text"><?php echo esc_html( $slide['title'] ); ?></h3>
-					<img class="hero-slider__image" <?php echo $image_size ? 'width="' . esc_attr( $image_size[0] ) . '" height="' . esc_attr( $image_size[1] ) . '"' : ''; ?> src="<?php echo esc_url( get_theme_file_uri( '/assets/images/' . $slide['image'] ) ); ?>" alt="<?php echo esc_attr( $slide['title'] ); ?>">
+					<span class="screen-reader-text"><?php echo esc_html( $slide['title'] ); ?></span>
+					<img class="hero-slider__image" <?php echo $image_size ? 'width="' . esc_attr( $image_size[0] ) . '" height="' . esc_attr( $image_size[1] ) . '"' : ''; ?> <?php echo 0 === $i ? 'fetchpriority="high"' : 'loading="lazy"'; ?> decoding="async" src="<?php echo esc_url( get_theme_file_uri( '/assets/images/' . $slide['image'] ) ); ?>"<?php
+					$small = preg_replace( '/\.jpg$/', '-720.jpg', $slide['image'] );
+					if ( $image_size && $small !== $slide['image'] && file_exists( get_theme_file_path( '/assets/images/' . $small ) ) ) {
+						printf( ' srcset="%s 720w, %s %dw" sizes="(max-width: 900px) calc(100vw - 48px), 560px"', esc_url( get_theme_file_uri( '/assets/images/' . $small ) ), esc_url( get_theme_file_uri( '/assets/images/' . $slide['image'] ) ), (int) $image_size[0] );
+					}
+					?> alt="<?php echo esc_attr( $slide['title'] ); ?>">
 				<?php else : ?>
 					<span class="plugin-icon plugin-icon--<?php echo esc_attr( $slide['accent'] ); ?> hero-slider__icon"><?php echo lieusoft_icon( $slide['icon'] ); ?></span>
 					<h3 class="hero-slider__title"><?php echo esc_html( $slide['title'] ); ?></h3>

@@ -151,7 +151,7 @@ get_template_part( 'template-parts/solution', 'pricing-plans', array(
 		__( 'Support & updates for the full plan', 'lieusoft' ),
 		__( 'Renew anytime at the end of your plan', 'lieusoft' ),
 	),
-	'footnote' => __( 'Savings are compared with paying ৳12,000 every year. Not sure which plan fits? Book a free consultation.', 'lieusoft' ),
+	'footnote' => __( 'A one-time installation fee of ৳10,000 applies to every plan. Savings are compared with paying ৳12,000 every year. Not sure which plan fits? Book a free consultation.', 'lieusoft' ),
 ) );
 
 get_template_part( 'template-parts/solution', 'projects' );

@@ -18,7 +18,7 @@ $a = wp_parse_args( $args ?? array(), array(
 			<p><?php echo esc_html( $a['desc'] ); ?></p>
 		</div>
 
-		<div class="product-pricing__grid<?php echo empty( $a['trust_items'] ) ? ' product-pricing__grid--plain' : ''; ?>">
+		<div class="product-pricing__grid<?php echo empty( $a['trust_items'] ) ? ' product-pricing__grid--plain' : ''; ?><?php echo 3 === count( $a['licenses'] ) ? ' product-pricing__grid--three' : ''; ?>">
 			<?php foreach ( $a['licenses'] as $license ) : ?>
 				<div class="license-card<?php echo ! empty( $license['featured'] ) ? ' license-card--featured' : ''; ?>">
 					<span class="license-card__name"><?php echo esc_html( $license['name'] ); ?></span>
@@ -28,7 +28,7 @@ $a = wp_parse_args( $args ?? array(), array(
 						<?php endforeach; ?>
 					</ul>
 					<div class="license-card__footer">
-						<p class="license-card__price"><span>৳</span><?php echo esc_html( $license['price'] ); ?><small><?php echo esc_html( $license['period'] ?? __( 'One Time Payment', 'lieusoft' ) ); ?></small></p>
+						<p class="license-card__price"><span><?php echo esc_html( $license['currency'] ?? '৳' ); ?></span><?php echo esc_html( $license['price'] ); ?><small><?php echo esc_html( $license['period'] ?? __( 'One Time Payment', 'lieusoft' ) ); ?></small></p>
 						<a class="btn btn--<?php echo esc_attr( $license['style'] ?? 'primary' ); ?>" href="<?php echo esc_url( $license['url'] ?? 'mailto:hello@lieusoft.com' ); ?>"><?php esc_html_e( 'Buy Now', 'lieusoft' ); ?></a>
 					</div>
 				</div>

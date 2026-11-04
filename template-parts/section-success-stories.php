@@ -8,7 +8,7 @@ $lieusoft_success_stories = array(
 	array(
 		'title'    => __( 'CozyThai – Thai Massage Booking Website', 'lieusoft' ),
 		'industry' => __( 'Massage & Wellness', 'lieusoft' ),
-		'image'    => 'case-study-preview.png',
+		'image'    => 'case-study-preview.jpg',
 		'tags'     => array( __( 'Website', 'lieusoft' ), __( 'Booking System', 'lieusoft' ), __( 'Hosting', 'lieusoft' ), __( 'Support', 'lieusoft' ) ),
 		'url'      => 'https://cozythai.pt/',
 		'external' => true,
@@ -16,7 +16,7 @@ $lieusoft_success_stories = array(
 	array(
 		'title'    => __( 'Doctor Appointment Website', 'lieusoft' ),
 		'industry' => __( 'Healthcare', 'lieusoft' ),
-		'image'    => 'solution-doctor-bg.png',
+		'image'    => 'solution-doctor-bg.jpg',
 		'tags'     => array( __( 'Clinic Website', 'lieusoft' ), __( 'Appointment Booking', 'lieusoft' ), __( 'Patient Management', 'lieusoft' ) ),
 		'url'      => home_url( '/doctor-appointment-solution/' ),
 		'external' => false,
@@ -24,7 +24,7 @@ $lieusoft_success_stories = array(
 	array(
 		'title'    => __( 'Tailor Management Website', 'lieusoft' ),
 		'industry' => __( 'Tailoring & Fashion', 'lieusoft' ),
-		'image'    => 'solution-tailor-bg.png',
+		'image'    => 'solution-tailor-bg.jpg',
 		'tags'     => array( __( 'Order Management', 'lieusoft' ), __( 'Measurements', 'lieusoft' ), __( 'Invoices', 'lieusoft' ) ),
 		'url'      => home_url( '/tailor-shop-management-solution/' ),
 		'external' => false,
@@ -39,7 +39,7 @@ $lieusoft_success_stories = array(
 				<article class="card project-card story-card">
 					<div class="project-card__media">
 						<span class="story-card__badge"><?php echo lieusoft_icon( 'check-circle' ); ?><?php esc_html_e( 'Completed', 'lieusoft' ); ?></span>
-						<img src="<?php echo esc_url( get_theme_file_uri( '/assets/images/' . $story['image'] ) ); ?>" alt="">
+						<img src="<?php echo esc_url( get_theme_file_uri( '/assets/images/' . $story['image'] ) ); ?>" alt="" loading="lazy" decoding="async">
 					</div>
 					<div class="project-card__body">
 						<span class="eyebrow" style="font-size:0.7rem;"><?php echo esc_html( $story['industry'] ); ?></span>

@@ -12,9 +12,9 @@ $a = wp_parse_args( $args ?? array(), array(
 	<?php foreach ( $a['items'] as $solution ) : ?>
 		<article class="solution-card">
 			<div class="solution-card__media">
-				<img src="<?php echo esc_url( get_theme_file_uri( '/assets/images/' . $solution['bg'] ) ); ?>" alt="">
+				<img src="<?php echo esc_url( get_theme_file_uri( '/assets/images/' . $solution['bg'] ) ); ?>" alt="" loading="lazy" decoding="async">
 				<span class="solution-card__badge solution-card__badge--<?php echo esc_attr( $solution['accent'] ); ?>">
-					<img src="<?php echo esc_url( get_theme_file_uri( '/assets/images/' . $solution['badge'] ) ); ?>" alt="">
+					<img src="<?php echo esc_url( get_theme_file_uri( '/assets/images/' . $solution['badge'] ) ); ?>" alt="" loading="lazy" decoding="async">
 				</span>
 			</div>
 			<div class="solution-card__body">
@@ -28,7 +28,8 @@ $a = wp_parse_args( $args ?? array(), array(
 				<?php if ( ! empty( $solution['price'] ) ) : ?>
 					<div class="solution-card__price">
 						<span class="solution-card__price-label"><?php esc_html_e( 'Starting from', 'lieusoft' ); ?></span>
-						<span class="solution-card__price-value">৳<?php echo esc_html( $solution['price'] ); ?></span>
+						<span class="solution-card__price-value">৳<?php echo esc_html( $solution['price'] ); ?><small><?php esc_html_e( '/ year', 'lieusoft' ); ?></small></span>
+						<span class="solution-card__price-setup"><?php esc_html_e( '+ ৳10,000 one-time installation', 'lieusoft' ); ?></span>
 						<span class="solution-card__price-note"><?php esc_html_e( 'Domain + hosting + ready solution', 'lieusoft' ); ?></span>
 					</div>
 				<?php endif; ?>

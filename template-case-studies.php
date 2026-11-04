@@ -18,7 +18,7 @@ get_header();
 
 <?php
 get_template_part( 'template-parts/case-studies', 'featured', array(
-	'image'        => 'case-study-preview.png',
+	'image'        => 'case-study-preview.jpg',
 	'title'        => __( 'CozyThai – Thai Massage Booking Website', 'lieusoft' ),
 	'client'       => __( 'CozyThai', 'lieusoft' ),
 	'industry'     => __( 'Massage & Wellness', 'lieusoft' ),

@@ -1686,8 +1686,6 @@ msgstr "আমাদের রেডিমেড বিজনেস সলিউ
 msgid "Pricing sections"
 msgstr "প্রাইসিং বিভাগ"
 
-msgid "From ৳9,000 / year"
-msgstr "বছরে ৳9,000 থেকে"
 
 msgid "From ৳2,999 one time"
 msgstr "এককালীন ৳2,999 থেকে"
@@ -2942,3 +2940,429 @@ msgstr "আগের ছবি"
 
 msgid "Next image"
 msgstr "পরের ছবি"
+
+msgid "+ ৳10,000 one-time installation"
+msgstr "+ ৳10,000 এককালীন ইনস্টলেশন"
+
+msgid "From ৳12,000/yr + ৳10,000 setup"
+msgstr "বছরে ৳12,000 থেকে + ৳10,000 সেটআপ"
+
+msgid "A one-time installation fee of ৳10,000 applies to every plan. Savings are compared with paying ৳12,000 every year. Renewal after your plan ends is priced separately — ask us for the current rate."
+msgstr "প্রতিটি প্ল্যানে এককালীন ৳10,000 ইনস্টলেশন ফি। প্রতি বছর ৳12,000 দেওয়ার তুলনায় সাশ্রয় হিসাব করা। প্ল্যান শেষে রিনিউয়ের দাম আলাদা — বর্তমান রেট আমাদের কাছে জেনে নিন।"
+
+msgid "A one-time installation fee of ৳10,000 applies to every plan. Savings are compared with paying ৳12,000 every year. Not sure which plan fits? Book a free consultation."
+msgstr "প্রতিটি প্ল্যানে এককালীন ৳10,000 ইনস্টলেশন ফি। প্রতি বছর ৳12,000 দেওয়ার তুলনায় সাশ্রয় হিসাব করা। কোন প্ল্যান ঠিক, বুঝতে পারছেন না? ফ্রি কনসালটেশন বুক করুন।"
+
+msgid "Is there an installation fee?"
+msgstr "ইনস্টলেশন ফি আছে কি?"
+
+msgid "Yes — a one-time installation fee of ৳10,000 for every plan. It covers setting up your website, management system, domain, hosting and business email. You pay it once, on top of the plan you choose."
+msgstr "হ্যাঁ — প্রতিটি প্ল্যানে এককালীন ৳10,000 ইনস্টলেশন ফি। এতে আপনার ওয়েবসাইট, ম্যানেজমেন্ট সিস্টেম, ডোমেইন, হোস্টিং আর বিজনেস ইমেইল সেটআপ করা হয়। এটা একবারই দিতে হয়, আপনার বেছে নেওয়া প্ল্যানের দামের সাথে।"
+
+msgid "/ year"
+msgstr "/ বছর"
+
+msgid "Yearly license — includes 12 months of updates and support. Secure checkout with Stripe."
+msgstr "বার্ষিক লাইসেন্স — ১২ মাসের আপডেট ও সাপোর্ট। Stripe দিয়ে নিরাপদ পেমেন্ট।"
+
+msgid "1 Year of Updates"
+msgstr "১ বছরের আপডেট"
+
+msgid "1 Year of Support"
+msgstr "১ বছরের সাপোর্ট"
+
+msgid "1 year of updates"
+msgstr "১ বছরের আপডেট"
+
+msgid "1 year of support"
+msgstr "১ বছরের সাপোর্ট"
+
+msgid "How does the yearly license work?"
+msgstr "বার্ষিক লাইসেন্স কীভাবে কাজ করে?"
+
+msgid "Your license key is emailed right after payment. It includes 12 months of updates and support; renew to keep getting them. The plugin keeps working on your site even if you don’t renew."
+msgstr "পেমেন্টের সাথে সাথে লাইসেন্স কী ইমেইলে চলে যায়। এতে ১২ মাসের আপডেট ও সাপোর্ট থাকে; চালিয়ে যেতে রিনিউ করুন। রিনিউ না করলেও প্লাগইন আপনার সাইটে কাজ করতে থাকবে।"
+
+msgid "Flipbook Pro from $29 / year"
+msgstr "Flipbook Pro বছরে $29 থেকে"
+
+msgid "Flipbook Pro is a yearly license: 12 months of updates and support, paid securely by card through Stripe, with the key emailed instantly. The other plugins are a one-time payment — see each plugin above."
+msgstr "Flipbook Pro বার্ষিক লাইসেন্স: ১২ মাসের আপডেট ও সাপোর্ট, Stripe দিয়ে কার্ডে নিরাপদ পেমেন্ট, আর কী সাথে সাথে ইমেইলে আসে। অন্য প্লাগইনগুলো এককালীন পেমেন্ট — উপরে প্রতিটির দাম দেখুন।"
+
+msgid "One-time payment, lifetime updates and support. Secure checkout with Stripe."
+msgstr "এককালীন পেমেন্ট, লাইফটাইম আপডেট ও সাপোর্ট। Stripe দিয়ে নিরাপদ পেমেন্ট।"
+
+msgid "Pro License"
+msgstr "প্রো লাইসেন্স"
+
+msgid "Premium toolbar skins & brand colors"
+msgstr "প্রিমিয়াম টুলবার স্কিন ও ব্র্যান্ড কালার"
+
+msgid "How do I get my license key?"
+msgstr "লাইসেন্স কী কীভাবে পাব?"
+
+msgid "Your license key is emailed right after payment and shown on the receipt page. It never expires — updates and support are included for life."
+msgstr "পেমেন্টের সাথে সাথে লাইসেন্স কী ইমেইলে আসে আর রিসিট পেজেও দেখায়। এর মেয়াদ শেষ হয় না — আপডেট ও সাপোর্ট সারাজীবন।"
+
+msgid "Flipbook Pro $22 one time"
+msgstr "Flipbook Pro এককালীন $22"
+
+msgid "Yes. You pay once and get updates and support for life. Flipbook Pro is paid securely by card through Stripe and the license key is emailed instantly."
+msgstr "হ্যাঁ। একবার পেমেন্ট করলেই সারাজীবন আপডেট ও সাপোর্ট। Flipbook Pro-এর পেমেন্ট Stripe দিয়ে কার্ডে হয়, আর লাইসেন্স কী সাথে সাথে ইমেইলে আসে।"
+
+msgid "Yearly plans renew each year — Lifetime is a one-time payment. Secure checkout with Stripe."
+msgstr "বার্ষিক প্ল্যান প্রতি বছর রিনিউ হয় — Lifetime এককালীন পেমেন্ট। Stripe দিয়ে নিরাপদ পেমেন্ট।"
+
+msgid "Pro Single"
+msgstr "Pro Single"
+
+msgid "Pro 10"
+msgstr "Pro 10"
+
+msgid "Lifetime"
+msgstr "Lifetime"
+
+msgid "Use on 1 Domain"
+msgstr "১টি ডোমেইনে ব্যবহার"
+
+msgid "Use on 10 Domains"
+msgstr "১০টি ডোমেইনে ব্যবহার"
+
+msgid "Unlimited Domains"
+msgstr "আনলিমিটেড ডোমেইন"
+
+msgid "1 Year of Updates & Support"
+msgstr "১ বছরের আপডেট ও সাপোর্ট"
+
+msgid "Lifetime Updates & Support"
+msgstr "লাইফটাইম আপডেট ও সাপোর্ট"
+
+msgid "Use on 1 domain"
+msgstr "১টি ডোমেইনে ব্যবহার"
+
+msgid "Use on 10 domains"
+msgstr "১০টি ডোমেইনে ব্যবহার"
+
+msgid "Unlimited domains"
+msgstr "আনলিমিটেড ডোমেইন"
+
+msgid "1 year of updates & support"
+msgstr "১ বছরের আপডেট ও সাপোর্ট"
+
+msgid "Lifetime updates & support"
+msgstr "লাইফটাইম আপডেট ও সাপোর্ট"
+
+msgid "Flipbook Pro from $22 / year"
+msgstr "Flipbook Pro বছরে $22 থেকে"
+
+msgid "Your license key is emailed right after payment and shown on the receipt page. Yearly plans include 12 months of updates and support; Lifetime includes them forever."
+msgstr "পেমেন্টের সাথে সাথে লাইসেন্স কী ইমেইলে আসে আর রিসিট পেজেও দেখায়। বার্ষিক প্ল্যানে ১২ মাসের আপডেট ও সাপোর্ট; Lifetime-এ সারাজীবন।"
+
+msgid "Flipbook Pro has yearly plans (Single and Pro 10) and a one-time Lifetime plan, paid securely by card through Stripe with the key emailed instantly. The other plugins are a one-time payment."
+msgstr "Flipbook Pro-এর বার্ষিক প্ল্যান (Single ও Pro 10) আর এককালীন Lifetime প্ল্যান আছে; Stripe দিয়ে কার্ডে নিরাপদ পেমেন্ট, কী সাথে সাথে ইমেইলে আসে। অন্য প্লাগইনগুলো এককালীন পেমেন্ট।"
+
+msgid "Flipbook Pro"
+msgstr "Flipbook Pro"
+
+msgid "WordPress plugin · Pro add-on"
+msgstr "ওয়ার্ডপ্রেস প্লাগইন · প্রো অ্যাড-অন"
+
+msgid "Turn PDFs into 3D flipbooks your readers love"
+msgstr "PDF-কে বানান 3D ফ্লিপবুক, যা পাঠকরা পছন্দ করবে"
+
+msgid "3D Flipbook PDF Viewer Pro adds a premium reading experience to the free plugin: on-brand toolbar skins, protected PDF links and full control over downloads."
+msgstr "3D Flipbook PDF Viewer Pro ফ্রি প্লাগইনে যোগ করে প্রিমিয়াম পড়ার অভিজ্ঞতা: আপনার ব্র্যান্ডের টুলবার স্কিন, সুরক্ষিত PDF লিংক আর ডাউনলোডের পূর্ণ নিয়ন্ত্রণ।"
+
+msgid "See pricing"
+msgstr "দাম দেখুন"
+
+msgid "Try the live demo"
+msgstr "লাইভ ডেমো দেখুন"
+
+msgid "Works with any theme"
+msgstr "যেকোনো থিমে চলে"
+
+msgid "Elementor ready"
+msgstr "Elementor রেডি"
+
+msgid "Key emailed instantly"
+msgstr "কী সাথে সাথে ইমেইলে"
+
+msgid "What Pro adds"
+msgstr "Pro-তে যা যোগ হয়"
+
+msgid "Everything in Free, plus a premium reader"
+msgstr "ফ্রি-র সবকিছু, সাথে প্রিমিয়াম রিডার"
+
+msgid "Pro installs alongside the free plugin and switches on these extras — nothing to migrate."
+msgstr "Pro ফ্রি প্লাগইনের পাশেই ইনস্টল হয়ে এই সুবিধাগুলো চালু করে — কিছু সরাতে হয় না।"
+
+msgid "Premium toolbar skins"
+msgstr "প্রিমিয়াম টুলবার স্কিন"
+
+msgid "The Studio Light skin: page slider, zoom, thumbnails, fullscreen and a dark-mode toggle in a clean modern toolbar."
+msgstr "Studio Light স্কিন: পেজ স্লাইডার, জুম, থাম্বনেইল, ফুলস্ক্রিন আর ডার্ক মোড — একটা পরিষ্কার আধুনিক টুলবারে।"
+
+msgid "Custom brand colors"
+msgstr "নিজের ব্র্যান্ড কালার"
+
+msgid "Match the stage, toolbar and border to your brand so every flipbook feels like part of your site."
+msgstr "স্টেজ, টুলবার আর বর্ডার আপনার ব্র্যান্ডের রঙে মিলিয়ে নিন, যাতে প্রতিটা ফ্লিপবুক সাইটেরই অংশ মনে হয়।"
+
+msgid "Hidden PDF links"
+msgstr "লুকানো PDF লিংক"
+
+msgid "Protected mode never prints the file URL in your page — the viewer streams it through a short-lived signed link."
+msgstr "সুরক্ষিত মোডে পেজে ফাইলের URL দেখায় না — ভিউয়ার স্বল্পমেয়াদি সাইন করা লিংক দিয়ে ফাইল আনে।"
+
+msgid "Download button control"
+msgstr "ডাউনলোড বাটনের নিয়ন্ত্রণ"
+
+msgid "Show, hide or protect the download button per document — readers get the file only when you want them to."
+msgstr "প্রতিটা ডকুমেন্টে ডাউনলোড বাটন দেখান, লুকান বা সুরক্ষিত রাখুন — আপনি চাইলেই পাঠক ফাইল পাবে।"
+
+msgid "Contents, thumbnails & search"
+msgstr "সূচি, থাম্বনেইল ও সার্চ"
+
+msgid "A side panel docked to the book for table of contents, page thumbnails and full-text search — RTL aware."
+msgstr "বইয়ের পাশে একটা প্যানেলে সূচিপত্র, পেজ থাম্বনেইল আর পুরো লেখায় সার্চ — RTL সাপোর্ট সহ।"
+
+msgid "Updates & support"
+msgstr "আপডেট ও সাপোর্ট"
+
+msgid "One-click updates in your dashboard and direct support from the developer for the length of your plan."
+msgstr "ড্যাশবোর্ডে এক ক্লিকে আপডেট, আর প্ল্যানের মেয়াদ পর্যন্ত ডেভেলপারের কাছ থেকে সরাসরি সাপোর্ট।"
+
+msgid "Pick the plan that fits your sites"
+msgstr "আপনার সাইটের জন্য প্ল্যান বেছে নিন"
+
+msgid "Yearly plans renew each year. Lifetime is a single payment. Prices in USD."
+msgstr "বার্ষিক প্ল্যান প্রতি বছর রিনিউ হয়। Lifetime একবারের পেমেন্ট। দাম USD-তে।"
+
+msgid "For one site that wants a premium reader."
+msgstr "একটা সাইটের জন্য, যারা প্রিমিয়াম রিডার চায়।"
+
+msgid "For agencies and publishers with several sites."
+msgstr "কয়েকটা সাইট চালানো এজেন্সি আর পাবলিশারদের জন্য।"
+
+msgid "One payment for every site you run, now and later."
+msgstr "এখন আর ভবিষ্যতের সব সাইটের জন্য একবারের পেমেন্ট।"
+
+msgid "1 domain"
+msgstr "১টি ডোমেইন"
+
+msgid "10 domains"
+msgstr "১০টি ডোমেইন"
+
+msgid "All Pro features"
+msgstr "সব Pro ফিচার"
+
+msgid "Buy Pro Single"
+msgstr "Pro Single কিনুন"
+
+msgid "Buy Pro 10"
+msgstr "Pro 10 কিনুন"
+
+msgid "Buy Lifetime"
+msgstr "Lifetime কিনুন"
+
+msgid "Best value"
+msgstr "সেরা ভ্যালু"
+
+msgid "Secure card checkout with Stripe · License key emailed instantly · Requires the free Flipbook PDF Viewer plugin"
+msgstr "Stripe দিয়ে কার্ডে নিরাপদ পেমেন্ট · লাইসেন্স কী সাথে সাথে ইমেইলে · ফ্রি Flipbook PDF Viewer প্লাগইন লাগবে"
+
+msgid "Do I need the free plugin?"
+msgstr "ফ্রি প্লাগইন কি লাগবে?"
+
+msgid "Yes. Pro is an add-on to the free Flipbook PDF Viewer & Embedder from WordPress.org — install both."
+msgstr "হ্যাঁ। Pro হলো WordPress.org-এর ফ্রি Flipbook PDF Viewer & Embedder-এর অ্যাড-অন — দুটোই ইনস্টল করুন।"
+
+msgid "It is emailed right after payment and shown on the receipt page. Paste it on the plugin’s License screen and click Activate."
+msgstr "পেমেন্টের সাথে সাথে ইমেইলে আসে আর রিসিট পেজে দেখায়। প্লাগইনের License পেজে বসিয়ে Activate চাপুন।"
+
+msgid "What happens when a yearly plan ends?"
+msgstr "বার্ষিক প্ল্যান শেষ হলে কী হয়?"
+
+msgid "The plugin keeps working. Renew to keep getting updates and support."
+msgstr "প্লাগইন চলতেই থাকে। আপডেট ও সাপোর্ট পেতে রিনিউ করুন।"
+
+msgid "Can I move my license to another site?"
+msgstr "লাইসেন্স কি অন্য সাইটে সরানো যায়?"
+
+msgid "Yes — deactivate it on the old site to free the slot, then activate it on the new one."
+msgstr "হ্যাঁ — পুরনো সাইটে deactivate করে জায়গা খালি করুন, তারপর নতুন সাইটে activate করুন।"
+
+msgid "Add your details and pay securely by card. Your license key and download arrive by email right after payment."
+msgstr "আপনার তথ্য দিয়ে কার্ডে নিরাপদে পেমেন্ট করুন। পেমেন্টের সাথে সাথে লাইসেন্স কী আর ডাউনলোড লিংক ইমেইলে চলে যাবে।"
+
+msgid "Secure payment by Stripe"
+msgstr "Stripe দিয়ে নিরাপদ পেমেন্ট"
+
+msgid "License key emailed instantly"
+msgstr "লাইসেন্স কী সাথে সাথে ইমেইলে"
+
+msgid "Order summary"
+msgstr "অর্ডারের সারাংশ"
+
+msgid "Lifetime license · one-time payment"
+msgstr "লাইফটাইম লাইসেন্স · এককালীন পেমেন্ট"
+
+msgid "1-year license · updates & support"
+msgstr "১ বছরের লাইসেন্স · আপডেট ও সাপোর্ট"
+
+msgid "Purchase total"
+msgstr "মোট"
+
+msgid "My Account"
+msgstr "আমার অ্যাকাউন্ট"
+
+msgid "Signed in as %s"
+msgstr "%s হিসেবে লগইন করা"
+
+msgid "Log out"
+msgstr "লগআউট"
+
+msgid "Log in to see your orders, downloads and license keys."
+msgstr "আপনার অর্ডার, ডাউনলোড আর লাইসেন্স কী দেখতে লগইন করুন।"
+
+msgid "Log in"
+msgstr "লগইন"
+
+msgid "Create an account"
+msgstr "অ্যাকাউন্ট খুলুন"
+
+msgid "Bought as a guest? Register with the same email to see your past orders and keys."
+msgstr "গেস্ট হিসেবে কিনেছিলেন? একই ইমেইল দিয়ে রেজিস্টার করলে আগের অর্ডার আর কী দেখতে পাবেন।"
+
+msgid "Account sections"
+msgstr "অ্যাকাউন্টের অংশ"
+
+msgid "Downloads"
+msgstr "ডাউনলোড"
+
+msgid "License keys"
+msgstr "লাইসেন্স কী"
+
+msgid "Profile"
+msgstr "প্রোফাইল"
+
+msgid "Your cart"
+msgstr "আপনার কার্ট"
+
+msgid "Your cart is empty."
+msgstr "আপনার কার্ট খালি।"
+
+msgid "Browse Flipbook Pro plans"
+msgstr "Flipbook Pro প্ল্যান দেখুন"
+
+msgid "Remove"
+msgstr "মুছুন"
+
+msgid "Proceed to checkout"
+msgstr "চেকআউটে যান"
+
+msgid "Continue shopping"
+msgstr "আরও কেনাকাটা"
+
+msgid "Cart"
+msgstr "কার্ট"
+
+msgid "Your Lieusoft account"
+msgstr "আপনার Lieusoft অ্যাকাউন্ট"
+
+msgid "Everything you bought, in one place."
+msgstr "যা কিনেছেন, সব এক জায়গায়।"
+
+msgid "Orders & receipts"
+msgstr "অর্ডার ও রিসিট"
+
+msgid "Every purchase with its receipt."
+msgstr "প্রতিটা কেনাকাটা আর তার রিসিট।"
+
+msgid "Get the latest plugin files any time."
+msgstr "যেকোনো সময় প্লাগইনের সর্বশেষ ফাইল নিন।"
+
+msgid "Your keys, expiry dates and active sites."
+msgstr "আপনার কী, মেয়াদ আর চালু সাইট।"
+
+msgid "Bought as a guest? Create an account with the same email and your past orders appear here."
+msgstr "গেস্ট হিসেবে কিনেছিলেন? একই ইমেইল দিয়ে অ্যাকাউন্ট খুললে আগের অর্ডার এখানে চলে আসবে।"
+
+msgid "Account"
+msgstr "অ্যাকাউন্ট"
+
+msgid "Create account"
+msgstr "অ্যাকাউন্ট খুলুন"
+
+msgid "Welcome back"
+msgstr "আবার স্বাগতম"
+
+msgid "Log in with your username or email."
+msgstr "ইউজারনেম বা ইমেইল দিয়ে লগইন করুন।"
+
+msgid "Create your account"
+msgstr "আপনার অ্যাকাউন্ট খুলুন"
+
+msgid "Use the email you bought with to see your orders and keys."
+msgstr "যে ইমেইলে কিনেছেন সেটা দিন, তাহলে অর্ডার আর কী দেখতে পাবেন।"
+
+msgid "Overview"
+msgstr "ওভারভিউ"
+
+msgid "Hi, %s"
+msgstr "হাই, %s"
+
+msgid "Here is everything on your account."
+msgstr "আপনার অ্যাকাউন্টের সব কিছু এখানে।"
+
+msgid "Active licenses"
+msgstr "চালু লাইসেন্স"
+
+msgid "Need help with a license or download?"
+msgstr "লাইসেন্স বা ডাউনলোড নিয়ে সাহায্য লাগবে?"
+
+msgid "Write to us and we usually reply within a day."
+msgstr "আমাদের লিখুন, সাধারণত এক দিনের মধ্যে উত্তর দিই।"
+
+msgid "Contact support"
+msgstr "সাপোর্টে যোগাযোগ"
+
+msgid "Free"
+msgstr "ফ্রি"
+
+msgid "Everything you need to publish flipbooks on any WordPress site."
+msgstr "যেকোনো WordPress সাইটে flipbook প্রকাশ করার জন্য যা যা দরকার।"
+
+msgid "/ forever"
+msgstr "/ চিরকাল"
+
+msgid "Unlimited PDFs"
+msgstr "সীমাহীন PDF"
+
+msgid "All 4 archive layouts"
+msgstr "৪টি archive layout"
+
+msgid "Elementor widgets"
+msgstr "Elementor widget"
+
+msgid "Read & download counters"
+msgstr "পড়া ও download গণনা"
+
+msgid "Community support"
+msgstr "কমিউনিটি সাপোর্ট"
+
+msgid "Download free"
+msgstr "ফ্রি ডাউনলোড"
+
+msgid "Everything in Free"
+msgstr "ফ্রি ভার্সনের সবকিছু"
+
+msgid "Start free. Go Pro when you want more."
+msgstr "ফ্রি দিয়ে শুরু করুন, আরও দরকার হলে Pro নিন।"
+
+msgid "The free plugin is yours forever. Yearly Pro plans renew each year, Lifetime is a single payment. Prices in USD."
+msgstr "ফ্রি plugin চিরকাল আপনার। Pro এর বাৎসরিক plan প্রতি বছর নবায়ন হয়, Lifetime একবারের পেমেন্ট। দাম USD তে।"
+
+msgid "Flipbook free · Pro from $22 / year"
+msgstr "Flipbook ফ্রি · Pro $22 / বছর থেকে"

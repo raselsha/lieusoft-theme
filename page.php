@@ -6,13 +6,19 @@
 get_header();
 ?>
 
-<main class="container section">
+<main class="section">
+	<div class="container">
 	<?php while ( have_posts() ) : the_post(); ?>
 		<article <?php post_class(); ?>>
-			<h1 class="entry-title"><?php the_title(); ?></h1>
+			<?php if ( function_exists( 'edd_is_checkout' ) && edd_is_checkout() ) : ?>
+				<?php get_template_part( 'template-parts/checkout', 'head' ); ?>
+			<?php else : ?>
+				<h1 class="entry-title"><?php the_title(); ?></h1>
+			<?php endif; ?>
 			<div class="entry-content"><?php the_content(); ?></div>
 		</article>
 	<?php endwhile; ?>
+	</div>
 </main>
 
 <?php

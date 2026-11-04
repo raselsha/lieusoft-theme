@@ -4,7 +4,8 @@
  * plans[] (name, tagline, price, period, note, features[] optional,
  * featured, badge), includes[] (one shared list shown under all plans),
  * footnote, links[] (label, url — optional chips under the heading, e.g.
- * which solutions the plans apply to), id (section anchor, default "pricing").
+ * which solutions the plans apply to), id (section anchor, default "pricing"),
+ * setup (one-time installation line shown on every plan; '' to hide).
  */
 $a = wp_parse_args( $args ?? array(), array(
 	'title'    => __( 'Simple, Honest Pricing', 'lieusoft' ),
@@ -14,6 +15,7 @@ $a = wp_parse_args( $args ?? array(), array(
 	'includes' => array(),
 	'links'    => array(),
 	'id'       => 'pricing',
+	'setup'    => __( '+ ৳10,000 one-time installation', 'lieusoft' ),
 ) );
 
 if ( ! $a['plans'] ) {
@@ -43,6 +45,7 @@ if ( ! $a['plans'] ) {
 					<h3 class="plan__name"><?php echo esc_html( $plan['name'] ); ?></h3>
 					<p class="plan__tagline"><?php echo esc_html( $plan['tagline'] ); ?></p>
 					<p class="plan__price"><span class="plan__currency">৳</span><?php echo esc_html( $plan['price'] ); ?><span class="plan__period"><?php echo esc_html( $plan['period'] ); ?></span></p>
+					<?php if ( $a['setup'] ) : ?><p class="plan__setup"><?php echo esc_html( $a['setup'] ); ?></p><?php endif; ?>
 					<p class="plan__note"><?php echo esc_html( $plan['note'] ); ?></p>
 					<a class="btn <?php echo ! empty( $plan['featured'] ) ? 'btn--primary' : 'btn--outline'; ?> btn--block plan__cta" href="#book-consultation"><?php esc_html_e( 'Choose Plan', 'lieusoft' ); ?></a>
 					<?php if ( ! empty( $plan['features'] ) ) : ?>

@@ -19,7 +19,7 @@ $a = wp_parse_args( $args ?? array(), array(
 
 		<div class="plugin-prices__list">
 			<?php foreach ( $a['items'] as $plugin ) : ?>
-				<article class="plugin-price">
+				<article class="plugin-price<?php echo count( $plugin['licenses'] ) > 2 ? ' plugin-price--many' : ''; ?>">
 					<div class="plugin-price__info">
 						<span class="plugin-icon plugin-icon--<?php echo esc_attr( $plugin['accent'] ); ?>">
 							<img src="<?php echo esc_url( get_theme_file_uri( '/assets/images/' . $plugin['icon'] ) ); ?>" alt="">
@@ -39,13 +39,13 @@ $a = wp_parse_args( $args ?? array(), array(
 					<?php foreach ( $plugin['licenses'] as $license ) : ?>
 						<div class="plugin-price__license<?php echo ! empty( $license['featured'] ) ? ' is-featured' : ''; ?>">
 							<span class="plugin-price__name"><?php echo esc_html( $license['name'] ); ?></span>
-							<p class="plugin-price__amount"><span>৳</span><?php echo esc_html( $license['price'] ); ?><small><?php esc_html_e( 'one time', 'lieusoft' ); ?></small></p>
+							<p class="plugin-price__amount"><span><?php echo esc_html( $license['currency'] ?? '৳' ); ?></span><?php echo esc_html( $license['price'] ); ?><small><?php echo esc_html( $license['period'] ?? __( 'one time', 'lieusoft' ) ); ?></small></p>
 							<ul>
 								<?php foreach ( $license['features'] as $feature ) : ?>
 									<li><?php echo lieusoft_icon( 'check-circle' ); ?><?php echo esc_html( $feature ); ?></li>
 								<?php endforeach; ?>
 							</ul>
-							<a class="btn btn--sm <?php echo ! empty( $license['featured'] ) ? 'btn--primary' : 'btn--outline'; ?>" href="<?php echo esc_url( $plugin['url'] . '#pricing' ); ?>"><?php esc_html_e( 'Buy Now', 'lieusoft' ); ?></a>
+							<a class="btn btn--sm <?php echo ! empty( $license['featured'] ) ? 'btn--primary' : 'btn--outline'; ?>" href="<?php echo esc_url( $license['url'] ?? $plugin['url'] . '#pricing' ); ?>"<?php echo '0' === $license['price'] ? ' download rel="nofollow"' : ''; ?>><?php echo esc_html( $license['cta'] ?? __( 'Buy Now', 'lieusoft' ) ); ?></a>
 						</div>
 					<?php endforeach; ?>
 				</article>

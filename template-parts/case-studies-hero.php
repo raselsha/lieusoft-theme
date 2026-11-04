@@ -27,13 +27,13 @@
 				</svg>
 			</div>
 			<span class="services-hero-art__badge services-hero-art__badge--thumb" style="left:-24px;top:0;">
-				<img src="<?php echo esc_url( get_theme_file_uri( '/assets/images/case-study-preview.png' ) ); ?>" alt="<?php esc_attr_e( 'CozyThai', 'lieusoft' ); ?>">
+				<img src="<?php echo esc_url( get_theme_file_uri( '/assets/images/case-study-preview.jpg' ) ); ?>" alt="<?php esc_attr_e( 'CozyThai', 'lieusoft' ); ?>">
 			</span>
 			<span class="services-hero-art__badge services-hero-art__badge--thumb" style="right:-24px;top:24px;">
-				<img src="<?php echo esc_url( get_theme_file_uri( '/assets/images/solution-doctor-bg.png' ) ); ?>" alt="<?php esc_attr_e( 'Doctor Website', 'lieusoft' ); ?>">
+				<img src="<?php echo esc_url( get_theme_file_uri( '/assets/images/solution-doctor-bg.jpg' ) ); ?>" alt="<?php esc_attr_e( 'Doctor Website', 'lieusoft' ); ?>">
 			</span>
 			<span class="services-hero-art__badge services-hero-art__badge--thumb" style="left:20px;bottom:-24px;">
-				<img src="<?php echo esc_url( get_theme_file_uri( '/assets/images/solution-tailor-bg.png' ) ); ?>" alt="<?php esc_attr_e( 'Tailor Website', 'lieusoft' ); ?>">
+				<img src="<?php echo esc_url( get_theme_file_uri( '/assets/images/solution-tailor-bg.jpg' ) ); ?>" alt="<?php esc_attr_e( 'Tailor Website', 'lieusoft' ); ?>">
 			</span>
 		</div>
 	</div>

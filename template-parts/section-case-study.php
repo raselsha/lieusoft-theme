@@ -9,7 +9,7 @@ $lieusoft_stats = array(
 <section class="case-study">
 	<div class="container case-study__grid">
 		<div class="case-study__preview">
-			<img src="<?php echo esc_url( get_theme_file_uri( '/assets/images/case-study-preview.png' ) ); ?>" alt="<?php esc_attr_e( 'CozyThai Massage Therapy website', 'lieusoft' ); ?>">
+			<img loading="lazy" decoding="async" src="<?php echo esc_url( get_theme_file_uri( '/assets/images/case-study-preview.jpg' ) ); ?>" alt="<?php esc_attr_e( 'CozyThai Massage Therapy website', 'lieusoft' ); ?>">
 		</div>
 
 		<div class="case-study__content">

@@ -1690,8 +1690,6 @@ msgstr "أسعار واضحة لحلول الأعمال الجاهزة وإضا�
 msgid "Pricing sections"
 msgstr "أقسام الأسعار"
 
-msgid "From ৳9,000 / year"
-msgstr "من ৳9,000 سنويًا"
 
 msgid "From ৳2,999 one time"
 msgstr "من ৳2,999 دفعة واحدة"
@@ -2946,3 +2944,429 @@ msgstr "الصورة السابقة"
 
 msgid "Next image"
 msgstr "الصورة التالية"
+
+msgid "+ ৳10,000 one-time installation"
+msgstr "+ ৳10,000 رسوم تثبيت لمرة واحدة"
+
+msgid "From ৳12,000/yr + ৳10,000 setup"
+msgstr "من ৳12,000 سنويًا + ৳10,000 تثبيت"
+
+msgid "A one-time installation fee of ৳10,000 applies to every plan. Savings are compared with paying ৳12,000 every year. Renewal after your plan ends is priced separately — ask us for the current rate."
+msgstr "تُضاف رسوم تثبيت لمرة واحدة قدرها ৳10,000 لكل خطة. التوفير محسوب مقارنةً بدفع ৳12,000 كل سنة. التجديد بعد انتهاء خطتك له سعر منفصل — اسألنا عن السعر الحالي."
+
+msgid "A one-time installation fee of ৳10,000 applies to every plan. Savings are compared with paying ৳12,000 every year. Not sure which plan fits? Book a free consultation."
+msgstr "تُضاف رسوم تثبيت لمرة واحدة قدرها ৳10,000 لكل خطة. التوفير محسوب مقارنةً بدفع ৳12,000 كل سنة. لست متأكدًا أي خطة تناسبك؟ احجز استشارة مجانية."
+
+msgid "Is there an installation fee?"
+msgstr "هل توجد رسوم تثبيت؟"
+
+msgid "Yes — a one-time installation fee of ৳10,000 for every plan. It covers setting up your website, management system, domain, hosting and business email. You pay it once, on top of the plan you choose."
+msgstr "نعم — رسوم تثبيت لمرة واحدة قدرها ৳10,000 لكل خطة، وتشمل إعداد موقعك ونظام الإدارة والنطاق والاستضافة والبريد الإلكتروني للأعمال. تدفعها مرة واحدة إضافةً إلى سعر الخطة التي تختارها."
+
+msgid "/ year"
+msgstr "/ سنة"
+
+msgid "Yearly license — includes 12 months of updates and support. Secure checkout with Stripe."
+msgstr "ترخيص سنوي — يشمل 12 شهرًا من التحديثات والدعم. دفع آمن عبر Stripe."
+
+msgid "1 Year of Updates"
+msgstr "تحديثات لمدة سنة"
+
+msgid "1 Year of Support"
+msgstr "دعم لمدة سنة"
+
+msgid "1 year of updates"
+msgstr "تحديثات لمدة سنة"
+
+msgid "1 year of support"
+msgstr "دعم لمدة سنة"
+
+msgid "How does the yearly license work?"
+msgstr "كيف يعمل الترخيص السنوي؟"
+
+msgid "Your license key is emailed right after payment. It includes 12 months of updates and support; renew to keep getting them. The plugin keeps working on your site even if you don’t renew."
+msgstr "يُرسل مفتاح الترخيص إلى بريدك فور الدفع، ويشمل 12 شهرًا من التحديثات والدعم؛ جدّد للاستمرار في الحصول عليها. وتبقى الإضافة تعمل على موقعك حتى إن لم تجدّد."
+
+msgid "Flipbook Pro from $29 / year"
+msgstr "Flipbook Pro من $29 سنويًا"
+
+msgid "Flipbook Pro is a yearly license: 12 months of updates and support, paid securely by card through Stripe, with the key emailed instantly. The other plugins are a one-time payment — see each plugin above."
+msgstr "Flipbook Pro ترخيص سنوي: 12 شهرًا من التحديثات والدعم، والدفع بالبطاقة بأمان عبر Stripe، ويصل المفتاح فورًا إلى بريدك. أما الإضافات الأخرى فدفعة واحدة — راجع كل إضافة أعلاه."
+
+msgid "One-time payment, lifetime updates and support. Secure checkout with Stripe."
+msgstr "دفعة واحدة، تحديثات ودعم مدى الحياة. دفع آمن عبر Stripe."
+
+msgid "Pro License"
+msgstr "ترخيص Pro"
+
+msgid "Premium toolbar skins & brand colors"
+msgstr "أشكال شريط أدوات مميزة وألوان علامتك"
+
+msgid "How do I get my license key?"
+msgstr "كيف أحصل على مفتاح الترخيص؟"
+
+msgid "Your license key is emailed right after payment and shown on the receipt page. It never expires — updates and support are included for life."
+msgstr "يُرسل مفتاح الترخيص إلى بريدك فور الدفع ويظهر في صفحة الإيصال. لا تنتهي صلاحيته — والتحديثات والدعم مدى الحياة."
+
+msgid "Flipbook Pro $22 one time"
+msgstr "Flipbook Pro ‏$22 دفعة واحدة"
+
+msgid "Yes. You pay once and get updates and support for life. Flipbook Pro is paid securely by card through Stripe and the license key is emailed instantly."
+msgstr "نعم. تدفع مرة واحدة وتحصل على التحديثات والدعم مدى الحياة. ويُدفع Flipbook Pro بالبطاقة بأمان عبر Stripe ويصل المفتاح فورًا إلى بريدك."
+
+msgid "Yearly plans renew each year — Lifetime is a one-time payment. Secure checkout with Stripe."
+msgstr "الخطط السنوية تتجدد كل عام — وLifetime دفعة واحدة. دفع آمن عبر Stripe."
+
+msgid "Pro Single"
+msgstr "Pro Single"
+
+msgid "Pro 10"
+msgstr "Pro 10"
+
+msgid "Lifetime"
+msgstr "مدى الحياة"
+
+msgid "Use on 1 Domain"
+msgstr "نطاق واحد"
+
+msgid "Use on 10 Domains"
+msgstr "10 نطاقات"
+
+msgid "Unlimited Domains"
+msgstr "نطاقات غير محدودة"
+
+msgid "1 Year of Updates & Support"
+msgstr "تحديثات ودعم لمدة سنة"
+
+msgid "Lifetime Updates & Support"
+msgstr "تحديثات ودعم مدى الحياة"
+
+msgid "Use on 1 domain"
+msgstr "نطاق واحد"
+
+msgid "Use on 10 domains"
+msgstr "10 نطاقات"
+
+msgid "Unlimited domains"
+msgstr "نطاقات غير محدودة"
+
+msgid "1 year of updates & support"
+msgstr "تحديثات ودعم لمدة سنة"
+
+msgid "Lifetime updates & support"
+msgstr "تحديثات ودعم مدى الحياة"
+
+msgid "Flipbook Pro from $22 / year"
+msgstr "Flipbook Pro من $22 سنويًا"
+
+msgid "Your license key is emailed right after payment and shown on the receipt page. Yearly plans include 12 months of updates and support; Lifetime includes them forever."
+msgstr "يُرسل مفتاح الترخيص إلى بريدك فور الدفع ويظهر في صفحة الإيصال. الخطط السنوية تشمل 12 شهرًا من التحديثات والدعم، وLifetime تشملها إلى الأبد."
+
+msgid "Flipbook Pro has yearly plans (Single and Pro 10) and a one-time Lifetime plan, paid securely by card through Stripe with the key emailed instantly. The other plugins are a one-time payment."
+msgstr "لـ Flipbook Pro خطط سنوية (Single وPro 10) وخطة Lifetime بدفعة واحدة، والدفع بالبطاقة بأمان عبر Stripe ويصل المفتاح فورًا. أما الإضافات الأخرى فدفعة واحدة."
+
+msgid "Flipbook Pro"
+msgstr "Flipbook Pro"
+
+msgid "WordPress plugin · Pro add-on"
+msgstr "إضافة ووردبريس · ملحق Pro"
+
+msgid "Turn PDFs into 3D flipbooks your readers love"
+msgstr "حوّل ملفات PDF إلى كتب ثلاثية الأبعاد يحبها قرّاؤك"
+
+msgid "3D Flipbook PDF Viewer Pro adds a premium reading experience to the free plugin: on-brand toolbar skins, protected PDF links and full control over downloads."
+msgstr "يضيف 3D Flipbook PDF Viewer Pro تجربة قراءة مميزة إلى الإضافة المجانية: أشكال شريط أدوات بهوية علامتك، وروابط PDF محمية، وتحكم كامل في التنزيلات."
+
+msgid "See pricing"
+msgstr "عرض الأسعار"
+
+msgid "Try the live demo"
+msgstr "جرّب العرض المباشر"
+
+msgid "Works with any theme"
+msgstr "يعمل مع أي قالب"
+
+msgid "Elementor ready"
+msgstr "جاهز لـ Elementor"
+
+msgid "Key emailed instantly"
+msgstr "المفتاح يصل فورًا بالبريد"
+
+msgid "What Pro adds"
+msgstr "ما يضيفه Pro"
+
+msgid "Everything in Free, plus a premium reader"
+msgstr "كل ما في المجانية، مع قارئ مميز"
+
+msgid "Pro installs alongside the free plugin and switches on these extras — nothing to migrate."
+msgstr "يُثبَّت Pro بجانب الإضافة المجانية ويفعّل هذه الميزات — دون أي نقل."
+
+msgid "Premium toolbar skins"
+msgstr "أشكال شريط أدوات مميزة"
+
+msgid "The Studio Light skin: page slider, zoom, thumbnails, fullscreen and a dark-mode toggle in a clean modern toolbar."
+msgstr "شكل Studio Light: شريط صفحات وتكبير وصور مصغرة وملء الشاشة ووضع داكن في شريط أدوات حديث."
+
+msgid "Custom brand colors"
+msgstr "ألوان علامتك التجارية"
+
+msgid "Match the stage, toolbar and border to your brand so every flipbook feels like part of your site."
+msgstr "طابق المسرح وشريط الأدوات والإطار مع علامتك ليبدو كل كتاب جزءًا من موقعك."
+
+msgid "Hidden PDF links"
+msgstr "روابط PDF مخفية"
+
+msgid "Protected mode never prints the file URL in your page — the viewer streams it through a short-lived signed link."
+msgstr "الوضع المحمي لا يطبع رابط الملف في صفحتك — يجلبه العارض عبر رابط موقّع قصير الأجل."
+
+msgid "Download button control"
+msgstr "التحكم في زر التنزيل"
+
+msgid "Show, hide or protect the download button per document — readers get the file only when you want them to."
+msgstr "أظهر زر التنزيل أو أخفِه أو احمِه لكل مستند — يحصل القارئ على الملف فقط عندما تريد."
+
+msgid "Contents, thumbnails & search"
+msgstr "الفهرس والصور المصغرة والبحث"
+
+msgid "A side panel docked to the book for table of contents, page thumbnails and full-text search — RTL aware."
+msgstr "لوحة جانبية بجانب الكتاب للفهرس والصور المصغرة والبحث في النص — تدعم الاتجاه من اليمين لليسار."
+
+msgid "Updates & support"
+msgstr "التحديثات والدعم"
+
+msgid "One-click updates in your dashboard and direct support from the developer for the length of your plan."
+msgstr "تحديثات بنقرة واحدة من لوحة التحكم ودعم مباشر من المطوّر طوال مدة خطتك."
+
+msgid "Pick the plan that fits your sites"
+msgstr "اختر الخطة التي تناسب مواقعك"
+
+msgid "Yearly plans renew each year. Lifetime is a single payment. Prices in USD."
+msgstr "الخطط السنوية تتجدد كل عام. وLifetime دفعة واحدة. الأسعار بالدولار."
+
+msgid "For one site that wants a premium reader."
+msgstr "لموقع واحد يريد قارئًا مميزًا."
+
+msgid "For agencies and publishers with several sites."
+msgstr "للوكالات والناشرين الذين لديهم عدة مواقع."
+
+msgid "One payment for every site you run, now and later."
+msgstr "دفعة واحدة لكل مواقعك، الآن ولاحقًا."
+
+msgid "1 domain"
+msgstr "نطاق واحد"
+
+msgid "10 domains"
+msgstr "10 نطاقات"
+
+msgid "All Pro features"
+msgstr "كل ميزات Pro"
+
+msgid "Buy Pro Single"
+msgstr "اشترِ Pro Single"
+
+msgid "Buy Pro 10"
+msgstr "اشترِ Pro 10"
+
+msgid "Buy Lifetime"
+msgstr "اشترِ Lifetime"
+
+msgid "Best value"
+msgstr "أفضل قيمة"
+
+msgid "Secure card checkout with Stripe · License key emailed instantly · Requires the free Flipbook PDF Viewer plugin"
+msgstr "دفع آمن بالبطاقة عبر Stripe · مفتاح الترخيص يصل فورًا · يتطلب إضافة Flipbook PDF Viewer المجانية"
+
+msgid "Do I need the free plugin?"
+msgstr "هل أحتاج إلى الإضافة المجانية؟"
+
+msgid "Yes. Pro is an add-on to the free Flipbook PDF Viewer & Embedder from WordPress.org — install both."
+msgstr "نعم. Pro ملحق للإضافة المجانية Flipbook PDF Viewer & Embedder من WordPress.org — ثبّت الاثنتين."
+
+msgid "It is emailed right after payment and shown on the receipt page. Paste it on the plugin’s License screen and click Activate."
+msgstr "يُرسل فور الدفع ويظهر في صفحة الإيصال. الصقه في شاشة License في الإضافة واضغط Activate."
+
+msgid "What happens when a yearly plan ends?"
+msgstr "ماذا يحدث عند انتهاء الخطة السنوية؟"
+
+msgid "The plugin keeps working. Renew to keep getting updates and support."
+msgstr "تستمر الإضافة في العمل. جدّد للاستمرار في الحصول على التحديثات والدعم."
+
+msgid "Can I move my license to another site?"
+msgstr "هل يمكنني نقل الترخيص إلى موقع آخر؟"
+
+msgid "Yes — deactivate it on the old site to free the slot, then activate it on the new one."
+msgstr "نعم — ألغِ تفعيله في الموقع القديم لتحرير المكان، ثم فعّله في الجديد."
+
+msgid "Add your details and pay securely by card. Your license key and download arrive by email right after payment."
+msgstr "أدخل بياناتك وادفع بأمان بالبطاقة. يصلك مفتاح الترخيص ورابط التنزيل بالبريد فور الدفع."
+
+msgid "Secure payment by Stripe"
+msgstr "دفع آمن عبر Stripe"
+
+msgid "License key emailed instantly"
+msgstr "مفتاح الترخيص يصل فورًا بالبريد"
+
+msgid "Order summary"
+msgstr "ملخص الطلب"
+
+msgid "Lifetime license · one-time payment"
+msgstr "ترخيص مدى الحياة · دفعة واحدة"
+
+msgid "1-year license · updates & support"
+msgstr "ترخيص لمدة سنة · تحديثات ودعم"
+
+msgid "Purchase total"
+msgstr "إجمالي الشراء"
+
+msgid "My Account"
+msgstr "حسابي"
+
+msgid "Signed in as %s"
+msgstr "مسجّل الدخول باسم %s"
+
+msgid "Log out"
+msgstr "تسجيل الخروج"
+
+msgid "Log in to see your orders, downloads and license keys."
+msgstr "سجّل الدخول لرؤية طلباتك وتنزيلاتك ومفاتيح الترخيص."
+
+msgid "Log in"
+msgstr "تسجيل الدخول"
+
+msgid "Create an account"
+msgstr "إنشاء حساب"
+
+msgid "Bought as a guest? Register with the same email to see your past orders and keys."
+msgstr "اشتريت كزائر؟ سجّل بالبريد نفسه لرؤية طلباتك ومفاتيحك السابقة."
+
+msgid "Account sections"
+msgstr "أقسام الحساب"
+
+msgid "Downloads"
+msgstr "التنزيلات"
+
+msgid "License keys"
+msgstr "مفاتيح الترخيص"
+
+msgid "Profile"
+msgstr "الملف الشخصي"
+
+msgid "Your cart"
+msgstr "سلة التسوق"
+
+msgid "Your cart is empty."
+msgstr "سلتك فارغة."
+
+msgid "Browse Flipbook Pro plans"
+msgstr "تصفح خطط Flipbook Pro"
+
+msgid "Remove"
+msgstr "إزالة"
+
+msgid "Proceed to checkout"
+msgstr "إتمام الشراء"
+
+msgid "Continue shopping"
+msgstr "متابعة التسوق"
+
+msgid "Cart"
+msgstr "السلة"
+
+msgid "Your Lieusoft account"
+msgstr "حسابك في Lieusoft"
+
+msgid "Everything you bought, in one place."
+msgstr "كل مشترياتك في مكان واحد."
+
+msgid "Orders & receipts"
+msgstr "الطلبات والإيصالات"
+
+msgid "Every purchase with its receipt."
+msgstr "كل عملية شراء مع إيصالها."
+
+msgid "Get the latest plugin files any time."
+msgstr "احصل على أحدث ملفات الإضافة في أي وقت."
+
+msgid "Your keys, expiry dates and active sites."
+msgstr "مفاتيحك وتواريخ الانتهاء والمواقع المفعّلة."
+
+msgid "Bought as a guest? Create an account with the same email and your past orders appear here."
+msgstr "اشتريت كزائر؟ أنشئ حسابًا بالبريد نفسه وستظهر طلباتك السابقة هنا."
+
+msgid "Account"
+msgstr "الحساب"
+
+msgid "Create account"
+msgstr "إنشاء حساب"
+
+msgid "Welcome back"
+msgstr "مرحبًا بعودتك"
+
+msgid "Log in with your username or email."
+msgstr "سجّل الدخول باسم المستخدم أو البريد."
+
+msgid "Create your account"
+msgstr "أنشئ حسابك"
+
+msgid "Use the email you bought with to see your orders and keys."
+msgstr "استخدم البريد الذي اشتريت به لرؤية طلباتك ومفاتيحك."
+
+msgid "Overview"
+msgstr "نظرة عامة"
+
+msgid "Hi, %s"
+msgstr "مرحبًا، %s"
+
+msgid "Here is everything on your account."
+msgstr "إليك كل ما في حسابك."
+
+msgid "Active licenses"
+msgstr "التراخيص الفعّالة"
+
+msgid "Need help with a license or download?"
+msgstr "تحتاج مساعدة في ترخيص أو تنزيل؟"
+
+msgid "Write to us and we usually reply within a day."
+msgstr "راسلنا وعادةً نرد خلال يوم."
+
+msgid "Contact support"
+msgstr "تواصل مع الدعم"
+
+msgid "Free"
+msgstr "مجاني"
+
+msgid "Everything you need to publish flipbooks on any WordPress site."
+msgstr "كل ما تحتاجه لنشر الكتب التفاعلية على أي موقع ووردبريس."
+
+msgid "/ forever"
+msgstr "/ للأبد"
+
+msgid "Unlimited PDFs"
+msgstr "ملفات PDF غير محدودة"
+
+msgid "All 4 archive layouts"
+msgstr "جميع تخطيطات الأرشيف الأربعة"
+
+msgid "Elementor widgets"
+msgstr "عناصر Elementor"
+
+msgid "Read & download counters"
+msgstr "عدادات القراءة والتنزيل"
+
+msgid "Community support"
+msgstr "دعم المجتمع"
+
+msgid "Download free"
+msgstr "تنزيل مجاني"
+
+msgid "Everything in Free"
+msgstr "كل ما في النسخة المجانية"
+
+msgid "Start free. Go Pro when you want more."
+msgstr "ابدأ مجانًا، وانتقل إلى Pro عندما تحتاج المزيد."
+
+msgid "The free plugin is yours forever. Yearly Pro plans renew each year, Lifetime is a single payment. Prices in USD."
+msgstr "الإضافة المجانية لك إلى الأبد. خطط Pro السنوية تتجدد كل عام، وخطة Lifetime دفعة واحدة. الأسعار بالدولار الأمريكي."
+
+msgid "Flipbook free · Pro from $22 / year"
+msgstr "Flipbook مجاني · Pro من 22$ / سنة"

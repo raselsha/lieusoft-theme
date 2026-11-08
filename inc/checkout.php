@@ -55,3 +55,18 @@ function lieusoft_hide_toolbar_for_customers( $show ) {
 	return current_user_can( 'edit_posts' ) ? $show : false;
 }
 add_filter( 'show_admin_bar', 'lieusoft_hide_toolbar_for_customers' );
+
+/**
+ * My Account > Downloads: where an expired license renews, and the empty
+ * state (lieusoft-licensing's [lsl_my_downloads]).
+ */
+function lieusoft_license_renew_url( $url, $download_id ) {
+	return 390 === (int) $download_id ? home_url( '/pdf-embed-viewer/#pricing' ) : $url;
+}
+add_filter( 'lsl_renew_url', 'lieusoft_license_renew_url', 10, 2 );
+
+function lieusoft_downloads_empty() {
+	return '<div class="lsac-empty"><p>' . esc_html__( 'No downloads yet. Your plugin files appear here once you have a license.', 'lieusoft' ) . '</p>'
+		. '<a class="btn btn--primary btn--sm" href="' . esc_url( home_url( '/pdf-embed-viewer/#pricing' ) ) . '">' . esc_html__( 'Browse Flipbook Pro plans', 'lieusoft' ) . '</a></div>';
+}
+add_filter( 'lsl_my_downloads_empty', 'lieusoft_downloads_empty' );

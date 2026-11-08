@@ -3370,3 +3370,114 @@ msgstr "الإضافة المجانية لك إلى الأبد. خطط Pro ال�
 
 msgid "Flipbook free · Pro from $22 / year"
 msgstr "Flipbook مجاني · Pro من 22$ / سنة"
+
+msgid "No downloads yet. Your plugin files appear here once you have a license."
+msgstr "لا توجد تنزيلات بعد. تظهر ملفات الإضافة هنا بعد حصولك على ترخيص."
+
+msgid "Lieusoft: Business Websites, Booking Systems & WordPress Plugins"
+msgstr "Lieusoft: مواقع للأعمال وأنظمة حجز وإضافات ووردبريس"
+
+msgid "Lieusoft builds complete business websites with online booking, appointment and order systems, plus hosting and support, and sells premium WordPress plugins."
+msgstr "تبني Lieusoft مواقع أعمال متكاملة مع أنظمة الحجز والمواعيد والطلبات عبر الإنترنت، مع الاستضافة والدعم، وتبيع إضافات ووردبريس احترافية."
+
+msgid "WordPress Plugins for Booking, Clinics, Tailors & PDFs - Lieusoft"
+msgstr "إضافات ووردبريس للحجز والعيادات والخياطين وملفات PDF - Lieusoft"
+
+msgid "Premium WordPress plugins by Lieusoft: service booking, doctor appointment, tailor order management and a 3D flipbook PDF viewer. Install them yourself or let us set them up."
+msgstr "إضافات ووردبريس احترافية من Lieusoft: حجز الخدمات، ومواعيد الأطباء، وإدارة طلبات الخياطة، وعارض PDF بشكل كتاب ثلاثي الأبعاد. ثبّتها بنفسك أو دعنا نجهزها لك."
+
+msgid "Business Solutions for Clinics, Salons & Tailor Shops - Lieusoft"
+msgstr "حلول أعمال للعيادات والصالونات ومحلات الخياطة - Lieusoft"
+
+msgid "Complete websites with online booking, appointments or order tracking, set up, hosted and supported by Lieusoft. From ৳12,000 a year plus a one-time installation."
+msgstr "مواقع متكاملة مع الحجز أو المواعيد أو تتبع الطلبات عبر الإنترنت، تجهزها Lieusoft وتستضيفها وتدعمها. من 12,000 ৳ سنويًا مع رسوم تركيب لمرة واحدة."
+
+msgid "Website Development, Hosting & WordPress Support - Lieusoft"
+msgstr "تطوير المواقع والاستضافة ودعم ووردبريس - Lieusoft"
+
+msgid "Website development, plugin customization, maintenance, migration, business email and automation, built on WordPress and backed by a team that stays with you."
+msgstr "تطوير المواقع، وتخصيص الإضافات، والصيانة، والنقل، والبريد الإلكتروني للأعمال، والأتمتة، مبنية على ووردبريس مع فريق يبقى معك."
+
+msgid "Pricing: Business Solutions & WordPress Plugins - Lieusoft"
+msgstr "الأسعار: حلول الأعمال وإضافات ووردبريس - Lieusoft"
+
+msgid "Clear prices for Lieusoft business solutions (from ৳12,000/year plus ৳10,000 setup) and WordPress plugins like Flipbook (free, Pro from $29/year), plus fixed quotes for custom work."
+msgstr "أسعار واضحة لحلول أعمال Lieusoft (من 12,000 ৳ سنويًا مع 10,000 ৳ للتجهيز) وإضافات ووردبريس مثل Flipbook (مجاني، وPro من 29$ سنويًا)، وعروض أسعار ثابتة للأعمال المخصصة."
+
+msgid "Case Studies: Websites & Systems We've Built - Lieusoft"
+msgstr "دراسات حالة: مواقع وأنظمة بنيناها - Lieusoft"
+
+msgid "Real projects by Lieusoft: clinic appointment systems, online booking websites and business sites we've designed, built and support for clients around the world."
+msgstr "مشاريع حقيقية من Lieusoft: أنظمة مواعيد للعيادات، ومواقع حجز عبر الإنترنت، ومواقع أعمال صممناها وبنيناها وندعمها لعملاء حول العالم."
+
+msgid "Blog: WordPress, Automation & Business Website Guides - Lieusoft"
+msgstr "المدونة: أدلة ووردبريس والأتمتة ومواقع الأعمال - Lieusoft"
+
+msgid "Step-by-step guides on WordPress, n8n automation, Facebook and Gmail workflows, online booking and running your business online, from the Lieusoft team."
+msgstr "أدلة خطوة بخطوة من فريق Lieusoft حول ووردبريس، وأتمتة n8n، وسير عمل Facebook وGmail، والحجز عبر الإنترنت، وإدارة عملك على الإنترنت."
+
+msgid "3D Flipbook PDF Viewer for WordPress: Free & Pro - Lieusoft"
+msgstr "عارض PDF بشكل كتاب ثلاثي الأبعاد لووردبريس: مجاني وPro - Lieusoft"
+
+msgid "Turn PDFs into realistic 3D flipbooks on any WordPress site. Free plugin, plus Pro with brand toolbar skins, protected PDF links and download control from $29/year."
+msgstr "حوّل ملفات PDF إلى كتب ثلاثية الأبعاد واقعية على أي موقع ووردبريس. إضافة مجانية، ونسخة Pro بأشكال شريط أدوات بعلامتك وروابط PDF محمية والتحكم في التنزيل من 29$ سنويًا."
+
+msgid "Service Booking & Appointment Plugin for WordPress - Lieusoft"
+msgstr "إضافة حجز الخدمات والمواعيد لووردبريس - Lieusoft"
+
+msgid "Online booking plugin for service businesses: staff and schedules, secure payments, email and SMS notifications, custom fields and reports. One-time license from ৳4,999."
+msgstr "إضافة حجز عبر الإنترنت لأعمال الخدمات: الموظفون والجداول، ومدفوعات آمنة، وإشعارات البريد والرسائل القصيرة، وحقول مخصصة وتقارير. ترخيص لمرة واحدة من 4,999 ৳."
+
+msgid "Doctor Appointment Booking Plugin for WordPress - Lieusoft"
+msgstr "إضافة حجز مواعيد الأطباء لووردبريس - Lieusoft"
+
+msgid "Appointment booking for doctors, clinics and hospitals: doctor schedules, patient management, secure payments, email and SMS notifications and reports. From ৳4,999."
+msgstr "حجز المواعيد للأطباء والعيادات والمستشفيات: جداول الأطباء، وإدارة المرضى، ومدفوعات آمنة، وإشعارات البريد والرسائل القصيرة، وتقارير. من 4,999 ৳."
+
+msgid "Tailor Order & Measurement Management Plugin - Lieusoft"
+msgstr "إضافة إدارة طلبات ومقاسات الخياطة - Lieusoft"
+
+msgid "Manage tailor shop orders, customers, measurements, fabrics, payments and deliveries in WordPress, with reports and an order status board. One-time license from ৳4,999."
+msgstr "أدر طلبات محل الخياطة والعملاء والمقاسات والأقمشة والمدفوعات والتسليم في ووردبريس، مع تقارير ولوحة لحالة الطلبات. ترخيص لمرة واحدة من 4,999 ৳."
+
+msgid "Clinic Website & Doctor Appointment System - Lieusoft"
+msgstr "موقع عيادة ونظام مواعيد الأطباء - Lieusoft"
+
+msgid "A complete clinic website with online appointment booking, doctor management and patient records, set up, hosted and supported by Lieusoft."
+msgstr "موقع عيادة متكامل مع حجز المواعيد عبر الإنترنت وإدارة الأطباء وسجلات المرضى، تجهزه Lieusoft وتستضيفه وتدعمه."
+
+msgid "Tailor Shop Website & Order Management System - Lieusoft"
+msgstr "موقع محل خياطة ونظام إدارة الطلبات - Lieusoft"
+
+msgid "A complete tailor shop website with order tracking, measurement records and delivery management, set up, hosted and supported by Lieusoft."
+msgstr "موقع محل خياطة متكامل مع تتبع الطلبات وسجلات المقاسات وإدارة التسليم، تجهزه Lieusoft وتستضيفه وتدعمه."
+
+msgid "Booking Website for Salons, Spas & Service Businesses - Lieusoft"
+msgstr "موقع حجز للصالونات والسبا وأعمال الخدمات - Lieusoft"
+
+msgid "A complete booking website for salons, spas, cleaning, repair and beauty businesses, with online booking and staff management, hosted and supported by Lieusoft."
+msgstr "موقع حجز متكامل للصالونات والسبا والتنظيف والإصلاح والتجميل، مع الحجز عبر الإنترنت وإدارة الموظفين، تستضيفه Lieusoft وتدعمه."
+
+msgid "How Lieusoft collects, uses and protects your personal information when you use our website, products and services."
+msgstr "كيف تجمع Lieusoft معلوماتك الشخصية وتستخدمها وتحميها عند استخدامك لموقعنا ومنتجاتنا وخدماتنا."
+
+msgid "Flipbook free · Pro from $29 / year"
+msgstr "Flipbook مجاني · Pro من 29$ / سنة"
+
+msgid "Pay once for one site and keep it for life."
+msgstr "ادفع مرة واحدة لموقع واحد واحتفظ به مدى الحياة."
+
+msgid "Flipbook PDF Viewer & Embedder Pro adds a premium reading experience to the free plugin: on-brand toolbar skins, protected PDF links and full control over downloads."
+msgstr "يضيف Flipbook PDF Viewer & Embedder Pro تجربة قراءة احترافية إلى الإضافة المجانية: أشكال شريط أدوات بعلامتك، وروابط PDF محمية، وتحكم كامل في التنزيلات."
+
+msgid "Payment successful"
+msgstr "تم الدفع بنجاح"
+
+msgid "Thank you for your purchase! Your license key is below, and we have emailed it to you together with the download link."
+msgstr "شكرًا لشرائك! مفتاح الترخيص أدناه، وقد أرسلناه إليك بالبريد مع رابط التنزيل."
+
+msgid "Go to my account"
+msgstr "انتقل إلى حسابي"
+
+msgid "Flipbook Pro guide"
+msgstr "دليل Flipbook Pro"

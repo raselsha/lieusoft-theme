@@ -46,7 +46,7 @@ get_template_part( 'template-parts/solution', 'cta', array(
 	'desc'     => __( "If none of these fit your workflow, we'll build one that does.", 'lieusoft' ),
 	'icon'     => 'chat',
 	'btn_text' => __( 'Talk to Us', 'lieusoft' ),
-	'btn_href' => 'mailto:hello@lieusoft.com',
+	'btn_href' => 'mailto:info@lieusoft.com',
 	'anchor'   => 'talk-to-us',
 ) );
 

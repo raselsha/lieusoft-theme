@@ -83,7 +83,7 @@ get_template_part( 'template-parts/solution', 'faq', array(
 	'sidebar_title' => __( 'Need Help?', 'lieusoft' ),
 	'sidebar_desc'  => __( 'Our support team is always ready to help you with any questions.', 'lieusoft' ),
 	'sidebar_btn'   => __( 'Contact Support', 'lieusoft' ),
-	'sidebar_href'  => 'mailto:hello@lieusoft.com',
+	'sidebar_href'  => 'mailto:info@lieusoft.com',
 ) );
 
 get_template_part( 'template-parts/solution', 'cta', array(

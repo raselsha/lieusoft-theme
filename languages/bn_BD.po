@@ -3053,7 +3053,7 @@ msgid "Lifetime updates & support"
 msgstr "লাইফটাইম আপডেট ও সাপোর্ট"
 
 msgid "Flipbook Pro from $22 / year"
-msgstr "Flipbook Pro বছরে $22 থেকে"
+msgstr "Flipbook Pro বছরে $29 থেকে"
 
 msgid "Your license key is emailed right after payment and shown on the receipt page. Yearly plans include 12 months of updates and support; Lifetime includes them forever."
 msgstr "পেমেন্টের সাথে সাথে লাইসেন্স কী ইমেইলে আসে আর রিসিট পেজেও দেখায়। বার্ষিক প্ল্যানে ১২ মাসের আপডেট ও সাপোর্ট; Lifetime-এ সারাজীবন।"
@@ -3366,3 +3366,114 @@ msgstr "ফ্রি plugin চিরকাল আপনার। Pro এর ব
 
 msgid "Flipbook free · Pro from $22 / year"
 msgstr "Flipbook ফ্রি · Pro $22 / বছর থেকে"
+
+msgid "No downloads yet. Your plugin files appear here once you have a license."
+msgstr "এখনো কোনো download নেই। License নিলে আপনার plugin file এখানে দেখাবে।"
+
+msgid "Lieusoft: Business Websites, Booking Systems & WordPress Plugins"
+msgstr "Lieusoft: বিজনেস ওয়েবসাইট, বুকিং সিস্টেম ও WordPress প্লাগইন"
+
+msgid "Lieusoft builds complete business websites with online booking, appointment and order systems, plus hosting and support, and sells premium WordPress plugins."
+msgstr "Lieusoft অনলাইন বুকিং, অ্যাপয়েন্টমেন্ট ও অর্ডার সিস্টেমসহ পূর্ণাঙ্গ বিজনেস ওয়েবসাইট বানায়, সাথে হোস্টিং ও সাপোর্ট দেয়, আর প্রিমিয়াম WordPress প্লাগইন বিক্রি করে।"
+
+msgid "WordPress Plugins for Booking, Clinics, Tailors & PDFs - Lieusoft"
+msgstr "বুকিং, ক্লিনিক, টেইলর ও PDF এর জন্য WordPress প্লাগইন - Lieusoft"
+
+msgid "Premium WordPress plugins by Lieusoft: service booking, doctor appointment, tailor order management and a 3D flipbook PDF viewer. Install them yourself or let us set them up."
+msgstr "Lieusoft এর প্রিমিয়াম WordPress প্লাগইন: সার্ভিস বুকিং, ডাক্তার অ্যাপয়েন্টমেন্ট, টেইলর অর্ডার ম্যানেজমেন্ট আর 3D ফ্লিপবুক PDF ভিউয়ার। নিজে বসান, অথবা আমরা সেট আপ করে দিই।"
+
+msgid "Business Solutions for Clinics, Salons & Tailor Shops - Lieusoft"
+msgstr "ক্লিনিক, সেলুন ও টেইলর শপের জন্য বিজনেস সলিউশন - Lieusoft"
+
+msgid "Complete websites with online booking, appointments or order tracking, set up, hosted and supported by Lieusoft. From ৳12,000 a year plus a one-time installation."
+msgstr "অনলাইন বুকিং, অ্যাপয়েন্টমেন্ট বা অর্ডার ট্র্যাকিংসহ পূর্ণাঙ্গ ওয়েবসাইট। সেট আপ, হোস্টিং ও সাপোর্ট Lieusoft এর। বছরে ৳১২,০০০ থেকে, সাথে একবারের ইনস্টলেশন।"
+
+msgid "Website Development, Hosting & WordPress Support - Lieusoft"
+msgstr "ওয়েবসাইট ডেভেলপমেন্ট, হোস্টিং ও WordPress সাপোর্ট - Lieusoft"
+
+msgid "Website development, plugin customization, maintenance, migration, business email and automation, built on WordPress and backed by a team that stays with you."
+msgstr "ওয়েবসাইট ডেভেলপমেন্ট, প্লাগইন কাস্টমাইজেশন, মেইনটেন্যান্স, মাইগ্রেশন, বিজনেস ইমেইল ও অটোমেশন। সব WordPress এ, আর পাশে থাকে আমাদের টিম।"
+
+msgid "Pricing: Business Solutions & WordPress Plugins - Lieusoft"
+msgstr "মূল্য: বিজনেস সলিউশন ও WordPress প্লাগইন - Lieusoft"
+
+msgid "Clear prices for Lieusoft business solutions (from ৳12,000/year plus ৳10,000 setup) and WordPress plugins like Flipbook (free, Pro from $29/year), plus fixed quotes for custom work."
+msgstr "Lieusoft এর বিজনেস সলিউশনের পরিষ্কার দাম (বছরে ৳১২,০০০ থেকে, সাথে ৳১০,০০০ সেটআপ), Flipbook এর মতো WordPress প্লাগইন (ফ্রি, Pro বছরে $29 থেকে), আর কাস্টম কাজের নির্দিষ্ট কোটেশন।"
+
+msgid "Case Studies: Websites & Systems We've Built - Lieusoft"
+msgstr "কেস স্টাডি: আমাদের বানানো ওয়েবসাইট ও সিস্টেম - Lieusoft"
+
+msgid "Real projects by Lieusoft: clinic appointment systems, online booking websites and business sites we've designed, built and support for clients around the world."
+msgstr "Lieusoft এর আসল প্রজেক্ট: ক্লিনিক অ্যাপয়েন্টমেন্ট সিস্টেম, অনলাইন বুকিং ওয়েবসাইট আর বিজনেস সাইট, যা আমরা বিশ্বজুড়ে ক্লায়েন্টদের জন্য ডিজাইন, তৈরি ও সাপোর্ট করি।"
+
+msgid "Blog: WordPress, Automation & Business Website Guides - Lieusoft"
+msgstr "ব্লগ: WordPress, অটোমেশন ও বিজনেস ওয়েবসাইট গাইড - Lieusoft"
+
+msgid "Step-by-step guides on WordPress, n8n automation, Facebook and Gmail workflows, online booking and running your business online, from the Lieusoft team."
+msgstr "WordPress, n8n অটোমেশন, Facebook ও Gmail workflow, অনলাইন বুকিং আর অনলাইনে ব্যবসা চালানো নিয়ে Lieusoft টিমের ধাপে ধাপে গাইড।"
+
+msgid "3D Flipbook PDF Viewer for WordPress: Free & Pro - Lieusoft"
+msgstr "WordPress এর জন্য 3D ফ্লিপবুক PDF ভিউয়ার: ফ্রি ও Pro - Lieusoft"
+
+msgid "Turn PDFs into realistic 3D flipbooks on any WordPress site. Free plugin, plus Pro with brand toolbar skins, protected PDF links and download control from $29/year."
+msgstr "যেকোনো WordPress সাইটে PDF কে বাস্তবসম্মত 3D ফ্লিপবুকে রূপ দিন। প্লাগইন ফ্রি; Pro তে ব্র্যান্ড টুলবার স্কিন, সুরক্ষিত PDF লিংক ও ডাউনলোড নিয়ন্ত্রণ, বছরে $29 থেকে।"
+
+msgid "Service Booking & Appointment Plugin for WordPress - Lieusoft"
+msgstr "WordPress এর জন্য সার্ভিস বুকিং ও অ্যাপয়েন্টমেন্ট প্লাগইন - Lieusoft"
+
+msgid "Online booking plugin for service businesses: staff and schedules, secure payments, email and SMS notifications, custom fields and reports. One-time license from ৳4,999."
+msgstr "সার্ভিস ব্যবসার জন্য অনলাইন বুকিং প্লাগইন: স্টাফ ও শিডিউল, নিরাপদ পেমেন্ট, ইমেইল ও SMS নোটিফিকেশন, কাস্টম ফিল্ড আর রিপোর্ট। একবারের লাইসেন্স ৳৪,৯৯৯ থেকে।"
+
+msgid "Doctor Appointment Booking Plugin for WordPress - Lieusoft"
+msgstr "WordPress এর জন্য ডাক্তার অ্যাপয়েন্টমেন্ট বুকিং প্লাগইন - Lieusoft"
+
+msgid "Appointment booking for doctors, clinics and hospitals: doctor schedules, patient management, secure payments, email and SMS notifications and reports. From ৳4,999."
+msgstr "ডাক্তার, ক্লিনিক ও হাসপাতালের জন্য অ্যাপয়েন্টমেন্ট বুকিং: ডাক্তারের শিডিউল, রোগী ব্যবস্থাপনা, নিরাপদ পেমেন্ট, ইমেইল ও SMS নোটিফিকেশন আর রিপোর্ট। ৳৪,৯৯৯ থেকে।"
+
+msgid "Tailor Order & Measurement Management Plugin - Lieusoft"
+msgstr "টেইলর অর্ডার ও মাপ ম্যানেজমেন্ট প্লাগইন - Lieusoft"
+
+msgid "Manage tailor shop orders, customers, measurements, fabrics, payments and deliveries in WordPress, with reports and an order status board. One-time license from ৳4,999."
+msgstr "WordPress এ টেইলর শপের অর্ডার, কাস্টমার, মাপ, কাপড়, পেমেন্ট ও ডেলিভারি সামলান, সাথে রিপোর্ট ও অর্ডার স্ট্যাটাস বোর্ড। একবারের লাইসেন্স ৳৪,৯৯৯ থেকে।"
+
+msgid "Clinic Website & Doctor Appointment System - Lieusoft"
+msgstr "ক্লিনিক ওয়েবসাইট ও ডাক্তার অ্যাপয়েন্টমেন্ট সিস্টেম - Lieusoft"
+
+msgid "A complete clinic website with online appointment booking, doctor management and patient records, set up, hosted and supported by Lieusoft."
+msgstr "অনলাইন অ্যাপয়েন্টমেন্ট বুকিং, ডাক্তার ব্যবস্থাপনা ও রোগীর রেকর্ডসহ পূর্ণাঙ্গ ক্লিনিক ওয়েবসাইট। সেট আপ, হোস্টিং ও সাপোর্ট Lieusoft এর।"
+
+msgid "Tailor Shop Website & Order Management System - Lieusoft"
+msgstr "টেইলর শপ ওয়েবসাইট ও অর্ডার ম্যানেজমেন্ট সিস্টেম - Lieusoft"
+
+msgid "A complete tailor shop website with order tracking, measurement records and delivery management, set up, hosted and supported by Lieusoft."
+msgstr "অর্ডার ট্র্যাকিং, মাপের রেকর্ড ও ডেলিভারি ব্যবস্থাপনাসহ পূর্ণাঙ্গ টেইলর শপ ওয়েবসাইট। সেট আপ, হোস্টিং ও সাপোর্ট Lieusoft এর।"
+
+msgid "Booking Website for Salons, Spas & Service Businesses - Lieusoft"
+msgstr "সেলুন, স্পা ও সার্ভিস ব্যবসার জন্য বুকিং ওয়েবসাইট - Lieusoft"
+
+msgid "A complete booking website for salons, spas, cleaning, repair and beauty businesses, with online booking and staff management, hosted and supported by Lieusoft."
+msgstr "সেলুন, স্পা, ক্লিনিং, রিপেয়ার ও বিউটি ব্যবসার জন্য অনলাইন বুকিং ও স্টাফ ব্যবস্থাপনাসহ পূর্ণাঙ্গ বুকিং ওয়েবসাইট। হোস্টিং ও সাপোর্ট Lieusoft এর।"
+
+msgid "How Lieusoft collects, uses and protects your personal information when you use our website, products and services."
+msgstr "আমাদের ওয়েবসাইট, প্রোডাক্ট ও সার্ভিস ব্যবহারের সময় Lieusoft কীভাবে আপনার ব্যক্তিগত তথ্য সংগ্রহ, ব্যবহার ও সুরক্ষা করে।"
+
+msgid "Flipbook free · Pro from $29 / year"
+msgstr "Flipbook ফ্রি · Pro $29 / বছর থেকে"
+
+msgid "Pay once for one site and keep it for life."
+msgstr "একটা সাইটের জন্য একবার পেমেন্ট করুন, সারাজীবন রাখুন।"
+
+msgid "Flipbook PDF Viewer & Embedder Pro adds a premium reading experience to the free plugin: on-brand toolbar skins, protected PDF links and full control over downloads."
+msgstr "Flipbook PDF Viewer & Embedder Pro ফ্রি প্লাগইনে প্রিমিয়াম পড়ার অভিজ্ঞতা যোগ করে: ব্র্যান্ড অনুযায়ী টুলবার স্কিন, সুরক্ষিত PDF লিংক আর ডাউনলোডের পূর্ণ নিয়ন্ত্রণ।"
+
+msgid "Payment successful"
+msgstr "পেমেন্ট সফল হয়েছে"
+
+msgid "Thank you for your purchase! Your license key is below, and we have emailed it to you together with the download link."
+msgstr "কেনার জন্য ধন্যবাদ! আপনার লাইসেন্স কী নিচে আছে, আর ডাউনলোড লিংকসহ আমরা এটি আপনাকে ইমেইলেও পাঠিয়েছি।"
+
+msgid "Go to my account"
+msgstr "আমার অ্যাকাউন্টে যান"
+
+msgid "Flipbook Pro guide"
+msgstr "Flipbook Pro গাইড"

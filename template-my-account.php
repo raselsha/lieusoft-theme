@@ -62,20 +62,18 @@ $lieusoft_account = home_url( '/my-account/' );
 				? edd_get_orders( array( 'user_id' => $lieusoft_user->ID, 'type' => 'sale', 'status__in' => array( 'complete', 'partially_refunded' ), 'number' => 999, 'fields' => 'ids' ) )
 				: array();
 
-			$lieusoft_licenses = array();
-			if ( post_type_exists( 'lsl_license' ) ) {
-				$lieusoft_licenses = get_posts( array(
-					'post_type'      => 'lsl_license',
-					'posts_per_page' => 200,
-					'fields'         => 'ids',
-					'meta_key'       => '_lsl_customer_email', // phpcs:ignore WordPress.DB.SlowDBQuery
-					'meta_value'     => $lieusoft_user->user_email, // phpcs:ignore WordPress.DB.SlowDBQuery
-				) );
-			}
+			// Same license list the License keys panel shows (account email plus
+			// any email on the EDD customer record).
+			$lieusoft_licenses = class_exists( 'LSL_Customer_Delivery' ) && method_exists( 'LSL_Customer_Delivery', 'customer_licenses' )
+				? wp_list_pluck( LSL_Customer_Delivery::customer_licenses(), 'ID' )
+				: array();
 			$lieusoft_active = array_filter( $lieusoft_licenses, function ( $id ) {
 				$expires = get_post_meta( $id, '_lsl_expires', true );
 				return 'revoked' !== get_post_meta( $id, '_lsl_status', true ) && ( ! $expires || strtotime( $expires ) >= current_time( 'timestamp' ) );
 			} );
+			$lieusoft_products = array_unique( array_filter( array_map( function ( $id ) {
+				return (int) get_post_meta( $id, '_lsl_download_id', true );
+			}, $lieusoft_licenses ) ) );
 			$lieusoft_name = $lieusoft_user->first_name ? $lieusoft_user->first_name : $lieusoft_user->display_name;
 			$lieusoft_tabs = array(
 				'overview'  => array( 'grid', __( 'Overview', 'lieusoft' ) ),
@@ -109,7 +107,7 @@ $lieusoft_account = home_url( '/my-account/' );
 						<div class="lsac-stats">
 							<button type="button" class="lsac-stat" data-tab="orders"><?php echo lieusoft_icon( 'file-text' ); ?><strong><?php echo esc_html( number_format_i18n( count( $lieusoft_orders ) ) ); ?></strong><span><?php esc_html_e( 'Orders', 'lieusoft' ); ?></span></button>
 							<button type="button" class="lsac-stat" data-tab="licenses"><?php echo lieusoft_icon( 'lock' ); ?><strong><?php echo esc_html( number_format_i18n( count( $lieusoft_active ) ) ); ?></strong><span><?php esc_html_e( 'Active licenses', 'lieusoft' ); ?></span></button>
-							<button type="button" class="lsac-stat" data-tab="downloads"><?php echo lieusoft_icon( 'download' ); ?><strong><?php echo esc_html( number_format_i18n( count( $lieusoft_licenses ) ) ); ?></strong><span><?php esc_html_e( 'Products', 'lieusoft' ); ?></span></button>
+							<button type="button" class="lsac-stat" data-tab="downloads"><?php echo lieusoft_icon( 'download' ); ?><strong><?php echo esc_html( number_format_i18n( count( $lieusoft_products ) ) ); ?></strong><span><?php esc_html_e( 'Products', 'lieusoft' ); ?></span></button>
 						</div>
 						<div class="lsac-help">
 							<span><?php echo lieusoft_icon( 'headset' ); ?></span>
@@ -117,7 +115,7 @@ $lieusoft_account = home_url( '/my-account/' );
 								<strong><?php esc_html_e( 'Need help with a license or download?', 'lieusoft' ); ?></strong>
 								<p><?php esc_html_e( 'Write to us and we usually reply within a day.', 'lieusoft' ); ?></p>
 							</div>
-							<a class="btn btn--outline" href="mailto:hello@lieusoft.com"><?php esc_html_e( 'Contact support', 'lieusoft' ); ?></a>
+							<a class="btn btn--outline" href="mailto:info@lieusoft.com"><?php esc_html_e( 'Contact support', 'lieusoft' ); ?></a>
 						</div>
 					</section>
 
@@ -127,7 +125,7 @@ $lieusoft_account = home_url( '/my-account/' );
 					</section>
 					<section class="lsac-panel lsac-card" id="downloads" role="tabpanel" aria-labelledby="lsac-tab-downloads" hidden>
 						<h2><?php esc_html_e( 'Downloads', 'lieusoft' ); ?></h2>
-						<?php echo do_blocks( '<!-- wp:edd/user-downloads /-->' ); // phpcs:ignore WordPress.Security.EscapeOutput ?>
+						<?php echo do_shortcode( '[lsl_my_downloads]' ); // phpcs:ignore WordPress.Security.EscapeOutput ?>
 					</section>
 					<section class="lsac-panel lsac-card" id="licenses" role="tabpanel" aria-labelledby="lsac-tab-licenses" hidden>
 						<h2><?php esc_html_e( 'License keys', 'lieusoft' ); ?></h2>

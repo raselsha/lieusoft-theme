@@ -47,7 +47,7 @@ get_template_part( 'template-parts/solution', 'cta', array(
 	'desc'     => __( 'We build custom solutions for any business — tell us what you need.', 'lieusoft' ),
 	'icon'     => 'chat',
 	'btn_text' => __( 'Talk to Us', 'lieusoft' ),
-	'btn_href' => 'mailto:hello@lieusoft.com',
+	'btn_href' => 'mailto:info@lieusoft.com',
 	'anchor'   => 'talk-to-us',
 ) );
 

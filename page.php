@@ -10,7 +10,9 @@ get_header();
 	<div class="container">
 	<?php while ( have_posts() ) : the_post(); ?>
 		<article <?php post_class(); ?>>
-			<?php if ( function_exists( 'edd_is_checkout' ) && edd_is_checkout() ) : ?>
+			<?php if ( has_block( 'edd/confirmation' ) ) : ?>
+				<?php get_template_part( 'template-parts/checkout', 'success' ); ?>
+			<?php elseif ( function_exists( 'edd_is_checkout' ) && edd_is_checkout() ) : ?>
 				<?php get_template_part( 'template-parts/checkout', 'head' ); ?>
 			<?php else : ?>
 				<h1 class="entry-title"><?php the_title(); ?></h1>

@@ -31,9 +31,9 @@ $fbp_features = array(
 );
 $fbp_plans = array(
 	array( 'name' => __( 'Free', 'lieusoft' ), 'desc' => __( 'Everything you need to publish flipbooks on any WordPress site.', 'lieusoft' ), 'price' => '0', 'period' => __( '/ forever', 'lieusoft' ), 'items' => array( __( 'Unlimited PDFs', 'lieusoft' ), __( 'All 4 archive layouts', 'lieusoft' ), __( 'Elementor widgets', 'lieusoft' ), __( 'Read & download counters', 'lieusoft' ), __( 'Community support', 'lieusoft' ) ), 'cta' => __( 'Download free', 'lieusoft' ), 'url' => 'https://downloads.wordpress.org/plugin/pdf-embed-viewer.zip' ),
-	array( 'name' => __( 'Pro Single', 'lieusoft' ), 'desc' => __( 'For one site that wants a premium reader.', 'lieusoft' ), 'price' => '22', 'period' => __( '/ year', 'lieusoft' ), 'items' => array( __( 'Everything in Free', 'lieusoft' ), __( '1 domain', 'lieusoft' ), __( 'All Pro features', 'lieusoft' ), __( '1 year of updates & support', 'lieusoft' ) ), 'cta' => __( 'Buy Pro Single', 'lieusoft' ), 'price_id' => 1 ),
-	array( 'name' => __( 'Pro 10', 'lieusoft' ), 'desc' => __( 'For agencies and publishers with several sites.', 'lieusoft' ), 'price' => '49', 'period' => __( '/ year', 'lieusoft' ), 'items' => array( __( 'Everything in Free', 'lieusoft' ), __( '10 domains', 'lieusoft' ), __( 'All Pro features', 'lieusoft' ), __( '1 year of updates & support', 'lieusoft' ) ), 'cta' => __( 'Buy Pro 10', 'lieusoft' ), 'price_id' => 2, 'featured' => true ),
-	array( 'name' => __( 'Lifetime', 'lieusoft' ), 'desc' => __( 'One payment for every site you run, now and later.', 'lieusoft' ), 'price' => '79', 'period' => __( 'one time', 'lieusoft' ), 'items' => array( __( 'Everything in Free', 'lieusoft' ), __( 'Unlimited domains', 'lieusoft' ), __( 'All Pro features', 'lieusoft' ), __( 'Lifetime updates & support', 'lieusoft' ) ), 'cta' => __( 'Buy Lifetime', 'lieusoft' ), 'price_id' => 3 ),
+	array( 'name' => __( 'Pro Single', 'lieusoft' ), 'desc' => __( 'For one site that wants a premium reader.', 'lieusoft' ), 'price' => '29', 'period' => __( '/ year', 'lieusoft' ), 'items' => array( __( 'Everything in Free', 'lieusoft' ), __( '1 domain', 'lieusoft' ), __( 'All Pro features', 'lieusoft' ), __( '1 year of updates & support', 'lieusoft' ) ), 'cta' => __( 'Buy Pro Single', 'lieusoft' ), 'price_id' => 1 ),
+	array( 'name' => __( 'Lifetime', 'lieusoft' ), 'desc' => __( 'Pay once for one site and keep it for life.', 'lieusoft' ), 'price' => '79', 'period' => __( 'one time', 'lieusoft' ), 'items' => array( __( 'Everything in Free', 'lieusoft' ), __( '1 domain', 'lieusoft' ), __( 'All Pro features', 'lieusoft' ), __( 'Lifetime updates & support', 'lieusoft' ) ), 'cta' => __( 'Buy Lifetime', 'lieusoft' ), 'price_id' => 3 ),
+	array( 'name' => __( 'Pro 10', 'lieusoft' ), 'desc' => __( 'For agencies and publishers with several sites.', 'lieusoft' ), 'price' => '99', 'period' => __( '/ year', 'lieusoft' ), 'items' => array( __( 'Everything in Free', 'lieusoft' ), __( '10 domains', 'lieusoft' ), __( 'All Pro features', 'lieusoft' ), __( '1 year of updates & support', 'lieusoft' ) ), 'cta' => __( 'Buy Pro 10', 'lieusoft' ), 'price_id' => 2, 'featured' => true ),
 );
 ?>
 
@@ -42,7 +42,7 @@ $fbp_plans = array(
 		<div class="fbp-hero__copy">
 			<span class="fbp-pill"><?php esc_html_e( 'WordPress plugin · Pro add-on', 'lieusoft' ); ?></span>
 			<h1><?php esc_html_e( 'Turn PDFs into 3D flipbooks your readers love', 'lieusoft' ); ?></h1>
-			<p class="fbp-hero__lead"><?php esc_html_e( '3D Flipbook PDF Viewer Pro adds a premium reading experience to the free plugin: on-brand toolbar skins, protected PDF links and full control over downloads.', 'lieusoft' ); ?></p>
+			<p class="fbp-hero__lead"><?php esc_html_e( 'Flipbook PDF Viewer & Embedder Pro adds a premium reading experience to the free plugin: on-brand toolbar skins, protected PDF links and full control over downloads.', 'lieusoft' ); ?></p>
 			<div class="fbp-hero__actions">
 				<a class="btn btn--primary" href="#pricing"><?php esc_html_e( 'See pricing', 'lieusoft' ); ?></a>
 				<a class="btn btn--outline" href="https://flipbook.lieusoft.com/demo/" target="_blank" rel="noopener"><?php esc_html_e( 'Try the live demo', 'lieusoft' ); ?></a>
@@ -141,7 +141,7 @@ get_template_part( 'template-parts/solution', 'faq', array(
 	'sidebar_title' => __( 'Need Help?', 'lieusoft' ),
 	'sidebar_desc'  => __( 'If you have any questions, our support team is always here to help you.', 'lieusoft' ),
 	'sidebar_btn'   => __( 'Contact Support', 'lieusoft' ),
-	'sidebar_href'  => 'mailto:hello@lieusoft.com',
+	'sidebar_href'  => 'mailto:info@lieusoft.com',
 ) );
 
 get_footer();

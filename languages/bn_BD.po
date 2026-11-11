@@ -3477,3 +3477,171 @@ msgstr "আমার অ্যাকাউন্টে যান"
 
 msgid "Flipbook Pro guide"
 msgstr "Flipbook Pro গাইড"
+
+msgid "Step-by-step booking popup"
+msgstr "ধাপে ধাপে বুকিং পপআপ"
+
+msgid "Branch, service, duration, date and time in one clean popup that opens from any button on your site."
+msgstr "ব্রাঞ্চ, সার্ভিস, সময়ের দৈর্ঘ্য, তারিখ আর সময় — সব এক পরিষ্কার পপআপে, যা আপনার সাইটের যেকোনো বাটন থেকে খোলে।"
+
+msgid "Durations & prices per service"
+msgstr "প্রতিটি সার্ভিসের সময় ও দাম"
+
+msgid "30, 60 or 90 minutes — each length with its own price, a \"Most popular\" badge and a pressure-intensity scale."
+msgstr "৩০, ৬০ বা ৯০ মিনিট — প্রতিটির নিজস্ব দাম, \"Most popular\" ব্যাজ আর চাপের মাত্রার স্কেল।"
+
+msgid "Multiple branches"
+msgstr "একাধিক ব্রাঞ্চ"
+
+msgid "Run several locations from one site — each branch with its own address, staff and bookings."
+msgstr "এক সাইট থেকে একাধিক লোকেশন চালান — প্রতিটি ব্রাঞ্চের নিজস্ব ঠিকানা, স্টাফ আর বুকিং।"
+
+msgid "Staff, roles & schedules"
+msgstr "স্টাফ, রোল ও শিডিউল"
+
+msgid "Staff profiles with their own \"My Bookings\" dashboard, plus branch manager and store manager roles."
+msgstr "স্টাফ প্রোফাইল ও তাদের নিজস্ব \"My Bookings\" ড্যাশবোর্ড, সাথে ব্রাঞ্চ ম্যানেজার আর স্টোর ম্যানেজার রোল।"
+
+msgid "Calendar, customers & reports"
+msgstr "ক্যালেন্ডার, কাস্টমার ও রিপোর্ট"
+
+msgid "An appointment calendar for every branch and staff member, customer and payment lists, and 30-day reports."
+msgstr "প্রতিটি ব্রাঞ্চ আর স্টাফের অ্যাপয়েন্টমেন্ট ক্যালেন্ডার, কাস্টমার ও পেমেন্টের তালিকা, আর ৩০ দিনের রিপোর্ট।"
+
+msgid "WooCommerce checkout & alerts"
+msgstr "WooCommerce চেকআউট ও অ্যালার্ট"
+
+msgid "Bookings go through your WooCommerce cart and checkout, so every payment gateway works — with email and Telegram alerts for new orders."
+msgstr "বুকিং আপনার WooCommerce কার্ট আর চেকআউট দিয়ে যায়, তাই সব পেমেন্ট গেটওয়ে কাজ করে — নতুন অর্ডারে ইমেইল ও Telegram অ্যালার্ট।"
+
+msgid "Free demo"
+msgstr "ফ্রি ডেমো"
+
+msgid "Try every feature on our live demo site before you buy."
+msgstr "কেনার আগে আমাদের লাইভ ডেমো সাইটে সব ফিচার চালিয়ে দেখুন।"
+
+msgid "/ try it"
+msgstr "/ চালিয়ে দেখুন"
+
+msgid "Full booking flow"
+msgstr "পুরো বুকিং প্রক্রিয়া"
+
+msgid "Branches, services & durations"
+msgstr "ব্রাঞ্চ, সার্ভিস ও সময়"
+
+msgid "Calendar & time slots"
+msgstr "ক্যালেন্ডার ও টাইম স্লট"
+
+msgid "No sign-up needed"
+msgstr "সাইন আপ লাগবে না"
+
+msgid "Open the live demo"
+msgstr "লাইভ ডেমো খুলুন"
+
+msgid "For one business website."
+msgstr "একটি ব্যবসার ওয়েবসাইটের জন্য।"
+
+msgid "All features"
+msgstr "সব ফিচার"
+
+msgid "For agencies and businesses with several sites."
+msgstr "একাধিক সাইট থাকা এজেন্সি ও ব্যবসার জন্য।"
+
+msgid "WordPress plugin · for WooCommerce"
+msgstr "WordPress প্লাগইন · WooCommerce এর জন্য"
+
+msgid "Online booking for spas, salons and service businesses"
+msgstr "স্পা, সেলুন ও সার্ভিস ব্যবসার জন্য অনলাইন বুকিং"
+
+msgid "Service Booking Manager turns WooCommerce into a complete booking system: customers pick a branch, service, duration, date and time in one popup, then pay through your normal checkout."
+msgstr "Service Booking Manager WooCommerce কে পূর্ণাঙ্গ বুকিং সিস্টেমে রূপ দেয়: কাস্টমার এক পপআপেই ব্রাঞ্চ, সার্ভিস, সময়ের দৈর্ঘ্য, তারিখ আর সময় বেছে নেন, তারপর আপনার সাধারণ চেকআউটে পেমেন্ট করেন।"
+
+msgid "Works with WooCommerce"
+msgstr "WooCommerce এর সাথে কাজ করে"
+
+msgid "Branches & staff"
+msgstr "ব্রাঞ্চ ও স্টাফ"
+
+msgid "The Service Booking popup: choose a branch, service, duration, date and time"
+msgstr "Service Booking পপআপ: ব্রাঞ্চ, সার্ভিস, সময়ের দৈর্ঘ্য, তারিখ ও সময় বাছাই"
+
+msgid "Everything a booking business needs"
+msgstr "বুকিং ব্যবসার যা যা দরকার"
+
+msgid "From the first click on \"Book now\" to the staff calendar and the payment, all inside your own WordPress site."
+msgstr "\"Book now\" এ প্রথম ক্লিক থেকে স্টাফ ক্যালেন্ডার আর পেমেন্ট পর্যন্ত — সবকিছু আপনার নিজের WordPress সাইটেই।"
+
+msgid "A real booking site, built with this plugin"
+msgstr "এই প্লাগইন দিয়ে বানানো একটি আসল বুকিং সাইট"
+
+msgid "These screenshots come from our live demo — open it and book a test appointment yourself."
+msgstr "এই স্ক্রিনশটগুলো আমাদের লাইভ ডেমো থেকে নেওয়া — খুলে নিজেই একটি টেস্ট অ্যাপয়েন্টমেন্ট বুক করে দেখুন।"
+
+msgid "Service cards with durations, prices, pressure scale and Book Now buttons"
+msgstr "সময়, দাম, চাপের স্কেল আর Book Now বাটনসহ সার্ভিস কার্ড"
+
+msgid "Service menu"
+msgstr "সার্ভিস মেনু"
+
+msgid "Every service with its durations, prices and a one-click Book Now."
+msgstr "প্রতিটি সার্ভিস তার সময়, দাম আর এক ক্লিকে Book Now সহ।"
+
+msgid "Homepage of the demo spa site with a Book an Appointment button"
+msgstr "Book an Appointment বাটনসহ ডেমো স্পা সাইটের হোমপেজ"
+
+msgid "Booking from any button"
+msgstr "যেকোনো বাটন থেকে বুকিং"
+
+msgid "Add the booking popup to your header, hero or any page."
+msgstr "বুকিং পপআপ হেডার, হিরো বা যেকোনো পেজে যোগ করুন।"
+
+msgid "Try it free. Pick the plan that fits your sites."
+msgstr "ফ্রিতে চালিয়ে দেখুন। আপনার সাইটের জন্য মানানসই প্ল্যান বেছে নিন।"
+
+msgid "Every plan includes all features. Yearly plans renew each year, Lifetime is a single payment. Prices in USD."
+msgstr "প্রতিটি প্ল্যানে সব ফিচার আছে। বাৎসরিক প্ল্যান প্রতি বছর নবায়ন হয়, Lifetime একবারের পেমেন্ট। দাম USD তে।"
+
+msgid "Secure card checkout with Stripe · License key emailed instantly · Requires WooCommerce"
+msgstr "Stripe দিয়ে কার্ডে নিরাপদ পেমেন্ট · লাইসেন্স কী সাথে সাথে ইমেইলে · WooCommerce লাগবে"
+
+msgid "Do I need WooCommerce?"
+msgstr "WooCommerce কি লাগবে?"
+
+msgid "Yes. Bookings use the WooCommerce cart and checkout, so customers can pay with any payment method your store already supports."
+msgstr "হ্যাঁ। বুকিং WooCommerce এর কার্ট আর চেকআউট ব্যবহার করে, তাই আপনার স্টোরে যে পেমেন্ট পদ্ধতি আছে, কাস্টমার সেটা দিয়েই পেমেন্ট করতে পারেন।"
+
+msgid "Can I try it before buying?"
+msgstr "কেনার আগে কি চালিয়ে দেখতে পারি?"
+
+msgid "Yes — the live demo has the full booking flow. Pick a branch, a service and a time slot just like a real customer."
+msgstr "হ্যাঁ — লাইভ ডেমোতে পুরো বুকিং প্রক্রিয়া আছে। আসল কাস্টমারের মতোই ব্রাঞ্চ, সার্ভিস আর টাইম স্লট বেছে দেখুন।"
+
+msgid "How do I get the plugin and my license key?"
+msgstr "প্লাগইন আর লাইসেন্স কী কীভাবে পাব?"
+
+msgid "Right after payment you get an email with the download link and your license key. Both are also on the confirmation page and in your Lieusoft account."
+msgstr "পেমেন্টের সাথে সাথে ডাউনলোড লিংক আর লাইসেন্স কীসহ একটি ইমেইল পাবেন। দুটোই কনফার্মেশন পেজে আর আপনার Lieusoft অ্যাকাউন্টেও থাকে।"
+
+msgid "Can I use it on more than one site?"
+msgstr "একাধিক সাইটে কি ব্যবহার করা যাবে?"
+
+msgid "Pro Single and Lifetime cover one domain each. Pro 10 covers up to 10 domains — ideal for agencies."
+msgstr "Pro Single আর Lifetime প্রতিটি একটি ডোমেইনের জন্য। Pro 10 দিয়ে ১০টি ডোমেইন পর্যন্ত — এজেন্সির জন্য আদর্শ।"
+
+msgid "Can you set it up for me?"
+msgstr "আপনারা কি আমার জন্য সেট আপ করে দিতে পারবেন?"
+
+msgid "Yes. Our ready-made Service Booking Solution includes the website, hosting, setup and support, so you do not have to install anything."
+msgstr "হ্যাঁ। আমাদের রেডিমেড Service Booking Solution এ ওয়েবসাইট, হোস্টিং, সেটআপ আর সাপোর্ট সব থাকে, তাই আপনাকে কিছুই ইনস্টল করতে হবে না।"
+
+msgid "Plugin licenses from $29 / year"
+msgstr "প্লাগইন লাইসেন্স $29 / বছর থেকে"
+
+msgid "Install on your own WordPress site. Yearly or lifetime licenses, with updates and support included."
+msgstr "নিজের WordPress সাইটে ইনস্টল করুন। বাৎসরিক বা লাইফটাইম লাইসেন্স, আপডেট ও সাপোর্টসহ।"
+
+msgid "Online booking plugin for WooCommerce: branches, staff and schedules, a step-by-step booking popup, WooCommerce checkout and Telegram alerts. From $29/year, free live demo."
+msgstr "WooCommerce এর জন্য অনলাইন বুকিং প্লাগইন: ব্রাঞ্চ, স্টাফ ও শিডিউল, ধাপে ধাপে বুকিং পপআপ, WooCommerce চেকআউট আর Telegram অ্যালার্ট। বছরে $29 থেকে, ফ্রি লাইভ ডেমো।"
+
+msgid "Browse our plugins"
+msgstr "আমাদের প্লাগইনগুলো দেখুন"

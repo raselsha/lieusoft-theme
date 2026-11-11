@@ -14,7 +14,7 @@ $a = wp_parse_args( $args ?? array(), array(
 		<div class="section-head">
 			<span class="eyebrow"><?php esc_html_e( 'WordPress Plugins', 'lieusoft' ); ?></span>
 			<h2><?php esc_html_e( 'Plugin Licenses', 'lieusoft' ); ?></h2>
-			<p><?php esc_html_e( 'Install on your own WordPress site. Pay once — updates are included for life.', 'lieusoft' ); ?></p>
+			<p><?php esc_html_e( 'Install on your own WordPress site. Yearly or lifetime licenses, with updates and support included.', 'lieusoft' ); ?></p>
 		</div>
 
 		<div class="plugin-prices__list">
@@ -45,7 +45,14 @@ $a = wp_parse_args( $args ?? array(), array(
 									<li><?php echo lieusoft_icon( 'check-circle' ); ?><?php echo esc_html( $feature ); ?></li>
 								<?php endforeach; ?>
 							</ul>
-							<a class="btn btn--sm <?php echo ! empty( $license['featured'] ) ? 'btn--primary' : 'btn--outline'; ?>" href="<?php echo esc_url( $license['url'] ?? $plugin['url'] . '#pricing' ); ?>"<?php echo '0' === $license['price'] ? ' download rel="nofollow"' : ''; ?>><?php echo esc_html( $license['cta'] ?? __( 'Buy Now', 'lieusoft' ) ); ?></a>
+							<a class="btn btn--sm <?php echo ! empty( $license['featured'] ) ? 'btn--primary' : 'btn--outline'; ?>" href="<?php echo esc_url( $license['url'] ?? $plugin['url'] . '#pricing' ); ?>"<?php
+							$lieusoft_href = $license['url'] ?? '';
+							if ( '.zip' === substr( $lieusoft_href, -4 ) ) {
+								echo ' download rel="nofollow"'; // Free plugin zip.
+							} elseif ( $lieusoft_href && 0 !== strpos( $lieusoft_href, home_url() ) ) {
+								echo ' target="_blank" rel="noopener"'; // Live demo on another site.
+							}
+							?>><?php echo esc_html( $license['cta'] ?? __( 'Buy Now', 'lieusoft' ) ); ?></a>
 						</div>
 					<?php endforeach; ?>
 				</article>

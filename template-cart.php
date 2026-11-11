@@ -22,7 +22,7 @@ $lieusoft_items = function_exists( 'edd_get_cart_contents' ) ? (array) edd_get_c
 		<?php if ( ! $lieusoft_items ) : ?>
 			<div class="lsac-card lscart__empty">
 				<p><?php esc_html_e( 'Your cart is empty.', 'lieusoft' ); ?></p>
-				<a class="btn btn--primary" href="<?php echo esc_url( home_url( '/pdf-embed-viewer/#pricing' ) ); ?>"><?php esc_html_e( 'Browse Flipbook Pro plans', 'lieusoft' ); ?></a>
+				<a class="btn btn--primary" href="<?php echo esc_url( home_url( '/products/' ) ); ?>"><?php esc_html_e( 'Browse our plugins', 'lieusoft' ); ?></a>
 			</div>
 		<?php else : ?>
 			<div class="lscart__layout">
@@ -44,7 +44,7 @@ $lieusoft_items = function_exists( 'edd_get_cart_contents' ) ? (array) edd_get_c
 					<h2><?php esc_html_e( 'Order summary', 'lieusoft' ); ?></h2>
 					<p class="lscart__total"><span><?php esc_html_e( 'Total', 'lieusoft' ); ?></span><strong><?php echo edd_cart_total( false ); // phpcs:ignore WordPress.Security.EscapeOutput ?></strong></p>
 					<a class="btn btn--primary btn--block" href="<?php echo esc_url( edd_get_checkout_uri() ); ?>"><?php esc_html_e( 'Proceed to checkout', 'lieusoft' ); ?></a>
-					<a class="lscart__continue" href="<?php echo esc_url( home_url( '/pdf-embed-viewer/#pricing' ) ); ?>"><?php esc_html_e( 'Continue shopping', 'lieusoft' ); ?></a>
+					<a class="lscart__continue" href="<?php echo esc_url( home_url( '/products/' ) ); ?>"><?php esc_html_e( 'Continue shopping', 'lieusoft' ); ?></a>
 				</aside>
 			</div>
 		<?php endif; ?>

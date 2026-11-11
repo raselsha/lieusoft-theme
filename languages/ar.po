@@ -3481,3 +3481,171 @@ msgstr "انتقل إلى حسابي"
 
 msgid "Flipbook Pro guide"
 msgstr "دليل Flipbook Pro"
+
+msgid "Step-by-step booking popup"
+msgstr "نافذة حجز خطوة بخطوة"
+
+msgid "Branch, service, duration, date and time in one clean popup that opens from any button on your site."
+msgstr "الفرع والخدمة والمدة والتاريخ والوقت في نافذة واحدة أنيقة تُفتح من أي زر في موقعك."
+
+msgid "Durations & prices per service"
+msgstr "مدد وأسعار لكل خدمة"
+
+msgid "30, 60 or 90 minutes — each length with its own price, a \"Most popular\" badge and a pressure-intensity scale."
+msgstr "30 أو 60 أو 90 دقيقة — لكل مدة سعرها الخاص، وشارة \"الأكثر طلبًا\" ومقياس لشدة الضغط."
+
+msgid "Multiple branches"
+msgstr "فروع متعددة"
+
+msgid "Run several locations from one site — each branch with its own address, staff and bookings."
+msgstr "أدر عدة مواقع من موقع واحد — لكل فرع عنوانه وموظفوه وحجوزاته."
+
+msgid "Staff, roles & schedules"
+msgstr "الموظفون والأدوار والجداول"
+
+msgid "Staff profiles with their own \"My Bookings\" dashboard, plus branch manager and store manager roles."
+msgstr "ملفات للموظفين مع لوحة \"حجوزاتي\" الخاصة بهم، إضافة إلى أدوار مدير الفرع ومدير المتجر."
+
+msgid "Calendar, customers & reports"
+msgstr "التقويم والعملاء والتقارير"
+
+msgid "An appointment calendar for every branch and staff member, customer and payment lists, and 30-day reports."
+msgstr "تقويم مواعيد لكل فرع وموظف، وقوائم العملاء والمدفوعات، وتقارير 30 يومًا."
+
+msgid "WooCommerce checkout & alerts"
+msgstr "دفع WooCommerce والتنبيهات"
+
+msgid "Bookings go through your WooCommerce cart and checkout, so every payment gateway works — with email and Telegram alerts for new orders."
+msgstr "تمر الحجوزات عبر سلة WooCommerce وصفحة الدفع، فتعمل كل بوابات الدفع — مع تنبيهات بالبريد وTelegram للطلبات الجديدة."
+
+msgid "Free demo"
+msgstr "عرض تجريبي مجاني"
+
+msgid "Try every feature on our live demo site before you buy."
+msgstr "جرّب كل الميزات على موقعنا التجريبي قبل الشراء."
+
+msgid "/ try it"
+msgstr "/ جرّبه"
+
+msgid "Full booking flow"
+msgstr "مسار الحجز الكامل"
+
+msgid "Branches, services & durations"
+msgstr "الفروع والخدمات والمدد"
+
+msgid "Calendar & time slots"
+msgstr "التقويم والفترات الزمنية"
+
+msgid "No sign-up needed"
+msgstr "لا حاجة للتسجيل"
+
+msgid "Open the live demo"
+msgstr "افتح العرض التجريبي"
+
+msgid "For one business website."
+msgstr "لموقع أعمال واحد."
+
+msgid "All features"
+msgstr "كل الميزات"
+
+msgid "For agencies and businesses with several sites."
+msgstr "للوكالات والشركات التي تدير عدة مواقع."
+
+msgid "WordPress plugin · for WooCommerce"
+msgstr "إضافة ووردبريس · لـ WooCommerce"
+
+msgid "Online booking for spas, salons and service businesses"
+msgstr "حجز عبر الإنترنت للسبا والصالونات وأعمال الخدمات"
+
+msgid "Service Booking Manager turns WooCommerce into a complete booking system: customers pick a branch, service, duration, date and time in one popup, then pay through your normal checkout."
+msgstr "يحوّل Service Booking Manager متجر WooCommerce إلى نظام حجز متكامل: يختار العميل الفرع والخدمة والمدة والتاريخ والوقت في نافذة واحدة، ثم يدفع عبر صفحة الدفع المعتادة."
+
+msgid "Works with WooCommerce"
+msgstr "يعمل مع WooCommerce"
+
+msgid "Branches & staff"
+msgstr "الفروع والموظفون"
+
+msgid "The Service Booking popup: choose a branch, service, duration, date and time"
+msgstr "نافذة Service Booking: اختيار الفرع والخدمة والمدة والتاريخ والوقت"
+
+msgid "Everything a booking business needs"
+msgstr "كل ما يحتاجه نشاط قائم على الحجز"
+
+msgid "From the first click on \"Book now\" to the staff calendar and the payment, all inside your own WordPress site."
+msgstr "من أول نقرة على \"احجز الآن\" إلى تقويم الموظفين والدفع، كل ذلك داخل موقع ووردبريس الخاص بك."
+
+msgid "A real booking site, built with this plugin"
+msgstr "موقع حجز حقيقي مبني بهذه الإضافة"
+
+msgid "These screenshots come from our live demo — open it and book a test appointment yourself."
+msgstr "هذه اللقطات من عرضنا التجريبي — افتحه واحجز موعدًا تجريبيًا بنفسك."
+
+msgid "Service cards with durations, prices, pressure scale and Book Now buttons"
+msgstr "بطاقات الخدمات مع المدد والأسعار ومقياس الضغط وأزرار الحجز"
+
+msgid "Service menu"
+msgstr "قائمة الخدمات"
+
+msgid "Every service with its durations, prices and a one-click Book Now."
+msgstr "كل خدمة بمددها وأسعارها وزر حجز بنقرة واحدة."
+
+msgid "Homepage of the demo spa site with a Book an Appointment button"
+msgstr "الصفحة الرئيسية لموقع السبا التجريبي مع زر حجز موعد"
+
+msgid "Booking from any button"
+msgstr "الحجز من أي زر"
+
+msgid "Add the booking popup to your header, hero or any page."
+msgstr "أضف نافذة الحجز إلى الترويسة أو القسم الرئيسي أو أي صفحة."
+
+msgid "Try it free. Pick the plan that fits your sites."
+msgstr "جرّبه مجانًا، ثم اختر الخطة المناسبة لمواقعك."
+
+msgid "Every plan includes all features. Yearly plans renew each year, Lifetime is a single payment. Prices in USD."
+msgstr "كل خطة تتضمن جميع الميزات. الخطط السنوية تتجدد كل عام، وخطة Lifetime دفعة واحدة. الأسعار بالدولار الأمريكي."
+
+msgid "Secure card checkout with Stripe · License key emailed instantly · Requires WooCommerce"
+msgstr "دفع آمن بالبطاقة عبر Stripe · مفتاح الترخيص يصل بالبريد فورًا · يتطلب WooCommerce"
+
+msgid "Do I need WooCommerce?"
+msgstr "هل أحتاج إلى WooCommerce؟"
+
+msgid "Yes. Bookings use the WooCommerce cart and checkout, so customers can pay with any payment method your store already supports."
+msgstr "نعم. تستخدم الحجوزات سلة WooCommerce وصفحة الدفع، فيمكن للعملاء الدفع بأي وسيلة يدعمها متجرك."
+
+msgid "Can I try it before buying?"
+msgstr "هل يمكنني تجربته قبل الشراء؟"
+
+msgid "Yes — the live demo has the full booking flow. Pick a branch, a service and a time slot just like a real customer."
+msgstr "نعم — العرض التجريبي فيه مسار الحجز الكامل. اختر فرعًا وخدمة وموعدًا كأي عميل حقيقي."
+
+msgid "How do I get the plugin and my license key?"
+msgstr "كيف أحصل على الإضافة ومفتاح الترخيص؟"
+
+msgid "Right after payment you get an email with the download link and your license key. Both are also on the confirmation page and in your Lieusoft account."
+msgstr "بعد الدفع مباشرة تصلك رسالة فيها رابط التنزيل ومفتاح الترخيص، وتجدهما أيضًا في صفحة التأكيد وفي حسابك على Lieusoft."
+
+msgid "Can I use it on more than one site?"
+msgstr "هل يمكنني استخدامه على أكثر من موقع؟"
+
+msgid "Pro Single and Lifetime cover one domain each. Pro 10 covers up to 10 domains — ideal for agencies."
+msgstr "Pro Single وLifetime لنطاق واحد لكل منهما، وPro 10 حتى 10 نطاقات — مثالي للوكالات."
+
+msgid "Can you set it up for me?"
+msgstr "هل يمكنكم إعداده لي؟"
+
+msgid "Yes. Our ready-made Service Booking Solution includes the website, hosting, setup and support, so you do not have to install anything."
+msgstr "نعم. حل Service Booking الجاهز يشمل الموقع والاستضافة والإعداد والدعم، فلا تحتاج إلى تثبيت أي شيء."
+
+msgid "Plugin licenses from $29 / year"
+msgstr "تراخيص الإضافات من 29$ / سنة"
+
+msgid "Install on your own WordPress site. Yearly or lifetime licenses, with updates and support included."
+msgstr "ثبّتها على موقع ووردبريس الخاص بك. تراخيص سنوية أو مدى الحياة مع التحديثات والدعم."
+
+msgid "Online booking plugin for WooCommerce: branches, staff and schedules, a step-by-step booking popup, WooCommerce checkout and Telegram alerts. From $29/year, free live demo."
+msgstr "إضافة حجز عبر الإنترنت لـ WooCommerce: فروع وموظفون وجداول، ونافذة حجز خطوة بخطوة، ودفع WooCommerce، وتنبيهات Telegram. من 29$ سنويًا مع عرض تجريبي مجاني."
+
+msgid "Browse our plugins"
+msgstr "تصفح إضافاتنا"

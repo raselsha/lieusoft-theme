@@ -10,6 +10,12 @@
 get_header();
 
 $lieusoft_plugin_licenses = array(
+	'service-booking-plugin' => array(
+		array( 'name' => __( 'Free demo', 'lieusoft' ), 'currency' => '$', 'price' => '0', 'period' => __( '/ try it', 'lieusoft' ), 'url' => 'https://servicebooking.lieusoft.com/', 'cta' => __( 'Open the live demo', 'lieusoft' ), 'features' => array( __( 'Full booking flow', 'lieusoft' ), __( 'No sign-up needed', 'lieusoft' ) ) ),
+		array( 'name' => __( 'Pro Single', 'lieusoft' ), 'currency' => '$', 'price' => '29', 'period' => __( '/ year', 'lieusoft' ), 'url' => lieusoft_buy_url( 388, 1 ), 'features' => array( __( 'Use on 1 domain', 'lieusoft' ), __( '1 year of updates & support', 'lieusoft' ) ) ),
+		array( 'name' => __( 'Lifetime', 'lieusoft' ), 'currency' => '$', 'price' => '79', 'period' => __( 'one time', 'lieusoft' ), 'url' => lieusoft_buy_url( 388, 3 ), 'features' => array( __( 'Use on 1 domain', 'lieusoft' ), __( 'Lifetime updates & support', 'lieusoft' ) ) ),
+		array( 'name' => __( 'Pro 10', 'lieusoft' ), 'currency' => '$', 'price' => '99', 'period' => __( '/ year', 'lieusoft' ), 'url' => lieusoft_buy_url( 388, 2 ), 'features' => array( __( 'Use on 10 domains', 'lieusoft' ), __( '1 year of updates & support', 'lieusoft' ) ), 'featured' => true ),
+	),
 	'pdf-embed-viewer' => array(
 		array( 'name' => __( 'Free', 'lieusoft' ), 'currency' => '$', 'price' => '0', 'period' => __( '/ forever', 'lieusoft' ), 'url' => 'https://downloads.wordpress.org/plugin/pdf-embed-viewer.zip', 'cta' => __( 'Download free', 'lieusoft' ), 'features' => array( __( 'Unlimited PDFs', 'lieusoft' ), __( 'Community support', 'lieusoft' ) ) ),
 		array( 'name' => __( 'Pro Single', 'lieusoft' ), 'currency' => '$', 'price' => '29', 'period' => __( '/ year', 'lieusoft' ), 'url' => lieusoft_buy_url( 390, 1 ), 'features' => array( __( 'Use on 1 domain', 'lieusoft' ), __( '1 year of updates & support', 'lieusoft' ) ) ),
@@ -45,7 +51,7 @@ foreach ( lieusoft_get_plugins() as $plugin ) {
 		<p><?php esc_html_e( 'Clear prices for our ready-made business solutions and WordPress plugins, and a fixed quote for any custom work.', 'lieusoft' ); ?></p>
 		<nav class="pricing-jump" aria-label="<?php esc_attr_e( 'Pricing sections', 'lieusoft' ); ?>">
 			<a href="#solutions"><?php echo lieusoft_icon( 'briefcase' ); ?><span><strong><?php esc_html_e( 'Business Solutions', 'lieusoft' ); ?></strong><small><?php esc_html_e( 'From ৳12,000/yr + ৳10,000 setup', 'lieusoft' ); ?></small></span></a>
-			<a href="#plugins"><?php echo lieusoft_icon( 'puzzle' ); ?><span><strong><?php esc_html_e( 'WordPress Plugins', 'lieusoft' ); ?></strong><small><?php esc_html_e( 'Flipbook free · Pro from $29 / year', 'lieusoft' ); ?></small></span></a>
+			<a href="#plugins"><?php echo lieusoft_icon( 'puzzle' ); ?><span><strong><?php esc_html_e( 'WordPress Plugins', 'lieusoft' ); ?></strong><small><?php esc_html_e( 'Plugin licenses from $29 / year', 'lieusoft' ); ?></small></span></a>
 			<a href="#services"><?php echo lieusoft_icon( 'code' ); ?><span><strong><?php esc_html_e( 'Services', 'lieusoft' ); ?></strong><small><?php esc_html_e( 'Fixed quote per project', 'lieusoft' ); ?></small></span></a>
 		</nav>
 	</div>

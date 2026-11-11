@@ -280,7 +280,7 @@ function lieusoft_seo_entries() {
 		),
 		'product-booking'  => array(
 			__( 'Service Booking & Appointment Plugin for WordPress - Lieusoft', 'lieusoft' ),
-			__( 'Online booking plugin for service businesses: staff and schedules, secure payments, email and SMS notifications, custom fields and reports. One-time license from ৳4,999.', 'lieusoft' ),
+			__( 'Online booking plugin for WooCommerce: branches, staff and schedules, a step-by-step booking popup, WooCommerce checkout and Telegram alerts. From $29/year, free live demo.', 'lieusoft' ),
 		),
 		'product-doctor'   => array(
 			__( 'Doctor Appointment Booking Plugin for WordPress - Lieusoft', 'lieusoft' ),
@@ -405,7 +405,7 @@ function lieusoft_schema_page_nodes( $org ) {
 
 	$software = array(
 		'product-pdf'     => array( 'Flipbook PDF Viewer & Embedder', 'USD', array( 'Free' => '0', 'Pro Single' => '29', 'Lifetime' => '79', 'Pro 10' => '99' ) ),
-		'product-booking' => array( 'Service Booking', 'BDT', array( 'Regular License' => '4999', 'Extended License' => '8999' ) ),
+		'product-booking' => array( 'Service Booking Manager for WooCommerce', 'USD', array( 'Pro Single' => '29', 'Lifetime' => '79', 'Pro 10' => '99' ) ),
 		'product-doctor'  => array( 'Doctor Appointment', 'BDT', array( 'Regular License' => '4999', 'Extended License' => '8999' ) ),
 		'product-tailor'  => array( 'Tailor Order Management', 'BDT', array( 'Regular License' => '4999', 'Extended License' => '8999' ) ),
 	);
@@ -639,7 +639,7 @@ function lieusoft_redirect_edd_product_pages() {
 	if ( is_admin() || ! ( is_singular( 'download' ) || is_post_type_archive( 'download' ) ) ) {
 		return;
 	}
-	$pages  = array( 390 => '/pdf-embed-viewer/' ); // EDD download ID => designed product page.
+	$pages  = array( 390 => '/pdf-embed-viewer/', 388 => '/service-booking-plugin/' ); // EDD download ID => designed product page.
 	$target = is_singular( 'download' ) && isset( $pages[ get_queried_object_id() ] ) ? $pages[ get_queried_object_id() ] : '/products/';
 	wp_safe_redirect( home_url( $target ), 301 );
 	exit;

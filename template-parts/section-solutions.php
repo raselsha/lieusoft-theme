@@ -5,6 +5,6 @@
 			<p><?php esc_html_e( 'Ready-made website solutions designed for your business. We handle everything from setup to support, so you can focus on running your business.', 'lieusoft' ); ?></p>
 		</div>
 
-		<?php get_template_part( 'template-parts/solutions-grid' ); ?>
+		<?php get_template_part( 'template-parts/solutions-grid', null, array( 'show_price' => false ) ); ?>
 	</div>
 </section>

@@ -1,11 +1,12 @@
 <?php
 /**
  * Card grid for the 3 business solutions. Expects $args: items[] (defaults
- * to lieusoft_get_solutions()). Shared by the homepage section and the
+ * to lieusoft_get_solutions()), show_price (default true; the homepage hides it). Shared by the homepage section and the
  * /solutions/ index page.
  */
 $a = wp_parse_args( $args ?? array(), array(
-	'items' => lieusoft_get_solutions(),
+	'items'      => lieusoft_get_solutions(),
+	'show_price' => true,
 ) );
 ?>
 <div class="card-grid card-grid--3">
@@ -25,7 +26,7 @@ $a = wp_parse_args( $args ?? array(), array(
 						<li><?php echo esc_html( $tag ); ?></li>
 					<?php endforeach; ?>
 				</ul>
-				<?php if ( ! empty( $solution['price'] ) ) : ?>
+				<?php if ( $a['show_price'] && ! empty( $solution['price'] ) ) : ?>
 					<div class="solution-card__price">
 						<span class="solution-card__price-label"><?php esc_html_e( 'Starting from', 'lieusoft' ); ?></span>
 						<span class="solution-card__price-value">৳<?php echo esc_html( $solution['price'] ); ?><small><?php esc_html_e( '/ year', 'lieusoft' ); ?></small></span>

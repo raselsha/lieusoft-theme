@@ -148,7 +148,7 @@ function lieusoft_get_solutions() {
 		array(
 			'title'  => __( 'Doctor Appointment Solution', 'lieusoft' ),
 			'desc'   => __( 'Modern website with online appointment booking, doctor profiles, patient management, Live Queue and an easy-to-use admin dashboard.', 'lieusoft' ),
-			'tags'   => array( 'Appointment', 'Patient', 'LIve Queue' ),
+			'tags'   => array( 'Appointment', 'Patient', 'Live Queue' ),
 			'accent' => 'purple',
 			'bg'     => 'solution-doctor-bg.jpg',
 			'badge'  => 'badge-doctor.png',
@@ -158,7 +158,7 @@ function lieusoft_get_solutions() {
 		array(
 			'title'  => __( 'Tailor Management Solution', 'lieusoft' ),
 			'desc'   => __( 'Manage customer orders, body measurements, delivery schedules, invoices, and shop operations from one simple dashboard.', 'lieusoft' ),
-			'tags'   => array( 'Orders', 'Mesurments', 'Customers', 'Invoices' ),
+			'tags'   => array( 'Orders', 'Measurements', 'Customers', 'Invoices' ),
 			'accent' => 'orange',
 			'bg'     => 'solution-tailor-bg.jpg',
 			'badge'  => 'badge-shirt.png',
@@ -168,7 +168,7 @@ function lieusoft_get_solutions() {
 		array(
 			'title'  => __( 'Service Booking Solution', 'lieusoft' ),
 			'desc'   => __( 'Perfect for thai massage, salons, spas, beauty centers, repair services, consultants, and other appointment-based businesses.', 'lieusoft' ),
-			'tags'   => array( 'Orders', 'Mesurments', 'Customers', 'Invoices' ),
+			'tags'   => array( 'Orders', 'Measurements', 'Customers', 'Invoices' ),
 			'accent' => 'green',
 			'bg'     => 'solution-spa-bg.jpg',
 			'badge'  => 'badge-calendar.png',

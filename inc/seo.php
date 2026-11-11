@@ -553,6 +553,44 @@ add_action( 'parse_request', 'lieusoft_serve_llms_txt', 1 );
  * ------------------------------------------------------------------------ */
 
 /**
+ * When a page last really changed. Most pages draw their content from a
+ * theme template and their title/description from this file, so the post's
+ * own modified date stays months old while the page itself changes; the
+ * sitemap's <lastmod> should reflect the newest of the three, or search
+ * engines see no reason to re-crawl.
+ */
+function lieusoft_page_last_modified_gmt( $post ) {
+	$times    = array( (int) get_post_modified_time( 'U', true, $post ) );
+	$template = get_page_template_slug( $post );
+	if ( (int) get_option( 'page_on_front' ) === (int) $post->ID ) {
+		$template = 'front-page.php';
+	}
+	foreach ( array_filter( array( $template, 'inc/seo.php' ) ) as $file ) {
+		$path = get_theme_file_path( $file );
+		if ( file_exists( $path ) ) {
+			$times[] = (int) filemtime( $path );
+		}
+	}
+	return gmdate( 'c', max( $times ) );
+}
+
+function lieusoft_sitemap_page_lastmod( $url, $type, $post ) {
+	$blog_id = (int) get_option( 'page_for_posts' );
+	if ( $blog_id && isset( $url['loc'] ) && untrailingslashit( $url['loc'] ) === untrailingslashit( get_permalink( $blog_id ) ) ) {
+		$latest = get_posts( array( 'post_type' => 'post', 'posts_per_page' => 1, 'orderby' => 'modified', 'suppress_filters' => true ) );
+		if ( $latest ) {
+			$url['mod'] = get_post_modified_time( 'c', true, $latest[0] ); // The blog page changes whenever a post does.
+		}
+		return $url;
+	}
+	if ( is_object( $post ) && isset( $post->post_type ) && 'page' === $post->post_type ) {
+		$url['mod'] = lieusoft_page_last_modified_gmt( $post );
+	}
+	return $url;
+}
+add_filter( 'rank_math/sitemap/entry', 'lieusoft_sitemap_page_lastmod', 10, 3 );
+
+/**
  * Pages are served in Bangla and Arabic under /bn/ and /ar/ but exist once
  * in the database, so Rank Math only lists the English URL. Add the other
  * two for every indexable page (blog posts are separate posts per language
@@ -580,7 +618,7 @@ function lieusoft_sitemap_language_pages( $xml ) {
 			if ( 'en' === $code ) {
 				continue;
 			}
-			$xml .= "\t<url>\n\t\t<loc>" . esc_url( lieusoft_localize_url( $url, $code ) ) . "</loc>\n\t\t<lastmod>" . esc_html( get_post_modified_time( 'c', true, $page ) ) . "</lastmod>\n\t</url>\n";
+			$xml .= "\t<url>\n\t\t<loc>" . esc_url( lieusoft_localize_url( $url, $code ) ) . "</loc>\n\t\t<lastmod>" . esc_html( lieusoft_page_last_modified_gmt( $page ) ) . "</lastmod>\n\t</url>\n";
 		}
 	}
 	return $xml;
@@ -607,3 +645,21 @@ function lieusoft_redirect_edd_product_pages() {
 	exit;
 }
 add_action( 'template_redirect', 'lieusoft_redirect_edd_product_pages', 1 );
+
+/**
+ * Comments are closed site-wide, so the comment feeds are empty URLs that
+ * only waste crawl budget: stop advertising them in <head> and send any
+ * request for one to the post (or the main feed) with a permanent redirect.
+ */
+add_filter( 'feed_links_show_comments_feed', '__return_false' );
+add_filter( 'feed_links_extra_show_post_comments_feed', '__return_false' );
+
+function lieusoft_redirect_comment_feeds() {
+	if ( ! is_comment_feed() ) {
+		return;
+	}
+	$target = is_singular() ? get_permalink( get_queried_object_id() ) : home_url( '/feed/' );
+	wp_safe_redirect( $target ? $target : home_url( '/feed/' ), 301 );
+	exit;
+}
+add_action( 'template_redirect', 'lieusoft_redirect_comment_feeds', 1 );

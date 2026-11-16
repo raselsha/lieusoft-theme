@@ -122,6 +122,27 @@ function lieusoft_filter_home_url( $url, $path, $scheme ) {
 add_filter( 'home_url', 'lieusoft_filter_home_url', 10, 3 );
 
 /**
+ * Keep redirects in the visitor's language. The language prefix is taken off
+ * REQUEST_URI early (see lieusoft_detect_language()), so a plugin that
+ * redirects to "the current URL" — e.g. EDD after "Buy" adds to the cart on
+ * /bn/checkout/ — would otherwise land on the English page.
+ */
+function lieusoft_localize_redirect( $location ) {
+	if ( is_admin() || 'en' === lieusoft_lang() || ! is_string( $location ) || '' === $location ) {
+		return $location;
+	}
+	if ( '/' === $location[0] && ( ! isset( $location[1] ) || '/' !== $location[1] ) ) {
+		$location = untrailingslashit( get_option( 'home' ) ) . $location;
+	}
+	// WordPress's own endpoints (wp-login.php, wp-admin, wp-json…) have no language prefix.
+	if ( 0 === strpos( (string) wp_parse_url( $location, PHP_URL_PATH ), '/wp-' ) ) {
+		return $location;
+	}
+	return lieusoft_localize_url( $location );
+}
+add_filter( 'wp_redirect', 'lieusoft_localize_redirect' );
+
+/**
  * The prefix is stripped from REQUEST_URI, so WordPress would see every
  * /bn/ page as "wrong" against its (prefixed) permalink and redirect in a
  * loop — skip canonical redirects for the prefixed languages.

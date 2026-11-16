@@ -29,9 +29,15 @@ $fbp_features = array(
 	array( '<path d="M4 6h16M4 12h10M4 18h7"/><circle cx="17.5" cy="16.5" r="3"/><path d="m21 20-1.3-1.3"/>', __( 'Contents, thumbnails & search', 'lieusoft' ), __( 'A side panel docked to the book for table of contents, page thumbnails and full-text search — RTL aware.', 'lieusoft' ) ),
 	array( '<path d="M21 12a9 9 0 1 1-3-6.7L21 8"/><path d="M21 3v5h-5"/>', __( 'Updates & support', 'lieusoft' ), __( 'One-click updates in your dashboard and direct support from the developer for the length of your plan.', 'lieusoft' ) ),
 );
-// Visitors arriving from the free plugin's offer (…?discount=FLIPBOOK30) see a
-// banner, and the code rides along to checkout, where EDD applies it.
-$fbp_offer = isset( $_GET['discount'] ) && 'FLIPBOOK30' === strtoupper( sanitize_key( wp_unslash( $_GET['discount'] ) ) ); // phpcs:ignore WordPress.Security.NonceVerification.Recommended
+// Visitors arriving from the free plugin's offer see a banner, and the code
+// rides along to checkout, where EDD applies it. The plugin's offer links carry
+// ?discount=FLIPBOOK30&utm_campaign=free-user-offer; EDD stores the discount in
+// the session and redirects without `discount`, so the campaign tag is what is
+// still in the URL when this page renders.
+// phpcs:disable WordPress.Security.NonceVerification.Recommended
+$fbp_offer = ( isset( $_GET['utm_campaign'] ) && 'free-user-offer' === sanitize_key( wp_unslash( $_GET['utm_campaign'] ) ) )
+	|| ( isset( $_GET['discount'] ) && 'FLIPBOOK30' === strtoupper( sanitize_key( wp_unslash( $_GET['discount'] ) ) ) );
+// phpcs:enable WordPress.Security.NonceVerification.Recommended
 $fbp_buy   = static function ( $price_id ) use ( $fbp_offer ) {
 	$url = lieusoft_buy_url( 390, $price_id );
 	return $fbp_offer ? add_query_arg( 'discount', 'FLIPBOOK30', $url ) : $url;

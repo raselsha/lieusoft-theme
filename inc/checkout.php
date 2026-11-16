@@ -83,3 +83,16 @@ function lieusoft_localize_edd_url( $url ) {
 }
 add_filter( 'edd_get_checkout_uri', 'lieusoft_localize_edd_url' );
 add_filter( 'edd_get_success_page_uri', 'lieusoft_localize_edd_url' );
+
+/**
+ * Flipbook PDF Viewer Pro (download 390) comes with a 14-day money-back
+ * guarantee; repeat it under the Purchase button when it is in the cart.
+ */
+function lieusoft_checkout_guarantee() {
+	if ( ! function_exists( 'edd_item_in_cart' ) || ! edd_item_in_cart( 390 ) ) {
+		return;
+	}
+	echo '<p class="lsco-guarantee"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 4.5 6v5.5c0 4.6 3.2 8.4 7.5 9.5 4.3-1.1 7.5-4.9 7.5-9.5V6L12 3Z"/><path d="m8.8 12.2 2.2 2.2 4.2-4.4"/></svg>'
+		. esc_html__( '14-day money-back guarantee on Flipbook PDF Viewer Pro.', 'lieusoft' ) . '</p>';
+}
+add_action( 'edd_purchase_form_after_submit', 'lieusoft_checkout_guarantee' );

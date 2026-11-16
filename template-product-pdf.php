@@ -29,6 +29,35 @@ $fbp_features = array(
 	array( '<path d="M4 6h16M4 12h10M4 18h7"/><circle cx="17.5" cy="16.5" r="3"/><path d="m21 20-1.3-1.3"/>', __( 'Contents, thumbnails & search', 'lieusoft' ), __( 'A side panel docked to the book for table of contents, page thumbnails and full-text search — RTL aware.', 'lieusoft' ) ),
 	array( '<path d="M21 12a9 9 0 1 1-3-6.7L21 8"/><path d="M21 3v5h-5"/>', __( 'Updates & support', 'lieusoft' ), __( 'One-click updates in your dashboard and direct support from the developer for the length of your plan.', 'lieusoft' ) ),
 );
+// Visitors arriving from the free plugin's offer (…?discount=FLIPBOOK30) see a
+// banner, and the code rides along to checkout, where EDD applies it.
+$fbp_offer = isset( $_GET['discount'] ) && 'FLIPBOOK30' === strtoupper( sanitize_key( wp_unslash( $_GET['discount'] ) ) ); // phpcs:ignore WordPress.Security.NonceVerification.Recommended
+$fbp_buy   = static function ( $price_id ) use ( $fbp_offer ) {
+	$url = lieusoft_buy_url( 390, $price_id );
+	return $fbp_offer ? add_query_arg( 'discount', 'FLIPBOOK30', $url ) : $url;
+};
+$fbp_compare = array(
+	array( __( '3D flipbook and classic reader', 'lieusoft' ), true ),
+	array( __( 'Unlimited PDFs', 'lieusoft' ), true ),
+	array( __( 'Grid, list, e-book and newsletter layouts', 'lieusoft' ), true ),
+	array( __( 'Elementor widgets and shortcodes', 'lieusoft' ), true ),
+	array( __( 'View and download counters', 'lieusoft' ), true ),
+	array( __( 'Lockdown: no download, file link or print', 'lieusoft' ), false ),
+	array( __( 'Hidden file URL (protected streaming)', 'lieusoft' ), false ),
+	array( __( 'Studio Light toolbar with thumbnails, contents and search', 'lieusoft' ), false ),
+	array( __( 'Brand colours, page-flip sound, autoplay and zoom limits', 'lieusoft' ), false ),
+	array( __( 'Right-to-left page turning', 'lieusoft' ), false ),
+	array( __( 'Single-page view on phones', 'lieusoft' ), false ),
+	array( __( 'Show or hide each toolbar button', 'lieusoft' ), false ),
+);
+// Real reviews from wordpress.org/support/plugin/pdf-embed-viewer/reviews/ (all 5 stars).
+$fbp_reviews = array(
+	array( 'title' => 'Excellent!', 'text' => 'The plugin works flawlessly and is very stable. There are certainly still a few areas that could be improved. But the developer took one of my suggestions and implemented it in an update to the plugin. That’s what I call customer service.', 'author' => 'Thobie', 'date' => 'May 2026', 'url' => 'https://wordpress.org/support/topic/excellent-14254/' ),
+	array( 'title' => 'Stunning 3D Flipbook Plugin – A Game-Changer for PDF Display!', 'text' => 'The interface is really easy to use, so embedding and showcasing PDFs in a visually appealing, interactive 3D flipbook format is a breeze! It’s absolutely perfect for presenting e-books, manuals and reports in a really professional way.', 'author' => 'yuseyhan', 'date' => 'July 2025', 'url' => 'https://wordpress.org/support/topic/stunning-3d-flipbook-plugin-a-game-changer-for-pdf-display/' ),
+	array( 'title' => 'awesome plugin', 'text' => 'very simple to use and fast in scrolling pages. The Support is SUPER', 'author' => 'fabriziolaneve', 'date' => 'July 2025', 'url' => 'https://wordpress.org/support/topic/awesome-plugin-7399/' ),
+	array( 'title' => 'Easy and objective!', 'text' => 'Very practical and simple to use', 'author' => 'superbr', 'date' => 'May 2025', 'url' => 'https://wordpress.org/support/topic/easy-and-objective-2/' ),
+);
+$fbp_shield = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 4.5 6v5.5c0 4.6 3.2 8.4 7.5 9.5 4.3-1.1 7.5-4.9 7.5-9.5V6L12 3Z"/><path d="m8.8 12.2 2.2 2.2 4.2-4.4"/></svg>';
 $fbp_plans = array(
 	array( 'name' => __( 'Free', 'lieusoft' ), 'desc' => __( 'Everything you need to publish flipbooks on any WordPress site.', 'lieusoft' ), 'price' => '0', 'period' => __( '/ forever', 'lieusoft' ), 'items' => array( __( 'Unlimited PDFs', 'lieusoft' ), __( 'All 4 archive layouts', 'lieusoft' ), __( 'Elementor widgets', 'lieusoft' ), __( 'Read & download counters', 'lieusoft' ), __( 'Community support', 'lieusoft' ) ), 'cta' => __( 'Download free', 'lieusoft' ), 'url' => 'https://downloads.wordpress.org/plugin/pdf-embed-viewer.zip' ),
 	array( 'name' => __( 'Pro Single', 'lieusoft' ), 'desc' => __( 'For one site that wants a premium reader.', 'lieusoft' ), 'price' => '29', 'period' => __( '/ year', 'lieusoft' ), 'items' => array( __( 'Everything in Free', 'lieusoft' ), __( '1 domain', 'lieusoft' ), __( 'All Pro features', 'lieusoft' ), __( '1 year of updates & support', 'lieusoft' ) ), 'cta' => __( 'Buy Pro Single', 'lieusoft' ), 'price_id' => 1 ),
@@ -52,6 +81,10 @@ $fbp_plans = array(
 				<li><?php echo $fbp_check; ?><?php esc_html_e( 'Elementor ready', 'lieusoft' ); ?></li>
 				<li><?php echo $fbp_check; ?><?php esc_html_e( 'Key emailed instantly', 'lieusoft' ); ?></li>
 			</ul>
+			<a class="fbp-rating" href="#reviews">
+				<span class="fbp-rating__stars" aria-hidden="true">★★★★★</span>
+				<span><?php esc_html_e( '5.0 on WordPress.org · used on 300+ sites', 'lieusoft' ); ?></span>
+			</a>
 		</div>
 		<div class="fbp-hero__visual" aria-hidden="true">
 			<div class="fbp-window">
@@ -101,6 +134,63 @@ $fbp_plans = array(
 	</div>
 </section>
 
+<section class="fbp-section fbp-section--tint" id="compare">
+	<div class="container">
+		<div class="fbp-head">
+			<span class="eyebrow"><?php esc_html_e( 'Free vs Pro', 'lieusoft' ); ?></span>
+			<h2><?php esc_html_e( 'Keep everything you have. Add protection and polish.', 'lieusoft' ); ?></h2>
+		</div>
+		<div class="fbp-compare">
+			<table>
+				<thead>
+					<tr>
+						<th scope="col"><?php esc_html_e( 'Feature', 'lieusoft' ); ?></th>
+						<th scope="col"><?php esc_html_e( 'Free', 'lieusoft' ); ?></th>
+						<th scope="col" class="is-pro"><?php esc_html_e( 'Pro', 'lieusoft' ); ?></th>
+					</tr>
+				</thead>
+				<tbody>
+					<?php foreach ( $fbp_compare as $row ) : ?>
+						<tr>
+							<th scope="row"><?php echo esc_html( $row[0] ); ?></th>
+							<td><?php echo $row[1] ? $fbp_check : '<span class="fbp-compare__no" aria-label="' . esc_attr__( 'Not included', 'lieusoft' ) . '">—</span>'; // phpcs:ignore WordPress.Security.EscapeOutput ?></td>
+							<td class="is-pro"><?php echo $fbp_check; // phpcs:ignore WordPress.Security.EscapeOutput ?></td>
+						</tr>
+					<?php endforeach; ?>
+					<tr>
+						<th scope="row"><?php esc_html_e( 'Support', 'lieusoft' ); ?></th>
+						<td><?php esc_html_e( 'Community forum', 'lieusoft' ); ?></td>
+						<td class="is-pro"><?php esc_html_e( 'Direct from the developer', 'lieusoft' ); ?></td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+</section>
+
+<section class="fbp-section" id="reviews">
+	<div class="container">
+		<div class="fbp-head">
+			<span class="eyebrow"><?php esc_html_e( 'Reviews', 'lieusoft' ); ?></span>
+			<h2><?php esc_html_e( 'Rated 5 stars by WordPress users', 'lieusoft' ); ?></h2>
+			<p><?php esc_html_e( 'Every review of the plugin on WordPress.org gives it five stars.', 'lieusoft' ); ?></p>
+		</div>
+		<div class="fbp-reviews">
+			<?php foreach ( $fbp_reviews as $review ) : ?>
+				<figure class="fbp-review" lang="en" dir="ltr">
+					<span class="fbp-rating__stars" aria-label="<?php esc_attr_e( '5 out of 5 stars', 'lieusoft' ); ?>">★★★★★</span>
+					<blockquote>
+						<p class="fbp-review__title"><?php echo esc_html( $review['title'] ); ?></p>
+						<p><?php echo esc_html( $review['text'] ); ?></p>
+					</blockquote>
+					<figcaption><a href="<?php echo esc_url( $review['url'] ); ?>" target="_blank" rel="noopener nofollow">@<?php echo esc_html( $review['author'] ); ?></a> · <?php echo esc_html( $review['date'] ); ?></figcaption>
+				</figure>
+			<?php endforeach; ?>
+		</div>
+		<p class="fbp-reviews__all"><a href="https://wordpress.org/support/plugin/pdf-embed-viewer/reviews/" target="_blank" rel="noopener"><?php esc_html_e( 'Read all reviews on WordPress.org', 'lieusoft' ); ?> &rarr;</a></p>
+	</div>
+</section>
+
 <section class="fbp-section fbp-section--tint" id="pricing">
 	<div class="container">
 		<div class="fbp-head">
@@ -108,6 +198,12 @@ $fbp_plans = array(
 			<h2><?php esc_html_e( 'Start free. Go Pro when you want more.', 'lieusoft' ); ?></h2>
 			<p><?php esc_html_e( 'The free plugin is yours forever. Yearly Pro plans renew each year, Lifetime is a single payment. Prices in USD.', 'lieusoft' ); ?></p>
 		</div>
+		<?php if ( $fbp_offer ) : ?>
+			<div class="fbp-offer" role="status">
+				<strong><?php esc_html_e( '30% off for Flipbook PDF Viewer users', 'lieusoft' ); ?></strong>
+				<span><?php esc_html_e( 'Your code FLIPBOOK30 is applied at checkout — pick a plan below.', 'lieusoft' ); ?></span>
+			</div>
+		<?php endif; ?>
 		<div class="fbp-plans">
 			<?php foreach ( $fbp_plans as $plan ) : ?>
 				<div class="fbp-plan<?php echo ! empty( $plan['featured'] ) ? ' fbp-plan--featured' : ''; ?>">
@@ -120,9 +216,16 @@ $fbp_plans = array(
 					<ul class="fbp-plan__list">
 						<?php foreach ( $plan['items'] as $item ) : ?><li><?php echo $fbp_check; ?><?php echo esc_html( $item ); ?></li><?php endforeach; ?>
 					</ul>
-					<a class="btn btn--block <?php echo ! empty( $plan['featured'] ) ? 'btn--primary' : 'btn--outline'; ?>" href="<?php echo esc_url( isset( $plan['url'] ) ? $plan['url'] : lieusoft_buy_url( 390, $plan['price_id'] ) ); ?>"<?php echo isset( $plan['url'] ) ? ' download rel="nofollow"' : ''; ?>><?php echo esc_html( $plan['cta'] ); ?></a>
+					<a class="btn btn--block <?php echo ! empty( $plan['featured'] ) ? 'btn--primary' : 'btn--outline'; ?>" href="<?php echo esc_url( isset( $plan['url'] ) ? $plan['url'] : $fbp_buy( $plan['price_id'] ) ); ?>"<?php echo isset( $plan['url'] ) ? ' download rel="nofollow"' : ''; ?>><?php echo esc_html( $plan['cta'] ); ?></a>
 				</div>
 			<?php endforeach; ?>
+		</div>
+		<div class="fbp-guarantee">
+			<?php echo $fbp_shield; // phpcs:ignore WordPress.Security.EscapeOutput ?>
+			<div>
+				<strong><?php esc_html_e( '14-day money-back guarantee', 'lieusoft' ); ?></strong>
+				<span><?php esc_html_e( 'If Pro isn’t right for you, email info@lieusoft.com within 14 days of your purchase for a full refund. No questions asked.', 'lieusoft' ); ?></span>
+			</div>
 		</div>
 		<p class="fbp-plans__note"><?php esc_html_e( 'Secure card checkout with Stripe · License key emailed instantly · Requires the free Flipbook PDF Viewer plugin', 'lieusoft' ); ?></p>
 	</div>
@@ -131,6 +234,7 @@ $fbp_plans = array(
 <?php
 get_template_part( 'template-parts/solution', 'faq', array(
 	'faqs' => array(
+		array( 'q' => __( 'Is there a money-back guarantee?', 'lieusoft' ), 'a' => __( 'Yes. If Pro isn’t right for you, email info@lieusoft.com within 14 days of your purchase and we’ll refund you in full.', 'lieusoft' ) ),
 		array( 'q' => __( 'Do I need the free plugin?', 'lieusoft' ), 'a' => __( 'Yes. Pro is an add-on to the free Flipbook PDF Viewer & Embedder from WordPress.org — install both.', 'lieusoft' ) ),
 		array( 'q' => __( 'How do I get my license key?', 'lieusoft' ), 'a' => __( 'It is emailed right after payment and shown on the receipt page. Paste it on the plugin’s License screen and click Activate.', 'lieusoft' ) ),
 		array( 'q' => __( 'What happens when a yearly plan ends?', 'lieusoft' ), 'a' => __( 'The plugin keeps working. Renew to keep getting updates and support.', 'lieusoft' ) ),

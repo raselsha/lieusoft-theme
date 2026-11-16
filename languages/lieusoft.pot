@@ -4682,3 +4682,99 @@ msgstr ""
 #: template-solutions-index.php:47
 msgid "We build custom solutions for any business — tell us what you need."
 msgstr ""
+
+msgid "3D flipbook and classic reader"
+msgstr ""
+
+msgid "Unlimited PDFs"
+msgstr ""
+
+msgid "Grid, list, e-book and newsletter layouts"
+msgstr ""
+
+msgid "Elementor widgets and shortcodes"
+msgstr ""
+
+msgid "View and download counters"
+msgstr ""
+
+msgid "Lockdown: no download, file link or print"
+msgstr ""
+
+msgid "Hidden file URL (protected streaming)"
+msgstr ""
+
+msgid "Studio Light toolbar with thumbnails, contents and search"
+msgstr ""
+
+msgid "Brand colours, page-flip sound, autoplay and zoom limits"
+msgstr ""
+
+msgid "Right-to-left page turning"
+msgstr ""
+
+msgid "Single-page view on phones"
+msgstr ""
+
+msgid "Show or hide each toolbar button"
+msgstr ""
+
+msgid "5.0 on WordPress.org · used on 300+ sites"
+msgstr ""
+
+msgid "Free vs Pro"
+msgstr ""
+
+msgid "Keep everything you have. Add protection and polish."
+msgstr ""
+
+msgid "Feature"
+msgstr ""
+
+msgid "Pro"
+msgstr ""
+
+msgid "Not included"
+msgstr ""
+
+msgid "Community forum"
+msgstr ""
+
+msgid "Direct from the developer"
+msgstr ""
+
+msgid "Reviews"
+msgstr ""
+
+msgid "Rated 5 stars by WordPress users"
+msgstr ""
+
+msgid "Every review of the plugin on WordPress.org gives it five stars."
+msgstr ""
+
+msgid "5 out of 5 stars"
+msgstr ""
+
+msgid "Read all reviews on WordPress.org"
+msgstr ""
+
+msgid "30% off for Flipbook PDF Viewer users"
+msgstr ""
+
+msgid "Your code FLIPBOOK30 is applied at checkout — pick a plan below."
+msgstr ""
+
+msgid "14-day money-back guarantee"
+msgstr ""
+
+msgid "If Pro isn’t right for you, email info@lieusoft.com within 14 days of your purchase for a full refund. No questions asked."
+msgstr ""
+
+msgid "Is there a money-back guarantee?"
+msgstr ""
+
+msgid "Yes. If Pro isn’t right for you, email info@lieusoft.com within 14 days of your purchase and we’ll refund you in full."
+msgstr ""
+
+msgid "14-day money-back guarantee on Flipbook PDF Viewer Pro."
+msgstr ""

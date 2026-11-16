@@ -3844,3 +3844,96 @@ msgstr "تصميم الأزياء · الولايات المتحدة"
 
 msgid "Privacy Policy - Lieusoft"
 msgstr "سياسة الخصوصية - Lieusoft"
+
+msgid "3D flipbook and classic reader"
+msgstr "كتاب ثلاثي الأبعاد قابل للتقليب وقارئ تقليدي"
+
+msgid "Grid, list, e-book and newsletter layouts"
+msgstr "تخطيطات الشبكة والقائمة والكتاب الإلكتروني والنشرة الإخبارية"
+
+msgid "Elementor widgets and shortcodes"
+msgstr "عناصر Elementor ورموز قصيرة"
+
+msgid "View and download counters"
+msgstr "عدّادات المشاهدات والتنزيلات"
+
+msgid "Lockdown: no download, file link or print"
+msgstr "الإقفال: لا تنزيل ولا رابط للملف ولا طباعة"
+
+msgid "Hidden file URL (protected streaming)"
+msgstr "إخفاء رابط الملف (بث محمي)"
+
+msgid "Studio Light toolbar with thumbnails, contents and search"
+msgstr "شريط أدوات Studio Light مع الصور المصغّرة والفهرس والبحث"
+
+msgid "Brand colours, page-flip sound, autoplay and zoom limits"
+msgstr "ألوان علامتك التجارية وصوت تقليب الصفحات والتشغيل التلقائي وحدود التكبير"
+
+msgid "Right-to-left page turning"
+msgstr "تقليب الصفحات من اليمين إلى اليسار"
+
+msgid "Single-page view on phones"
+msgstr "عرض صفحة واحدة على الهواتف"
+
+msgid "Show or hide each toolbar button"
+msgstr "إظهار أو إخفاء كل زر في شريط الأدوات"
+
+msgid "5.0 on WordPress.org · used on 300+ sites"
+msgstr "5.0 على WordPress.org · مستخدمة في أكثر من 300 موقع"
+
+msgid "Free vs Pro"
+msgstr "المجانية مقابل Pro"
+
+msgid "Keep everything you have. Add protection and polish."
+msgstr "احتفظ بكل ما لديك، وأضف الحماية واللمسة الاحترافية."
+
+msgid "Feature"
+msgstr "الميزة"
+
+msgid "Pro"
+msgstr "Pro"
+
+msgid "Not included"
+msgstr "غير متضمنة"
+
+msgid "Community forum"
+msgstr "منتدى المجتمع"
+
+msgid "Direct from the developer"
+msgstr "مباشرة من المطوّر"
+
+msgid "Reviews"
+msgstr "التقييمات"
+
+msgid "Rated 5 stars by WordPress users"
+msgstr "تقييم 5 نجوم من مستخدمي WordPress"
+
+msgid "Every review of the plugin on WordPress.org gives it five stars."
+msgstr "كل تقييمات الإضافة على WordPress.org بخمس نجوم."
+
+msgid "5 out of 5 stars"
+msgstr "5 من 5 نجوم"
+
+msgid "Read all reviews on WordPress.org"
+msgstr "اقرأ كل التقييمات على WordPress.org"
+
+msgid "30% off for Flipbook PDF Viewer users"
+msgstr "خصم 30% لمستخدمي Flipbook PDF Viewer"
+
+msgid "Your code FLIPBOOK30 is applied at checkout — pick a plan below."
+msgstr "يُطبَّق رمزك FLIPBOOK30 تلقائيًا عند الدفع — اختر خطة أدناه."
+
+msgid "14-day money-back guarantee"
+msgstr "ضمان استرداد المال لمدة 14 يومًا"
+
+msgid "If Pro isn’t right for you, email info@lieusoft.com within 14 days of your purchase for a full refund. No questions asked."
+msgstr "إذا لم تناسبك Pro، راسلنا على info@lieusoft.com خلال 14 يومًا من الشراء لاسترداد المبلغ كاملًا، دون أي أسئلة."
+
+msgid "Is there a money-back guarantee?"
+msgstr "هل يوجد ضمان لاسترداد المال؟"
+
+msgid "Yes. If Pro isn’t right for you, email info@lieusoft.com within 14 days of your purchase and we’ll refund you in full."
+msgstr "نعم. إذا لم تناسبك Pro، راسلنا على info@lieusoft.com خلال 14 يومًا من الشراء وسنعيد إليك المبلغ كاملًا."
+
+msgid "14-day money-back guarantee on Flipbook PDF Viewer Pro."
+msgstr "ضمان استرداد المال لمدة 14 يومًا على Flipbook PDF Viewer Pro."

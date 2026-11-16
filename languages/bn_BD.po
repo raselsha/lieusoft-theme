@@ -3836,3 +3836,96 @@ msgstr "ফ্যাশন ডিজাইন · যুক্তরাষ্ট�
 
 msgid "Privacy Policy - Lieusoft"
 msgstr "গোপনীয়তা নীতি - Lieusoft"
+
+msgid "3D flipbook and classic reader"
+msgstr "3D ফ্লিপবুক ও সাধারণ রিডার"
+
+msgid "Grid, list, e-book and newsletter layouts"
+msgstr "গ্রিড, লিস্ট, ই-বুক ও নিউজলেটার লেআউট"
+
+msgid "Elementor widgets and shortcodes"
+msgstr "Elementor উইজেট ও শর্টকোড"
+
+msgid "View and download counters"
+msgstr "ভিউ ও ডাউনলোড কাউন্টার"
+
+msgid "Lockdown: no download, file link or print"
+msgstr "লকডাউন: ডাউনলোড, ফাইল লিংক বা প্রিন্ট বন্ধ"
+
+msgid "Hidden file URL (protected streaming)"
+msgstr "ফাইলের URL লুকানো (সুরক্ষিত স্ট্রিমিং)"
+
+msgid "Studio Light toolbar with thumbnails, contents and search"
+msgstr "থাম্বনেইল, সূচিপত্র ও সার্চসহ Studio Light টুলবার"
+
+msgid "Brand colours, page-flip sound, autoplay and zoom limits"
+msgstr "ব্র্যান্ডের রং, পাতা ওল্টানোর শব্দ, অটোপ্লে ও জুম সীমা"
+
+msgid "Right-to-left page turning"
+msgstr "ডান থেকে বামে পাতা ওল্টানো"
+
+msgid "Single-page view on phones"
+msgstr "ফোনে এক পাতার ভিউ"
+
+msgid "Show or hide each toolbar button"
+msgstr "টুলবারের প্রতিটি বোতাম দেখানো বা লুকানো"
+
+msgid "5.0 on WordPress.org · used on 300+ sites"
+msgstr "WordPress.org-এ ৫.০ · ৩০০+ সাইটে ব্যবহৃত"
+
+msgid "Free vs Pro"
+msgstr "ফ্রি বনাম Pro"
+
+msgid "Keep everything you have. Add protection and polish."
+msgstr "যা আছে সব থাকবে। সাথে যোগ হবে সুরক্ষা আর আরও পরিপাটি চেহারা।"
+
+msgid "Feature"
+msgstr "ফিচার"
+
+msgid "Pro"
+msgstr "Pro"
+
+msgid "Not included"
+msgstr "নেই"
+
+msgid "Community forum"
+msgstr "কমিউনিটি ফোরাম"
+
+msgid "Direct from the developer"
+msgstr "সরাসরি ডেভেলপারের কাছ থেকে"
+
+msgid "Reviews"
+msgstr "রিভিউ"
+
+msgid "Rated 5 stars by WordPress users"
+msgstr "WordPress ব্যবহারকারীদের ৫ তারকা রেটিং"
+
+msgid "Every review of the plugin on WordPress.org gives it five stars."
+msgstr "WordPress.org-এ প্লাগইনটির প্রতিটি রিভিউতে পাঁচ তারকা।"
+
+msgid "5 out of 5 stars"
+msgstr "৫-এর মধ্যে ৫ তারকা"
+
+msgid "Read all reviews on WordPress.org"
+msgstr "WordPress.org-এ সব রিভিউ পড়ুন"
+
+msgid "30% off for Flipbook PDF Viewer users"
+msgstr "Flipbook PDF Viewer ব্যবহারকারীদের জন্য ৩০% ছাড়"
+
+msgid "Your code FLIPBOOK30 is applied at checkout — pick a plan below."
+msgstr "আপনার FLIPBOOK30 কোড চেকআউটে নিজে থেকেই যোগ হবে — নিচে থেকে একটি প্ল্যান বেছে নিন।"
+
+msgid "14-day money-back guarantee"
+msgstr "১৪ দিনের মানি-ব্যাক গ্যারান্টি"
+
+msgid "If Pro isn’t right for you, email info@lieusoft.com within 14 days of your purchase for a full refund. No questions asked."
+msgstr "Pro আপনার কাজে না লাগলে কেনার ১৪ দিনের মধ্যে info@lieusoft.com-এ ইমেইল করুন, পুরো টাকা ফেরত পাবেন। কোনো প্রশ্ন করা হবে না।"
+
+msgid "Is there a money-back guarantee?"
+msgstr "টাকা ফেরতের গ্যারান্টি আছে কি?"
+
+msgid "Yes. If Pro isn’t right for you, email info@lieusoft.com within 14 days of your purchase and we’ll refund you in full."
+msgstr "হ্যাঁ। Pro আপনার কাজে না লাগলে কেনার ১৪ দিনের মধ্যে info@lieusoft.com-এ ইমেইল করুন, আমরা পুরো টাকা ফেরত দেব।"
+
+msgid "14-day money-back guarantee on Flipbook PDF Viewer Pro."
+msgstr "Flipbook PDF Viewer Pro-তে ১৪ দিনের মানি-ব্যাক গ্যারান্টি।"

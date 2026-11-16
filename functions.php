@@ -15,6 +15,7 @@ require get_template_directory() . '/inc/seo.php';
 require get_template_directory() . '/inc/performance.php';
 require get_template_directory() . '/inc/checkout.php';
 require get_template_directory() . '/inc/security.php';
+require get_template_directory() . '/inc/analytics.php';
 
 /**
  * WordPress marks a nav item "current" by comparing the URL path only, so

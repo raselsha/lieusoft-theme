@@ -1,9 +1,8 @@
 <?php
 /**
- * Front-end weight trimming. Elementor and Easy Digital Downloads stay
- * active (an old Elementor page and the EDD checkout still use them), but
- * their stylesheets, scripts and Google Fonts load on every page by
- * default. The theme renders everything itself, so they're only kept where
+ * Front-end weight trimming. Easy Digital Downloads (and Elementor, if it
+ * is active) load their stylesheets, scripts and Google Fonts on every page
+ * by default. The theme renders everything itself, so they're only kept where
  * they're actually needed.
  */
 
@@ -131,3 +130,30 @@ function lieusoft_async_google_fonts( $html, $handle, $href ) {
 	return $async . '<noscript>' . $html . '</noscript>';
 }
 add_filter( 'style_loader_tag', 'lieusoft_async_google_fonts', 10, 3 );
+
+/**
+ * Stripe.js (~280 KB) is loaded on every page by Easy Digital Downloads
+ * unless its "Restrict Stripe assets" setting is on. Force that on: EDD
+ * still loads Stripe on the checkout (with something in the cart) and
+ * anywhere it explicitly needs it.
+ */
+add_filter( 'edd_get_option_stripe_restrict_assets', '__return_true' );
+
+/**
+ * WordPress's user-profile script (pulled in by EDD's login/register and
+ * profile forms on My Account) warns "Leave site? Changes may not be saved"
+ * on any navigation once the page has been clicked. That makes no sense on
+ * a login form, so drop its beforeunload handler on the front end.
+ */
+function lieusoft_quiet_profile_script() {
+	wp_add_inline_script( 'user-profile', 'jQuery( function ( $ ) { $( window ).off( "beforeunload" ); } );' );
+}
+add_action( 'wp_enqueue_scripts', 'lieusoft_quiet_profile_script', 20 );
+
+/**
+ * Keep the last 10 revisions of a post instead of every one ever saved.
+ */
+function lieusoft_revisions_to_keep( $num ) {
+	return ( $num < 0 || $num > 10 ) ? 10 : $num;
+}
+add_filter( 'wp_revisions_to_keep', 'lieusoft_revisions_to_keep' );

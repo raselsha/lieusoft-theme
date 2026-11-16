@@ -14,6 +14,7 @@ require get_template_directory() . '/inc/i18n-posts.php';
 require get_template_directory() . '/inc/seo.php';
 require get_template_directory() . '/inc/performance.php';
 require get_template_directory() . '/inc/checkout.php';
+require get_template_directory() . '/inc/security.php';
 
 /**
  * WordPress marks a nav item "current" by comparing the URL path only, so
@@ -543,7 +544,9 @@ function lieusoft_get_testimonials() {
 
 /**
  * Live client projects shown in the "Projects We've Delivered" strip.
- * Screenshots live in assets/images/project-*.jpg.
+ * Screenshots live in assets/images/project-*.jpg. 'country' is a key of
+ * lieusoft_project_countries() (left out where the client's country isn't
+ * known), used by the world map section.
  */
 function lieusoft_get_projects() {
 	return array(
@@ -554,6 +557,7 @@ function lieusoft_get_projects() {
 			'tags'     => array( __( 'Booking System', 'lieusoft' ), 'WooCommerce', __( 'Bilingual', 'lieusoft' ) ),
 			'image'    => 'project-cozythai.jpg',
 			'url'      => 'https://cozythai.pt/',
+			'country'  => 'PT',
 		),
 		array(
 			'name'     => 'Shafiul Amraz',
@@ -562,6 +566,7 @@ function lieusoft_get_projects() {
 			'tags'     => array( __( 'Appointment System', 'lieusoft' ), __( 'Live Queue', 'lieusoft' ), __( 'SMS', 'lieusoft' ) ),
 			'image'    => 'project-shafiulamraz.jpg',
 			'url'      => 'https://shafiulamraz.com/',
+			'country'  => 'BD',
 		),
 		array(
 			'name'     => 'KnowledgeHut',
@@ -570,6 +575,7 @@ function lieusoft_get_projects() {
 			'tags'     => array( __( 'Redesign', 'lieusoft' ), 'Elementor', __( 'Courses', 'lieusoft' ) ),
 			'image'    => 'project-knowledgehut.jpg',
 			'url'      => 'https://knowledgehut.org.uk/',
+			'country'  => 'GB',
 		),
 		array(
 			'name'     => 'Bennon Solutions',
@@ -578,6 +584,7 @@ function lieusoft_get_projects() {
 			'tags'     => array( __( 'Corporate Website', 'lieusoft' ), 'Elementor', __( 'Government', 'lieusoft' ) ),
 			'image'    => 'project-bennon.jpg',
 			'url'      => 'https://bennonsolutions.com/',
+			'country'  => 'US',
 		),
 		array(
 			'name'     => 'Dual Layer IT',
@@ -586,6 +593,7 @@ function lieusoft_get_projects() {
 			'tags'     => array( __( 'Brand Website', 'lieusoft' ), __( 'IT Services', 'lieusoft' ), __( 'Compliance', 'lieusoft' ) ),
 			'image'    => 'project-duallayerit.jpg',
 			'url'      => 'https://www.duallayerit.com/',
+			'country'  => 'HK',
 		),
 		array(
 			'name'     => 'Dual Layer Cyber',
@@ -594,6 +602,7 @@ function lieusoft_get_projects() {
 			'tags'     => array( __( 'Corporate Website', 'lieusoft' ), 'Elementor', __( 'Cybersecurity', 'lieusoft' ) ),
 			'image'    => 'project-duallayercyber.jpg',
 			'url'      => 'https://duallayercyber.com/',
+			'country'  => 'HK',
 		),
 		array(
 			'name'     => 'RBA',
@@ -602,14 +611,16 @@ function lieusoft_get_projects() {
 			'tags'     => array( __( 'Product Catalogue', 'lieusoft' ), 'Elementor', 'B2B' ),
 			'image'    => 'project-rba.jpg',
 			'url'      => 'https://rbaammo.com/',
+			'country'  => 'US',
 		),
 		array(
 			'name'     => 'CMX',
-			'category' => __( 'Digital Agency', 'lieusoft' ),
+			'category' => __( 'Digital Agency · USA', 'lieusoft' ),
 			'desc'     => __( 'Website for a full-service digital agency covering web development, SEO and AI automation.', 'lieusoft' ),
 			'tags'     => array( __( 'Custom Theme', 'lieusoft' ), __( 'Dark Mode', 'lieusoft' ), 'SEO' ),
 			'image'    => 'project-cmx-dark.jpg',
 			'url'      => 'https://www.cmxchat.com/',
+			'country'  => 'US',
 		),
 		array(
 			'name'     => 'eFirm Accountants',
@@ -618,6 +629,7 @@ function lieusoft_get_projects() {
 			'tags'     => array( __( 'Service Website', 'lieusoft' ), 'Elementor', __( 'Pricing Pages', 'lieusoft' ) ),
 			'image'    => 'project-efirm.jpg',
 			'url'      => 'https://efirm.com.au/',
+			'country'  => 'AU',
 		),
 		array(
 			'name'     => 'Blue Creek Capital',
@@ -626,14 +638,16 @@ function lieusoft_get_projects() {
 			'tags'     => array( __( 'Corporate Website', 'lieusoft' ), 'Elementor', __( 'Investor Portal', 'lieusoft' ) ),
 			'image'    => 'project-bluecreek.jpg',
 			'url'      => 'https://www.bluecreekasset.com/',
+			'country'  => 'HK',
 		),
 		array(
 			'name'     => 'Yasmeen Baig',
-			'category' => __( 'Fashion Design', 'lieusoft' ),
+			'category' => __( 'Fashion Design · USA', 'lieusoft' ),
 			'desc'     => __( 'Portfolio website for a fashion designer, showing collections, the creative process and commission enquiries, with a custom studio panel for editing.', 'lieusoft' ),
 			'tags'     => array( 'Next.js', __( 'Headless WordPress', 'lieusoft' ), __( 'Portfolio', 'lieusoft' ) ),
 			'image'    => 'project-yasmeenbaig.jpg',
 			'url'      => 'https://yasmeenbaig.com/',
+			'country'  => 'US',
 		),
 		array(
 			'name'     => 'UROOD',
@@ -642,6 +656,7 @@ function lieusoft_get_projects() {
 			'tags'     => array( __( 'Brand Website', 'lieusoft' ), 'Next.js', __( 'Wholesale', 'lieusoft' ) ),
 			'image'    => 'project-urood.jpg',
 			'url'      => 'https://urood.com/',
+			'country'  => 'US',
 		),
 		// Last on purpose: the strip loops, so this sits between UROOD and CozyThai.
 		array(
@@ -651,7 +666,25 @@ function lieusoft_get_projects() {
 			'tags'     => array( __( 'Redesign', 'lieusoft' ), 'Elementor', __( 'Lead Generation', 'lieusoft' ) ),
 			'image'    => 'project-kheducation.jpg',
 			'url'      => 'https://kh-education.org.uk/',
+			'country'  => 'GB',
 		),
+	);
+}
+
+/**
+ * Countries with delivered projects, for the world map section
+ * (template-parts/section-world-reach.php). lat/lon place the pin on a city
+ * where clients are (US: New York); 'label' says which side of
+ * the pin its name sits on; 'home' marks our own base, where the arcs start.
+ */
+function lieusoft_project_countries() {
+	return array(
+		'BD' => array( 'name' => __( 'Bangladesh', 'lieusoft' ), 'region' => __( 'Asia', 'lieusoft' ), 'lat' => 23.81, 'lon' => 90.41, 'label' => 'top', 'home' => true ),
+		'US' => array( 'name' => __( 'United States', 'lieusoft' ), 'region' => __( 'North America', 'lieusoft' ), 'lat' => 40.71, 'lon' => -74.01, 'label' => 'top' ),
+		'GB' => array( 'name' => __( 'United Kingdom', 'lieusoft' ), 'region' => __( 'Europe', 'lieusoft' ), 'lat' => 51.51, 'lon' => -0.13, 'label' => 'top' ),
+		'PT' => array( 'name' => __( 'Portugal', 'lieusoft' ), 'region' => __( 'Europe', 'lieusoft' ), 'lat' => 38.72, 'lon' => -9.14, 'label' => 'left' ),
+		'HK' => array( 'name' => __( 'Hong Kong', 'lieusoft' ), 'region' => __( 'Asia', 'lieusoft' ), 'lat' => 22.32, 'lon' => 114.17, 'label' => 'right' ),
+		'AU' => array( 'name' => __( 'Australia', 'lieusoft' ), 'region' => __( 'Oceania', 'lieusoft' ), 'lat' => -37.81, 'lon' => 144.96, 'label' => 'left' ),
 	);
 }
 

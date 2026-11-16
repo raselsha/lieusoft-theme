@@ -3370,23 +3370,23 @@ msgstr "Flipbook ফ্রি · Pro $22 / বছর থেকে"
 msgid "No downloads yet. Your plugin files appear here once you have a license."
 msgstr "এখনো কোনো download নেই। License নিলে আপনার plugin file এখানে দেখাবে।"
 
-msgid "Lieusoft: Business Websites, Booking Systems & WordPress Plugins"
-msgstr "Lieusoft: বিজনেস ওয়েবসাইট, বুকিং সিস্টেম ও WordPress প্লাগইন"
+msgid "Lieusoft: Business Websites, Booking Systems & Plugins"
+msgstr "Lieusoft: বিজনেস ওয়েবসাইট, বুকিং সিস্টেম ও প্লাগইন"
 
 msgid "Lieusoft builds complete business websites with online booking, appointment and order systems, plus hosting and support, and sells premium WordPress plugins."
 msgstr "Lieusoft অনলাইন বুকিং, অ্যাপয়েন্টমেন্ট ও অর্ডার সিস্টেমসহ পূর্ণাঙ্গ বিজনেস ওয়েবসাইট বানায়, সাথে হোস্টিং ও সাপোর্ট দেয়, আর প্রিমিয়াম WordPress প্লাগইন বিক্রি করে।"
 
-msgid "WordPress Plugins for Booking, Clinics, Tailors & PDFs - Lieusoft"
-msgstr "বুকিং, ক্লিনিক, টেইলর ও PDF এর জন্য WordPress প্লাগইন - Lieusoft"
+msgid "WordPress Booking, Clinic, Tailor & PDF Plugins - Lieusoft"
+msgstr "বুকিং, ক্লিনিক, টেইলর ও PDF এর WordPress প্লাগইন - Lieusoft"
 
-msgid "Premium WordPress plugins by Lieusoft: service booking, doctor appointment, tailor order management and a 3D flipbook PDF viewer. Install them yourself or let us set them up."
-msgstr "Lieusoft এর প্রিমিয়াম WordPress প্লাগইন: সার্ভিস বুকিং, ডাক্তার অ্যাপয়েন্টমেন্ট, টেইলর অর্ডার ম্যানেজমেন্ট আর 3D ফ্লিপবুক PDF ভিউয়ার। নিজে বসান, অথবা আমরা সেট আপ করে দিই।"
+msgid "Premium WordPress plugins by Lieusoft: service booking, doctor appointments, tailor orders and a 3D flipbook PDF viewer. Install them or let us set them up."
+msgstr "Lieusoft এর প্রিমিয়াম WordPress প্লাগইন: সার্ভিস বুকিং, ডাক্তার অ্যাপয়েন্টমেন্ট, টেইলর অর্ডার আর 3D ফ্লিপবুক PDF ভিউয়ার। নিজে বসান বা আমরা বসিয়ে দিই।"
 
-msgid "Business Solutions for Clinics, Salons & Tailor Shops - Lieusoft"
-msgstr "ক্লিনিক, সেলুন ও টেইলর শপের জন্য বিজনেস সলিউশন - Lieusoft"
+msgid "Websites for Clinics, Salons & Tailor Shops - Lieusoft"
+msgstr "ক্লিনিক, সেলুন ও টেইলর শপের ওয়েবসাইট - Lieusoft"
 
-msgid "Complete websites with online booking, appointments or order tracking, set up, hosted and supported by Lieusoft. From ৳12,000 a year plus a one-time installation."
-msgstr "অনলাইন বুকিং, অ্যাপয়েন্টমেন্ট বা অর্ডার ট্র্যাকিংসহ পূর্ণাঙ্গ ওয়েবসাইট। সেট আপ, হোস্টিং ও সাপোর্ট Lieusoft এর। বছরে ৳১২,০০০ থেকে, সাথে একবারের ইনস্টলেশন।"
+msgid "Complete websites with online booking, appointments or order tracking, set up, hosted and supported by Lieusoft. From ৳12,000 a year plus one-time setup."
+msgstr "অনলাইন বুকিং, অ্যাপয়েন্টমেন্ট বা অর্ডার ট্র্যাকিংসহ পূর্ণাঙ্গ ওয়েবসাইট; সেটআপ, হোস্টিং ও সাপোর্ট Lieusoft এর। বছরে ৳১২,০০০ থেকে, সাথে একবারের সেটআপ।"
 
 msgid "Website Development, Hosting & WordPress Support - Lieusoft"
 msgstr "ওয়েবসাইট ডেভেলপমেন্ট, হোস্টিং ও WordPress সাপোর্ট - Lieusoft"
@@ -3397,17 +3397,17 @@ msgstr "ওয়েবসাইট ডেভেলপমেন্ট, প্ল
 msgid "Pricing: Business Solutions & WordPress Plugins - Lieusoft"
 msgstr "মূল্য: বিজনেস সলিউশন ও WordPress প্লাগইন - Lieusoft"
 
-msgid "Clear prices for Lieusoft business solutions (from ৳12,000/year plus ৳10,000 setup) and WordPress plugins like Flipbook (free, Pro from $29/year), plus fixed quotes for custom work."
-msgstr "Lieusoft এর বিজনেস সলিউশনের পরিষ্কার দাম (বছরে ৳১২,০০০ থেকে, সাথে ৳১০,০০০ সেটআপ), Flipbook এর মতো WordPress প্লাগইন (ফ্রি, Pro বছরে $29 থেকে), আর কাস্টম কাজের নির্দিষ্ট কোটেশন।"
+msgid "Clear prices for Lieusoft business solutions (from ৳12,000/year + ৳10,000 setup), WordPress plugins like Flipbook (Pro from $29/year) and custom work."
+msgstr "Lieusoft এর বিজনেস সলিউশনের দাম (বছরে ৳১২,০০০ থেকে + ৳১০,০০০ সেটআপ), Flipbook এর মতো WordPress প্লাগইন (Pro বছরে $29 থেকে) আর কাস্টম কাজ।"
 
 msgid "Case Studies: Websites & Systems We've Built - Lieusoft"
 msgstr "কেস স্টাডি: আমাদের বানানো ওয়েবসাইট ও সিস্টেম - Lieusoft"
 
-msgid "Real projects by Lieusoft: clinic appointment systems, online booking websites and business sites we've designed, built and support for clients around the world."
+msgid "Real projects by Lieusoft: clinic appointment systems, online booking and business websites we've built and support for clients around the world."
 msgstr "Lieusoft এর আসল প্রজেক্ট: ক্লিনিক অ্যাপয়েন্টমেন্ট সিস্টেম, অনলাইন বুকিং ওয়েবসাইট আর বিজনেস সাইট, যা আমরা বিশ্বজুড়ে ক্লায়েন্টদের জন্য ডিজাইন, তৈরি ও সাপোর্ট করি।"
 
-msgid "Blog: WordPress, Automation & Business Website Guides - Lieusoft"
-msgstr "ব্লগ: WordPress, অটোমেশন ও বিজনেস ওয়েবসাইট গাইড - Lieusoft"
+msgid "WordPress, Automation & Website Guides - Lieusoft Blog"
+msgstr "WordPress, অটোমেশন ও ওয়েবসাইট গাইড - Lieusoft ব্লগ"
 
 msgid "Step-by-step guides on WordPress, n8n automation, Facebook and Gmail workflows, online booking and running your business online, from the Lieusoft team."
 msgstr "WordPress, n8n অটোমেশন, Facebook ও Gmail workflow, অনলাইন বুকিং আর অনলাইনে ব্যবসা চালানো নিয়ে Lieusoft টিমের ধাপে ধাপে গাইড।"
@@ -3415,11 +3415,11 @@ msgstr "WordPress, n8n অটোমেশন, Facebook ও Gmail workflow, অ�
 msgid "3D Flipbook PDF Viewer for WordPress: Free & Pro - Lieusoft"
 msgstr "WordPress এর জন্য 3D ফ্লিপবুক PDF ভিউয়ার: ফ্রি ও Pro - Lieusoft"
 
-msgid "Turn PDFs into realistic 3D flipbooks on any WordPress site. Free plugin, plus Pro with brand toolbar skins, protected PDF links and download control from $29/year."
-msgstr "যেকোনো WordPress সাইটে PDF কে বাস্তবসম্মত 3D ফ্লিপবুকে রূপ দিন। প্লাগইন ফ্রি; Pro তে ব্র্যান্ড টুলবার স্কিন, সুরক্ষিত PDF লিংক ও ডাউনলোড নিয়ন্ত্রণ, বছরে $29 থেকে।"
+msgid "Turn PDFs into realistic 3D flipbooks on any WordPress site. Free plugin, plus Pro with brand toolbar skins, protected PDFs and downloads from $29/year."
+msgstr "যেকোনো WordPress সাইটে PDF কে বাস্তবসম্মত 3D ফ্লিপবুকে রূপ দিন। প্লাগইন ফ্রি; Pro তে ব্র্যান্ড টুলবার, সুরক্ষিত PDF ও ডাউনলোড নিয়ন্ত্রণ, বছরে $29 থেকে।"
 
-msgid "Service Booking & Appointment Plugin for WordPress - Lieusoft"
-msgstr "WordPress এর জন্য সার্ভিস বুকিং ও অ্যাপয়েন্টমেন্ট প্লাগইন - Lieusoft"
+msgid "Booking & Appointment Plugin for WordPress - Lieusoft"
+msgstr "WordPress এর বুকিং ও অ্যাপয়েন্টমেন্ট প্লাগইন - Lieusoft"
 
 msgid "Online booking plugin for service businesses: staff and schedules, secure payments, email and SMS notifications, custom fields and reports. One-time license from ৳4,999."
 msgstr "সার্ভিস ব্যবসার জন্য অনলাইন বুকিং প্লাগইন: স্টাফ ও শিডিউল, নিরাপদ পেমেন্ট, ইমেইল ও SMS নোটিফিকেশন, কাস্টম ফিল্ড আর রিপোর্ট। একবারের লাইসেন্স ৳৪,৯৯৯ থেকে।"
@@ -3427,14 +3427,14 @@ msgstr "সার্ভিস ব্যবসার জন্য অনলাই
 msgid "Doctor Appointment Booking Plugin for WordPress - Lieusoft"
 msgstr "WordPress এর জন্য ডাক্তার অ্যাপয়েন্টমেন্ট বুকিং প্লাগইন - Lieusoft"
 
-msgid "Appointment booking for doctors, clinics and hospitals: doctor schedules, patient management, secure payments, email and SMS notifications and reports. From ৳4,999."
-msgstr "ডাক্তার, ক্লিনিক ও হাসপাতালের জন্য অ্যাপয়েন্টমেন্ট বুকিং: ডাক্তারের শিডিউল, রোগী ব্যবস্থাপনা, নিরাপদ পেমেন্ট, ইমেইল ও SMS নোটিফিকেশন আর রিপোর্ট। ৳৪,৯৯৯ থেকে।"
+msgid "Appointment booking for doctors and clinics: doctor schedules, patient management, secure payments, email and SMS alerts and reports. From ৳4,999."
+msgstr "ডাক্তার ও ক্লিনিকের অ্যাপয়েন্টমেন্ট বুকিং: ডাক্তারের শিডিউল, রোগী ব্যবস্থাপনা, নিরাপদ পেমেন্ট, ইমেইল ও SMS অ্যালার্ট আর রিপোর্ট। ৳৪,৯৯৯ থেকে।"
 
 msgid "Tailor Order & Measurement Management Plugin - Lieusoft"
 msgstr "টেইলর অর্ডার ও মাপ ম্যানেজমেন্ট প্লাগইন - Lieusoft"
 
-msgid "Manage tailor shop orders, customers, measurements, fabrics, payments and deliveries in WordPress, with reports and an order status board. One-time license from ৳4,999."
-msgstr "WordPress এ টেইলর শপের অর্ডার, কাস্টমার, মাপ, কাপড়, পেমেন্ট ও ডেলিভারি সামলান, সাথে রিপোর্ট ও অর্ডার স্ট্যাটাস বোর্ড। একবারের লাইসেন্স ৳৪,৯৯৯ থেকে।"
+msgid "Manage tailor shop orders, customers, measurements, payments and deliveries in WordPress, with reports and a status board. One-time license from ৳4,999."
+msgstr "WordPress এ টেইলর শপের অর্ডার, কাস্টমার, মাপ, পেমেন্ট ও ডেলিভারি সামলান, সাথে রিপোর্ট ও স্ট্যাটাস বোর্ড। একবারের লাইসেন্স ৳৪,৯৯৯ থেকে।"
 
 msgid "Clinic Website & Doctor Appointment System - Lieusoft"
 msgstr "ক্লিনিক ওয়েবসাইট ও ডাক্তার অ্যাপয়েন্টমেন্ট সিস্টেম - Lieusoft"
@@ -3448,11 +3448,11 @@ msgstr "টেইলর শপ ওয়েবসাইট ও অর্ডা�
 msgid "A complete tailor shop website with order tracking, measurement records and delivery management, set up, hosted and supported by Lieusoft."
 msgstr "অর্ডার ট্র্যাকিং, মাপের রেকর্ড ও ডেলিভারি ব্যবস্থাপনাসহ পূর্ণাঙ্গ টেইলর শপ ওয়েবসাইট। সেট আপ, হোস্টিং ও সাপোর্ট Lieusoft এর।"
 
-msgid "Booking Website for Salons, Spas & Service Businesses - Lieusoft"
-msgstr "সেলুন, স্পা ও সার্ভিস ব্যবসার জন্য বুকিং ওয়েবসাইট - Lieusoft"
+msgid "Booking Websites for Salons, Spas & Services - Lieusoft"
+msgstr "সেলুন, স্পা ও সার্ভিস ব্যবসার বুকিং ওয়েবসাইট - Lieusoft"
 
-msgid "A complete booking website for salons, spas, cleaning, repair and beauty businesses, with online booking and staff management, hosted and supported by Lieusoft."
-msgstr "সেলুন, স্পা, ক্লিনিং, রিপেয়ার ও বিউটি ব্যবসার জন্য অনলাইন বুকিং ও স্টাফ ব্যবস্থাপনাসহ পূর্ণাঙ্গ বুকিং ওয়েবসাইট। হোস্টিং ও সাপোর্ট Lieusoft এর।"
+msgid "A complete booking website for salons, spas, cleaning, repair and beauty businesses, with online booking and staff management, hosted and supported."
+msgstr "সেলুন, স্পা, ক্লিনিং, রিপেয়ার ও বিউটি ব্যবসার জন্য অনলাইন বুকিং ও স্টাফ ব্যবস্থাপনাসহ পূর্ণাঙ্গ বুকিং ওয়েবসাইট, হোস্টিং ও সাপোর্টসহ।"
 
 msgid "How Lieusoft collects, uses and protects your personal information when you use our website, products and services."
 msgstr "আমাদের ওয়েবসাইট, প্রোডাক্ট ও সার্ভিস ব্যবহারের সময় Lieusoft কীভাবে আপনার ব্যক্তিগত তথ্য সংগ্রহ, ব্যবহার ও সুরক্ষা করে।"
@@ -3640,8 +3640,199 @@ msgstr "প্লাগইন লাইসেন্স $29 / বছর থেক
 msgid "Install on your own WordPress site. Yearly or lifetime licenses, with updates and support included."
 msgstr "নিজের WordPress সাইটে ইনস্টল করুন। বাৎসরিক বা লাইফটাইম লাইসেন্স, আপডেট ও সাপোর্টসহ।"
 
-msgid "Online booking plugin for WooCommerce: branches, staff and schedules, a step-by-step booking popup, WooCommerce checkout and Telegram alerts. From $29/year, free live demo."
-msgstr "WooCommerce এর জন্য অনলাইন বুকিং প্লাগইন: ব্রাঞ্চ, স্টাফ ও শিডিউল, ধাপে ধাপে বুকিং পপআপ, WooCommerce চেকআউট আর Telegram অ্যালার্ট। বছরে $29 থেকে, ফ্রি লাইভ ডেমো।"
+msgid "WooCommerce booking plugin: branches, staff and schedules, a step-by-step booking popup, checkout and Telegram alerts. From $29/year, free live demo."
+msgstr "WooCommerce এর বুকিং প্লাগইন: ব্রাঞ্চ, স্টাফ ও শিডিউল, ধাপে ধাপে বুকিং পপআপ, চেকআউট আর Telegram অ্যালার্ট। বছরে $29 থেকে, ফ্রি লাইভ ডেমো।"
 
 msgid "Browse our plugins"
 msgstr "আমাদের প্লাগইনগুলো দেখুন"
+
+msgid "Portugal"
+msgstr "পর্তুগাল"
+
+msgid "2 Weeks"
+msgstr "২ সপ্তাহ"
+
+msgid "We built a complete booking website for CozyThai, including custom design, appointment booking system, domain, hosting, SSL, business email, and ongoing maintenance."
+msgstr "CozyThai এর জন্য আমরা একটি পূর্ণাঙ্গ বুকিং ওয়েবসাইট তৈরি করেছি: কাস্টম ডিজাইন, অ্যাপয়েন্টমেন্ট বুকিং সিস্টেম, ডোমেইন, হোস্টিং, SSL, বিজনেস ইমেইল আর নিয়মিত রক্ষণাবেক্ষণসহ।"
+
+msgid "Website Design"
+msgstr "ওয়েবসাইট ডিজাইন"
+
+msgid "Our Process"
+msgstr "আমাদের কাজের ধাপ"
+
+msgid "Cloud Hosting"
+msgstr "ক্লাউড হোস্টিং"
+
+msgid "Why Clients Choose Lieusoft"
+msgstr "ক্লায়েন্টরা কেন Lieusoft বেছে নেন"
+
+msgid "Complete Business Solutions"
+msgstr "পূর্ণাঙ্গ বিজনেস সলিউশন"
+
+msgid "Professional Development"
+msgstr "পেশাদার ডেভেলপমেন্ট"
+
+msgid "Clean, modern websites built the right way."
+msgstr "সঠিক উপায়ে তৈরি পরিচ্ছন্ন, আধুনিক ওয়েবসাইট।"
+
+msgid "We're reachable long after your site goes live."
+msgstr "সাইট চালু হওয়ার অনেক পরেও আমাদের পাবেন।"
+
+msgid "Long-Term Partnership"
+msgstr "দীর্ঘমেয়াদি অংশীদারিত্ব"
+
+msgid "We grow alongside your business, not just launch and leave."
+msgstr "শুধু সাইট চালু করে চলে যাই না, আপনার ব্যবসার সাথে আমরাও এগোই।"
+
+msgid "Can you build something similar for my business?"
+msgstr "আমার ব্যবসার জন্য কি এমন কিছু বানাতে পারবেন?"
+
+msgid "Yes. Every project here started with a consultation — tell us what you need and we will show you how we would approach it."
+msgstr "হ্যাঁ। এখানের প্রতিটি প্রজেক্ট শুরু হয়েছে একটি কনসালটেশন দিয়ে। আপনার কী দরকার বলুন, আমরা দেখাব কীভাবে কাজটা করব।"
+
+msgid "Yes, we have delivered projects for clients in Bangladesh, the UK, the U.S., Portugal, Hong Kong and Australia."
+msgstr "হ্যাঁ, বাংলাদেশ, যুক্তরাজ্য, যুক্তরাষ্ট্র, পর্তুগাল, হংকং আর অস্ট্রেলিয়ার ক্লায়েন্টদের প্রজেক্ট আমরা ডেলিভার করেছি।"
+
+msgid "What technology do you use?"
+msgstr "আপনারা কোন প্রযুক্তি ব্যবহার করেন?"
+
+msgid "Mostly WordPress, WooCommerce and custom PHP plugins, and Next.js where a project needs it — always on fast, secure hosting."
+msgstr "মূলত WordPress, WooCommerce আর কাস্টম PHP প্লাগইন; প্রজেক্টে দরকার হলে Next.js। সবসময় দ্রুত ও নিরাপদ হোস্টিংয়ে।"
+
+msgid "Do you support the site after launch?"
+msgstr "সাইট চালুর পরেও কি সাপোর্ট দেন?"
+
+msgid "Yes, we stay on for updates, fixes and new features long after the site goes live."
+msgstr "হ্যাঁ, সাইট চালুর অনেক পরেও আপডেট, সমস্যা সমাধান আর নতুন ফিচারের জন্য আমরা পাশে থাকি।"
+
+msgid "How do we get started?"
+msgstr "কীভাবে শুরু করব?"
+
+msgid "Book a free consultation. We will talk through your goals, then send a clear plan, timeline and price."
+msgstr "একটি ফ্রি কনসালটেশন বুক করুন। আপনার লক্ষ্য নিয়ে কথা বলে আমরা পরিষ্কার পরিকল্পনা, সময়সূচি আর দাম পাঠাব।"
+
+msgid "Ready to Build Your Business?"
+msgstr "আপনার ব্যবসা গড়তে প্রস্তুত?"
+
+msgid "Let's create a professional website that helps your business grow."
+msgstr "চলুন এমন একটি পেশাদার ওয়েবসাইট বানাই যা আপনার ব্যবসাকে বাড়াতে সাহায্য করবে।"
+
+msgid "Real business websites we've built for our clients."
+msgstr "ক্লায়েন্টদের জন্য আমাদের তৈরি বাস্তব বিজনেস ওয়েবসাইট।"
+
+msgid "Discover how we help businesses launch professional websites with custom solutions, managed hosting, and ongoing support."
+msgstr "দেখুন কীভাবে কাস্টম সলিউশন, ম্যানেজড হোস্টিং আর নিয়মিত সাপোর্ট দিয়ে আমরা ব্যবসাগুলোকে পেশাদার ওয়েবসাইট চালু করতে সাহায্য করি।"
+
+msgid "Featured Case Study"
+msgstr "বিশেষ কেস স্টাডি"
+
+msgid "Client"
+msgstr "ক্লায়েন্ট"
+
+msgid "Industry"
+msgstr "ইন্ডাস্ট্রি"
+
+msgid "Location"
+msgstr "লোকেশন"
+
+msgid "Duration"
+msgstr "সময়কাল"
+
+msgid "Project Overview"
+msgstr "প্রজেক্টের সারসংক্ষেপ"
+
+msgid "What We Delivered"
+msgstr "আমরা যা দিয়েছি"
+
+msgid "Visit Website"
+msgstr "ওয়েবসাইট দেখুন"
+
+msgid "View Solution"
+msgstr "সলিউশন দেখুন"
+
+msgid "More Case Studies"
+msgstr "আরও কেস স্টাডি"
+
+msgid "Technologies"
+msgstr "প্রযুক্তি"
+
+msgid "%s websites launched"
+msgstr "%sটি ওয়েবসাইট চালু করেছি"
+
+msgid "Clients in 6 countries"
+msgstr "6টি দেশে ক্লায়েন্ট"
+
+msgid "Global Reach"
+msgstr "বিশ্বজুড়ে কাজ"
+
+msgid "Projects Delivered"
+msgstr "আমাদের প্রজেক্ট"
+
+msgid "Around the World"
+msgstr "বিশ্বজুড়ে"
+
+msgid "From our base in Bangladesh we build and look after websites for businesses in Europe, North America, Asia and Australia."
+msgstr "বাংলাদেশ থেকে আমরা ইউরোপ, উত্তর আমেরিকা, এশিয়া আর অস্ট্রেলিয়ার ব্যবসার জন্য ওয়েবসাইট তৈরি ও রক্ষণাবেক্ষণ করি।"
+
+msgid "Projects delivered"
+msgstr "ডেলিভার করা প্রজেক্ট"
+
+msgid "Countries"
+msgstr "দেশ"
+
+msgid "Continents"
+msgstr "মহাদেশ"
+
+msgid "See all case studies"
+msgstr "সব কেস স্টাডি দেখুন"
+
+msgid "Where we've delivered"
+msgstr "যেখানে আমরা কাজ করেছি"
+
+msgid "Client projects"
+msgstr "ক্লায়েন্ট প্রজেক্ট"
+
+msgid "Our base"
+msgstr "আমাদের অফিস"
+
+msgid "Bangladesh"
+msgstr "বাংলাদেশ"
+
+msgid "United States"
+msgstr "যুক্তরাষ্ট্র"
+
+msgid "United Kingdom"
+msgstr "যুক্তরাজ্য"
+
+msgid "Hong Kong"
+msgstr "হংকং"
+
+msgid "Australia"
+msgstr "অস্ট্রেলিয়া"
+
+msgid "Asia"
+msgstr "এশিয়া"
+
+msgid "North America"
+msgstr "উত্তর আমেরিকা"
+
+msgid "Europe"
+msgstr "ইউরোপ"
+
+msgid "Oceania"
+msgstr "ওশেনিয়া"
+
+msgid "%s project"
+msgid_plural "%s projects"
+msgstr[0] "%sটি প্রজেক্ট"
+msgstr[1] "%sটি প্রজেক্ট"
+
+msgid "Digital Agency · USA"
+msgstr "ডিজিটাল এজেন্সি · যুক্তরাষ্ট্র"
+
+msgid "Fashion Design · USA"
+msgstr "ফ্যাশন ডিজাইন · যুক্তরাষ্ট্র"
+
+msgid "Privacy Policy - Lieusoft"
+msgstr "গোপনীয়তা নীতি - Lieusoft"

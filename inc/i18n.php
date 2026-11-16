@@ -158,7 +158,7 @@ function lieusoft_language_fonts() {
 		return;
 	}
 	wp_enqueue_style( 'lieusoft-lang-font', 'https://fonts.googleapis.com/css2?family=' . $fonts[ $lang ]['family'] . '&display=swap', array(), null );
-	$stack = '"' . $fonts[ $lang ]['name'] . '", "Roboto", sans-serif';
+	$stack = '"' . $fonts[ $lang ]['name'] . '", "Roboto", "Roboto Fallback", sans-serif';
 	wp_add_inline_style( 'lieusoft-theme', ":root{--font-heading:{$stack};--font-body:{$stack};--font-display:{$stack};}" );
 
 	if ( is_rtl() ) {

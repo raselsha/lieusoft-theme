@@ -559,3 +559,25 @@
 		t.tabIndex = t.getAttribute( 'aria-selected' ) === 'true' ? 0 : -1;
 	} );
 } )();
+
+// Global Reach — hovering or focusing a country row lights up its pin and
+// arc on the world map (template-parts/section-world-reach.php).
+( function () {
+	document.querySelectorAll( '[data-world-reach]' ).forEach( function ( root ) {
+		var rows = root.querySelectorAll( '.world-reach__row' );
+
+		function setActive( code ) {
+			root.querySelectorAll( '.world-reach__pin, .world-reach__arcs path, .world-reach__row' ).forEach( function ( el ) {
+				el.classList.toggle( 'is-active', !! code && el.getAttribute( 'data-country' ) === code );
+			} );
+		}
+
+		rows.forEach( function ( row ) {
+			var code = row.getAttribute( 'data-country' );
+			row.addEventListener( 'mouseenter', function () { setActive( code ); } );
+			row.addEventListener( 'focus', function () { setActive( code ); } );
+			row.addEventListener( 'mouseleave', function () { setActive( null ); } );
+			row.addEventListener( 'blur', function () { setActive( null ); } );
+		} );
+	} );
+} )();

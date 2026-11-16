@@ -71,3 +71,15 @@ function lieusoft_downloads_empty() {
 		. '<a class="btn btn--primary btn--sm" href="' . esc_url( home_url( '/products/' ) ) . '">' . esc_html__( 'Browse our plugins', 'lieusoft' ) . '</a></div>';
 }
 add_filter( 'lsl_my_downloads_empty', 'lieusoft_downloads_empty' );
+
+/**
+ * Keep shoppers in their language: "Buy" on a Bangla or Arabic page adds to
+ * the cart and EDD then redirects to its checkout URL, which is the English
+ * one. Give EDD the localized checkout and receipt URLs instead (a no-op in
+ * English, admin and AJAX requests, where no language prefix is set).
+ */
+function lieusoft_localize_edd_url( $url ) {
+	return is_admin() ? $url : lieusoft_localize_url( $url );
+}
+add_filter( 'edd_get_checkout_uri', 'lieusoft_localize_edd_url' );
+add_filter( 'edd_get_success_page_uri', 'lieusoft_localize_edd_url' );

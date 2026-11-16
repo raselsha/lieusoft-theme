@@ -13,6 +13,7 @@ get_template_part( 'template-parts/section', 'plugins' );
 get_template_part( 'template-parts/section', 'services' );
 get_template_part( 'template-parts/section', 'principles' );
 get_template_part( 'template-parts/section', 'success-stories' );
+get_template_part( 'template-parts/section', 'world-reach' );
 
 get_template_part( 'template-parts/solution', 'projects' );
 

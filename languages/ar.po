@@ -3374,23 +3374,23 @@ msgstr "Flipbook مجاني · Pro من 22$ / سنة"
 msgid "No downloads yet. Your plugin files appear here once you have a license."
 msgstr "لا توجد تنزيلات بعد. تظهر ملفات الإضافة هنا بعد حصولك على ترخيص."
 
-msgid "Lieusoft: Business Websites, Booking Systems & WordPress Plugins"
-msgstr "Lieusoft: مواقع للأعمال وأنظمة حجز وإضافات ووردبريس"
+msgid "Lieusoft: Business Websites, Booking Systems & Plugins"
+msgstr "Lieusoft: مواقع أعمال وأنظمة حجز وإضافات"
 
 msgid "Lieusoft builds complete business websites with online booking, appointment and order systems, plus hosting and support, and sells premium WordPress plugins."
 msgstr "تبني Lieusoft مواقع أعمال متكاملة مع أنظمة الحجز والمواعيد والطلبات عبر الإنترنت، مع الاستضافة والدعم، وتبيع إضافات ووردبريس احترافية."
 
-msgid "WordPress Plugins for Booking, Clinics, Tailors & PDFs - Lieusoft"
-msgstr "إضافات ووردبريس للحجز والعيادات والخياطين وملفات PDF - Lieusoft"
+msgid "WordPress Booking, Clinic, Tailor & PDF Plugins - Lieusoft"
+msgstr "إضافات ووردبريس للحجز والعيادات والخياطة وPDF - Lieusoft"
 
-msgid "Premium WordPress plugins by Lieusoft: service booking, doctor appointment, tailor order management and a 3D flipbook PDF viewer. Install them yourself or let us set them up."
-msgstr "إضافات ووردبريس احترافية من Lieusoft: حجز الخدمات، ومواعيد الأطباء، وإدارة طلبات الخياطة، وعارض PDF بشكل كتاب ثلاثي الأبعاد. ثبّتها بنفسك أو دعنا نجهزها لك."
+msgid "Premium WordPress plugins by Lieusoft: service booking, doctor appointments, tailor orders and a 3D flipbook PDF viewer. Install them or let us set them up."
+msgstr "إضافات ووردبريس احترافية من Lieusoft: حجز الخدمات ومواعيد الأطباء وطلبات الخياطة وعارض PDF ثلاثي الأبعاد. ثبّتها بنفسك أو دعنا نجهزها لك."
 
-msgid "Business Solutions for Clinics, Salons & Tailor Shops - Lieusoft"
-msgstr "حلول أعمال للعيادات والصالونات ومحلات الخياطة - Lieusoft"
+msgid "Websites for Clinics, Salons & Tailor Shops - Lieusoft"
+msgstr "مواقع للعيادات والصالونات ومحلات الخياطة - Lieusoft"
 
-msgid "Complete websites with online booking, appointments or order tracking, set up, hosted and supported by Lieusoft. From ৳12,000 a year plus a one-time installation."
-msgstr "مواقع متكاملة مع الحجز أو المواعيد أو تتبع الطلبات عبر الإنترنت، تجهزها Lieusoft وتستضيفها وتدعمها. من 12,000 ৳ سنويًا مع رسوم تركيب لمرة واحدة."
+msgid "Complete websites with online booking, appointments or order tracking, set up, hosted and supported by Lieusoft. From ৳12,000 a year plus one-time setup."
+msgstr "مواقع متكاملة مع الحجز أو المواعيد أو تتبع الطلبات، تجهزها Lieusoft وتستضيفها وتدعمها. من 12,000 ৳ سنويًا مع رسوم تجهيز لمرة واحدة."
 
 msgid "Website Development, Hosting & WordPress Support - Lieusoft"
 msgstr "تطوير المواقع والاستضافة ودعم ووردبريس - Lieusoft"
@@ -3401,17 +3401,17 @@ msgstr "تطوير المواقع، وتخصيص الإضافات، والصيا
 msgid "Pricing: Business Solutions & WordPress Plugins - Lieusoft"
 msgstr "الأسعار: حلول الأعمال وإضافات ووردبريس - Lieusoft"
 
-msgid "Clear prices for Lieusoft business solutions (from ৳12,000/year plus ৳10,000 setup) and WordPress plugins like Flipbook (free, Pro from $29/year), plus fixed quotes for custom work."
-msgstr "أسعار واضحة لحلول أعمال Lieusoft (من 12,000 ৳ سنويًا مع 10,000 ৳ للتجهيز) وإضافات ووردبريس مثل Flipbook (مجاني، وPro من 29$ سنويًا)، وعروض أسعار ثابتة للأعمال المخصصة."
+msgid "Clear prices for Lieusoft business solutions (from ৳12,000/year + ৳10,000 setup), WordPress plugins like Flipbook (Pro from $29/year) and custom work."
+msgstr "أسعار واضحة لحلول أعمال Lieusoft (من 12,000 ৳ سنويًا + 10,000 ৳ للتجهيز) وإضافات ووردبريس مثل Flipbook (Pro من 29$ سنويًا) والأعمال المخصصة."
 
 msgid "Case Studies: Websites & Systems We've Built - Lieusoft"
 msgstr "دراسات حالة: مواقع وأنظمة بنيناها - Lieusoft"
 
-msgid "Real projects by Lieusoft: clinic appointment systems, online booking websites and business sites we've designed, built and support for clients around the world."
+msgid "Real projects by Lieusoft: clinic appointment systems, online booking and business websites we've built and support for clients around the world."
 msgstr "مشاريع حقيقية من Lieusoft: أنظمة مواعيد للعيادات، ومواقع حجز عبر الإنترنت، ومواقع أعمال صممناها وبنيناها وندعمها لعملاء حول العالم."
 
-msgid "Blog: WordPress, Automation & Business Website Guides - Lieusoft"
-msgstr "المدونة: أدلة ووردبريس والأتمتة ومواقع الأعمال - Lieusoft"
+msgid "WordPress, Automation & Website Guides - Lieusoft Blog"
+msgstr "أدلة ووردبريس والأتمتة والمواقع - مدونة Lieusoft"
 
 msgid "Step-by-step guides on WordPress, n8n automation, Facebook and Gmail workflows, online booking and running your business online, from the Lieusoft team."
 msgstr "أدلة خطوة بخطوة من فريق Lieusoft حول ووردبريس، وأتمتة n8n، وسير عمل Facebook وGmail، والحجز عبر الإنترنت، وإدارة عملك على الإنترنت."
@@ -3419,11 +3419,11 @@ msgstr "أدلة خطوة بخطوة من فريق Lieusoft حول ووردبر�
 msgid "3D Flipbook PDF Viewer for WordPress: Free & Pro - Lieusoft"
 msgstr "عارض PDF بشكل كتاب ثلاثي الأبعاد لووردبريس: مجاني وPro - Lieusoft"
 
-msgid "Turn PDFs into realistic 3D flipbooks on any WordPress site. Free plugin, plus Pro with brand toolbar skins, protected PDF links and download control from $29/year."
-msgstr "حوّل ملفات PDF إلى كتب ثلاثية الأبعاد واقعية على أي موقع ووردبريس. إضافة مجانية، ونسخة Pro بأشكال شريط أدوات بعلامتك وروابط PDF محمية والتحكم في التنزيل من 29$ سنويًا."
+msgid "Turn PDFs into realistic 3D flipbooks on any WordPress site. Free plugin, plus Pro with brand toolbar skins, protected PDFs and downloads from $29/year."
+msgstr "حوّل ملفات PDF إلى كتب ثلاثية الأبعاد واقعية على أي موقع ووردبريس. إضافة مجانية، وPro بشريط أدوات بعلامتك وملفات PDF محمية من 29$ سنويًا."
 
-msgid "Service Booking & Appointment Plugin for WordPress - Lieusoft"
-msgstr "إضافة حجز الخدمات والمواعيد لووردبريس - Lieusoft"
+msgid "Booking & Appointment Plugin for WordPress - Lieusoft"
+msgstr "إضافة حجز ومواعيد لووردبريس - Lieusoft"
 
 msgid "Online booking plugin for service businesses: staff and schedules, secure payments, email and SMS notifications, custom fields and reports. One-time license from ৳4,999."
 msgstr "إضافة حجز عبر الإنترنت لأعمال الخدمات: الموظفون والجداول، ومدفوعات آمنة، وإشعارات البريد والرسائل القصيرة، وحقول مخصصة وتقارير. ترخيص لمرة واحدة من 4,999 ৳."
@@ -3431,14 +3431,14 @@ msgstr "إضافة حجز عبر الإنترنت لأعمال الخدمات: �
 msgid "Doctor Appointment Booking Plugin for WordPress - Lieusoft"
 msgstr "إضافة حجز مواعيد الأطباء لووردبريس - Lieusoft"
 
-msgid "Appointment booking for doctors, clinics and hospitals: doctor schedules, patient management, secure payments, email and SMS notifications and reports. From ৳4,999."
-msgstr "حجز المواعيد للأطباء والعيادات والمستشفيات: جداول الأطباء، وإدارة المرضى، ومدفوعات آمنة، وإشعارات البريد والرسائل القصيرة، وتقارير. من 4,999 ৳."
+msgid "Appointment booking for doctors and clinics: doctor schedules, patient management, secure payments, email and SMS alerts and reports. From ৳4,999."
+msgstr "حجز المواعيد للأطباء والعيادات: جداول الأطباء وإدارة المرضى ومدفوعات آمنة وتنبيهات البريد والرسائل القصيرة وتقارير. من 4,999 ৳."
 
 msgid "Tailor Order & Measurement Management Plugin - Lieusoft"
 msgstr "إضافة إدارة طلبات ومقاسات الخياطة - Lieusoft"
 
-msgid "Manage tailor shop orders, customers, measurements, fabrics, payments and deliveries in WordPress, with reports and an order status board. One-time license from ৳4,999."
-msgstr "أدر طلبات محل الخياطة والعملاء والمقاسات والأقمشة والمدفوعات والتسليم في ووردبريس، مع تقارير ولوحة لحالة الطلبات. ترخيص لمرة واحدة من 4,999 ৳."
+msgid "Manage tailor shop orders, customers, measurements, payments and deliveries in WordPress, with reports and a status board. One-time license from ৳4,999."
+msgstr "أدر طلبات محل الخياطة والعملاء والمقاسات والمدفوعات والتسليم في ووردبريس، مع تقارير ولوحة حالة. ترخيص لمرة واحدة من 4,999 ৳."
 
 msgid "Clinic Website & Doctor Appointment System - Lieusoft"
 msgstr "موقع عيادة ونظام مواعيد الأطباء - Lieusoft"
@@ -3452,11 +3452,11 @@ msgstr "موقع محل خياطة ونظام إدارة الطلبات - Lieuso
 msgid "A complete tailor shop website with order tracking, measurement records and delivery management, set up, hosted and supported by Lieusoft."
 msgstr "موقع محل خياطة متكامل مع تتبع الطلبات وسجلات المقاسات وإدارة التسليم، تجهزه Lieusoft وتستضيفه وتدعمه."
 
-msgid "Booking Website for Salons, Spas & Service Businesses - Lieusoft"
-msgstr "موقع حجز للصالونات والسبا وأعمال الخدمات - Lieusoft"
+msgid "Booking Websites for Salons, Spas & Services - Lieusoft"
+msgstr "مواقع حجز للصالونات والسبا والخدمات - Lieusoft"
 
-msgid "A complete booking website for salons, spas, cleaning, repair and beauty businesses, with online booking and staff management, hosted and supported by Lieusoft."
-msgstr "موقع حجز متكامل للصالونات والسبا والتنظيف والإصلاح والتجميل، مع الحجز عبر الإنترنت وإدارة الموظفين، تستضيفه Lieusoft وتدعمه."
+msgid "A complete booking website for salons, spas, cleaning, repair and beauty businesses, with online booking and staff management, hosted and supported."
+msgstr "موقع حجز متكامل للصالونات والسبا والتنظيف والإصلاح والتجميل، مع الحجز وإدارة الموظفين والاستضافة والدعم."
 
 msgid "How Lieusoft collects, uses and protects your personal information when you use our website, products and services."
 msgstr "كيف تجمع Lieusoft معلوماتك الشخصية وتستخدمها وتحميها عند استخدامك لموقعنا ومنتجاتنا وخدماتنا."
@@ -3644,8 +3644,203 @@ msgstr "تراخيص الإضافات من 29$ / سنة"
 msgid "Install on your own WordPress site. Yearly or lifetime licenses, with updates and support included."
 msgstr "ثبّتها على موقع ووردبريس الخاص بك. تراخيص سنوية أو مدى الحياة مع التحديثات والدعم."
 
-msgid "Online booking plugin for WooCommerce: branches, staff and schedules, a step-by-step booking popup, WooCommerce checkout and Telegram alerts. From $29/year, free live demo."
-msgstr "إضافة حجز عبر الإنترنت لـ WooCommerce: فروع وموظفون وجداول، ونافذة حجز خطوة بخطوة، ودفع WooCommerce، وتنبيهات Telegram. من 29$ سنويًا مع عرض تجريبي مجاني."
+msgid "WooCommerce booking plugin: branches, staff and schedules, a step-by-step booking popup, checkout and Telegram alerts. From $29/year, free live demo."
+msgstr "إضافة حجز لـ WooCommerce: فروع وموظفون وجداول، ونافذة حجز خطوة بخطوة، ودفع وتنبيهات Telegram. من 29$ سنويًا مع عرض تجريبي مجاني."
 
 msgid "Browse our plugins"
 msgstr "تصفح إضافاتنا"
+
+msgid "Portugal"
+msgstr "البرتغال"
+
+msgid "2 Weeks"
+msgstr "أسبوعان"
+
+msgid "We built a complete booking website for CozyThai, including custom design, appointment booking system, domain, hosting, SSL, business email, and ongoing maintenance."
+msgstr "أنشأنا لـ CozyThai موقع حجز متكاملاً يشمل تصميماً مخصصاً ونظام حجز مواعيد ونطاقاً واستضافة وشهادة SSL وبريداً للأعمال وصيانة مستمرة."
+
+msgid "Website Design"
+msgstr "تصميم المواقع"
+
+msgid "Our Process"
+msgstr "طريقة عملنا"
+
+msgid "Cloud Hosting"
+msgstr "استضافة سحابية"
+
+msgid "Why Clients Choose Lieusoft"
+msgstr "لماذا يختار العملاء Lieusoft"
+
+msgid "Complete Business Solutions"
+msgstr "حلول أعمال متكاملة"
+
+msgid "Professional Development"
+msgstr "تطوير احترافي"
+
+msgid "Clean, modern websites built the right way."
+msgstr "مواقع حديثة ونظيفة مبنية بالطريقة الصحيحة."
+
+msgid "We're reachable long after your site goes live."
+msgstr "نبقى متاحين لك بعد إطلاق موقعك بوقت طويل."
+
+msgid "Long-Term Partnership"
+msgstr "شراكة طويلة الأمد"
+
+msgid "We grow alongside your business, not just launch and leave."
+msgstr "ننمو مع عملك، ولا نكتفي بالإطلاق ثم الرحيل."
+
+msgid "Can you build something similar for my business?"
+msgstr "هل يمكنكم بناء شيء مماثل لعملي؟"
+
+msgid "Yes. Every project here started with a consultation — tell us what you need and we will show you how we would approach it."
+msgstr "نعم. بدأ كل مشروع هنا باستشارة، أخبرنا بما تحتاجه وسنوضح لك كيف سننفذه."
+
+msgid "Yes, we have delivered projects for clients in Bangladesh, the UK, the U.S., Portugal, Hong Kong and Australia."
+msgstr "نعم، سلّمنا مشاريع لعملاء في بنغلاديش والمملكة المتحدة والولايات المتحدة والبرتغال وهونغ كونغ وأستراليا."
+
+msgid "What technology do you use?"
+msgstr "ما التقنيات التي تستخدمونها؟"
+
+msgid "Mostly WordPress, WooCommerce and custom PHP plugins, and Next.js where a project needs it — always on fast, secure hosting."
+msgstr "في الغالب WordPress وWooCommerce وإضافات PHP مخصصة، وNext.js عندما يحتاجه المشروع، ودائماً على استضافة سريعة وآمنة."
+
+msgid "Do you support the site after launch?"
+msgstr "هل تقدمون الدعم بعد إطلاق الموقع؟"
+
+msgid "Yes, we stay on for updates, fixes and new features long after the site goes live."
+msgstr "نعم، نبقى معك للتحديثات والإصلاحات والميزات الجديدة بعد إطلاق الموقع بوقت طويل."
+
+msgid "How do we get started?"
+msgstr "كيف نبدأ؟"
+
+msgid "Book a free consultation. We will talk through your goals, then send a clear plan, timeline and price."
+msgstr "احجز استشارة مجانية. سنناقش أهدافك ثم نرسل لك خطة واضحة وجدولاً زمنياً وسعراً."
+
+msgid "Ready to Build Your Business?"
+msgstr "هل أنت مستعد لبناء عملك؟"
+
+msgid "Let's create a professional website that helps your business grow."
+msgstr "لننشئ موقعاً احترافياً يساعد عملك على النمو."
+
+msgid "Real business websites we've built for our clients."
+msgstr "مواقع أعمال حقيقية بنيناها لعملائنا."
+
+msgid "Discover how we help businesses launch professional websites with custom solutions, managed hosting, and ongoing support."
+msgstr "اكتشف كيف نساعد الشركات على إطلاق مواقع احترافية بحلول مخصصة واستضافة مُدارة ودعم مستمر."
+
+msgid "Featured Case Study"
+msgstr "دراسة حالة مميزة"
+
+msgid "Client"
+msgstr "العميل"
+
+msgid "Industry"
+msgstr "المجال"
+
+msgid "Location"
+msgstr "الموقع"
+
+msgid "Duration"
+msgstr "المدة"
+
+msgid "Project Overview"
+msgstr "نظرة عامة على المشروع"
+
+msgid "What We Delivered"
+msgstr "ما قدمناه"
+
+msgid "Visit Website"
+msgstr "زيارة الموقع"
+
+msgid "View Solution"
+msgstr "عرض الحل"
+
+msgid "More Case Studies"
+msgstr "المزيد من دراسات الحالة"
+
+msgid "Technologies"
+msgstr "التقنيات"
+
+msgid "%s websites launched"
+msgstr "%s موقعاً أطلقناها"
+
+msgid "Clients in 6 countries"
+msgstr "عملاء في 6 دول"
+
+msgid "Global Reach"
+msgstr "انتشار عالمي"
+
+msgid "Projects Delivered"
+msgstr "مشاريع سلّمناها"
+
+msgid "Around the World"
+msgstr "حول العالم"
+
+msgid "From our base in Bangladesh we build and look after websites for businesses in Europe, North America, Asia and Australia."
+msgstr "من مقرّنا في بنغلاديش نبني مواقع الشركات ونعتني بها في أوروبا وأمريكا الشمالية وآسيا وأستراليا."
+
+msgid "Projects delivered"
+msgstr "مشروعاً مُسلَّماً"
+
+msgid "Countries"
+msgstr "دول"
+
+msgid "Continents"
+msgstr "قارات"
+
+msgid "See all case studies"
+msgstr "عرض كل دراسات الحالة"
+
+msgid "Where we've delivered"
+msgstr "أين سلّمنا مشاريعنا"
+
+msgid "Client projects"
+msgstr "مشاريع العملاء"
+
+msgid "Our base"
+msgstr "مقرّنا"
+
+msgid "Bangladesh"
+msgstr "بنغلاديش"
+
+msgid "United States"
+msgstr "الولايات المتحدة"
+
+msgid "United Kingdom"
+msgstr "المملكة المتحدة"
+
+msgid "Hong Kong"
+msgstr "هونغ كونغ"
+
+msgid "Australia"
+msgstr "أستراليا"
+
+msgid "Asia"
+msgstr "آسيا"
+
+msgid "North America"
+msgstr "أمريكا الشمالية"
+
+msgid "Europe"
+msgstr "أوروبا"
+
+msgid "Oceania"
+msgstr "أوقيانوسيا"
+
+msgid "%s project"
+msgid_plural "%s projects"
+msgstr[0] "لا مشاريع"
+msgstr[1] "مشروع واحد"
+msgstr[2] "مشروعان"
+msgstr[3] "%s مشاريع"
+msgstr[4] "%s مشروعاً"
+msgstr[5] "%s مشروع"
+
+msgid "Digital Agency · USA"
+msgstr "وكالة رقمية · الولايات المتحدة"
+
+msgid "Fashion Design · USA"
+msgstr "تصميم الأزياء · الولايات المتحدة"
+
+msgid "Privacy Policy - Lieusoft"
+msgstr "سياسة الخصوصية - Lieusoft"

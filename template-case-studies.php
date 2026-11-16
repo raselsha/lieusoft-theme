@@ -38,28 +38,14 @@ get_template_part( 'template-parts/case-studies', 'featured', array(
 	'solution_url' => home_url( '/service-booking-solution/' ),
 ) );
 
+// Every real project except the featured one above (CozyThai).
 get_template_part( 'template-parts/case-studies', 'more', array(
-	'items' => array(
-		array(
-			'icon'  => 'stethoscope',
-			'title' => __( 'Doctor Appointment Website', 'lieusoft' ),
-			'tags'  => array( __( 'Clinic Website', 'lieusoft' ), __( 'Appointment Booking', 'lieusoft' ), __( 'Patient Management', 'lieusoft' ) ),
-			'url'   => home_url( '/doctor-appointment-solution/' ),
-		),
-		array(
-			'icon'  => 'shirt',
-			'title' => __( 'Tailor Management Website', 'lieusoft' ),
-			'tags'  => array( __( 'Order Management', 'lieusoft' ), __( 'Measurements', 'lieusoft' ), __( 'Invoices', 'lieusoft' ) ),
-			'url'   => home_url( '/tailor-shop-management-solution/' ),
-		),
-		array(
-			'icon'  => 'calendar',
-			'title' => __( 'Service Booking Website', 'lieusoft' ),
-			'tags'  => array( __( 'Salon', 'lieusoft' ), __( 'Spa', 'lieusoft' ), __( 'Online Booking', 'lieusoft' ) ),
-			'url'   => home_url( '/service-booking-solution/' ),
-		),
-	),
+	'items' => array_values( array_filter( lieusoft_get_projects(), static function ( $project ) {
+		return 'https://cozythai.pt/' !== $project['url'];
+	} ) ),
 ) );
+
+get_template_part( 'template-parts/section', 'world-reach', array( 'show_cta' => false ) );
 
 get_template_part( 'template-parts/solution', 'how-it-works', array(
 	'title' => __( 'Our Process', 'lieusoft' ),
@@ -92,12 +78,10 @@ get_template_part( 'template-parts/solution', 'why-choose', array(
 	),
 ) );
 
-get_template_part( 'template-parts/solution', 'projects' );
-
 get_template_part( 'template-parts/solution', 'faq', array(
 	'faqs' => array(
 		array( 'q' => __( 'Can you build something similar for my business?', 'lieusoft' ), 'a' => __( 'Yes. Every project here started with a consultation — tell us what you need and we will show you how we would approach it.', 'lieusoft' ) ),
-		array( 'q' => __( 'Do you work with clients outside Bangladesh?', 'lieusoft' ), 'a' => __( 'Yes, we have delivered projects for clients in Bangladesh, the UK, Portugal and the U.S.', 'lieusoft' ) ),
+		array( 'q' => __( 'Do you work with clients outside Bangladesh?', 'lieusoft' ), 'a' => __( 'Yes, we have delivered projects for clients in Bangladesh, the UK, the U.S., Portugal, Hong Kong and Australia.', 'lieusoft' ) ),
 		array( 'q' => __( 'What technology do you use?', 'lieusoft' ), 'a' => __( 'Mostly WordPress, WooCommerce and custom PHP plugins, and Next.js where a project needs it — always on fast, secure hosting.', 'lieusoft' ) ),
 		array( 'q' => __( 'Do you support the site after launch?', 'lieusoft' ), 'a' => __( 'Yes, we stay on for updates, fixes and new features long after the site goes live.', 'lieusoft' ) ),
 		array( 'q' => __( 'How do we get started?', 'lieusoft' ), 'a' => __( 'Book a free consultation. We will talk through your goals, then send a clear plan, timeline and price.', 'lieusoft' ) ),

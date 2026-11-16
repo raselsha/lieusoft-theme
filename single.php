@@ -92,7 +92,7 @@ while ( have_posts() ) :
 						<?php echo lieusoft_author_avatar( $author_id, 112, 'article__avatar--lg' ); ?>
 						<div>
 							<span class="eyebrow"><?php esc_html_e( 'Written by', 'lieusoft' ); ?></span>
-							<p class="article__author-name"><a href="<?php echo esc_url( get_author_posts_url( $author_id ) ); ?>"><?php the_author(); ?></a><?php if ( $author_role ) : ?> <span>· <?php echo esc_html( $author_role ); ?></span><?php endif; ?></p>
+							<p class="article__author-name"><?php the_author(); ?><?php if ( $author_role ) : ?> <span>· <?php echo esc_html( $author_role ); ?></span><?php endif; ?></p>
 							<p class="article__author-bio"><?php echo esc_html( $author_bio ); ?></p>
 						</div>
 					</aside>

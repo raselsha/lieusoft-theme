@@ -108,6 +108,39 @@ function lieusoft_schema_graph() {
 		}
 	}
 
+	// Blog index and category archives: a CollectionPage listing the posts shown.
+	if ( is_home() || is_category() ) {
+		$url   = is_category() ? get_category_link( get_queried_object_id() ) : home_url( '/blog/' );
+		$name  = is_category() ? single_cat_title( '', false ) : __( 'Blog', 'lieusoft' );
+		$items = array();
+		foreach ( $GLOBALS['wp_query']->posts as $i => $listed ) {
+			$items[] = array( '@type' => 'ListItem', 'position' => $i + 1, 'url' => get_permalink( $listed ), 'name' => get_the_title( $listed ) );
+		}
+		$crumbs = array( array( __( 'Home', 'lieusoft' ), home_url( '/' ) ), array( __( 'Blog', 'lieusoft' ), home_url( '/blog/' ) ) );
+		if ( is_category() ) {
+			$crumbs[] = array( $name, $url );
+		}
+		$graph[] = $org;
+		$graph[] = array_filter( array(
+			'@type'       => 'CollectionPage',
+			'@id'         => $url . '#webpage',
+			'url'         => $url,
+			'name'        => $name,
+			'description' => is_category() ? wp_strip_all_tags( category_description() ) : lieusoft_seo_entry( 'description' ),
+			'inLanguage'  => lieusoft_lang_tag( lieusoft_lang() ),
+			'isPartOf'    => array( '@id' => trailingslashit( home_url( '/' ) ) . '#website' ),
+			'publisher'   => array( '@id' => $org['@id'] ),
+			'mainEntity'  => $items ? array( '@type' => 'ItemList', 'itemListElement' => $items ) : null,
+		) );
+		$graph[] = array(
+			'@type'           => 'BreadcrumbList',
+			'@id'             => $url . '#breadcrumb',
+			'itemListElement' => array_map( static function ( $crumb, $i ) {
+				return array( '@type' => 'ListItem', 'position' => $i + 1, 'name' => $crumb[0], 'item' => $crumb[1] );
+			}, $crumbs, array_keys( $crumbs ) ),
+		);
+	}
+
 	if ( is_singular( 'post' ) ) {
 		$post      = get_queried_object();
 		$url       = get_permalink( $post );
@@ -138,7 +171,7 @@ function lieusoft_schema_graph() {
 				? array_filter( array(
 					'@type'       => 'Person',
 					'name'        => $author,
-					'url'         => get_author_posts_url( $post->post_author ),
+					'url'         => home_url( '/' ), // Author archives redirect home (inc/security.php).
 					'jobTitle'    => lieusoft_author_field( $post->post_author, 'lieusoft_role', $lang ),
 					'description' => lieusoft_author_field( $post->post_author, 'description', $lang ),
 					'worksFor'    => array( '@id' => $org['@id'] ),
@@ -247,16 +280,16 @@ function lieusoft_seo_key() {
 function lieusoft_seo_entries() {
 	return array(
 		'front'            => array(
-			__( 'Lieusoft: Business Websites, Booking Systems & WordPress Plugins', 'lieusoft' ),
+			__( 'Lieusoft: Business Websites, Booking Systems & Plugins', 'lieusoft' ),
 			__( 'Lieusoft builds complete business websites with online booking, appointment and order systems, plus hosting and support, and sells premium WordPress plugins.', 'lieusoft' ),
 		),
 		'products'         => array(
-			__( 'WordPress Plugins for Booking, Clinics, Tailors & PDFs - Lieusoft', 'lieusoft' ),
-			__( 'Premium WordPress plugins by Lieusoft: service booking, doctor appointment, tailor order management and a 3D flipbook PDF viewer. Install them yourself or let us set them up.', 'lieusoft' ),
+			__( 'WordPress Booking, Clinic, Tailor & PDF Plugins - Lieusoft', 'lieusoft' ),
+			__( 'Premium WordPress plugins by Lieusoft: service booking, doctor appointments, tailor orders and a 3D flipbook PDF viewer. Install them or let us set them up.', 'lieusoft' ),
 		),
 		'solutions'        => array(
-			__( 'Business Solutions for Clinics, Salons & Tailor Shops - Lieusoft', 'lieusoft' ),
-			__( 'Complete websites with online booking, appointments or order tracking, set up, hosted and supported by Lieusoft. From ৳12,000 a year plus a one-time installation.', 'lieusoft' ),
+			__( 'Websites for Clinics, Salons & Tailor Shops - Lieusoft', 'lieusoft' ),
+			__( 'Complete websites with online booking, appointments or order tracking, set up, hosted and supported by Lieusoft. From ৳12,000 a year plus one-time setup.', 'lieusoft' ),
 		),
 		'services'         => array(
 			__( 'Website Development, Hosting & WordPress Support - Lieusoft', 'lieusoft' ),
@@ -264,31 +297,31 @@ function lieusoft_seo_entries() {
 		),
 		'pricing'          => array(
 			__( 'Pricing: Business Solutions & WordPress Plugins - Lieusoft', 'lieusoft' ),
-			__( 'Clear prices for Lieusoft business solutions (from ৳12,000/year plus ৳10,000 setup) and WordPress plugins like Flipbook (free, Pro from $29/year), plus fixed quotes for custom work.', 'lieusoft' ),
+			__( 'Clear prices for Lieusoft business solutions (from ৳12,000/year + ৳10,000 setup), WordPress plugins like Flipbook (Pro from $29/year) and custom work.', 'lieusoft' ),
 		),
 		'case-studies'     => array(
 			__( "Case Studies: Websites & Systems We've Built - Lieusoft", 'lieusoft' ),
-			__( "Real projects by Lieusoft: clinic appointment systems, online booking websites and business sites we've designed, built and support for clients around the world.", 'lieusoft' ),
+			__( "Real projects by Lieusoft: clinic appointment systems, online booking and business websites we've built and support for clients around the world.", 'lieusoft' ),
 		),
 		'blog'             => array(
-			__( 'Blog: WordPress, Automation & Business Website Guides - Lieusoft', 'lieusoft' ),
+			__( 'WordPress, Automation & Website Guides - Lieusoft Blog', 'lieusoft' ),
 			__( 'Step-by-step guides on WordPress, n8n automation, Facebook and Gmail workflows, online booking and running your business online, from the Lieusoft team.', 'lieusoft' ),
 		),
 		'product-pdf'      => array(
 			__( '3D Flipbook PDF Viewer for WordPress: Free & Pro - Lieusoft', 'lieusoft' ),
-			__( 'Turn PDFs into realistic 3D flipbooks on any WordPress site. Free plugin, plus Pro with brand toolbar skins, protected PDF links and download control from $29/year.', 'lieusoft' ),
+			__( 'Turn PDFs into realistic 3D flipbooks on any WordPress site. Free plugin, plus Pro with brand toolbar skins, protected PDFs and downloads from $29/year.', 'lieusoft' ),
 		),
 		'product-booking'  => array(
-			__( 'Service Booking & Appointment Plugin for WordPress - Lieusoft', 'lieusoft' ),
-			__( 'Online booking plugin for WooCommerce: branches, staff and schedules, a step-by-step booking popup, WooCommerce checkout and Telegram alerts. From $29/year, free live demo.', 'lieusoft' ),
+			__( 'Booking & Appointment Plugin for WordPress - Lieusoft', 'lieusoft' ),
+			__( 'WooCommerce booking plugin: branches, staff and schedules, a step-by-step booking popup, checkout and Telegram alerts. From $29/year, free live demo.', 'lieusoft' ),
 		),
 		'product-doctor'   => array(
 			__( 'Doctor Appointment Booking Plugin for WordPress - Lieusoft', 'lieusoft' ),
-			__( 'Appointment booking for doctors, clinics and hospitals: doctor schedules, patient management, secure payments, email and SMS notifications and reports. From ৳4,999.', 'lieusoft' ),
+			__( 'Appointment booking for doctors and clinics: doctor schedules, patient management, secure payments, email and SMS alerts and reports. From ৳4,999.', 'lieusoft' ),
 		),
 		'product-tailor'   => array(
 			__( 'Tailor Order & Measurement Management Plugin - Lieusoft', 'lieusoft' ),
-			__( 'Manage tailor shop orders, customers, measurements, fabrics, payments and deliveries in WordPress, with reports and an order status board. One-time license from ৳4,999.', 'lieusoft' ),
+			__( 'Manage tailor shop orders, customers, measurements, payments and deliveries in WordPress, with reports and a status board. One-time license from ৳4,999.', 'lieusoft' ),
 		),
 		'solution-doctor'  => array(
 			__( 'Clinic Website & Doctor Appointment System - Lieusoft', 'lieusoft' ),
@@ -299,11 +332,11 @@ function lieusoft_seo_entries() {
 			__( 'A complete tailor shop website with order tracking, measurement records and delivery management, set up, hosted and supported by Lieusoft.', 'lieusoft' ),
 		),
 		'solution-service' => array(
-			__( 'Booking Website for Salons, Spas & Service Businesses - Lieusoft', 'lieusoft' ),
-			__( 'A complete booking website for salons, spas, cleaning, repair and beauty businesses, with online booking and staff management, hosted and supported by Lieusoft.', 'lieusoft' ),
+			__( 'Booking Websites for Salons, Spas & Services - Lieusoft', 'lieusoft' ),
+			__( 'A complete booking website for salons, spas, cleaning, repair and beauty businesses, with online booking and staff management, hosted and supported.', 'lieusoft' ),
 		),
 		'privacy-policy'   => array(
-			'',
+			__( 'Privacy Policy - Lieusoft', 'lieusoft' ),
 			__( 'How Lieusoft collects, uses and protects your personal information when you use our website, products and services.', 'lieusoft' ),
 		),
 	);

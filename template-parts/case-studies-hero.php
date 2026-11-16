@@ -1,6 +1,7 @@
 <?php
 /**
- * Case Studies page hero — laptop mockup with 3 real project thumbnails.
+ * Case Studies page hero — three real client sites as overlapping browser
+ * windows, plus a projects-delivered badge.
  */
 ?>
 <section class="section case-studies-hero">
@@ -18,23 +19,28 @@
 			</div>
 		</div>
 
-		<div class="services-hero-art">
-			<div class="services-hero-art__frame">
-				<svg width="100%" height="100%" viewBox="0 0 220 150" fill="none">
-					<rect x="30" y="10" width="160" height="100" rx="6" stroke="var(--color-ink)" stroke-width="2.5"/>
-					<rect x="42" y="22" width="136" height="76" rx="2" fill="var(--color-blue-light)"/>
-					<path d="M10 130h200l-14 14H24l-14-14Z" stroke="var(--color-ink)" stroke-width="2.5" stroke-linejoin="round"/>
-				</svg>
+		<?php
+		$lieusoft_cs_windows = array(
+			array( 'mod' => 'back', 'name' => 'KnowledgeHut', 'domain' => 'knowledgehut.org.uk', 'image' => 'project-knowledgehut.jpg' ),
+			array( 'mod' => 'main', 'name' => 'CozyThai', 'domain' => 'cozythai.pt', 'image' => 'project-cozythai.jpg' ),
+			array( 'mod' => 'front', 'name' => 'Shafiul Amraz', 'domain' => 'shafiulamraz.com', 'image' => 'project-shafiulamraz.jpg' ),
+		);
+		?>
+		<div class="cs-hero-stack">
+			<?php foreach ( $lieusoft_cs_windows as $win ) : ?>
+				<figure class="cs-hero-stack__window cs-hero-stack__window--<?php echo esc_attr( $win['mod'] ); ?>">
+					<div class="cs-hero-stack__bar" aria-hidden="true"><i></i><i></i><i></i><span><?php echo esc_html( $win['domain'] ); ?></span></div>
+					<img src="<?php echo esc_url( get_theme_file_uri( '/assets/images/' . $win['image'] ) ); ?>" width="800" height="500" alt="<?php echo esc_attr( sprintf( __( '%s website', 'lieusoft' ), $win['name'] ) ); ?>"<?php echo 'main' === $win['mod'] ? ' fetchpriority="high"' : ' decoding="async"'; ?>>
+				</figure>
+			<?php endforeach; ?>
+			<div class="cs-hero-stack__badge">
+				<span class="cs-hero-stack__badge-icon"><?php echo lieusoft_icon( 'check-circle' ); ?></span>
+				<span>
+					<strong><?php echo esc_html( sprintf( __( '%s websites launched', 'lieusoft' ), number_format_i18n( count( lieusoft_get_projects() ) ) ) ); ?></strong>
+					<?php esc_html_e( 'Clients in 6 countries', 'lieusoft' ); ?>
+				</span>
 			</div>
-			<span class="services-hero-art__badge services-hero-art__badge--thumb" style="left:-24px;top:0;">
-				<img src="<?php echo esc_url( get_theme_file_uri( '/assets/images/case-study-preview.jpg' ) ); ?>" alt="<?php esc_attr_e( 'CozyThai', 'lieusoft' ); ?>">
-			</span>
-			<span class="services-hero-art__badge services-hero-art__badge--thumb" style="right:-24px;top:24px;">
-				<img src="<?php echo esc_url( get_theme_file_uri( '/assets/images/solution-doctor-bg.jpg' ) ); ?>" alt="<?php esc_attr_e( 'Doctor Website', 'lieusoft' ); ?>">
-			</span>
-			<span class="services-hero-art__badge services-hero-art__badge--thumb" style="left:20px;bottom:-24px;">
-				<img src="<?php echo esc_url( get_theme_file_uri( '/assets/images/solution-tailor-bg.jpg' ) ); ?>" alt="<?php esc_attr_e( 'Tailor Website', 'lieusoft' ); ?>">
-			</span>
+		</div>
 		</div>
 	</div>
 </section>

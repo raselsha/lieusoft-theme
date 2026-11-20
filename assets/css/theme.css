@@ -6565,3 +6565,180 @@ body.lightbox-open { overflow: hidden; }
 @media (prefers-reduced-motion: reduce) {
 	.world-reach__arcs path, .world-reach__dot::after { animation: none; }
 }
+
+/* Size-based plan pricing (template-parts/solution-pricing-tiers.php): one
+   card per tier (e.g. Doctor Appointment by number of doctors) and a 1/2/3/5
+   year switch. Only the 1-year price shows until another term is picked;
+   browsers without :has() keep showing the 1-year price. */
+.pricing-tiers__terms {
+	border: 0;
+	margin: 0 0 var(--space-4);
+	padding: 0;
+	min-width: 0;
+	text-align: center;
+}
+
+.pricing-tiers__terms legend {
+	width: 100%;
+	padding: 0;
+	margin-bottom: 10px;
+	font-size: 0.78rem;
+	font-weight: 700;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	color: var(--color-secondary);
+}
+
+.pricing-tiers__terms-options {
+	display: inline-flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 4px;
+	padding: 5px;
+	background: var(--color-white);
+	border: 1px solid var(--color-border);
+	border-radius: 999px;
+}
+
+.pricing-tiers__terms-options label { position: relative; cursor: pointer; }
+
+.pricing-tiers__terms-options input {
+	position: absolute;
+	inset: 0;
+	opacity: 0;
+	margin: 0;
+	cursor: pointer;
+}
+
+.pricing-tiers__terms-options span {
+	display: flex;
+	align-items: center;
+	gap: 6px;
+	padding: 9px 18px;
+	border-radius: 999px;
+	font-size: 0.92rem;
+	font-weight: 600;
+	color: var(--color-ink);
+	transition: background 0.15s ease, color 0.15s ease;
+}
+
+.pricing-tiers__terms-options small {
+	font-size: 0.7rem;
+	font-weight: 700;
+	color: #0E7A41;
+	background: var(--color-green-light);
+	padding: 2px 8px;
+	border-radius: 999px;
+}
+
+.pricing-tiers__terms-options label:hover span { background: var(--color-body-bg); }
+.pricing-tiers__terms-options input:checked + span { background: var(--color-primary); color: #fff; }
+.pricing-tiers__terms-options input:checked + span small { color: #fff; background: rgba(255, 255, 255, 0.22); }
+.pricing-tiers__terms-options input:focus-visible + span { outline: 2px solid var(--color-primary); outline-offset: 2px; }
+
+.pricing-tiers__grid { grid-template-columns: repeat(3, 1fr); max-width: 1040px; margin: 0 auto; }
+
+.plan__range {
+	display: inline-flex;
+	align-items: center;
+	align-self: flex-start;
+	gap: 6px;
+	margin: 6px 0 10px;
+	padding: 5px 12px;
+	border-radius: 999px;
+	background: var(--color-blue-light);
+	color: var(--color-primary);
+	font-size: 0.85rem;
+	font-weight: 700;
+}
+
+.plan__range .icon { width: 14px; height: 14px; }
+
+.pricing-tiers__price { display: none; }
+.pricing-tiers__price[data-term="1"] { display: block; }
+.pricing-tiers__body:has(.pricing-tiers__terms input:checked:not([value="1"])) .pricing-tiers__price[data-term="1"] { display: none; }
+.pricing-tiers__body:has(.pricing-tiers__terms input[value="2"]:checked) .pricing-tiers__price[data-term="2"],
+.pricing-tiers__body:has(.pricing-tiers__terms input[value="3"]:checked) .pricing-tiers__price[data-term="3"],
+.pricing-tiers__body:has(.pricing-tiers__terms input[value="5"]:checked) .pricing-tiers__price[data-term="5"] { display: block; }
+
+.pricing-tiers__yearly {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 6px 8px;
+	margin: 0 0 6px;
+	font-size: 0.82rem;
+	color: var(--color-secondary);
+}
+
+.pricing-tiers__save {
+	font-size: 0.72rem;
+	font-weight: 700;
+	color: #0E7A41;
+	background: var(--color-green-light);
+	padding: 2px 8px;
+	border-radius: 999px;
+}
+
+.pricing-tiers .plan__setup { font-size: 0.85rem; font-weight: 600; color: var(--color-ink); }
+
+.pricing-tiers__extra {
+	display: flex;
+	align-items: flex-start;
+	gap: 8px;
+	margin: 0 0 var(--space-3);
+	padding: 10px 12px;
+	border-radius: var(--radius-md);
+	background: var(--color-body-bg);
+	font-size: 0.82rem;
+	line-height: 1.45;
+	color: var(--color-ink);
+}
+
+.pricing-tiers__extra .icon { flex-shrink: 0; width: 16px; height: 16px; margin-top: 1px; color: var(--color-primary); }
+
+.pricing-tiers__details {
+	margin-top: var(--space-3);
+	background: var(--color-white);
+	border: 1px solid var(--color-border);
+	border-radius: var(--radius-xl);
+	padding: var(--space-4);
+}
+
+.pricing-tiers__details h3 { font-size: 1.05rem; margin-bottom: var(--space-3); text-align: center; }
+
+.pricing-tiers__details ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: var(--space-3) var(--space-4);
+}
+
+.pricing-tiers__details li { display: flex; align-items: flex-start; gap: 14px; font-size: 0.88rem; line-height: 1.55; color: var(--color-text); }
+.pricing-tiers__details strong { display: block; margin-bottom: 2px; font-size: 0.95rem; color: var(--color-ink); }
+
+.pricing-tiers__details-icon {
+	flex-shrink: 0;
+	display: grid;
+	place-items: center;
+	width: 38px;
+	height: 38px;
+	border-radius: var(--radius-md);
+	background: var(--color-blue-light);
+	color: var(--color-primary);
+}
+
+.pricing-tiers__details-icon .icon { width: 18px; height: 18px; }
+
+@media (max-width: 860px) {
+	.pricing-tiers__grid { grid-template-columns: 1fr; max-width: 440px; }
+	.pricing-tiers__details ul { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 560px) {
+	.pricing-tiers__terms-options { display: grid; grid-template-columns: 1fr 1fr; width: 100%; border-radius: var(--radius-lg); }
+	.pricing-tiers__terms-options span { justify-content: center; padding: 8px 10px; font-size: 0.86rem; }
+	.pricing-tiers__details { padding: var(--space-3); }
+}

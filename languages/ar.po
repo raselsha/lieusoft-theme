@@ -3966,3 +3966,154 @@ msgstr "أنشئ مفاتيح API والرموز وبيانات الاعتماد
 #, php-format
 msgid "%s Guides - Lieusoft Blog"
 msgstr "أدلة %s - مدونة Lieusoft"
+
+#, php-format
+msgid "Save %s"
+msgstr "وفّر %s"
+
+msgid "for 1 year"
+msgstr "لمدة سنة واحدة"
+
+msgid "for 2 years"
+msgstr "لمدة سنتين"
+
+msgid "for 3 years"
+msgstr "لمدة 3 سنوات"
+
+msgid "for 5 years"
+msgstr "لمدة 5 سنوات"
+
+msgid "Basic"
+msgstr "الأساسية"
+
+msgid "1–5 doctors"
+msgstr "من 1 إلى 5 أطباء"
+
+msgid "For private chambers and small clinics"
+msgstr "لعيادات الأطباء الخاصة والعيادات الصغيرة"
+
+msgid "Clinic"
+msgstr "العيادة"
+
+msgid "6–10 doctors"
+msgstr "من 6 إلى 10 أطباء"
+
+
+msgid "Hospital"
+msgstr "المستشفى"
+
+msgid "11–20 doctors"
+msgstr "من 11 إلى 20 طبيبًا"
+
+msgid "For hospitals"
+msgstr "للمستشفيات"
+
+msgid "More than 20 doctors? Add ৳1,500 a year for each extra doctor."
+msgstr "أكثر من 20 طبيبًا؟ أضف ৳1,500 سنويًا لكل طبيب إضافي."
+
+msgid "Appointment system & live queue"
+msgstr "نظام المواعيد والطابور المباشر"
+
+msgid "A login for every doctor and staff member"
+msgstr "حساب دخول لكل طبيب وموظف"
+
+msgid "One-time installation"
+msgstr "رسوم تثبيت لمرة واحدة"
+
+msgid "Basic ৳10,000, Clinic ৳15,000, Hospital ৳20,000 — paid once. We set up your website, domain, hosting and email, add all your doctors and schedules, create the logins and train your staff."
+msgstr "الأساسية ৳10,000، العيادة ৳15,000، المستشفى ৳20,000 — تُدفع مرة واحدة. نُجهّز موقعك ونطاقك واستضافتك وبريدك الإلكتروني، ونضيف جميع أطبائك ومواعيدهم، وننشئ حسابات الدخول وندرّب فريقك."
+
+msgid "More than 20 doctors"
+msgstr "أكثر من 20 طبيبًا"
+
+msgid "Take the Hospital plan and add ৳1,500 a year for each extra doctor."
+msgstr "اختر خطة المستشفى وأضف ৳1,500 سنويًا لكل طبيب إضافي."
+
+msgid "SMS charges are separate"
+msgstr "رسوم الرسائل النصية منفصلة"
+
+msgid "Booking SMS are paid at your SMS provider's rate, so you only pay for the messages you send. We connect your SMS account during setup."
+msgstr "تُدفع رسائل الحجز النصية بسعر مزوّد الرسائل لديك، فتدفع فقط مقابل الرسائل التي ترسلها. نربط حساب الرسائل الخاص بك أثناء التجهيز."
+
+msgid "What support covers"
+msgstr "ما يشمله الدعم"
+
+msgid "Fixes, updates, adding or changing doctors and small changes are included for the full plan. New features such as billing, lab reports or pharmacy are quoted separately."
+msgstr "تشمل الخطة طوال مدتها الإصلاحات والتحديثات وإضافة الأطباء أو تغييرهم والتعديلات الصغيرة. أما الميزات الجديدة مثل الفواتير وتقارير المختبر والصيدلية فتُسعَّر بشكل منفصل."
+
+msgid "Adding more doctors later"
+msgstr "إضافة أطباء لاحقًا"
+
+msgid "When your clinic grows past your plan's doctor limit, we move you up to the next plan."
+msgstr "عندما يتجاوز عدد أطبائك حدّ خطتك، ننقلك إلى الخطة التالية."
+
+msgid "Pay when live, renew at the end"
+msgstr "ادفع بعد التشغيل، وجدّد عند الانتهاء"
+
+msgid "You pay once your system is live. When your plan ends, renew to keep your website, system, hosting and domain running."
+msgstr "تدفع بعد تشغيل نظامك. وعند انتهاء خطتك، جدّدها ليبقى موقعك ونظامك واستضافتك ونطاقك في العمل."
+
+msgid "Savings are compared with paying the 1-year price every year. Not sure which plan fits? Book a free consultation."
+msgstr "التوفير محسوب مقارنةً بدفع سعر السنة الواحدة كل عام. لست متأكدًا من الخطة المناسبة؟ احجز استشارة مجانية."
+
+msgid "A complete website and management system for your business, with hosting, domain and support. Tailor Shop Management and Service Booking share one price — the longer the plan, the less you pay per year."
+msgstr "موقع متكامل ونظام إدارة لأعمالك، مع الاستضافة والنطاق والدعم. لإدارة محلات الخياطة وحجز الخدمات سعر واحد — كلما طالت الخطة قلّ ما تدفعه سنويًا."
+
+msgid "Doctor Appointment: plans by number of doctors"
+msgstr "مواعيد الأطباء: خطط حسب عدد الأطباء"
+
+msgid "Doctor Appointment Plans"
+msgstr "خطط مواعيد الأطباء"
+
+msgid "For chambers, clinics and hospitals, priced by the number of doctors. Pick your plan, then how many years."
+msgstr "للعيادات الخاصة والعيادات والمستشفيات، والسعر حسب عدد الأطباء. اختر خطتك، ثم عدد السنوات."
+
+msgid "Tailor Shop Management and Service Booking use the same 1, 2, 3 and 5 year plans. Doctor Appointment is priced by the number of doctors — Basic (1–5), Clinic (6–10) and Hospital (11–20) — with the same 1, 2, 3 and 5 year options."
+msgstr "تستخدم إدارة محلات الخياطة وحجز الخدمات خطط 1 و2 و3 و5 سنوات نفسها. أما مواعيد الأطباء فتُسعَّر حسب عدد الأطباء — الأساسية (من 1 إلى 5)، والعيادة (من 6 إلى 10)، والمستشفى (من 11 إلى 20) — مع خيارات 1 و2 و3 و5 سنوات نفسها."
+
+msgid "Yes, a one-time fee: ৳10,000 for Tailor Shop Management, Service Booking and the Doctor Appointment Basic plan, ৳15,000 for the Clinic plan and ৳20,000 for the Hospital plan. It covers setting up your website, management system, domain, hosting and business email. You pay it once, on top of the plan you choose."
+msgstr "نعم، رسوم لمرة واحدة: ৳10,000 لإدارة محلات الخياطة وحجز الخدمات والخطة الأساسية لمواعيد الأطباء، و৳15,000 لخطة العيادة، و৳20,000 لخطة المستشفى. وتشمل إعداد موقعك ونظام الإدارة والنطاق والاستضافة والبريد الإلكتروني للأعمال. تدفعها مرة واحدة إضافةً إلى سعر الخطة التي تختارها."
+
+msgid "Are SMS charges included?"
+msgstr "هل رسوم الرسائل النصية مشمولة؟"
+
+msgid "No. Booking SMS are paid separately at your SMS provider's rate, so you only pay for the messages you send. We connect your SMS account during setup."
+msgstr "لا. تُدفع رسائل الحجز النصية بشكل منفصل بسعر مزوّد الرسائل لديك، فتدفع فقط مقابل الرسائل التي ترسلها. نربط حساب الرسائل الخاص بك أثناء التجهيز."
+
+msgid "Pick the plan for your number of doctors and a 1, 2, 3 or 5 year term, and pay once your clinic's system is live."
+msgstr "اختر الخطة المناسبة لعدد أطبائك ومدة 1 أو 2 أو 3 أو 5 سنوات، وادفع بعد تشغيل نظام عيادتك."
+
+msgid "Priced by the number of doctors. Pick your plan, then how many years — the longer the plan, the less you pay per year."
+msgstr "السعر حسب عدد الأطباء. اختر خطتك، ثم عدد السنوات — كلما طالت الخطة قلّ ما تدفعه سنويًا."
+
+msgid "Yes, each with their own schedule and availability. Plans go by the number of doctors: Basic covers 1–5, Clinic 6–10 and Hospital 11–20. With more than 20 doctors, each extra doctor is ৳1,500 a year."
+msgstr "نعم، ولكل طبيب جدوله ومواعيده المتاحة. تعتمد الخطط على عدد الأطباء: الأساسية من 1 إلى 5، والعيادة من 6 إلى 10، والمستشفى من 11 إلى 20. ومع أكثر من 20 طبيبًا، يُضاف ৳1,500 سنويًا لكل طبيب إضافي."
+
+msgid "Which plan does a hospital need?"
+msgstr "ما الخطة المناسبة للمستشفى؟"
+
+msgid "A hospital with 11 to 20 doctors takes the Hospital plan: ৳36,000 for 1 year, down to ৳27,000 a year on the 5 year plan, plus a one-time ৳20,000 installation."
+msgstr "المستشفى الذي يضم من 11 إلى 20 طبيبًا يختار خطة المستشفى: ৳36,000 لسنة واحدة، وتنخفض إلى ৳27,000 سنويًا في خطة الخمس سنوات، إضافةً إلى رسوم تثبيت لمرة واحدة قدرها ৳20,000."
+
+msgid "Plan length"
+msgstr "مدة الخطة"
+
+#, php-format
+msgid "%s per year"
+msgstr "%s سنويًا"
+
+#, php-format
+msgid "+ %s one-time installation"
+msgstr "+ %s رسوم تثبيت لمرة واحدة"
+
+msgid "Good to know"
+msgstr "معلومات مفيدة"
+
+msgid "For clinics and diagnostic centres"
+msgstr "للعيادات ومراكز التشخيص"
+
+msgid "Growing past 5 doctors? Move up to the Clinic plan any time."
+msgstr "تجاوزتم 5 أطباء؟ انتقلوا إلى خطة العيادة في أي وقت."
+
+msgid "Growing past 10 doctors? Move up to the Hospital plan any time."
+msgstr "تجاوزتم 10 أطباء؟ انتقلوا إلى خطة المستشفى في أي وقت."

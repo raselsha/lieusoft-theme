@@ -2,9 +2,10 @@
 /**
  * Template Name: Pricing
  *
- * Real prices: business solutions (1/2/3/5-year plans, same for all three
- * solutions), plugin licenses (must match each product page's pricing),
- * and quote-based services.
+ * Real prices: business solutions (1/2/3/5-year plans — Tailor Shop and
+ * Service Booking share one price; Doctor Appointment is priced by the
+ * number of doctors, from lieusoft_doctor_plan_args()), plugin licenses
+ * (must match each product page's pricing), and quote-based services.
  */
 
 get_header();
@@ -61,11 +62,11 @@ foreach ( lieusoft_get_plugins() as $plugin ) {
 get_template_part( 'template-parts/solution', 'pricing-plans', array(
 	'id'       => 'solutions',
 	'title'    => __( 'Business Solution Plans', 'lieusoft' ),
-	'desc'     => __( 'A complete website and management system for your business, with hosting, domain and support. One price for every solution — the longer the plan, the less you pay per year.', 'lieusoft' ),
+	'desc'     => __( 'A complete website and management system for your business, with hosting, domain and support. Tailor Shop Management and Service Booking share one price — the longer the plan, the less you pay per year.', 'lieusoft' ),
 	'links'    => array(
-		array( 'label' => __( 'Doctor Appointment', 'lieusoft' ), 'url' => home_url( '/doctor-appointment-solution/' ) ),
 		array( 'label' => __( 'Tailor Shop Management', 'lieusoft' ), 'url' => home_url( '/tailor-shop-management-solution/' ) ),
 		array( 'label' => __( 'Service Booking', 'lieusoft' ), 'url' => home_url( '/service-booking-solution/' ) ),
+		array( 'label' => __( 'Doctor Appointment: plans by number of doctors', 'lieusoft' ), 'url' => '#doctor-plans' ),
 	),
 	'plans'    => array(
 		array( 'name' => __( '1 Year', 'lieusoft' ), 'tagline' => __( 'Get started', 'lieusoft' ), 'price' => '12,000', 'period' => '', 'note' => __( '৳12,000 per year', 'lieusoft' ) ),
@@ -86,6 +87,15 @@ get_template_part( 'template-parts/solution', 'pricing-plans', array(
 	'footnote' => __( 'A one-time installation fee of ৳10,000 applies to every plan. Savings are compared with paying ৳12,000 every year. Renewal after your plan ends is priced separately — ask us for the current rate.', 'lieusoft' ),
 ) );
 
+get_template_part( 'template-parts/solution', 'pricing-tiers', array_merge( lieusoft_doctor_plan_args(), array(
+	'id'    => 'doctor-plans',
+	'title' => __( 'Doctor Appointment Plans', 'lieusoft' ),
+	'desc'  => __( 'For chambers, clinics and hospitals, priced by the number of doctors. Pick your plan, then how many years.', 'lieusoft' ),
+	'links' => array(
+		array( 'label' => __( 'Doctor Appointment', 'lieusoft' ), 'url' => home_url( '/doctor-appointment-solution/' ) ),
+	),
+) ) );
+
 get_template_part( 'template-parts/pricing', 'plugin-licenses', array( 'items' => $lieusoft_plugins ) );
 
 get_template_part( 'template-parts/pricing', 'services', array(
@@ -104,8 +114,9 @@ get_template_part( 'template-parts/solution', 'projects' );
 get_template_part( 'template-parts/solution', 'faq', array(
 	'faqs' => array(
 		array( 'q' => __( 'What does a business solution plan include?', 'lieusoft' ), 'a' => __( 'The website, the management system for your business, hosting, domain, SSL, business email, staff training, and support and updates — all for the length of the plan you choose.', 'lieusoft' ) ),
-		array( 'q' => __( 'Is the price the same for every solution?', 'lieusoft' ), 'a' => __( 'Yes. Doctor Appointment, Tailor Shop Management and Service Booking all use the same 1, 2, 3 and 5 year plans.', 'lieusoft' ) ),
-		array( 'q' => __( 'Is there an installation fee?', 'lieusoft' ), 'a' => __( 'Yes — a one-time installation fee of ৳10,000 for every plan. It covers setting up your website, management system, domain, hosting and business email. You pay it once, on top of the plan you choose.', 'lieusoft' ) ),
+		array( 'q' => __( 'Is the price the same for every solution?', 'lieusoft' ), 'a' => __( 'Tailor Shop Management and Service Booking use the same 1, 2, 3 and 5 year plans. Doctor Appointment is priced by the number of doctors — Basic (1–5), Clinic (6–10) and Hospital (11–20) — with the same 1, 2, 3 and 5 year options.', 'lieusoft' ) ),
+		array( 'q' => __( 'Is there an installation fee?', 'lieusoft' ), 'a' => __( 'Yes, a one-time fee: ৳10,000 for Tailor Shop Management, Service Booking and the Doctor Appointment Basic plan, ৳15,000 for the Clinic plan and ৳20,000 for the Hospital plan. It covers setting up your website, management system, domain, hosting and business email. You pay it once, on top of the plan you choose.', 'lieusoft' ) ),
+		array( 'q' => __( 'Are SMS charges included?', 'lieusoft' ), 'a' => __( "No. Booking SMS are paid separately at your SMS provider's rate, so you only pay for the messages you send. We connect your SMS account during setup.", 'lieusoft' ) ),
 		array( 'q' => __( 'When do I pay for a solution?', 'lieusoft' ), 'a' => __( 'After your system is set up and live. You choose the plan during the consultation.', 'lieusoft' ) ),
 		array( 'q' => __( 'What happens when my plan ends?', 'lieusoft' ), 'a' => __( 'You can renew to keep your website, system, hosting and domain running. Renewal is priced separately — we will share the rate before your plan ends.', 'lieusoft' ) ),
 		array( 'q' => __( 'Are plugin licenses a one-time payment?', 'lieusoft' ), 'a' => __( 'Flipbook Pro has yearly plans (Single and Pro 10) and a one-time Lifetime plan, paid securely by card through Stripe with the key emailed instantly. The other plugins are a one-time payment.', 'lieusoft' ) ),

@@ -4807,3 +4807,154 @@ msgstr ""
 #, php-format
 msgid "%s Guides - Lieusoft Blog"
 msgstr ""
+
+#, php-format
+msgid "Save %s"
+msgstr ""
+
+msgid "for 1 year"
+msgstr ""
+
+msgid "for 2 years"
+msgstr ""
+
+msgid "for 3 years"
+msgstr ""
+
+msgid "for 5 years"
+msgstr ""
+
+msgid "Basic"
+msgstr ""
+
+msgid "1–5 doctors"
+msgstr ""
+
+msgid "For private chambers and small clinics"
+msgstr ""
+
+msgid "Clinic"
+msgstr ""
+
+msgid "6–10 doctors"
+msgstr ""
+
+
+msgid "Hospital"
+msgstr ""
+
+msgid "11–20 doctors"
+msgstr ""
+
+msgid "For hospitals"
+msgstr ""
+
+msgid "More than 20 doctors? Add ৳1,500 a year for each extra doctor."
+msgstr ""
+
+msgid "Appointment system & live queue"
+msgstr ""
+
+msgid "A login for every doctor and staff member"
+msgstr ""
+
+msgid "One-time installation"
+msgstr ""
+
+msgid "Basic ৳10,000, Clinic ৳15,000, Hospital ৳20,000 — paid once. We set up your website, domain, hosting and email, add all your doctors and schedules, create the logins and train your staff."
+msgstr ""
+
+msgid "More than 20 doctors"
+msgstr ""
+
+msgid "Take the Hospital plan and add ৳1,500 a year for each extra doctor."
+msgstr ""
+
+msgid "SMS charges are separate"
+msgstr ""
+
+msgid "Booking SMS are paid at your SMS provider's rate, so you only pay for the messages you send. We connect your SMS account during setup."
+msgstr ""
+
+msgid "What support covers"
+msgstr ""
+
+msgid "Fixes, updates, adding or changing doctors and small changes are included for the full plan. New features such as billing, lab reports or pharmacy are quoted separately."
+msgstr ""
+
+msgid "Adding more doctors later"
+msgstr ""
+
+msgid "When your clinic grows past your plan's doctor limit, we move you up to the next plan."
+msgstr ""
+
+msgid "Pay when live, renew at the end"
+msgstr ""
+
+msgid "You pay once your system is live. When your plan ends, renew to keep your website, system, hosting and domain running."
+msgstr ""
+
+msgid "Savings are compared with paying the 1-year price every year. Not sure which plan fits? Book a free consultation."
+msgstr ""
+
+msgid "A complete website and management system for your business, with hosting, domain and support. Tailor Shop Management and Service Booking share one price — the longer the plan, the less you pay per year."
+msgstr ""
+
+msgid "Doctor Appointment: plans by number of doctors"
+msgstr ""
+
+msgid "Doctor Appointment Plans"
+msgstr ""
+
+msgid "For chambers, clinics and hospitals, priced by the number of doctors. Pick your plan, then how many years."
+msgstr ""
+
+msgid "Tailor Shop Management and Service Booking use the same 1, 2, 3 and 5 year plans. Doctor Appointment is priced by the number of doctors — Basic (1–5), Clinic (6–10) and Hospital (11–20) — with the same 1, 2, 3 and 5 year options."
+msgstr ""
+
+msgid "Yes, a one-time fee: ৳10,000 for Tailor Shop Management, Service Booking and the Doctor Appointment Basic plan, ৳15,000 for the Clinic plan and ৳20,000 for the Hospital plan. It covers setting up your website, management system, domain, hosting and business email. You pay it once, on top of the plan you choose."
+msgstr ""
+
+msgid "Are SMS charges included?"
+msgstr ""
+
+msgid "No. Booking SMS are paid separately at your SMS provider's rate, so you only pay for the messages you send. We connect your SMS account during setup."
+msgstr ""
+
+msgid "Pick the plan for your number of doctors and a 1, 2, 3 or 5 year term, and pay once your clinic's system is live."
+msgstr ""
+
+msgid "Priced by the number of doctors. Pick your plan, then how many years — the longer the plan, the less you pay per year."
+msgstr ""
+
+msgid "Yes, each with their own schedule and availability. Plans go by the number of doctors: Basic covers 1–5, Clinic 6–10 and Hospital 11–20. With more than 20 doctors, each extra doctor is ৳1,500 a year."
+msgstr ""
+
+msgid "Which plan does a hospital need?"
+msgstr ""
+
+msgid "A hospital with 11 to 20 doctors takes the Hospital plan: ৳36,000 for 1 year, down to ৳27,000 a year on the 5 year plan, plus a one-time ৳20,000 installation."
+msgstr ""
+
+msgid "Plan length"
+msgstr ""
+
+#, php-format
+msgid "%s per year"
+msgstr ""
+
+#, php-format
+msgid "+ %s one-time installation"
+msgstr ""
+
+msgid "Good to know"
+msgstr ""
+
+msgid "For clinics and diagnostic centres"
+msgstr ""
+
+msgid "Growing past 5 doctors? Move up to the Clinic plan any time."
+msgstr ""
+
+msgid "Growing past 10 doctors? Move up to the Hospital plan any time."
+msgstr ""

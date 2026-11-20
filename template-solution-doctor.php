@@ -114,7 +114,7 @@ get_template_part( 'template-parts/solution', 'how-it-works', array(
 		array( 'title' => __( 'Contact & Appointment', 'lieusoft' ), 'desc' => __( 'Book a consultation and tell us about your clinic.', 'lieusoft' ), 'icon' => 'headset' ),
 		array( 'title' => __( 'Select Your Domain', 'lieusoft' ), 'desc' => __( 'Pick your clinic\'s website address — or use one you already own.', 'lieusoft' ), 'icon' => 'globe' ),
 		array( 'title' => __( 'Deploy Solution', 'lieusoft' ), 'desc' => __( 'We set up the website and appointment system, ready to use.', 'lieusoft' ), 'icon' => 'server' ),
-		array( 'title' => __( 'Payment', 'lieusoft' ), 'desc' => __( 'Choose a 1, 2, 3 or 5 year plan, and pay once your clinic\'s system is live.', 'lieusoft' ), 'icon' => 'credit-card' ),
+		array( 'title' => __( 'Payment', 'lieusoft' ), 'desc' => __( 'Pick the plan for your number of doctors and a 1, 2, 3 or 5 year term, and pay once your clinic\'s system is live.', 'lieusoft' ), 'icon' => 'credit-card' ),
 	),
 ) );
 
@@ -132,27 +132,11 @@ get_template_part( 'template-parts/solution', 'why-tabs', array(
 	),
 ) );
 
-get_template_part( 'template-parts/solution', 'pricing-plans', array(
-	'title'    => __( 'Simple, Honest Pricing', 'lieusoft' ),
-	'desc'     => __( 'One price covers everything. Pick how many years — the longer the plan, the less you pay per year.', 'lieusoft' ),
-	'plans'    => array(
-		array( 'name' => __( '1 Year', 'lieusoft' ), 'tagline' => __( 'Get started', 'lieusoft' ), 'price' => '12,000', 'period' => '', 'note' => __( '৳12,000 per year', 'lieusoft' ) ),
-		array( 'name' => __( '2 Years', 'lieusoft' ), 'tagline' => __( 'Save ৳2,000', 'lieusoft' ), 'price' => '22,000', 'period' => '', 'note' => __( '৳11,000 per year', 'lieusoft' ) ),
-		array( 'name' => __( '3 Years', 'lieusoft' ), 'tagline' => __( 'Save ৳6,000', 'lieusoft' ), 'price' => '30,000', 'period' => '', 'note' => __( '৳10,000 per year', 'lieusoft' ) ),
-		array( 'name' => __( '5 Years', 'lieusoft' ), 'tagline' => __( 'Save ৳15,000', 'lieusoft' ), 'price' => '45,000', 'period' => '', 'note' => __( '৳9,000 per year', 'lieusoft' ), 'featured' => true, 'badge' => __( 'Best Value', 'lieusoft' ) ),
-	),
-	'includes' => array(
-		__( 'Clinic website', 'lieusoft' ),
-		__( 'Appointment system', 'lieusoft' ),
-		__( 'Hosting & domain for the full plan', 'lieusoft' ),
-		__( 'SSL certificate', 'lieusoft' ),
-		__( 'Business email', 'lieusoft' ),
-		__( 'Staff training', 'lieusoft' ),
-		__( 'Support & updates for the full plan', 'lieusoft' ),
-		__( 'Renew anytime at the end of your plan', 'lieusoft' ),
-	),
-	'footnote' => __( 'A one-time installation fee of ৳10,000 applies to every plan. Savings are compared with paying ৳12,000 every year. Not sure which plan fits? Book a free consultation.', 'lieusoft' ),
-) );
+get_template_part( 'template-parts/solution', 'pricing-tiers', array_merge( lieusoft_doctor_plan_args(), array(
+	'id'    => 'pricing',
+	'title' => __( 'Simple, Honest Pricing', 'lieusoft' ),
+	'desc'  => __( 'Priced by the number of doctors. Pick your plan, then how many years — the longer the plan, the less you pay per year.', 'lieusoft' ),
+) ) );
 
 get_template_part( 'template-parts/solution', 'projects' );
 
@@ -160,7 +144,9 @@ get_template_part( 'template-parts/solution', 'faq', array(
 	'faqs' => array(
 		array( 'q' => __( 'Can I use my own domain?', 'lieusoft' ), 'a' => __( 'Yes, you can use a domain you already own or we can register one for you.', 'lieusoft' ) ),
 		array( 'q' => __( 'Can I take online payment?', 'lieusoft' ), 'a' => __( 'Yes, online payments can be enabled through supported payment gateways.', 'lieusoft' ) ),
-		array( 'q' => __( 'Can I add multiple doctors?', 'lieusoft' ), 'a' => __( "Yes, you can add multiple doctors, each with their own schedule and availability.", 'lieusoft' ) ),
+		array( 'q' => __( 'Can I add multiple doctors?', 'lieusoft' ), 'a' => __( 'Yes, each with their own schedule and availability. Plans go by the number of doctors: Basic covers 1–5, Clinic 6–10 and Hospital 11–20. With more than 20 doctors, each extra doctor is ৳1,500 a year.', 'lieusoft' ) ),
+		array( 'q' => __( 'Which plan does a hospital need?', 'lieusoft' ), 'a' => __( 'A hospital with 11 to 20 doctors takes the Hospital plan: ৳36,000 for 1 year, down to ৳27,000 a year on the 5 year plan, plus a one-time ৳20,000 installation.', 'lieusoft' ) ),
+		array( 'q' => __( 'Are SMS charges included?', 'lieusoft' ), 'a' => __( "No. Booking SMS are paid separately at your SMS provider's rate, so you only pay for the messages you send. We connect your SMS account during setup.", 'lieusoft' ) ),
 		array( 'q' => __( 'Do you provide hosting?', 'lieusoft' ), 'a' => __( 'Yes, managed hosting is included in every plan.', 'lieusoft' ) ),
 		array( 'q' => __( 'Do you provide training?', 'lieusoft' ), 'a' => __( 'Yes, every plan includes onboarding training for your staff.', 'lieusoft' ) ),
 	),

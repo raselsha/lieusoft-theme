@@ -181,6 +181,94 @@ function lieusoft_get_solutions() {
 }
 
 /**
+ * Doctor Appointment solution plans, priced by the number of doctors — used
+ * by the doctor solution page and the pricing page so the prices stay in
+ * sync. Returns template-parts/solution-pricing-tiers.php args without the
+ * section title/desc/id/links, which each page sets itself.
+ *
+ * Basic 1–5 doctors ৳12,000/yr, Clinic 6–10 ৳24,000/yr, Hospital 11–20
+ * ৳36,000/yr; 2/3/5 year plans cost 11/12, 10/12 and 9/12 of that per year.
+ * One-time installation ৳10,000 / ৳15,000 / ৳20,000. Over 20 doctors:
+ * Hospital + ৳1,500 a year per extra doctor.
+ */
+function lieusoft_doctor_plan_args() {
+	/* translators: %s: discount, e.g. 8%. */
+	$save = __( 'Save %s', 'lieusoft' );
+
+	return array(
+		'terms'    => array(
+			array( 'key' => '1', 'label' => __( '1 Year', 'lieusoft' ), 'period' => __( 'for 1 year', 'lieusoft' ), 'tag' => '' ),
+			array( 'key' => '2', 'label' => __( '2 Years', 'lieusoft' ), 'period' => __( 'for 2 years', 'lieusoft' ), 'tag' => sprintf( $save, '8%' ) ),
+			array( 'key' => '3', 'label' => __( '3 Years', 'lieusoft' ), 'period' => __( 'for 3 years', 'lieusoft' ), 'tag' => sprintf( $save, '17%' ) ),
+			array( 'key' => '5', 'label' => __( '5 Years', 'lieusoft' ), 'period' => __( 'for 5 years', 'lieusoft' ), 'tag' => sprintf( $save, '25%' ) ),
+		),
+		'tiers'    => array(
+			array(
+				'name'    => __( 'Basic', 'lieusoft' ),
+				'range'   => __( '1–5 doctors', 'lieusoft' ),
+				'tagline' => __( 'For private chambers and small clinics', 'lieusoft' ),
+				'setup'   => '10,000',
+				'extra'   => __( 'Growing past 5 doctors? Move up to the Clinic plan any time.', 'lieusoft' ),
+				'extra_icon' => 'trending-up',
+				'prices'  => array(
+					'1' => array( 'total' => '12,000', 'yearly' => '12,000', 'save' => '' ),
+					'2' => array( 'total' => '22,000', 'yearly' => '11,000', 'save' => '2,000' ),
+					'3' => array( 'total' => '30,000', 'yearly' => '10,000', 'save' => '6,000' ),
+					'5' => array( 'total' => '45,000', 'yearly' => '9,000', 'save' => '15,000' ),
+				),
+			),
+			array(
+				'name'     => __( 'Clinic', 'lieusoft' ),
+				'range'    => __( '6–10 doctors', 'lieusoft' ),
+				'tagline'  => __( 'For clinics and diagnostic centres', 'lieusoft' ),
+				'setup'    => '15,000',
+				'extra'    => __( 'Growing past 10 doctors? Move up to the Hospital plan any time.', 'lieusoft' ),
+				'extra_icon' => 'trending-up',
+				'featured' => true,
+				'prices'   => array(
+					'1' => array( 'total' => '24,000', 'yearly' => '24,000', 'save' => '' ),
+					'2' => array( 'total' => '44,000', 'yearly' => '22,000', 'save' => '4,000' ),
+					'3' => array( 'total' => '60,000', 'yearly' => '20,000', 'save' => '12,000' ),
+					'5' => array( 'total' => '90,000', 'yearly' => '18,000', 'save' => '30,000' ),
+				),
+			),
+			array(
+				'name'    => __( 'Hospital', 'lieusoft' ),
+				'range'   => __( '11–20 doctors', 'lieusoft' ),
+				'tagline' => __( 'For hospitals', 'lieusoft' ),
+				'setup'   => '20,000',
+				'extra'   => __( 'More than 20 doctors? Add ৳1,500 a year for each extra doctor.', 'lieusoft' ),
+				'prices'  => array(
+					'1' => array( 'total' => '36,000', 'yearly' => '36,000', 'save' => '' ),
+					'2' => array( 'total' => '66,000', 'yearly' => '33,000', 'save' => '6,000' ),
+					'3' => array( 'total' => '90,000', 'yearly' => '30,000', 'save' => '18,000' ),
+					'5' => array( 'total' => '1,35,000', 'yearly' => '27,000', 'save' => '45,000' ),
+				),
+			),
+		),
+		'includes' => array(
+			__( 'Clinic website', 'lieusoft' ),
+			__( 'Appointment system & live queue', 'lieusoft' ),
+			__( 'A login for every doctor and staff member', 'lieusoft' ),
+			__( 'Hosting & domain for the full plan', 'lieusoft' ),
+			__( 'SSL certificate', 'lieusoft' ),
+			__( 'Business email', 'lieusoft' ),
+			__( 'Staff training', 'lieusoft' ),
+			__( 'Support & updates for the full plan', 'lieusoft' ),
+		),
+		'details'  => array(
+			array( 'icon' => 'credit-card', 'title' => __( 'One-time installation', 'lieusoft' ), 'desc' => __( 'Basic ৳10,000, Clinic ৳15,000, Hospital ৳20,000 — paid once. We set up your website, domain, hosting and email, add all your doctors and schedules, create the logins and train your staff.', 'lieusoft' ) ),
+			array( 'icon' => 'users', 'title' => __( 'More than 20 doctors', 'lieusoft' ), 'desc' => __( 'Take the Hospital plan and add ৳1,500 a year for each extra doctor.', 'lieusoft' ) ),
+			array( 'icon' => 'chat', 'title' => __( 'SMS charges are separate', 'lieusoft' ), 'desc' => __( "Booking SMS are paid at your SMS provider's rate, so you only pay for the messages you send. We connect your SMS account during setup.", 'lieusoft' ) ),
+			array( 'icon' => 'headset', 'title' => __( 'What support covers', 'lieusoft' ), 'desc' => __( 'Fixes, updates, adding or changing doctors and small changes are included for the full plan. New features such as billing, lab reports or pharmacy are quoted separately.', 'lieusoft' ) ),
+			array( 'icon' => 'trending-up', 'title' => __( 'Adding more doctors later', 'lieusoft' ), 'desc' => __( "When your clinic grows past your plan's doctor limit, we move you up to the next plan.", 'lieusoft' ) ),
+			array( 'icon' => 'refresh', 'title' => __( 'Pay when live, renew at the end', 'lieusoft' ), 'desc' => __( 'You pay once your system is live. When your plan ends, renew to keep your website, system, hosting and domain running.', 'lieusoft' ) ),
+		),
+		'footnote' => __( 'Savings are compared with paying the 1-year price every year. Not sure which plan fits? Book a free consultation.', 'lieusoft' ),
+	);
+}
+
+/**
  * Shared data for the 4 WordPress plugins — used by the homepage section
  * and the /products/ index page so both stay in sync from one source.
  */

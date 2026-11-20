@@ -3958,3 +3958,154 @@ msgstr "Google, Gemini, Facebook আর WhatsApp-এর API key, token আর cr
 #, php-format
 msgid "%s Guides - Lieusoft Blog"
 msgstr "%s গাইড - Lieusoft ব্লগ"
+
+#, php-format
+msgid "Save %s"
+msgstr "%s সাশ্রয়"
+
+msgid "for 1 year"
+msgstr "1 বছরের জন্য"
+
+msgid "for 2 years"
+msgstr "2 বছরের জন্য"
+
+msgid "for 3 years"
+msgstr "3 বছরের জন্য"
+
+msgid "for 5 years"
+msgstr "5 বছরের জন্য"
+
+msgid "Basic"
+msgstr "বেসিক"
+
+msgid "1–5 doctors"
+msgstr "1–5 জন ডাক্তার"
+
+msgid "For private chambers and small clinics"
+msgstr "প্রাইভেট চেম্বার ও ছোট ক্লিনিকের জন্য"
+
+msgid "Clinic"
+msgstr "ক্লিনিক"
+
+msgid "6–10 doctors"
+msgstr "6–10 জন ডাক্তার"
+
+
+msgid "Hospital"
+msgstr "হাসপাতাল"
+
+msgid "11–20 doctors"
+msgstr "11–20 জন ডাক্তার"
+
+msgid "For hospitals"
+msgstr "হাসপাতালের জন্য"
+
+msgid "More than 20 doctors? Add ৳1,500 a year for each extra doctor."
+msgstr "20 জনের বেশি ডাক্তার? প্রতি অতিরিক্ত ডাক্তারের জন্য বছরে ৳1,500 যোগ হবে।"
+
+msgid "Appointment system & live queue"
+msgstr "অ্যাপয়েন্টমেন্ট সিস্টেম ও লাইভ কিউ"
+
+msgid "A login for every doctor and staff member"
+msgstr "প্রত্যেক ডাক্তার ও স্টাফের আলাদা লগইন"
+
+msgid "One-time installation"
+msgstr "এককালীন ইনস্টলেশন"
+
+msgid "Basic ৳10,000, Clinic ৳15,000, Hospital ৳20,000 — paid once. We set up your website, domain, hosting and email, add all your doctors and schedules, create the logins and train your staff."
+msgstr "বেসিক ৳10,000, ক্লিনিক ৳15,000, হাসপাতাল ৳20,000 — একবারই দিতে হয়। আমরা আপনার ওয়েবসাইট, ডোমেইন, হোস্টিং আর ইমেইল সেটআপ করি, সব ডাক্তার ও তাঁদের সময়সূচি যোগ করি, লগইন তৈরি করি আর আপনার স্টাফদের ট্রেনিং দিই।"
+
+msgid "More than 20 doctors"
+msgstr "20 জনের বেশি ডাক্তার"
+
+msgid "Take the Hospital plan and add ৳1,500 a year for each extra doctor."
+msgstr "হাসপাতাল প্ল্যান নিন, আর প্রতি অতিরিক্ত ডাক্তারের জন্য বছরে ৳1,500 যোগ করুন।"
+
+msgid "SMS charges are separate"
+msgstr "SMS খরচ আলাদা"
+
+msgid "Booking SMS are paid at your SMS provider's rate, so you only pay for the messages you send. We connect your SMS account during setup."
+msgstr "বুকিংয়ের SMS-এর খরচ আপনার SMS প্রোভাইডারের রেটে দিতে হয়, তাই যতগুলো SMS পাঠাবেন শুধু ততগুলোর খরচ। সেটআপের সময় আমরা আপনার SMS অ্যাকাউন্ট যুক্ত করে দিই।"
+
+msgid "What support covers"
+msgstr "সাপোর্টে যা থাকছে"
+
+msgid "Fixes, updates, adding or changing doctors and small changes are included for the full plan. New features such as billing, lab reports or pharmacy are quoted separately."
+msgstr "পুরো প্ল্যানের মেয়াদে সমস্যার সমাধান, আপডেট, ডাক্তার যোগ বা বদল আর ছোটখাটো পরিবর্তন অন্তর্ভুক্ত। বিলিং, ল্যাব রিপোর্ট বা ফার্মেসির মতো নতুন ফিচারের দাম আলাদাভাবে জানানো হয়।"
+
+msgid "Adding more doctors later"
+msgstr "পরে আরও ডাক্তার যোগ করলে"
+
+msgid "When your clinic grows past your plan's doctor limit, we move you up to the next plan."
+msgstr "আপনার প্ল্যানের ডাক্তারের সীমা ছাড়িয়ে গেলে আমরা আপনাকে পরের প্ল্যানে নিয়ে যাই।"
+
+msgid "Pay when live, renew at the end"
+msgstr "চালু হলে পেমেন্ট, মেয়াদ শেষে রিনিউ"
+
+msgid "You pay once your system is live. When your plan ends, renew to keep your website, system, hosting and domain running."
+msgstr "সিস্টেম চালু হওয়ার পর পেমেন্ট করবেন। প্ল্যানের মেয়াদ শেষ হলে রিনিউ করে ওয়েবসাইট, সিস্টেম, হোস্টিং আর ডোমেইন চালু রাখুন।"
+
+msgid "Savings are compared with paying the 1-year price every year. Not sure which plan fits? Book a free consultation."
+msgstr "সাশ্রয়ের হিসাব প্রতি বছর 1 বছরের দাম দেওয়ার তুলনায়। কোন প্ল্যান আপনার জন্য ঠিক, বুঝতে পারছেন না? ফ্রি কনসালটেশন বুক করুন।"
+
+msgid "A complete website and management system for your business, with hosting, domain and support. Tailor Shop Management and Service Booking share one price — the longer the plan, the less you pay per year."
+msgstr "হোস্টিং, ডোমেইন আর সাপোর্টসহ আপনার ব্যবসার জন্য পূর্ণাঙ্গ ওয়েবসাইট ও ম্যানেজমেন্ট সিস্টেম। টেইলর শপ ম্যানেজমেন্ট আর সার্ভিস বুকিংয়ের একই দাম — প্ল্যান যত লম্বা, বছরে খরচ তত কম।"
+
+msgid "Doctor Appointment: plans by number of doctors"
+msgstr "ডাক্তার অ্যাপয়েন্টমেন্ট: ডাক্তারের সংখ্যা অনুযায়ী প্ল্যান"
+
+msgid "Doctor Appointment Plans"
+msgstr "ডাক্তার অ্যাপয়েন্টমেন্ট প্ল্যান"
+
+msgid "For chambers, clinics and hospitals, priced by the number of doctors. Pick your plan, then how many years."
+msgstr "চেম্বার, ক্লিনিক ও হাসপাতালের জন্য, দাম ডাক্তারের সংখ্যা অনুযায়ী। প্ল্যান বেছে নিন, তারপর কত বছরের জন্য।"
+
+msgid "Tailor Shop Management and Service Booking use the same 1, 2, 3 and 5 year plans. Doctor Appointment is priced by the number of doctors — Basic (1–5), Clinic (6–10) and Hospital (11–20) — with the same 1, 2, 3 and 5 year options."
+msgstr "টেইলর শপ ম্যানেজমেন্ট আর সার্ভিস বুকিংয়ে একই 1, 2, 3 ও 5 বছরের প্ল্যান। ডাক্তার অ্যাপয়েন্টমেন্টের দাম ডাক্তারের সংখ্যা অনুযায়ী — বেসিক (1–5), ক্লিনিক (6–10) ও হাসপাতাল (11–20) — সেখানেও 1, 2, 3 ও 5 বছরের অপশন আছে।"
+
+msgid "Yes, a one-time fee: ৳10,000 for Tailor Shop Management, Service Booking and the Doctor Appointment Basic plan, ৳15,000 for the Clinic plan and ৳20,000 for the Hospital plan. It covers setting up your website, management system, domain, hosting and business email. You pay it once, on top of the plan you choose."
+msgstr "হ্যাঁ, এককালীন ফি: টেইলর শপ ম্যানেজমেন্ট, সার্ভিস বুকিং আর ডাক্তার অ্যাপয়েন্টমেন্টের বেসিক প্ল্যানে ৳10,000, ক্লিনিক প্ল্যানে ৳15,000 আর হাসপাতাল প্ল্যানে ৳20,000। এতে আপনার ওয়েবসাইট, ম্যানেজমেন্ট সিস্টেম, ডোমেইন, হোস্টিং আর বিজনেস ইমেইল সেটআপ করা হয়। এটা একবারই দিতে হয়, আপনার বেছে নেওয়া প্ল্যানের দামের সাথে।"
+
+msgid "Are SMS charges included?"
+msgstr "SMS-এর খরচ কি দামের মধ্যে আছে?"
+
+msgid "No. Booking SMS are paid separately at your SMS provider's rate, so you only pay for the messages you send. We connect your SMS account during setup."
+msgstr "না। বুকিংয়ের SMS-এর খরচ আপনার SMS প্রোভাইডারের রেটে আলাদাভাবে দিতে হয়, তাই যতগুলো SMS পাঠাবেন শুধু ততগুলোর খরচ। সেটআপের সময় আমরা আপনার SMS অ্যাকাউন্ট যুক্ত করে দিই।"
+
+msgid "Pick the plan for your number of doctors and a 1, 2, 3 or 5 year term, and pay once your clinic's system is live."
+msgstr "ডাক্তারের সংখ্যা অনুযায়ী প্ল্যান আর 1, 2, 3 বা 5 বছরের মেয়াদ বেছে নিন, আর ক্লিনিকের সিস্টেম চালু হলে পেমেন্ট করুন।"
+
+msgid "Priced by the number of doctors. Pick your plan, then how many years — the longer the plan, the less you pay per year."
+msgstr "দাম ডাক্তারের সংখ্যা অনুযায়ী। প্ল্যান বেছে নিন, তারপর কত বছরের জন্য — প্ল্যান যত লম্বা, বছরে খরচ তত কম।"
+
+msgid "Yes, each with their own schedule and availability. Plans go by the number of doctors: Basic covers 1–5, Clinic 6–10 and Hospital 11–20. With more than 20 doctors, each extra doctor is ৳1,500 a year."
+msgstr "হ্যাঁ, প্রত্যেকের নিজস্ব সময়সূচি ও সময়সহ। প্ল্যান ঠিক হয় ডাক্তারের সংখ্যা দিয়ে: বেসিকে 1–5 জন, ক্লিনিকে 6–10 জন আর হাসপাতালে 11–20 জন। 20 জনের বেশি হলে প্রতি অতিরিক্ত ডাক্তারের জন্য বছরে ৳1,500।"
+
+msgid "Which plan does a hospital need?"
+msgstr "হাসপাতালের জন্য কোন প্ল্যান?"
+
+msgid "A hospital with 11 to 20 doctors takes the Hospital plan: ৳36,000 for 1 year, down to ৳27,000 a year on the 5 year plan, plus a one-time ৳20,000 installation."
+msgstr "11 থেকে 20 জন ডাক্তারের হাসপাতালের জন্য হাসপাতাল প্ল্যান: 1 বছরে ৳36,000, 5 বছরের প্ল্যানে বছরে মাত্র ৳27,000, সাথে এককালীন ৳20,000 ইনস্টলেশন।"
+
+msgid "Plan length"
+msgstr "প্ল্যানের মেয়াদ"
+
+#, php-format
+msgid "%s per year"
+msgstr "বছরে %s"
+
+#, php-format
+msgid "+ %s one-time installation"
+msgstr "+ %s এককালীন ইনস্টলেশন"
+
+msgid "Good to know"
+msgstr "জেনে রাখুন"
+
+msgid "For clinics and diagnostic centres"
+msgstr "ক্লিনিক ও ডায়াগনস্টিক সেন্টারের জন্য"
+
+msgid "Growing past 5 doctors? Move up to the Clinic plan any time."
+msgstr "5 জনের বেশি ডাক্তার হচ্ছে? যেকোনো সময় ক্লিনিক প্ল্যানে চলে যান।"
+
+msgid "Growing past 10 doctors? Move up to the Hospital plan any time."
+msgstr "10 জনের বেশি ডাক্তার হচ্ছে? যেকোনো সময় হাসপাতাল প্ল্যানে চলে যান।"

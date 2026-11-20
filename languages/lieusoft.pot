@@ -4778,3 +4778,32 @@ msgstr ""
 
 msgid "14-day money-back guarantee on Flipbook PDF Viewer Pro."
 msgstr ""
+
+msgid "Doctor Appointment Booking Plugin for WordPress"
+msgstr ""
+
+msgid "Tailor Order & Measurement Plugin for WordPress"
+msgstr ""
+
+msgid "n8n Automation Guides"
+msgstr ""
+
+msgid "n8n Automation Guides & Workflows - Lieusoft Blog"
+msgstr ""
+
+msgid "Step-by-step n8n guides: install n8n, then build AI workflows that reply to Gmail and post to Facebook on their own, with every setting explained."
+msgstr ""
+
+msgid "API Keys & Credentials"
+msgstr ""
+
+msgid "API Keys & Credentials Setup Guides - Lieusoft Blog"
+msgstr ""
+
+msgid "Create API keys, tokens and credentials for Google, Gemini, Facebook and WhatsApp step by step, so your automations and integrations just work."
+msgstr ""
+
+#. translators: %s: blog category name.
+#, php-format
+msgid "%s Guides - Lieusoft Blog"
+msgstr ""

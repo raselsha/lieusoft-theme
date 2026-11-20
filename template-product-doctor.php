@@ -18,7 +18,7 @@ get_header();
 
 <?php
 get_template_part( 'template-parts/product', 'hero', array(
-	'title'            => __( 'Doctor Appointment', 'lieusoft' ),
+	'title'            => __( 'Doctor Appointment Booking Plugin for WordPress', 'lieusoft' ),
 	'desc'             => __( 'A complete appointment booking solution for doctors, clinics and hospitals.', 'lieusoft' ),
 	'checklist'        => array( __( 'Online Appointment Booking', 'lieusoft' ), __( 'Secure Payments', 'lieusoft' ), __( 'Doctor & Schedule Management', 'lieusoft' ), __( 'Email & SMS Notification', 'lieusoft' ), __( 'Patient Management', 'lieusoft' ), __( 'Reports & Analytics', 'lieusoft' ) ),
 	'screenshot_icon'  => 'stethoscope',

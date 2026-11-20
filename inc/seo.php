@@ -111,7 +111,8 @@ function lieusoft_schema_graph() {
 	// Blog index and category archives: a CollectionPage listing the posts shown.
 	if ( is_home() || is_category() ) {
 		$url   = is_category() ? get_category_link( get_queried_object_id() ) : home_url( '/blog/' );
-		$name  = is_category() ? single_cat_title( '', false ) : __( 'Blog', 'lieusoft' );
+		$copy  = is_category() ? lieusoft_category_copy() : array();
+		$name  = $copy ? $copy['heading'] : __( 'Blog', 'lieusoft' );
 		$items = array();
 		foreach ( $GLOBALS['wp_query']->posts as $i => $listed ) {
 			$items[] = array( '@type' => 'ListItem', 'position' => $i + 1, 'url' => get_permalink( $listed ), 'name' => get_the_title( $listed ) );
@@ -126,7 +127,7 @@ function lieusoft_schema_graph() {
 			'@id'         => $url . '#webpage',
 			'url'         => $url,
 			'name'        => $name,
-			'description' => is_category() ? wp_strip_all_tags( category_description() ) : lieusoft_seo_entry( 'description' ),
+			'description' => lieusoft_seo_entry( 'description' ),
 			'inLanguage'  => lieusoft_lang_tag( lieusoft_lang() ),
 			'isPartOf'    => array( '@id' => trailingslashit( home_url( '/' ) ) . '#website' ),
 			'publisher'   => array( '@id' => $org['@id'] ),
@@ -249,6 +250,9 @@ function lieusoft_seo_key() {
 	if ( is_home() ) {
 		return 'blog';
 	}
+	if ( is_category() ) {
+		return 'category';
+	}
 	if ( ! is_page() ) {
 		return '';
 	}
@@ -342,8 +346,49 @@ function lieusoft_seo_entries() {
 	);
 }
 
+/**
+ * Heading, search title and description for a blog category, in the
+ * visitor's language. Category names and descriptions are stored once, in
+ * English, so the site's categories get translatable copy here; any other
+ * category falls back to its own name and description.
+ *
+ * @param WP_Term|null $term Category (default: the queried one).
+ * @return array { heading, title, description } or empty.
+ */
+function lieusoft_category_copy( $term = null ) {
+	$term = $term ? $term : get_queried_object();
+	if ( ! $term instanceof WP_Term ) {
+		return array();
+	}
+	$known = array(
+		'n8n'                  => array(
+			__( 'n8n Automation Guides', 'lieusoft' ),
+			__( 'n8n Automation Guides & Workflows - Lieusoft Blog', 'lieusoft' ),
+			__( 'Step-by-step n8n guides: install n8n, then build AI workflows that reply to Gmail and post to Facebook on their own, with every setting explained.', 'lieusoft' ),
+		),
+		'api-keys-credentials' => array(
+			__( 'API Keys & Credentials', 'lieusoft' ),
+			__( 'API Keys & Credentials Setup Guides - Lieusoft Blog', 'lieusoft' ),
+			__( 'Create API keys, tokens and credentials for Google, Gemini, Facebook and WhatsApp step by step, so your automations and integrations just work.', 'lieusoft' ),
+		),
+	);
+	if ( isset( $known[ $term->slug ] ) ) {
+		return array_combine( array( 'heading', 'title', 'description' ), $known[ $term->slug ] );
+	}
+	return array(
+		'heading'     => $term->name,
+		/* translators: %s: blog category name. */
+		'title'       => sprintf( __( '%s Guides - Lieusoft Blog', 'lieusoft' ), $term->name ),
+		'description' => wp_strip_all_tags( term_description( $term ) ),
+	);
+}
+
 function lieusoft_seo_entry( $part ) {
-	$key     = lieusoft_seo_key();
+	$key = lieusoft_seo_key();
+	if ( 'category' === $key ) {
+		$copy = lieusoft_category_copy();
+		return isset( $copy[ $part ] ) ? $copy[ $part ] : '';
+	}
 	$entries = $key ? lieusoft_seo_entries() : array();
 	return isset( $entries[ $key ] ) ? $entries[ $key ][ 'title' === $part ? 0 : 1 ] : '';
 }
@@ -657,6 +702,42 @@ function lieusoft_sitemap_language_pages( $xml ) {
 	return $xml;
 }
 add_filter( 'rank_math/sitemap/page_content', 'lieusoft_sitemap_language_pages' );
+
+/**
+ * Category archives are served under /bn/ and /ar/ too, listing only that
+ * language's posts: add those URLs for every category Rank Math lists that
+ * has posts in the language.
+ */
+function lieusoft_sitemap_language_categories( $xml ) {
+	$terms = get_terms( array( 'taxonomy' => 'category', 'hide_empty' => true ) );
+	if ( is_wp_error( $terms ) ) {
+		return $xml;
+	}
+	foreach ( $terms as $term ) {
+		if ( class_exists( '\RankMath\Sitemap\Sitemap' ) && ! \RankMath\Sitemap\Sitemap::is_object_indexable( $term, 'term' ) ) {
+			continue;
+		}
+		foreach ( array_keys( lieusoft_languages() ) as $code ) {
+			if ( 'en' === $code ) {
+				continue;
+			}
+			$latest = get_posts( array(
+				'post_type'        => 'post',
+				'posts_per_page'   => 1,
+				'orderby'          => 'modified',
+				'cat'              => $term->term_id,
+				'meta_query'       => lieusoft_lang_meta_query( $code ), // phpcs:ignore WordPress.DB.SlowDBQuery.slow_db_query_meta_query
+				'suppress_filters' => true,
+			) );
+			if ( ! $latest ) {
+				continue;
+			}
+			$xml .= "\t<url>\n\t\t<loc>" . esc_url( lieusoft_localize_url( get_term_link( $term ), $code ) ) . "</loc>\n\t\t<lastmod>" . esc_html( get_post_modified_time( 'c', true, $latest[0] ) ) . "</lastmod>\n\t</url>\n";
+		}
+	}
+	return $xml;
+}
+add_filter( 'rank_math/sitemap/category_content', 'lieusoft_sitemap_language_categories' );
 
 /**
  * EDD's own product pages (/downloads/…) duplicate the designed product

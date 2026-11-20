@@ -3929,3 +3929,32 @@ msgstr "হ্যাঁ। Pro আপনার কাজে না লাগল�
 
 msgid "14-day money-back guarantee on Flipbook PDF Viewer Pro."
 msgstr "Flipbook PDF Viewer Pro-তে ১৪ দিনের মানি-ব্যাক গ্যারান্টি।"
+
+msgid "Doctor Appointment Booking Plugin for WordPress"
+msgstr "WordPress এর জন্য ডাক্তার অ্যাপয়েন্টমেন্ট বুকিং প্লাগইন"
+
+msgid "Tailor Order & Measurement Plugin for WordPress"
+msgstr "WordPress এর জন্য টেইলর অর্ডার ও মাপ প্লাগইন"
+
+msgid "n8n Automation Guides"
+msgstr "n8n অটোমেশন গাইড"
+
+msgid "n8n Automation Guides & Workflows - Lieusoft Blog"
+msgstr "n8n অটোমেশন গাইড ও workflow - Lieusoft ব্লগ"
+
+msgid "Step-by-step n8n guides: install n8n, then build AI workflows that reply to Gmail and post to Facebook on their own, with every setting explained."
+msgstr "ধাপে ধাপে n8n গাইড: n8n ইনস্টল করুন, তারপর এমন AI workflow বানান যা নিজে থেকেই Gmail-এর উত্তর দেয় আর Facebook-এ পোস্ট করে। প্রতিটা সেটিং বুঝিয়ে বলা আছে।"
+
+msgid "API Keys & Credentials"
+msgstr "API Key ও Credential"
+
+msgid "API Keys & Credentials Setup Guides - Lieusoft Blog"
+msgstr "API Key ও Credential সেটআপ গাইড - Lieusoft ব্লগ"
+
+msgid "Create API keys, tokens and credentials for Google, Gemini, Facebook and WhatsApp step by step, so your automations and integrations just work."
+msgstr "Google, Gemini, Facebook আর WhatsApp-এর API key, token আর credential ধাপে ধাপে তৈরি করুন, যাতে আপনার অটোমেশন আর ইন্টিগ্রেশন ঠিকঠাক কাজ করে।"
+
+#. translators: %s: blog category name.
+#, php-format
+msgid "%s Guides - Lieusoft Blog"
+msgstr "%s গাইড - Lieusoft ব্লগ"

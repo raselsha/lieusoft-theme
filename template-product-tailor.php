@@ -18,7 +18,7 @@ get_header();
 
 <?php
 get_template_part( 'template-parts/product', 'hero', array(
-	'title'            => __( 'Tailor Management', 'lieusoft' ),
+	'title'            => __( 'Tailor Order & Measurement Plugin for WordPress', 'lieusoft' ),
 	'desc'             => __( 'Manage customer orders, measurements, fabrics and deliveries easily.', 'lieusoft' ),
 	'checklist'        => array( __( 'Order Management', 'lieusoft' ), __( 'Customer Management', 'lieusoft' ), __( 'Measurement & Fitting', 'lieusoft' ), __( 'Fabric & Item Management', 'lieusoft' ), __( 'Payment Management', 'lieusoft' ), __( 'Reports & Analytics', 'lieusoft' ) ),
 	'screenshot_icon'  => 'shirt',
